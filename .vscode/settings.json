@@ -1,0 +1,15 @@
+{
+    "editor.rulers": [88],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/.ipynb_checkpoints": true,
+        "**/pytest_cache": true
+    },
+    "python.pythonPath": "/anaconda/envs/aiida_crystal17/bin/python",
+    "python.formatting.provider": "black"
+}
