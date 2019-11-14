@@ -3,7 +3,13 @@ from nbformat.notebooknode import NotebookNode
 from typing import Any, Callable, Mapping, TextIO, Tuple, Union
 import yaml
 
-from .definitions import DEFAULT_NB_VERSION, METADATA_CLASS, NEW_CELL_CLASS, RAW_CLASS
+from .definitions import (
+    CODE_CELL_CLASS,
+    DEFAULT_NB_VERSION,
+    METADATA_CLASS,
+    NEW_CELL_CLASS,
+    RAW_CELL_CLASS,
+)
 
 
 def mapping_to_dict(
@@ -44,7 +50,7 @@ def parse_nb2imd(path: Union[str, TextIO]) -> str:
     last_cell_type = None
 
     for cell in nb.cells:
-        
+
         # output cell metadata
         if cell.metadata:
             output_string += f"```{METADATA_CLASS}\n"
@@ -60,12 +66,12 @@ def parse_nb2imd(path: Union[str, TextIO]) -> str:
             output_string += cell.source.rstrip() + "\n\n"
 
         if cell.cell_type == "code":
-            output_string += f"```{code_language}\n"
+            output_string += f"```{{.{code_language} .{CODE_CELL_CLASS}}}\n"
             output_string += cell.source.rstrip() + "\n"
             output_string += "```\n\n"
 
         if cell.cell_type == "raw":
-            output_string += f"```{RAW_CLASS}\n"
+            output_string += f"```{RAW_CELL_CLASS}\n"
             output_string += cell.source.rstrip() + "\n"
             output_string += "```\n\n"
 

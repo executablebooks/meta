@@ -6,9 +6,10 @@ import yaml
 from .definitions import (
     METADATA_CLASS,
     NEW_CELL_CLASS,
-    RAW_CLASS,
+    RAW_CELL_CLASS,
     NB_CELL_CLASS,
     CELL_NUMBER_ATTR,
+    CODE_CELL_CLASS,
 )
 
 
@@ -71,7 +72,10 @@ class Imd2PandocAST:
                     found_metadata = True
                 cell_number += 1
 
-            elif isinstance(element, CodeBlock):
+            elif isinstance(element, CodeBlock) and {
+                CODE_CELL_CLASS,
+                RAW_CELL_CLASS,
+            }.intersection(element.classes):
 
                 # handle if a code cell, with no metadata, is before a markdown cell, also with no metadata
                 if cell_content and not found_metadata or len(cell_content) > 1:
@@ -93,11 +97,11 @@ class Imd2PandocAST:
 
                 # add classes
                 attributes = {CELL_NUMBER_ATTR: str(cell_number)}
-                if language_name in element.classes:
+                if CODE_CELL_CLASS in element.classes:
                     classes = [NB_CELL_CLASS, "code"]
                     attributes["kernel"] = kernel_name
                     attributes["language"] = language_name
-                elif RAW_CLASS in element.classes:
+                elif RAW_CELL_CLASS in element.classes:
                     classes = [NB_CELL_CLASS, "raw"]
                 else:
                     classes = [NB_CELL_CLASS, "other"]

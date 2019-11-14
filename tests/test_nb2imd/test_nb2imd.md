@@ -24,7 +24,7 @@ widgets:
 
 This is some markdown, with **bold** and *italic* text.
 
-```metadata
+```{.metadata .yaml}
 imd:
   fillcolor: blue
   type: note
@@ -36,7 +36,7 @@ This is a note.
 
 This is markdown after a note
 
-```python
+```{.python .code-cell}
 a = 1
 print("I've just been run :)")
 a
@@ -51,9 +51,13 @@ imd:
   type: table
 ```
 
-```python
+```{.python .code-cell}
 from pandas import DataFrame
 DataFrame([1, 2])
+```
+
+```{.javascript}
+let a = 1;
 ```
 
 Below is a raw cell.
@@ -62,7 +66,7 @@ Below is a raw cell.
 raw_mimetype: text/latex
 ```
 
-```raw
+```raw-cell
 I'm a \textbf{LaTeX} cell.
 ```
 
