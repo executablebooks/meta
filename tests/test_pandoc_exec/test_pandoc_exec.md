@@ -76,7 +76,7 @@ a
 {}
 ```
 
-The next code cell has metadata.
+The next code cell has metadata, with a label referencing @tbl:pandas.
 :::
 
 ::: {.nb-cell .code cell-number="6" kernel="python3" language="python"}

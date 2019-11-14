@@ -42,7 +42,7 @@ print("I've just been run :)")
 a
 ```
 
-The next code cell has metadata.
+The next code cell has metadata, with a label referencing @tbl:pandas.
 
 ```metadata
 imd:
