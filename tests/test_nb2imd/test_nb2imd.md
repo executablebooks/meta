@@ -24,7 +24,7 @@ widgets:
 
 This is some markdown, with **bold** and *italic* text.
 
-```{.metadata .yaml}
+```metadata
 imd:
   fillcolor: blue
   type: note
@@ -54,10 +54,6 @@ imd:
 ```{.python .code-cell}
 from pandas import DataFrame
 DataFrame([1, 2])
-```
-
-```{.javascript}
-let a = 1;
 ```
 
 Below is a raw cell.
