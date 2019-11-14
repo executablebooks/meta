@@ -30,6 +30,7 @@ def pandoc2html(doc: Doc, execute: bool = True):
         exec_code_cells(doc)
 
     doc.labels = {}
+    num_elements = {}
 
     # Apply metadata
     for element in doc.content:
@@ -48,6 +49,9 @@ def pandoc2html(doc: Doc, execute: bool = True):
                     output["output_type"] == "execute_result"
                     and "text/html" in output["data"]
                 ):
+                    el_type = str(metadata_imd.get('type', 'other')).capitalize()
+                    num_elements.setdefault(el_type, 0)
+                    num_elements[el_type] += 1
                     element.content.append(
                         RawBlock(output["data"]["text/html"], format="html")
                     )
@@ -59,11 +63,9 @@ def pandoc2html(doc: Doc, execute: bool = True):
                             ).format(metadata_imd["label"]),
                             format="html",
                         )
-                        doc.labels = {
-                            metadata_imd["label"]: {
-                                "type": metadata_imd.get("type", "figure").capitalize(),
-                                "number": len(doc.labels) + 1,
-                            }
+                        doc.labels[metadata_imd["label"]] = {
+                            "type": el_type,
+                            "number": num_elements[el_type],
                         }
 
                     else:
@@ -74,7 +76,7 @@ def pandoc2html(doc: Doc, execute: bool = True):
                                 Para(
                                     Emph(
                                         Str(
-                                            f"{metadata_imd.get('type', 'figure').capitalize()}:"
+                                            f"{el_type} {num_elements[el_type]}:"
                                         ),
                                         Space,
                                         Str(f"{metadata_imd['caption']}"),
