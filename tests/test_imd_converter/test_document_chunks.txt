@@ -1,0 +1,38 @@
+julia:
+  description: Run and format julia code cells.
+  formats:
+  - markdown
+  - html
+  - latex
+  options: {}
+note:
+  description: Create a note box.
+  formats:
+  - markdown
+  - html
+  - latex
+  options:
+    color:
+      description: The color to fill the box.
+      type: string
+python:
+  description: Run and format python code cells.
+  formats:
+  - markdown
+  - html
+  - latex
+  options:
+    echo:
+      default: true
+      description: If False, the code in the code chunk will not be displayed above
+        it's results.
+      type: boolean
+    eval:
+      default: false
+      description: If False, the code in the code chunk will not be run.
+      type: boolean
+    include:
+      default: true
+      description: If False, the code in the code chunk will be run, but the code
+        and output will not be output in the final document.
+      type: boolean

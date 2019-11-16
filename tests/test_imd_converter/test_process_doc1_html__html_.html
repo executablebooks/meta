@@ -79,89 +79,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <style>
-  div.nb-cell.code {
-      clear: both;
-  }
-  div.nb-cell.code div.sourceCode {
-      outline-color: black;
-      outline-style: solid;
-      display: inline-block;
-  }
-  
-  div.nb-cell.markdown.note {
-      background-color: rgb(114, 183, 196);
-      display: inline-block;
-  }
-  </style>
 </head>
 <body>
-<div class="nb-cell markdown" data-cell-number="1">
-<h1 id="imarkdown-test-input">IMarkdown Test Input</h1>
-<p>This is some markdown, with <strong>bold</strong> and <em>italic</em> text.</p>
-</div>
-<div class="nb-cell markdown note" data-cell-number="2">
+<h1 id="heading">Heading</h1>
+<h2 id="sub-heading">Sub-Heading</h2>
+<p>This is some <em>text</em></p>
+<div class="note" color="blue">
 <p>This is a note.</p>
 </div>
-<div class="nb-cell markdown" data-cell-number="3">
-<p>This is markdown after a note</p>
+<p>This is some more text.</p>
+<div class="code-cell">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">print</span>(<span class="st">&quot;hallo&quot;</span>)</span></code></pre></div>
+<div class="outputs">
+<p>hallo
+</p>
 </div>
-<div class="nb-cell code" data-cell-number="4" data-kernel="python3" data-language="python">
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-cell"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>a <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(<span class="st">&quot;I&#39;ve just been run :)&quot;</span>)</span>
-<span id="cb1-3"><a href="#cb1-3"></a>a</span></code></pre></div>
 </div>
-<div class="nb-cell markdown" data-cell-number="5">
-<p>The next code cell has metadata, with a label referencing <a href="#tbl:pandas">Table 1</a>.</p>
+<div class="code-cell">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="bu">print</span>(<span class="st">&quot;hallo2&quot;</span>)</span></code></pre></div>
 </div>
-<div class="nb-cell code table" data-cell-number="6" data-kernel="python3" data-language="python">
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-cell"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">from</span> pandas <span class="im">import</span> DataFrame</span>
-<span id="cb2-2"><a href="#cb2-2"></a>DataFrame([<span class="dv">1</span>, <span class="dv">2</span>])</span></code></pre></div>
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="code-cell">
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
 </div>
-<div>
-<p><em>Table 1: This is a pandas DataFrame. <a id="tbl:pandas" class="anchor-link" name="#tbl:pandas" href="#tbl:pandas" title="Permalink to this caption">¶</a></em></p>
+<div class="code-cell">
+<div class="outputs">
+<p>hallo4
+</p>
 </div>
 </div>
-<div class="nb-cell markdown" data-cell-number="7">
-<p>Below is a raw cell.</p>
-</div>
-<div class="nb-cell raw" data-cell-number="8">
-<pre class="raw-cell"><code>I&#39;m a \textbf{LaTeX} cell.</code></pre>
-</div>
-<div class="nb-cell markdown" data-cell-number="9">
-<p>Final markdown cell</p>
-</div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1"></a>using Calculus</span>
+<span id="cb3-2"><a href="#cb3-2"></a>derivative(x -&gt; sin(x), <span class="fl">1.0</span>)</span></code></pre></div>
 </body>
 </html>

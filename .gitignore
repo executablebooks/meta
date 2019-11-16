@@ -3,3 +3,4 @@ __pycache__/
 .ipynb_checkpoints/
 *.egg-info/
 .ropeproject/
+_archive/

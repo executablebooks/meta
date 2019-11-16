@@ -1,0 +1,38 @@
+---
+chunk_defaults:
+  note:
+      color: blue
+---
+
+# Heading
+
+## Sub-Heading
+
+This is some *text*
+
+```{note}
+This is a note.
+```
+
+This is some more text.
+
+```{python}
+print("hallo")
+```
+
+```{python eval=False}
+print("hallo2")
+```
+
+```{python include=False}
+print("hallo3")
+```
+
+```{python echo=False}
+print("hallo4")
+```
+
+```{julia, eval=False}
+using Calculus
+derivative(x -> sin(x), 1.0)
+```
