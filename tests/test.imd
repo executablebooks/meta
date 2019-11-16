@@ -17,19 +17,23 @@ This is a note.
 This is some more text.
 
 ```{python}
-print("hallo")
+a = 1
+print(f"a = {a}")
 ```
 
 ```{python eval=False}
-print("hallo2")
+a += 1
+print(f"a = {a}")
 ```
 
 ```{python include=False}
-print("hallo3")
+a += 1
+print(f"a = {a}")
 ```
 
 ```{python echo=False}
-print("hallo4")
+a += 1
+print(f"a = {a}")
 ```
 
 ```{julia, eval=False}

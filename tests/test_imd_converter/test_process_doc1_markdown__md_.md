@@ -20,17 +20,19 @@ This is some more text.
 
 ::: {.code-cell}
 ``` {.python}
-print("hallo")
+a = 1
+print(f"a = {a}")
 ```
 
 ::: {.outputs}
-hallo
+a = 1
 :::
 :::
 
 ::: {.code-cell}
 ``` {.python}
-print("hallo2")
+a += 1
+print(f"a = {a}")
 ```
 :::
 
@@ -39,7 +41,7 @@ print("hallo2")
 
 ::: {.code-cell}
 ::: {.outputs}
-hallo4
+a = 3
 :::
 :::
 
