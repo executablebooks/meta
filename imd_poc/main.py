@@ -17,6 +17,8 @@ REGEX_CHUNK = re.compile(
     r"(?:\n|\r\n?)\`\`\`\{([a-zA-Z]+)([^(?:\n|\r\n?)]*)\}\s*(?:\n|\r\n?)([^?!\`\`\`]*)\`\`\`(?:\n|\r\n?)",
     re.DOTALL,
 )
+REF_ENTRY_GROUP = "imd.references"
+REGEX_REFERENCE = re.compile(r"@(.+)\(([^\)]+)\)")
 
 
 def convert_value(value):
@@ -76,8 +78,9 @@ def process_doc(path: Union[str, TextIO], output_fmt: str):
     chunk_converters = {}  # type: Dict[str, BaseChunk]
     chunk_outputs = []
     # process chunks and insert placeholders
-    # we do this before pandoc conversion, because pandoc does not support chunks
-    # we do this in a try block, to ensure all converter are closed down
+    # we do this before pandoc conversion, because pandoc does not inherently support chunks,
+    # but ideally there would be better pandoc integration
+    # we do this in a try/finally block, to ensure all 'opened' converters are cleaned up, if an error is raised
     try:
         for match in REGEX_CHUNK.finditer(content):
             chunk_type = match.group(1)
@@ -95,6 +98,8 @@ def process_doc(path: Union[str, TextIO], output_fmt: str):
                     text=match.group(3), options=parse_chunk_options(match.group(2))
                 )
             )
+            # We replace the original chunk with a 'placeholder', that can be easily
+            # iterated through, once the document is converted to pandoc AST
             new_content = (
                 new_content[: match.start()]
                 + f"\n```{'-'*(match.end() - match.start()-9)}\n```\n"
@@ -110,6 +115,7 @@ def process_doc(path: Union[str, TextIO], output_fmt: str):
 
     # parse document into pandoc AST
     doc = pf.convert_text(new_content, standalone=True)  # type; pf.Doc
+    doc.format = output_fmt
 
     # insert chunk output back into documents
     doc_content = []
@@ -126,6 +132,23 @@ def process_doc(path: Union[str, TextIO], output_fmt: str):
             doc_content.append(el)
     doc.content = doc_content
 
-    # TODO formatting of labels etc
+    doc.walk(format_references)
+    # raise
 
     return doc
+
+
+def format_references(el: pf.Element, doc: pf.Doc):
+    if not isinstance(el, pf.Str):
+        return
+    replacements = []
+    for match in REGEX_REFERENCE.finditer(el.text):
+        ref_type = match.group(1)
+        refs = match.group(2)
+        ref_cls = find_entry_point(ref_type, REF_ENTRY_GROUP)(output_fmt=doc.format, doc_metadata=doc.metadata)
+        replacements.append((ref_cls.process_reference(refs, {}), match.start(), match.end()))
+    if replacements:
+        # TODO handle if the replacement is not the the entire string,
+        # or if there are multiple references
+        return replacements[0][0]
+

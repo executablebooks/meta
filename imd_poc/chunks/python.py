@@ -43,7 +43,7 @@ class PythonChunk(BaseChunk):
     @classmethod
     def declare_formats(self) -> List[str]:
         """Return a list of supported output types."""
-        return ["markdown", "html", "latex"]
+        return ["markdown", "html", "latex", "rst"]
 
     def process_chunk(self, *, text: str, options: dict) -> Union[pf.Block, None]:
         """Process the chunk, and return a pandoc block level element."""
@@ -57,7 +57,7 @@ class PythonChunk(BaseChunk):
             exec_reply, outputs = self.kernels[kernel_name].run_cell(text)
             doc_output_els = self.create_output_els(outputs, options)
             if not options.get("include", True):
-                blocks = []
+                return None
             elif not options.get("echo", True):
                 blocks = [doc_output_els]
             else:

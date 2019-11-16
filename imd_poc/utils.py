@@ -5,7 +5,7 @@ from panflute import convert_text, Doc
 import yaml
 
 
-def find_entry_point(name, group, preferred=None):
+def find_entry_point(name, group, preferred=None, load=True):
     """find an entry point by name and group
 
     Parameters
@@ -42,7 +42,10 @@ def find_entry_point(name, group, preferred=None):
         entry_point = oentry_points[0]
     else:
         entry_point = entry_points[0]
-    return entry_point.load()
+    if load:
+        return entry_point.load()
+    else:
+        return entry_point
 
 
 def document_chunks():

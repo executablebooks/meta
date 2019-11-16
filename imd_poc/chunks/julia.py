@@ -16,7 +16,7 @@ class JuliaChunk(BaseChunk):
     @classmethod
     def declare_formats(self) -> List[str]:
         """Return a list of supported output formats."""
-        return ["markdown", "html", "latex"]
+        return ["markdown", "html", "latex", "rst"]
 
     def process_chunk(self, *, text: str, options: dict) -> Union[pf.Block, None]:
         """Process the chunk, and return a pandoc block level element."""

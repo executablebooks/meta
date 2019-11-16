@@ -81,9 +81,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <![endif]-->
 </head>
 <body>
-<h1 id="heading">Heading</h1>
-<h2 id="sub-heading">Sub-Heading</h2>
+<h1 id="id1">Heading</h1>
+<h2 id="id2">Sub-Heading</h2>
 <p>This is some <em>text</em></p>
+<p>A reference to a header <a href="#id1">id1</a></p>
+<p>A reference to two headings <a href="#id1,id2">id1,id2</a></p>
+<p>Some inline math: <span class="math inline"><em>x</em> = <em>y</em> + <em>z</em></span></p>
+<p>Some display math:</p>
+<p><br /><span class="math display">$$
+\begin{equation} 
+  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+\end{equation}
+$$</span><br /></p>
 <div class="note" color="blue">
 <p>This is a note.</p>
 </div>
@@ -99,9 +108,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="code-cell">
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>a <span class="op">+=</span> <span class="dv">1</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="bu">print</span>(<span class="ss">f&quot;a = </span><span class="sc">{a}</span><span class="ss">&quot;</span>)</span></code></pre></div>
-</div>
-<div class="code-cell">
-
 </div>
 <div class="code-cell">
 <div class="outputs">

@@ -4,13 +4,27 @@ chunk_defaults:
     color: blue
 ---
 
-Heading
+Heading {#id1}
 =======
 
-Sub-Heading
+Sub-Heading {#id2}
 -----------
 
 This is some *text*
+
+A reference to a header \@ref(id1)
+
+A reference to two headings \@cref(id1,id2)
+
+Some inline math: $x = y + z$
+
+Some display math:
+
+$$
+\begin{equation} 
+  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+\end{equation}
+$$
 
 ::: {.note color="blue"}
 This is a note.
@@ -34,9 +48,6 @@ a = 1
 a += 1
 print(f"a = {a}")
 ```
-:::
-
-::: {.code-cell}
 :::
 
 ::: {.code-cell}

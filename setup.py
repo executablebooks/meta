@@ -11,6 +11,11 @@ setup(
             "python = imd_poc.chunks.python:PythonChunk",
             "julia = imd_poc.chunks.julia:JuliaChunk",
             "note = imd_poc.chunks.note:NoteChunk",
+        ],
+        "imd.references": [
+            "ref = imd_poc.references:Ref",
+            "cref = imd_poc.references:Cref",
+            "Cref = imd_poc.references:CrefUpper",
         ]
     },
 )

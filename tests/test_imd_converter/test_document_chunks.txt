@@ -4,6 +4,7 @@ julia:
   - markdown
   - html
   - latex
+  - rst
   options: {}
 note:
   description: Create a note box.
@@ -11,6 +12,7 @@ note:
   - markdown
   - html
   - latex
+  - rst
   options:
     color:
       description: The color to fill the box.
@@ -21,6 +23,7 @@ python:
   - markdown
   - html
   - latex
+  - rst
   options:
     echo:
       default: true

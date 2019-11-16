@@ -11,5 +11,6 @@
         "**/pytest_cache": true
     },
     "python.pythonPath": "/anaconda/envs/aiida_crystal17/bin/python",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "restructuredtext.confPath": ""
 }

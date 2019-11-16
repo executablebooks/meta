@@ -9,7 +9,7 @@ DIRPATH = os.path.realpath(os.path.dirname(__file__))
 
 
 @pytest.mark.parametrize(
-    "output_fmt,output_ext", (("markdown", ".md"), ("html", ".html"), ("latex", ".tex"))
+    "output_fmt,output_ext", (("markdown", ".md"), ("html", ".html"), ("latex", ".tex"), ("rst", ".rst"))
 )
 def test_process_doc1(output_fmt, output_ext, file_regression):
 
