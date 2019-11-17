@@ -103,7 +103,7 @@ Some inline math: \(x = y + z\)
 Some display math:
 
 \[
-\begin{equation} 
+\begin{equation}
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
 \end{equation}
 \]
@@ -116,12 +116,17 @@ This is some more text.
 
 \begin{Shaded}
 \begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ os}
 \NormalTok{a }\OperatorTok{=} \DecValTok{1}
+\NormalTok{b }\OperatorTok{=} \StringTok{"I'm a replacement"}
+\NormalTok{c }\OperatorTok{=} \FloatTok{1.0}
 \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"a = }\SpecialCharTok{\{a\}}\SpecialStringTok{"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
 a = 1
+
+I'm a replacement
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -130,7 +135,18 @@ a = 1
 \end{Highlighting}
 \end{Shaded}
 
+\begin{verbatim}
+{include: false}
+\end{verbatim}
+
+\begin{verbatim}
+a += 1
+print(f"a = {a}")
+\end{verbatim}
+
 a = 3
+
+3
 
 \begin{Shaded}
 \begin{Highlighting}[]

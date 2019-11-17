@@ -89,7 +89,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Some inline math: <span class="math inline"><em>x</em> = <em>y</em> + <em>z</em></span></p>
 <p>Some display math:</p>
 <p><br /><span class="math display">$$
-\begin{equation} 
+\begin{equation}
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
 \end{equation}
 $$</span><br /></p>
@@ -98,16 +98,27 @@ $$</span><br /></p>
 </div>
 <p>This is some more text.</p>
 <div class="code-cell">
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>a <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(<span class="ss">f&quot;a = </span><span class="sc">{a}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> os</span>
+<span id="cb1-2"><a href="#cb1-2"></a>a <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>b <span class="op">=</span> <span class="st">&quot;I&#39;m a replacement&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>c <span class="op">=</span> <span class="fl">1.0</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="bu">print</span>(<span class="ss">f&quot;a = </span><span class="sc">{a}</span><span class="ss">&quot;</span>)</span></code></pre></div>
 <div class="outputs">
 <p>a = 1
 </p>
 </div>
 </div>
+<p>I'm a replacement</p>
 <div class="code-cell">
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>a <span class="op">+=</span> <span class="dv">1</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="bu">print</span>(<span class="ss">f&quot;a = </span><span class="sc">{a}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+</div>
+<div class="imd-chunk" type="python">
+<pre class="options"><code>{include: false}
+</code></pre>
+<pre class="content"><code>a += 1
+print(f&quot;a = {a}&quot;)
+</code></pre>
 </div>
 <div class="code-cell">
 <div class="outputs">
@@ -115,7 +126,8 @@ $$</span><br /></p>
 </p>
 </div>
 </div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1"></a>using Calculus</span>
-<span id="cb3-2"><a href="#cb3-2"></a>derivative(x -&gt; sin(x), <span class="fl">1.0</span>)</span></code></pre></div>
+<p>3</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb5-1"><a href="#cb5-1"></a>using Calculus</span>
+<span id="cb5-2"><a href="#cb5-2"></a>derivative(x -&gt; sin(x), <span class="fl">1.0</span>)</span></code></pre></div>
 </body>
 </html>

@@ -21,7 +21,7 @@ Some display math:
 .. math::
 
 
-   \begin{equation} 
+   \begin{equation}
      f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
    \end{equation}
 
@@ -35,16 +35,32 @@ This is some more text.
 
    .. code:: python
 
+      import os
       a = 1
+      b = "I'm a replacement"
+      c = 1.0
       print(f"a = {a}")
 
    .. container:: outputs
 
       a = 1
 
+I'm a replacement
+
 .. container:: code-cell
 
    .. code:: python
+
+      a += 1
+      print(f"a = {a}")
+
+.. container:: imd-chunk
+
+   .. code:: options
+
+      {include: false}
+
+   .. code:: content
 
       a += 1
       print(f"a = {a}")
@@ -54,6 +70,8 @@ This is some more text.
    .. container:: outputs
 
       a = 3
+
+3
 
 .. code:: julia
 

@@ -1,8 +1,15 @@
 from abc import ABC, abstractmethod
+from collections import namedtuple
 import copy
 from typing import List, Union
 
+import attr
 import panflute as pf
+
+@attr.s
+class ChunkResult:
+    block: Union[None, pf.Block] = attr.ib(default=None)
+    metadata: dict = attr.ib(factory=dict)
 
 
 class BaseChunk(ABC):
@@ -31,9 +38,9 @@ class BaseChunk(ABC):
         self.doc_metadata = copy.deepcopy(doc_metadata)
 
     @abstractmethod
-    def process_chunk(self, *, text: str, options: dict) -> Union[pf.Block, None]:
+    def process_chunk(self, *, text: str, options: dict) -> ChunkResult:
         """Process the chunk, and return a pandoc block level element."""
-        return None
+        pass
 
     def clean_up(self):
         """Called after all chunks in a document have been processed."""

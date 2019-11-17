@@ -4,7 +4,7 @@ setup(
     name="imd-poc",
     author="Chris Sewell",
     packages=find_packages(),
-    install_requires=["nbformat", "nbconvert", "pyyaml", "panflute", "pyparsing"],
+    install_requires=["attrs", "nbformat", "nbconvert", "pyyaml", "panflute", "pyparsing"],
     extras_require={"testing": ["pytest", "pytest-regressions", "pandas"]},
     entry_points={
         "imd.chunks": [

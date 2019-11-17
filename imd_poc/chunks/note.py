@@ -2,7 +2,7 @@ from typing import List, Union
 
 import panflute as pf
 
-from .base import BaseChunk
+from .base import BaseChunk, ChunkResult
 
 
 class NoteChunk(BaseChunk):
@@ -20,7 +20,7 @@ class NoteChunk(BaseChunk):
         """Return a list of supported output types."""
         return ["markdown", "html", "latex", "rst"]
 
-    def process_chunk(self, *, text: str, options: dict) -> Union[pf.Block, None]:
+    def process_chunk(self, *, text: str, options: dict) -> ChunkResult:
         """Process the chunk, and return a pandoc block level element."""
         # TODO merge doc and chunk metadata
         color = ""
@@ -30,13 +30,13 @@ class NoteChunk(BaseChunk):
             color = self.doc_metadata["chunk_defaults"]["note"]["color"]
         if self.output_fmt == "latex":
             if color:
-                return pf.RawBlock(
+                return ChunkResult(pf.RawBlock(
                     f"\\begin{{note}}[color={color}]\n{text}\\end{{note}}", format="tex"
-                )
+                ))
             else:
-                return pf.RawBlock(
+                return ChunkResult(pf.RawBlock(
                     f"\\begin{{note}}\n{text}\\end{{note}}", format="tex"
-                )
-        return pf.Div(
+                ))
+        return ChunkResult(pf.Div(
             *pf.convert_text(text), classes=["note"], attributes={"color": color}
-        )
+        ))

@@ -9,7 +9,7 @@ from nbconvert.preprocessors.execute import (
 import panflute as pf
 import yaml
 
-from .base import BaseChunk
+from .base import BaseChunk, ChunkResult
 from imd_poc.utils import mapping_to_dict
 
 
@@ -30,7 +30,10 @@ class PythonChunk(BaseChunk):
             },
             "include": {
                 "type": "boolean",
-                "description": "If False, the code in the code chunk will be run, but the code and output will not be output in the final document.",
+                "description": (
+                    "If False, the code in the code chunk will be run, "
+                    "but the code and output will not be output in the final document."
+                ),
                 "default": True,
             },
             "echo": {
@@ -45,9 +48,11 @@ class PythonChunk(BaseChunk):
         """Return a list of supported output types."""
         return ["markdown", "html", "latex", "rst"]
 
-    def process_chunk(self, *, text: str, options: dict) -> Union[pf.Block, None]:
+    def process_chunk(self, *, text: str, options: dict) -> ChunkResult:
         """Process the chunk, and return a pandoc block level element."""
+        # TODO the kernel_engine should be abstracted from the chunk converter
         blocks = [pf.CodeBlock(text, classes=["python"])]
+        metadata = {}
         if options.get("eval", True):
             kernel_name = self.doc_metadata.get("kernelspec", {}).get("name", "python3")
             if kernel_name not in self.kernels:
@@ -56,13 +61,14 @@ class PythonChunk(BaseChunk):
                 self.kernels[kernel_name] = executer
             exec_reply, outputs = self.kernels[kernel_name].run_cell(text)
             doc_output_els = self.create_output_els(outputs, options)
+            metadata = self.generate_metadata(kernel_name)
             if not options.get("include", True):
-                return None
+                return ChunkResult()
             elif not options.get("echo", True):
                 blocks = [doc_output_els]
             else:
                 blocks += [doc_output_els]
-        return pf.Div(*blocks, classes=["code-cell"])
+        return ChunkResult(pf.Div(*blocks, classes=["code-cell"]), metadata)
 
     def clean_up(self):
         for kernel in self.kernels.values():
@@ -71,6 +77,7 @@ class PythonChunk(BaseChunk):
 
     def create_output_els(self, outputs: List[dict], options: dict) -> pf.Block:
         """Create the output document element, from a JSON of outputs."""
+        # TODO obviously this needs to be expanded upon
         elements = []
         for output in outputs:
             if output.get("output_type", "stdout"):
@@ -79,6 +86,37 @@ class PythonChunk(BaseChunk):
         # return pf.CodeBlock(
         #         yaml.safe_dump(mapping_to_dict(outputs)), classes=["yaml", "outputs"]
         #     )
+
+    def generate_metadata(self, kernel_name: str):
+        """Here we call the `%whos` magic to generate a dict of current variables.
+        
+        ::
+
+            Variable   Type      Data/Info
+            ------------------------------
+            a          int       1
+            b          str       I'm a replacement
+            os         module    <module 'os' from '//anac<...>l17/lib/python3.6/os.py'>
+        """
+        # TODO this is very hacky,
+        # their should be a way to access these variables at a deeper level
+        whos_exec_reply, whos_outputs = self.kernels[kernel_name].run_cell("%whos")
+        lines = whos_outputs[0]["text"].splitlines()
+        if len(lines) < 3:
+            return {}
+        data = {}
+        for line in lines[2:]:
+            variable = line.split()[0]
+            dtype = line.split()[1]
+            value = " ".join(line.split()[2:])
+            if dtype == "str":
+                data[variable] = value
+            elif dtype == "int":
+                data[variable] = int(value)
+            elif dtype == "float":
+                data[variable] = float(value)
+
+        return {"variables": data}
 
 
 class SourceExecuter(ExecutePreprocessor):

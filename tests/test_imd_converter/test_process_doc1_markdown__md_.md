@@ -21,7 +21,7 @@ Some inline math: $x = y + z$
 Some display math:
 
 $$
-\begin{equation} 
+\begin{equation}
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
 \end{equation}
 $$
@@ -34,7 +34,10 @@ This is some more text.
 
 ::: {.code-cell}
 ``` {.python}
+import os
 a = 1
+b = "I'm a replacement"
+c = 1.0
 print(f"a = {a}")
 ```
 
@@ -43,8 +46,21 @@ a = 1
 :::
 :::
 
+I\'m a replacement
+
 ::: {.code-cell}
 ``` {.python}
+a += 1
+print(f"a = {a}")
+```
+:::
+
+::: {.imd-chunk type="python"}
+``` {.options}
+{include: false}
+```
+
+``` {.content}
 a += 1
 print(f"a = {a}")
 ```
@@ -55,6 +71,8 @@ print(f"a = {a}")
 a = 3
 :::
 :::
+
+3
 
 ``` {.julia}
 using Calculus
