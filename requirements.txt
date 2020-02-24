@@ -1,0 +1,2 @@
+git://github.com/pandas-dev/pandas-sphinx-theme.git#egg=master
+git://github.com/ExecutableBookProject/myst_parser.git#egg=develop
