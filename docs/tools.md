@@ -22,8 +22,8 @@ markdown, while utilizing all of the main features of Sphinx.
 
 MyST-NB allows users to parse Jupyter Notebooks directly into their Sphinx
 documentation, utilizing the MyST Sphinx parser under the hood. This allows
-readers to leverage the MyST syntax in order to build *computational
-documentation* that leverages the Jupyter ecosystem. It is also
+readers to leverage the MyST syntax in markdown cells in order to build
+*computational documentation* that builds on the Jupyter ecosystem. It is also
 a collection of tools for controlling the output behavior of notebooks in
 Sphinx documentation, and a text-based representation of Jupyter Notebooks
 using pure markdown.
