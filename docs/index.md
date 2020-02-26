@@ -10,4 +10,5 @@ Here are the site contents:
 tools
 examples
 about
+projects
 ```
