@@ -1,11 +1,10 @@
-The Executable Book Project
-===========================
+# The Executable Book Project
 
 This is the public-facing site for the ExecutableBookProject, an international
 collaboration to build open source tools that make it easier to publish
 computational narratives with the Jupyter ecosystem.
 
-# What is the EBP's technical goal?
+## The EBP's technical goal
 
 The goal of the EBP is to build tools that make it easier to create
 professoinal computational narratives using open source tools, and utilizing
@@ -29,7 +28,7 @@ and data science communities to be able to do the following:
   users should not have to know anything about Sphinx, cacheing, etc. A simple
   CLI should control most of the complexity of this process.
 
-# Our principles and constraints?
+## Our principles and constraints
 
 In running this project, we aim to adhere to several principles that we believe
 will result in higher-quality technology that aligns with the core principles
