@@ -8,11 +8,14 @@ as a part of this project. This page describes a few major components.
 
 ([link to documentation](https://myst-parser.readthedocs.io/en/latest/))
 
-MyST is an attempt at combining the simplicity and readability of Markdown with the power and flexibility of reStructuredText and the Sphinx platform. It starts with the CommonMark markdown specification, and selectively adds a few extra syntax pieces to utilize the most powerful parts of reStructuredText.
+MyST is an attempt to combine the simplicity and readability of Markdown with
+the power and flexibility of reStructuredText, along with the Sphinx platform. It
+starts with the CommonMark markdown specification, and selectively adds a few
+extra syntax pieces to utilize the most powerful parts of reStructuredText.
 
 The [MyST Sphinx parser](https://myst-parser.readthedocs.io/en/latest/)
 allows users to write their entire documentation in
-markdown, utilizing all of the main features of Sphinx.
+markdown, while utilizing all of the main features of Sphinx.
 
 # MyST-NB
 
