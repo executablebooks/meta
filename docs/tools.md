@@ -1,10 +1,9 @@
-Tools
-=====
+# Tools
 
 There are several major tools that we have developed, or are contributing to,
 as a part of this project. This page describes a few major components.
 
-# MyST - Markedly Structured Text
+## MyST - Markedly Structured Text
 
 ([link to documentation](https://myst-parser.readthedocs.io/en/latest/))
 
@@ -17,17 +16,19 @@ The [MyST Sphinx parser](https://myst-parser.readthedocs.io/en/latest/)
 allows users to write their entire documentation in
 markdown, while utilizing all of the main features of Sphinx.
 
-# MyST-NB
+## MyST-NB
 
 ([link to documentation](https://myst-nb.readthedocs.io/))
 
 MyST-NB allows users to parse Jupyter Notebooks directly into their Sphinx
-documentation, utilizing the MyST Sphinx parser under the hood. It is also
+documentation, utilizing the MyST Sphinx parser under the hood. This allows
+readers to leverage the MyST syntax in order to build *computational
+documentation* that leverages the Jupyter ecosystem. It is also
 a collection of tools for controlling the output behavior of notebooks in
 Sphinx documentation, and a text-based representation of Jupyter Notebooks
 using pure markdown.
 
-# Jupyter Cache
+## Jupyter Cache
 
 ([link to repository](https://github.com/executablebookproject/jupyter-cache))
 
