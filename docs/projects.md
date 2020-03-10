@@ -32,12 +32,23 @@ A component / interface diagram for the project:
 
 *Phase 1:*
 
-- [x] `myst` parser that is compliant with commonmark as a base, with extensions for roles and directives. For supported syntax please refer to [here](https://github.com/ExecutableBookProject/MyST-Parser#parsed-token-classes)
+- [ ] Provide a parser that can convert raw text, written in an extended Markdown syntax (including roles and directives), to the `docutils` AST (used by Sphinx). For supported syntax please refer to [the myst-parser documentation](https://github.com/ExecutableBookProject/MyST-Parser#parsed-token-classes)
 
 *Phase II:*
 
-- [ ] footnote support
+Provide language support for user editing of documents written in MyST, in the form of:
+
+- [ ] A reference static syntax highlighter.
+- [ ] A standalone linting / diagnostic tool
 - [ ] integration with `myst-nb` 
+
+*Phase III:*
+
+- [ ] Build on the tools developed in Phase II to introduce a full Language Support Protocol (LSP) implementation, including:
+    - document tree stucture views
+    - autocompletion for role and directive names and options.
+    - hover views for dollar enclosed math
+    - real-time linting diagnostics
 
 ### [myst-nb](https://github.com/ExecutableBookProject/MyST-NB)
 
@@ -95,7 +106,7 @@ collection of Jupyter notebooks.
 
 ## Authoring Tools
 
-### [JupyterText](https://github.com/mwouts/jupytext)
+### [jupytext](https://github.com/mwouts/jupytext)
 
 **Project Type:** External Project
 
@@ -106,7 +117,7 @@ collection of Jupyter notebooks.
 The primary aim is to add myst to jupytext to enable *bi-directional* conversion 
 between IPYNB and myst text based files. 
 
-A seconday objective is to understand how JupyText may be used to convert between 
+A secondary objective is to understand how JupyText may be used to convert between 
 ipynb and myst files in realtime to enable joint editing between the 
 two formats. 
 
