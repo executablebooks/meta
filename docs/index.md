@@ -1,32 +1,34 @@
 # The Executable Book Project
 
-This is the public-facing site for the ExecutableBookProject, an international
-collaboration to build open source tools that make it easier to publish
-computational narratives with the Jupyter ecosystem.
+This is the public-facing site for
+[ExecutableBookProject](https://github.com/ExecutableBookProject), an international
+collaboration to build open source tools that facilitate publishing
+computational narratives using the Jupyter ecosystem.
 
-## The EBP's technical goal
+## The EBP's technical goals
 
-The goal of the EBP is to build tools that make it easier to create
-professoinal computational narratives using open source tools, and utilizing
-a purely open-source stack. We would like users in the scientific, academic,
+The goal of the EBP is to build tools that facilitate creating
+professional computational narratives (books, lecture series, articles, etc.) 
+using open source tools. We want users in the scientific, academic,
 and data science communities to be able to do the following:
 
 * **Write their content in either markdown text files, or Jupyter Notebooks**.
-  These files should have rich content - outputs from running code, references
+  These files include rich content - outputs from running code, references
   and cross-references, equations, etc.
-* **Execute content and cache the results**. Notebooks that did not change any
-  code cells should not be re-run. Those that *did* change code cells should
-  have their cells re-executed, and the results stored in a robust cache.
+* **Execute content and cache the results**. Intelligent caching means
+  that only modified code cells are re-run. 
 * **Combine cached outputs with content files with a document model**. Using
-  the excellent Sphinx documentation stack, documents can include many features
-  for publishing, such as equations, cross-references, and citations.
+  the excellent [Sphinx](https://www.sphinx-doc.org/en/master/) documentation
+  stack, documents can include many features for publishing, such as
+  equations, cross-references, and citations.
 * **Build interactive HTML or publication-quality PDF outputs**. Sometimes
   users wish to create rich and interactive websites, other times they want to
-  send a high-quality PDF to a publisher. This system should treat both as
+  send a high-quality PDF to a publisher. This system will treat both as
   equal citizens.
 * **Control everything above with a simple command-line interface**. Most
-  users should not have to know anything about Sphinx, cacheing, etc. A simple
-  CLI should control most of the complexity of this process.
+  users should not have to know anything about Sphinx, caching, etc. A simple
+  user interface will hide most of the complexity of this process.
+
 
 ## Our principles and constraints
 
@@ -34,7 +36,7 @@ In running this project, we aim to adhere to several principles that we believe
 will result in higher-quality technology that aligns with the core principles
 of the open source community. Here are a few key components:
 
-* **Support casual users equally to power users**. Complicating the feature
+* **Give equal support to casual users and power users**. Complicating the feature
   space to support a "power user feature" should be done with great care.
 * **Build modular components that are useful elsewhere**. Rather than building
   a single vertical stack, find parts of the workflow that naturally separate.
@@ -53,7 +55,7 @@ of the open source community. Here are a few key components:
   to read, understand, and modify/improve.
 * **Users should not need to know anything about the build system**. If they
   want to dig into the guts of our infrastructure, they can, but knowledge
-  of Sphinx, Latex, etc should not be a requirement. They should only need to
+  of Sphinx, Latex, and so on should not be a requirement. They should only need to
   use a simple tool to control the process.
 * **Don't try to do everything**. Focus our tools on publishing
   computational documents with reasonable choices made for the user.
