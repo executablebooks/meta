@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>2020-02-25 - Hello world &#8212; The Executable Book Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/mystnb.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed.js"></script>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Examples" href="../examples.html" />
+    <link rel="prev" title="Updates" href="index.html" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Put requirejs at the end so it's always after bootstrap -->
+<!-- TODO: remove this once https://github.com/pandas-dev/pydata-sphinx-theme/pull/149 is merged -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">The Executable Book Project</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="../about.html">About the EBP</a>
+  </li>
+  <li class="">
+    <a href="../tools.html">Tools</a>
+  </li>
+  <li class="active">
+    <a href="index.html">Updates</a>
+  <ul class="nav sidenav_l2">
+    <li class="active">
+      <a href="">2020-02-25 - Hello world</a>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="../examples.html">Examples</a>
+  </li>
+</ul>
+</nav>
+<p class="sidebar_footer">Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-5 bd-content overflow-auto" role="main">
+    
+    
+      <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col topbar-main">
+        <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"><i class="fas fa-download"></i><span class="dropdown-trigger-text">Download</span></button>
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="../_sources/updates/02-25-2020.md.txt"><button type="button" class="btn btn-secondary topbarbtn">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" onClick="window.print()">.pdf</button>
+            </div>
+        </div>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#tl-dr-what-are-we-hoping-to-build" class="nav-link">tl;dr: What are we hoping to build?</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#what-are-our-principles-and-constraints" class="nav-link">What are our principles and constraints?</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#what-does-it-mean-to-publish-executable-documents" class="nav-link">What does it mean to publish executable documents?</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 col-xxl-7">
+        
+              <div>
+                
+  <div class="section" id="hello-world">
+<h1>2020-02-25 - Hello world<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h1>
+<p>Over the last several years, Jupyter Notebooks have become a staple in the
+data scientist’s toolkit. As both an interface for interactive computation
+and a document standard for structuring blocks of computational and narrative
+content, notebooks are ubiquitous, flexible, and powerful.</p>
+<p>Since their inception, notebooks were aimed at many communication processes
+for scientists and educators, including journal publishing pipelines. However,
+there are still gaps in the current Jupyter Notebook landscape in terms of
+writing and publishing.</p>
+<p>With this post we announce the Executable Book Project — a Sloan-funded grant
+to improve the state of writing and publishing with Jupyter Notebooks, along
+with the broader open source science ecosystem. The project is a collaboration between
+the Australian National University, UC Berkeley, and Northern Arizona University.
+We’ll cover some of the major challenges we hope to tackle below.</p>
+<div class="section" id="tl-dr-what-are-we-hoping-to-build">
+<h2><code class="docutils literal notranslate"><span class="pre">tl;dr</span></code>: What are we hoping to build?<a class="headerlink" href="#tl-dr-what-are-we-hoping-to-build" title="Permalink to this headline">¶</a></h2>
+<p>From a user’s perspective, we want to enable:</p>
+<p><strong>Generation of a high-quality book from a single folder containing either markdown
+or Jupyter notebooks</strong> (authors can write in either). The book will support
+common publishing features, such as citations, cross-references, and
+numbered equations. As a part of this process, all executable code in the
+source files will be run, intelligently cached and embedded in the document.
+Book output formats will include HTML and PDF, as well as Jupyter notebooks
+that allow readers to step through and interact with content.</p>
+<p><strong>A simple command-line interface</strong> that allows users to focus on the content creation
+process, not on the backend stack that runs the actual building.</p>
+<p><strong>A smooth and convenient author-edit-compile cycle</strong>, including productivity tools
+for use in common editors (e.g., code completion).  The option of using
+human-readable text-based source material will facilitate version control
+and distributed collaboration.</p>
+<p>This stack should be entirely open source.</p>
+</div>
+<div class="section" id="what-are-our-principles-and-constraints">
+<h2>What are our principles and constraints?<a class="headerlink" href="#what-are-our-principles-and-constraints" title="Permalink to this headline">¶</a></h2>
+<p>In running this project, we aim to adhere to several principles that we believe
+will result in higher-quality technology that aligns with the core principles
+of the open source community. Here are a few key components:</p>
+<ul class="simple">
+<li><p><strong>Support casual users equally to power users</strong>. Complicating the feature
+space to support a “power user feature” should be done with great care.</p></li>
+<li><p><strong>Build modular components that are useful elsewhere</strong>. Rather than building
+a single vertical stack, find parts of the workflow that naturally separate.
+Create modular tools for these parts so that they may benefit the community
+outside of the context of building interactive books.</p></li>
+<li><p><strong>Use pre-existing technology where possible</strong>. Rather than re-inventing
+the wheel, make every effort to utilize pre-existing open source tech.</p></li>
+<li><p><strong>Use pre-existing standards where possible</strong>. In the event that we must
+create new patterns of content creation or tooling, utilize prior art in
+the open source community as much as possible, especially when it comes to
+markup languages.</p></li>
+<li><p><strong>Contribute improvements upstream</strong>. Where we utilize pre-existing tools,
+contribute improvements to them as we build off of them for this project.</p></li>
+<li><p><strong>Design for the future</strong>. While we have a bit of funding now, it won’t last
+forever. This means the technology should be easy for potential developers
+to read, understand, and modify/improve.</p></li>
+<li><p><strong>Users should not need to know anything about the build system</strong>. If they
+want to dig into the guts of our infrastructure, they can, but knowledge
+of Sphinx, Latex, etc should not be a requirement. They should only need to
+use a simple tool to control the process.</p></li>
+<li><p><strong>Don’t try to do everything</strong>. Focus our tools on publishing
+computational documents with reasonable choices made for the user.</p></li>
+</ul>
+</div>
+<div class="section" id="what-does-it-mean-to-publish-executable-documents">
+<h2>What does it mean to publish executable documents?<a class="headerlink" href="#what-does-it-mean-to-publish-executable-documents" title="Permalink to this headline">¶</a></h2>
+<p>We think of this process in three main parts: authoring, execution, and
+publishing.</p>
+<p>Authoring is when the writer creates their content. They may do this in
+a notebook-focused interface like the Jupyter Notebook UI or Jupyter Lab, or
+in a traditional text editor. They require the ability to
+enrich their document with information such as equations, citations, and
+cross-references.</p>
+<p>Execution occurs after the author has written their content and wants to
+prepare it for publishing. In this step, all executable content needs to be
+run against one or more languages. Authors may or may not want to run
+everything each time they publish, depending on how long the components take to
+run.</p>
+<p>Publishing occurs once all of the content has been written and run. It is the
+final step where the author builds “final” artifacts from their build process.
+These artifacts might take many forms - the two most-common ones being an HTML
+website and a PDF.</p>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Updates</a>
+    <a class='right-next' id="next-link" href="../examples.html" title="next page">Examples</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright .<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
+    </p>
+  </div>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../_static/js/index.js"></script>
+    
+  </body>
+</html>

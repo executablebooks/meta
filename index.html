@@ -1,0 +1,247 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Executable Book Project &#8212; The Executable Book Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="About the EBP" href="about.html" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Put requirejs at the end so it's always after bootstrap -->
+<!-- TODO: remove this once https://github.com/pandas-dev/pydata-sphinx-theme/pull/149 is merged -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="#">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">The Executable Book Project</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="about.html">About the EBP</a>
+  </li>
+  <li class="">
+    <a href="tools.html">Tools</a>
+  </li>
+  <li class="">
+    <a href="updates/index.html">Updates</a>
+  </li>
+  <li class="">
+    <a href="examples.html">Examples</a>
+  </li>
+</ul>
+</nav>
+<p class="sidebar_footer">Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-5 bd-content overflow-auto" role="main">
+    
+    
+      <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col topbar-main">
+        <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"><i class="fas fa-download"></i><span class="dropdown-trigger-text">Download</span></button>
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/index.md.txt"><button type="button" class="btn btn-secondary topbarbtn">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" onClick="window.print()">.pdf</button>
+            </div>
+        </div>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#the-ebp-s-technical-goals" class="nav-link">The EBP’s technical goals</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#our-principles-and-constraints" class="nav-link">Our principles and constraints</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 col-xxl-7">
+        
+              <div>
+                
+  <div class="section" id="the-executable-book-project">
+<h1>The Executable Book Project<a class="headerlink" href="#the-executable-book-project" title="Permalink to this headline">¶</a></h1>
+<p>This is the public-facing site for
+<a class="reference external" href="https://github.com/ExecutableBookProject">ExecutableBookProject</a>, an international
+collaboration to build open source tools that facilitate publishing
+computational narratives using the Jupyter ecosystem.</p>
+<div class="section" id="the-ebp-s-technical-goals">
+<h2>The EBP’s technical goals<a class="headerlink" href="#the-ebp-s-technical-goals" title="Permalink to this headline">¶</a></h2>
+<p>The goal of the EBP is to build tools that facilitate creating
+professional computational narratives (books, lecture series, articles, etc.)
+using open source tools. We want users in the scientific, academic,
+and data science communities to be able to do the following:</p>
+<ul class="simple">
+<li><p><strong>Write their content in either markdown text files, or Jupyter Notebooks</strong>.
+These files include rich content - outputs from running code, references
+and cross-references, equations, etc.</p></li>
+<li><p><strong>Execute content and cache the results</strong>. Intelligent caching means
+that only modified code cells are re-run.</p></li>
+<li><p><strong>Combine cached outputs with content files with a document model</strong>. Using
+the excellent <a class="reference external" href="https://www.sphinx-doc.org/en/master/">Sphinx</a> documentation
+stack, documents can include many features for publishing, such as
+equations, cross-references, and citations.</p></li>
+<li><p><strong>Build interactive HTML or publication-quality PDF outputs</strong>. Sometimes
+users wish to create rich and interactive websites, other times they want to
+send a high-quality PDF to a publisher. This system will treat both as
+equal citizens.</p></li>
+<li><p><strong>Control everything above with a simple command-line interface</strong>. Most
+users should not have to know anything about Sphinx, caching, etc. A simple
+user interface will hide most of the complexity of this process.</p></li>
+</ul>
+</div>
+<div class="section" id="our-principles-and-constraints">
+<h2>Our principles and constraints<a class="headerlink" href="#our-principles-and-constraints" title="Permalink to this headline">¶</a></h2>
+<p>In running this project, we aim to adhere to several principles that we believe
+will result in higher-quality technology that aligns with the core principles
+of the open source community. Here are a few key components:</p>
+<ul class="simple">
+<li><p><strong>Give equal support to casual users and power users</strong>. Complicating the feature
+space to support a “power user feature” should be done with great care.</p></li>
+<li><p><strong>Build modular components that are useful elsewhere</strong>. Rather than building
+a single vertical stack, find parts of the workflow that naturally separate.
+Create modular tools for these parts so that they may benefit the community
+outside of the context of building interactive books.</p></li>
+<li><p><strong>Use pre-existing technology where possible</strong>. Rather than re-inventing
+the wheel, make every effort to utilize pre-existing open source tech.</p></li>
+<li><p><strong>Use pre-existing standards where possible</strong>. In the event that we must
+create new patterns of content creation or tooling, utilize prior art in
+the open source community as much as possible, especially when it comes to
+markup languages.</p></li>
+<li><p><strong>Contribute improvements upstream</strong>. Where we utilize pre-existing tools,
+contribute improvements to them as we build off of them for this project.</p></li>
+<li><p><strong>Design for the future</strong>. While we have a bit of funding now, it won’t last
+forever. This means the technology should be easy for potential developers
+to read, understand, and modify/improve.</p></li>
+<li><p><strong>Users should not need to know anything about the build system</strong>. If they
+want to dig into the guts of our infrastructure, they can, but knowledge
+of Sphinx, Latex, and so on should not be a requirement. They should only need to
+use a simple tool to control the process.</p></li>
+<li><p><strong>Don’t try to do everything</strong>. Focus our tools on publishing
+computational documents with reasonable choices made for the user.</p></li>
+</ul>
+<p>Browse the rest of this site for more information about what we’re working
+on and our plans for what’s coming next.</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='right-next' id="next-link" href="about.html" title="next page">About the EBP</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright .<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
+    </p>
+  </div>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>

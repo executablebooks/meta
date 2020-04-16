@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tools &#8212; The Executable Book Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Updates" href="updates/index.html" />
+    <link rel="prev" title="About the EBP" href="about.html" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Put requirejs at the end so it's always after bootstrap -->
+<!-- TODO: remove this once https://github.com/pandas-dev/pydata-sphinx-theme/pull/149 is merged -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">The Executable Book Project</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="about.html">About the EBP</a>
+  </li>
+  <li class="active">
+    <a href="">Tools</a>
+  </li>
+  <li class="">
+    <a href="updates/index.html">Updates</a>
+  </li>
+  <li class="">
+    <a href="examples.html">Examples</a>
+  </li>
+</ul>
+</nav>
+<p class="sidebar_footer">Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-5 bd-content overflow-auto" role="main">
+    
+    
+      <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col topbar-main">
+        <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"><i class="fas fa-download"></i><span class="dropdown-trigger-text">Download</span></button>
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/tools.md.txt"><button type="button" class="btn btn-secondary topbarbtn">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" onClick="window.print()">.pdf</button>
+            </div>
+        </div>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#myst-markedly-structured-text" class="nav-link">MyST - Markedly Structured Text</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#myst-nb" class="nav-link">MyST-NB</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#jupyter-cache" class="nav-link">Jupyter Cache</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 col-xxl-7">
+        
+              <div>
+                
+  <div class="section" id="tools">
+<h1>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h1>
+<p>There are several major tools that we have developed, or are contributing to,
+as a part of this project. This page describes a few major components.</p>
+<div class="section" id="myst-markedly-structured-text">
+<h2>MyST - Markedly Structured Text<a class="headerlink" href="#myst-markedly-structured-text" title="Permalink to this headline">¶</a></h2>
+<p>(<a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/">link to documentation</a>)</p>
+<p>MyST is an attempt to combine the simplicity and readability of Markdown with
+the power and flexibility of reStructuredText, along with the Sphinx platform. It
+starts with the CommonMark markdown specification, and selectively adds a few
+extra syntax pieces to utilize the most powerful parts of reStructuredText.</p>
+<p>The <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/">MyST Sphinx parser</a>
+allows users to write their entire documentation in
+markdown, while utilizing all of the main features of Sphinx.</p>
+</div>
+<div class="section" id="myst-nb">
+<h2>MyST-NB<a class="headerlink" href="#myst-nb" title="Permalink to this headline">¶</a></h2>
+<p>(<a class="reference external" href="https://myst-nb.readthedocs.io/">link to documentation</a>)</p>
+<p>MyST-NB allows users to parse Jupyter Notebooks directly into their Sphinx
+documentation, utilizing the MyST Sphinx parser under the hood. This allows
+readers to leverage the MyST syntax in markdown cells in order to build
+<em>computational documentation</em> that builds on the Jupyter ecosystem. It is also
+a collection of tools for controlling the output behavior of notebooks in
+Sphinx documentation, and a text-based representation of Jupyter Notebooks
+using pure markdown.</p>
+</div>
+<div class="section" id="jupyter-cache">
+<h2>Jupyter Cache<a class="headerlink" href="#jupyter-cache" title="Permalink to this headline">¶</a></h2>
+<p>(<a class="reference external" href="https://github.com/executablebookproject/jupyter-cache">link to repository</a>)</p>
+<p>Jupyter Cache is a lightweight tool for executing and cacheing
+collections of Jupyter Notebooks (or text-based versions of those notebooks).
+It allows users to store the outputs generated by running notebooks, to cache
+these results, and then to selectively update the cache as-needed when
+content is changed.</p>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="about.html" title="previous page">About the EBP</a>
+    <a class='right-next' id="next-link" href="updates/index.html" title="next page">Updates</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright .<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
+    </p>
+  </div>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>
