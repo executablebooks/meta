@@ -1,2 +1,2 @@
+myst-parser
 git+git://github.com/ExecutableBookProject/sphinx-book-theme.git#egg=master
-git+git://github.com/ExecutableBookProject/myst-parser.git#egg=master
