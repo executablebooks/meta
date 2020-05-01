@@ -1,3 +1,4 @@
 myst-parser
 myst-nb
-git+git://github.com/ExecutableBookProject/sphinx-book-theme.git#egg=master
+sphinx-book-theme
+sphinx-panels
