@@ -1,7 +1,7 @@
 # The Executable Book Project
 
 This is the public-facing site for
-[ExecutableBookProject](https://github.com/ExecutableBookProject), an international
+[ExecutableBookProject](https://github.com/executablebooks), an international
 collaboration to build open source tools that facilitate publishing
 computational narratives using the Jupyter ecosystem.
 
