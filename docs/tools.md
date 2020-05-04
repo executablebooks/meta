@@ -30,7 +30,7 @@ using pure markdown.
 
 ## Jupyter Cache
 
-([link to repository](https://github.com/executablebookproject/jupyter-cache))
+([link to repository](https://jupyter-cache.readthedocs.io/en/latest/))
 
 Jupyter Cache is a lightweight tool for executing and cacheing
 collections of Jupyter Notebooks (or text-based versions of those notebooks).
