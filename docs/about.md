@@ -9,3 +9,10 @@ represent many open source projects in the scientific community, specifically
 [QuantEcon](https://quantecon.org), [QIIME](https://qiime2.org/), and [The Jupyter Project](https://jupyter.org/).
 
 This project is funded by a grant from the [Alfred P. Sloan Foundation](https://sloan.org/).
+
+## Code of Conduct
+
+The Executable Book Project follows the Project Jupter
+[Code of Conduct](https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md).
+Please use that document as the source of truth for interacting with the EBP
+community.
