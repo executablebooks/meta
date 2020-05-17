@@ -29,6 +29,8 @@ and data science communities to be able to do the following:
   users should not have to know anything about Sphinx, caching, etc. A simple
   user interface will hide most of the complexity of this process.
 
+See the [tools section](tools) for a few examples of the tools we've created
+as a part of this project.
 
 ## Our principles and constraints
 
