@@ -51,3 +51,11 @@ html_logo = "_static/logo.png"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+
+# -- Custom scripts ----------------------------------------------------------
+
+from subprocess import run
+from pathlib import Path
+
+run(f"python {Path(__file__).parent.joinpath('update_team.py')}".split())

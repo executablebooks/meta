@@ -68,6 +68,7 @@ on and our plans for what's coming next.
 ```{toctree}
 about.md
 tools.md
+team.md
 updates/index.md
 examples.md
 ```
