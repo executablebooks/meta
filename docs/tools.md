@@ -56,7 +56,7 @@ MyST has the following main features:
   as line commenting and footnotes.
 * **[A Sphinx-independent parser of MyST markdown](https://myst-parser.readthedocs.io/en/latest/using/use_api.html)** that can be extended
   to add new functionality and outputs for MyST.
-* **[A superset of CommonMark markdown][https://commonmark.org/]**. Any CommonMark markdown
+* **[A superset of CommonMark markdown](https://commonmark.org/)**. Any CommonMark markdown
   (such as Jupyter Notebook markdown) is natively supported by the MyST parser.
 
 ## MyST-NB
