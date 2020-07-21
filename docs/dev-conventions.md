@@ -157,7 +157,7 @@ A commit:
 
 Repositories should follow the following convention (where possible):
 
-```markdown
+```md
 <EMOJI> <KEYWORD>: Summarize changes in 72 characters or less
 
 More detailed explanatory text, if necessary.
