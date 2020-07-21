@@ -1,11 +1,17 @@
+(dev)=
+
 # Development Conventions
 
 This page outlines conventions and best practices for development and maintenance across all repositories in the EBP organisation.
+
+(dev/code_style)=
 
 ## Coding Style
 
 Coding style is largely enforced automatically, using [pre-commit hooks](https://pre-commit.com/).
 For Python packages, the pre-commit should include automated code formatting *via* [Black](https://black.readthedocs.io/) and code linting *via* [flake8](https://flake8.pycqa.org).
+
+(dev/testing)=
 
 ## Testing
 
@@ -21,6 +27,8 @@ Testing philosophy:
 
 For Python packages, the test infrastructure should be implemented *via* [pytest](https://docs.pytest.org).
 
+(dev/branches)=
+
 ## Git Branches
 
 Repositories should use the `main` branch as their primary branch.
@@ -34,6 +42,8 @@ It is also advised to name branches by the convention:
 
 - fix/\<issue number\>/\<description\>, e.g. `fix/123/func-error`
 - feature/\<description\>, e.g. `feature/new-options`
+
+(dev/pr_reviews)=
 
 ## Pull Request Reviews
 
@@ -135,6 +145,8 @@ There are three ways of 'merging' pull requests on GitHub:
 
 For the latter two, it is recommend that the merger do (if it is their PR) or at ask the contributor to perform an [interactive rebase]( https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history). At this point you can squash consecutive commits together (using "fixup") and also rewrite commit messages (using "reword") to create a compliant history.
 
+(dev/commits)=
+
 ## Commit Messages
 
 A commit:
@@ -179,6 +191,8 @@ Keywords/emojis are adapted from [Emoji-Log](https://github.com/ahmadawais/Emoji
 - `🔀 MERGE:` (`:twisted_rightwards_arrows:`) — for a merge commit (then all commits within the merge should be categorised)
 - `❓ OTHER:` (`:question:`) — anything not covered above (use as a last resort!).
 
+(dev/releases)=
+
 ## Releases and Change-logs
 
 Releases should be made *via* [GitHub Releases](https://docs.github.com/en/enterprise/2.13/user/articles/creating-releases), from the `master` branch and using [semantic versioning](https://semver.org/) for tags, e.g. `v1.2.1`.
@@ -194,6 +208,8 @@ The change-log should be easy for users and developers to understand the key cha
 - Documented: DOCS
 
 (other categories are not necessary for the changelog)
+
+(dev/deprecations)=
 
 ## Deprecations
 
