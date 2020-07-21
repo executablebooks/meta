@@ -158,7 +158,7 @@ A commit:
 Repositories should follow the following convention (where possible):
 
 ```md
-<EMOJI> <KEYWORD>: Summarize changes in 72 characters or less
+<EMOJI> <KEYWORD>: Summarize changes in 72 characters or less (#<PR number>)
 
 More detailed explanatory text, if necessary.
 The blank line separating the summary from the body is
