@@ -31,12 +31,12 @@ For Python packages, the test infrastructure should be implemented *via* [pytest
 
 ## Git Branches
 
-Repositories should use the `main` branch as their primary branch.
+Repositories should use the `master` branch as their primary branch.
 Then additions to this branch should follow these simple concepts:
 
 - Use feature branches for all new features and bug fixes.
-- Merge feature branches into the main branch using pull requests.
-- Keep a high quality, up-to-date main branch.
+- Merge feature branches into the master branch using pull requests.
+- Keep a high quality, up-to-date master branch.
 
 It is also advised to name branches by the convention:
 
