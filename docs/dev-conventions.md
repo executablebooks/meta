@@ -122,6 +122,8 @@ Do they make simple and useful assertions?
 
 - Does the contribution follow generic coding style (mostly enforced automatically)?
 
+(dev/merge_pr)=
+
 ## Merging Pull Requests
 
 A pull request
