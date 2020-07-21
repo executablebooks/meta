@@ -175,7 +175,7 @@ concepts that might change in the future.
 There is no need to mention you also added unit tests when adding a new feature. The code diff already makes this clear.
 ```
 
-Keywords/emojis are adapted from [Emoji-Log](https://github.com/ahmadawais/Emoji-Log) and [gitmoji](https://github.com/carloscuesta/gitmoji) and should be one of the following (brackets contain [GitHub emoji markup](https://gist.github.com/rxaviers/7360908)):
+Keywords/emojis are adapted from [Emoji-Log](https://github.com/ahmadawais/Emoji-Log) and [gitmoji](https://github.com/carloscuesta/gitmoji) and should be one of the following (brackets contain [GitHub emoji markup](https://gist.github.com/rxaviers/7360908) for reference):
 
 - `✨  NEW:` (`:sparkles:`) — to introduce a new feature(s).
 - `👌 IMPROVE:` (`:ok_hand:`) — to improve an existing code/feature (with no breaking changes).
