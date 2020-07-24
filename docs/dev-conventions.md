@@ -233,12 +233,12 @@ There is no need to mention you also added unit tests when adding a new feature.
 
 Keywords/emojis are adapted from [Emoji-Log](https://github.com/ahmadawais/Emoji-Log) and [gitmoji](https://github.com/carloscuesta/gitmoji) and should be one of the following (brackets contain [GitHub emoji markup](https://gist.github.com/rxaviers/7360908) for reference):
 
+- `‼️ BREAKING:` (`:bangbang:`) — to introduce a back-incompatible change(s) (and/or remove deprecated code).
 - `✨  NEW:` (`:sparkles:`) — to introduce a new feature(s).
 - `👌 IMPROVE:` (`:ok_hand:`) — to improve an existing code/feature (with no breaking changes).
 - `🐛 FIX:` (`:bug:`) — to fix a code bug.
 - `📖  DOCS:` (`:book:`) — to add new documentation.
 - `✏️ REWRITE:` (`:pencil2:`) — to apply fixes (like correcting typos) to existing documentation.
-- `‼️ BREAKING:` (`:bangbang:`) — to introduce a breaking change (and removing deprecated code).
 - `🧪  TEST:` (`:testube:`) — to add additional testing only.
 - `🚀 RELEASE:` (`:rocket:`) — to bump the package version for release.
 - `⬆️ UPGRADE:` (`:arrow_up:`) — for upgrading a dependency pinning.
@@ -246,6 +246,8 @@ Keywords/emojis are adapted from [Emoji-Log](https://github.com/ahmadawais/Emoji
 - `🗑️ DEPRECATE:` (`:wastebasket:`) — mark some code as deprecated (for removal in a later release). The future version when it will be removed should also be specified, and (if applicable) what will replace it.
 - `🔀 MERGE:` (`:twisted_rightwards_arrows:`) — for a merge commit (then all commits within the merge should be categorised)
 - `❓ OTHER:` (`:question:`) — anything not covered above (use as a last resort!).
+
+This list is loosely in order of priority, e.g. a commit that is both a bug fix and back-incompatible should be categorised as `BREAKING` not `FIX`.
 
 (dev/releases)=
 
