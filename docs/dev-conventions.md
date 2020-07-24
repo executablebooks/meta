@@ -27,12 +27,64 @@ Testing philosophy:
 
 For Python packages, the test infrastructure should be implemented *via* [pytest](https://docs.pytest.org).
 
+(dev/docs)=
+
+## Documentation
+
+A minimal description of the project should be contained in the README.md, then most documentation should generally be contained in a `docs` folder, using [Sphinx](http://www.sphinx-doc.org) (directly or *via* jupyter book) as the documentation generator.
+
+When writing documentation authors should adhere to the following guidelines:
+
+1. Write **one sentence per line** and otherwise **no manual line wrapping** to make easy to create and review  diffs. All standard editors allow for dynamic line wrapping, and the line length is irrelevant for the rendered documentation in, e.g., HTML or PDF format.
+2. **File and directory names should be alphanumeric** and all lower-case with underscores as word-separators. Example: `entry_points.md`
+3. **Headers must be set in sentence-case**. Example: "Entry points"
+4. Separate paragraphs by one empty line, but not more.
+5. Use the `-` symbol for itemized lists.
+6. Correctly prefix code fences/[code-block directives](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-code-block) to indicate their usage, e.g.
+
+- Bash shell scripts should use `bash`
+
+  ````md
+  ```bash
+  echo "hi"
+  ```
+  ````
+
+- Bash shell **sessions** (i.e. interactive) should use `console`
+
+  ````md
+  ```console
+  $ echo "hi"
+  ```
+  ````
+
+  Use ``#`` instead of ``$`` to indicate a root prompt.
+
+- Python scripts should use `python`
+  
+  ````md
+  ```python
+  print("hi")
+  ```
+  ````
+
+- Python sessions (e.g. *via* `ipython`) should use `ipython`
+  
+  ````md
+  ```ipython
+  In  [1]: print("hi")
+  Out [1]: "hi"
+  ```
+  ````
+
 (dev/branches)=
 
 ## Git Branches
 
 Repositories should use the `master` branch as their primary branch.
-Then additions to this branch should follow these simple concepts:
+This branch should be "protected" on GitHub and require PR reviews and status checks before merging (see [GitHub branch configuration](https://docs.github.com/en/github/administering-a-repository/configuring-protected-branches)).
+
+Additions to the `master` branch should follow these simple concepts:
 
 - Use feature branches for all new features and bug fixes.
 - Merge feature branches into the master branch using pull requests.
@@ -197,7 +249,8 @@ Keywords/emojis are adapted from [Emoji-Log](https://github.com/ahmadawais/Emoji
 
 ## Releases and Change-logs
 
-Releases should be made *via* [GitHub Releases](https://docs.github.com/en/enterprise/2.13/user/articles/creating-releases), from the `master` branch and using [semantic versioning](https://semver.org/) for tags, e.g. `v1.2.1`.
+Releases should be made *via* [GitHub Releases](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository), from the `master` branch and using [semantic versioning](https://semver.org/) for tags, e.g. `v1.2.1`, **for versions above 1.0.0**.
+For versions below 1.0.0, it is understood that breaking changes are more frequent (i.e. the repo is in beta), and so semantic versioning is relaxed such that MINOR version changes also signify backward incompatible releases.
 Package releases to e.g. PyPi should then be automated *via* GitHub Actions.
 
 The change-log should be easy for users and developers to understand the key changes, and should mirror the commits categories described above, with the following sub-headings:
