@@ -115,6 +115,8 @@ To improve understanding of pull requests "at a glance", the use of several stan
 
 You can also combine the tags above, for example if you are updating both a test and the documentation: **[TST, DOC]**.
 
+PRs should also usually look to respond to one or more open issues. You can link a pull request to an issue to show that a fix is in progress and to automatically close the issue when the pull request is merged; see [Linking a pull request to an issue](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
+
 If your pull request is not yet ready to be merged, please open your pull request as a draft.
 More information about doing this is [available in GitHub's documentation](https://help.github.com/articles/about-pull-requests/#draft-pull-requests).
 This tells the development team that the pull request is a "work-in-progress", and that you plan to continue working on it.
