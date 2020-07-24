@@ -97,6 +97,30 @@ It is also advised to name branches by the convention:
 - fix/\<issue number\>/\<description\>, e.g. `fix/123/func-error`
 - feature/\<description\>, e.g. `feature/new-options`
 
+(dev/pr_open)=
+
+## Opening a Pull Request
+
+Pull requests should be submitted to `master` early and often!
+
+To improve understanding of pull requests "at a glance", the use of several standardized title prefixes is encouraged:
+
+- **[BRK]** for changes which break existing builds or tests
+- **[DOC]** for new or updated documentation
+- **[ENH]** for enhancements
+- **[FIX]** for bug fixes
+- **[REF]** for refactoring existing code
+- **[STY]** for stylistic changes
+- **[TST]** for new or updated tests, and
+
+You can also combine the tags above, for example if you are updating both a test and the documentation: **[TST, DOC]**.
+
+If your pull request is not yet ready to be merged, please open your pull request as a draft.
+More information about doing this is [available in GitHub's documentation](https://help.github.com/articles/about-pull-requests/#draft-pull-requests).
+This tells the development team that the pull request is a "work-in-progress", and that you plan to continue working on it.
+
+When your pull request is "Ready for Review", you can select this option on the PR's page, which will notify project maintainers to review your proposed changes.
+
 (dev/pr_reviews)=
 
 ## Pull Request Reviews
