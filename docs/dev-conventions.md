@@ -33,7 +33,9 @@ For Python packages, the test infrastructure should be implemented *via* [pytest
 
 A minimal description of the project should be contained in the README.md, then most documentation should generally be contained in a `docs` folder, using [Sphinx](http://www.sphinx-doc.org) (directly or *via* jupyter book) as the documentation generator.
 
-When writing documentation authors should adhere to the following guidelines:
+Markdown style should generally follow that rules outlined [markdownlint](https://github.com/markdownlint/markdownlint) and rST should similarly follow [rstcheck](https://github.com/myint/rstcheck), either of which may be added to the pre-commit configuration.
+
+In addition, when writing documentation authors should adhere to the following guidelines:
 
 1. Write **one sentence per line** and otherwise **no manual line wrapping** to make easy to create and review  diffs. All standard editors allow for dynamic line wrapping, and the line length is irrelevant for the rendered documentation in, e.g., HTML or PDF format.
 2. **File and directory names should be alphanumeric** and all lower-case with underscores as word-separators. Example: `entry_points.md`
@@ -279,4 +281,4 @@ def deprecated(message):
 
 Ideally these should be added one or two major versions before they are actually removed from the code base. The future version when they will be removed should also be specified, and (if applicable) what it will be replaced by.
 
-Where possible also, a list of deprecations should be maintained, such as: https://www.sphinx-doc.org/en/master/extdev/deprecated.html
+Where possible also, a list of deprecations should be maintained, such as: <https://www.sphinx-doc.org/en/master/extdev/deprecated.html>
