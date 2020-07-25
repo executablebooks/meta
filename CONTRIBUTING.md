@@ -332,7 +332,7 @@ Below is the full workflow for creating a release:
 
 ## Deprecations
 
-Intended deprecations of APIs (functions, classes, etc) should be signalled in the changelog and in the code, e.g. using the [Sphinx deprecated directive](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-deprecated) and/or [DeprecationWarning](https://docs.python.org/3/library/exceptions.html#DeprecationWarning) in Python packages:
+After the repository has moved out of beta development (i.e. is at version >= 1.0.0), intended deprecations of APIs (functions, classes, etc) should be signalled in the changelog and in the code, e.g. using the [Sphinx deprecated directive](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-deprecated) and/or [DeprecationWarning](https://docs.python.org/3/library/exceptions.html#DeprecationWarning) in Python packages:
 
 ```python
 import warnings
