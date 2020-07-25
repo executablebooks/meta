@@ -313,7 +313,12 @@ The change-log should be easy for users and developers to understand the key cha
 
 Sub-headings with no content can be skipped and commits by contributors should be given attrition (e.g. ", thanks to @chrisjsewell").
 
-Package releases (e.g. to PyPi or npm) should be automated *via* GitHub Action workflows, triggered on tag creation.
+Package releases should be automated *via* GitHub Action workflows, triggered on tag creation. For examples see:
+
+- <https://github.com/pypa/gh-action-pypi-publish>
+- <https://github.com/pascalgn/npm-publish-action>
+
+Use the [needs key](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idneeds) to ensure these actions runs only after pre-commit and unit tests have successfully passed.
 
 ### The process of creating a release
 
