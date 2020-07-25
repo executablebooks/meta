@@ -284,18 +284,41 @@ This list is loosely in order of priority, e.g. a commit that is both a bug fix 
 
 Releases should be made *via* [GitHub Releases](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository), from the `master` branch and using [semantic versioning](https://semver.org/) for tags, e.g. `v1.2.1`, **for versions above 1.0.0**.
 For versions below 1.0.0, it is understood that breaking changes are more frequent (i.e. the repo is in beta), and so semantic versioning is relaxed such that MINOR version changes also signify backward incompatible releases.
-Package releases to e.g. PyPi should then be automated *via* GitHub Actions.
 
-The change-log should be easy for users and developers to understand the key changes, and should mirror the commits categories described above, with the following sub-headings:
+The change-log should be easy for users and developers to understand the key changes (as [discussed here](https://keepachangelog.com/)), and should mirror the commits categories described above, with the following format:
 
-- Added: NEW
-- Improved: IMPROVE
-- Fixed: FIX
-- Breaking:  BREAKING + UPGRADE
-- Deprecated: DEPRECATE
-- Documented: DOCS
+```md
+## 1.1.0 - 2020-06-25
 
-(other categories are not necessary for the changelog)
+### Added
+- List of `NEW` commits
+
+### Improved
+- List of `IMPROVE` commits
+
+### Fixed
+- List of `FIX` commits
+
+### Breaking
+- List of `BREAKING` and `UPGRADE` commits
+
+### Deprecated
+- List of `DEPRECATE` commits
+
+### Documented
+- List of `DOCS` commits
+
+```
+
+Sub-headings with no content can be skipped and commits by contributors should be given attrition (e.g. ", thanks to @chrisjsewell").
+
+Package releases (e.g. to PyPi or npm) should be automated *via* GitHub Action workflows, triggered on tag creation.
+
+The full workflow would then be:
+
+- Make a release commit `🚀 RELEASE: ...` on `master` (*via* PR) which bumps the version to `M.m.p` (e.g. changing `__version__` for python packages) and adds a section to `CHANGELOG.md` in the format above.
+- Create a GitHub release for that commit, with tag `vM.m.p`, heading `Version M.m.p` (optionally including the changelog section in the body).
+- Check that automated release workflows complete successfully.
 
 (dev/deprecations)=
 
