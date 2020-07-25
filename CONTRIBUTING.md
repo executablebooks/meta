@@ -36,7 +36,7 @@ For Python packages, the test infrastructure should be implemented *via* [pytest
 
 A minimal description of the project should be contained in the README.md, then most documentation should generally be contained in a `docs` folder, using [Sphinx](http://www.sphinx-doc.org) (directly or *via* jupyter book) as the documentation generator.
 
-Markdown style should generally follow that rules outlined [markdownlint](https://github.com/markdownlint/markdownlint) and rST should similarly follow [rstcheck](https://github.com/myint/rstcheck), either of which may be added to the pre-commit configuration.
+Markdown style should generally follow that rules outlined in [markdownlint](https://github.com/markdownlint/markdownlint) and rST should similarly follow [rstcheck](https://github.com/myint/rstcheck), either of which may be added to the pre-commit configuration.
 
 In addition, when writing documentation authors should adhere to the following guidelines:
 
@@ -314,7 +314,9 @@ Sub-headings with no content can be skipped and commits by contributors should b
 
 Package releases (e.g. to PyPi or npm) should be automated *via* GitHub Action workflows, triggered on tag creation.
 
-The full workflow would then be:
+### The process of creating a release
+
+Below is the full workflow for creating a release:
 
 - Make a release commit `🚀 RELEASE: ...` on `master` (*via* PR) which bumps the version to `M.m.p` (e.g. changing `__version__` for python packages) and adds a section to `CHANGELOG.md` in the format above.
 - Create a GitHub release for that commit, with tag `vM.m.p`, heading `Version M.m.p` (optionally including the changelog section in the body).
