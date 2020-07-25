@@ -1,8 +1,11 @@
-(dev)=
-
 # Development Conventions
 
-This page outlines conventions and best practices for development and maintenance across all repositories in the EBP organisation.
+Welcome to the Executable Book Project (EBP)!
+We're excited you're here and want to contribute.
+
+This page outlines conventions and best practices for development and maintenance across all repositories in the EBP organisation, to help the community make the best tools possible.
+
+Thank you for you interest in contributing ✨
 
 (dev/code_style)=
 
