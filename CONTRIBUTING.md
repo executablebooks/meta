@@ -211,12 +211,13 @@ Do they make simple and useful assertions?
 
 A pull request
 
-- should be opened only once you consider it ready for review.
+- Should be opened only once you consider it ready for review.
    Each time you push a commit to a branch with an open PR, it triggers a CI build, eating up the quota of the organization.
-- can consist of one or multiple commits.
+- Can consist of one or multiple commits.
    Before you open a PR, make sure to clean up your commit history and create the commits that you think best divide up the total work as outlined above (use `git rebase` and `git commit --amend`).
 
-There are three ways of 'merging' pull requests on GitHub:
+There are three ways of 'merging' pull requests on GitHub.
+**Squash and merge** is the favoured method, applicable to the majority of PRs, but there are some use cases where the other two apply:
 
 - **Squash and merge**: take all commits, squash them into a single one and put it on top of the base branch.
   - Choose this by default for pull requests that address a single issue and are well represented by a single commit.
