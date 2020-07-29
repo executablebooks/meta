@@ -70,6 +70,5 @@ about.md
 tools.md
 team.md
 updates/index.md
-dev-conventions.md
 examples.md
 ```
