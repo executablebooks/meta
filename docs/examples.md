@@ -10,7 +10,7 @@ Below are examples of books that have been generated with the EBP toolchain.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ![](https://jupyterbook.org/_static/logo.png)
 
-...
+---
 [QuantEcon](https://executablebooks.github.io/quantecon-example/docs/index.html)
 ^^^^^^^^^
 ![](https://executablebooks.github.io/quantecon-example/_static/qe-logo-large.png)

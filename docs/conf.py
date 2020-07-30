@@ -57,5 +57,11 @@ html_static_path = ["_static"]
 
 from subprocess import run
 from pathlib import Path
+import requests
 
+# Update the team page from github membership
 run(f"python {Path(__file__).parent.joinpath('update_team.py')}".split())
+# Grab the latest contributing docs
+url_contributing = "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
+resp = requests.get(url_contributing, allow_redirects=True)
+Path('contributing.md').write_bytes(resp.content)
