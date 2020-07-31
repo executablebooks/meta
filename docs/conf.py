@@ -10,10 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
+import os
+from sphinx.util import logging
+logger = logging.getLogger(__name__)
 
 # -- Project information -----------------------------------------------------
 
@@ -52,6 +51,12 @@ html_logo = "_static/logo.png"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 templates_path = ["_templates"]
+auth_token = os.getenv("GITHUB_AUTH_TOKEN")
+if not auth_token:
+    logger.warning("No 'GITHUB_AUTH_TOKEN' environmental variable set")
+html_context = {
+    "github_auth_token": auth_token
+}
 
 
 # -- Custom scripts ----------------------------------------------------------

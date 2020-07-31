@@ -174,7 +174,7 @@
         ],
     });
 
-    const token = "7bd4b12eef0873394aad4d57bb9b537253b12a8d"
+    const token = "{{ github_auth_token }}"
 
     for (repo of ["jupyter-book", "MyST-Parser", "MyST-NB", "markdown-it-py"]) {
         fetchIssues(token, repo)
