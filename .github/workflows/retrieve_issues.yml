@@ -1,0 +1,32 @@
+name: 'retrieve-issues'
+
+on:
+  schedule:
+    # every hour (at minute zero)
+    - cron: '0 * * * *'
+
+jobs:
+  graphql:
+    runs-on: ubuntu-latest
+    steps:
+
+    # Clone repository
+    - uses: actions/checkout@v2
+
+    # use python
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    # query graphql
+    - name: query github
+      run: .github/workflows/retrieve-issues.py issues.json
+      env:
+        GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # - Upload artifact to pre-release tag
+    - uses: eine/tip@master
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        files: |
+          issues.json
