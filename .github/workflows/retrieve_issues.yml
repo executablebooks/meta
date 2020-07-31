@@ -5,7 +5,7 @@ on:
     branches: [master]
   schedule:
     # every x minutes
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   graphql:

@@ -7,6 +7,6 @@ You can help us to prioritise development of new features by leaving a [👍 rea
 Below is a list of all current enhancement issues from our core repositories,[^a] ordered by 👍
 Click the `+` to see more details.
 
-[^a]: The data in this table is updated every 30 minutes.
+[^a]: The data in this table is updated every hour.
 
 <div id='feature-table'></div>
