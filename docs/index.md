@@ -8,7 +8,7 @@ computational narratives using the Jupyter ecosystem.
 ## The EBP's technical goals
 
 The goal of the EBP is to build tools that facilitate creating
-professional computational narratives (books, lecture series, articles, etc.) 
+professional computational narratives (books, lecture series, articles, etc.)
 using open source tools. We want users in the scientific, academic,
 and data science communities to be able to do the following:
 
@@ -16,7 +16,7 @@ and data science communities to be able to do the following:
   These files include rich content - outputs from running code, references
   and cross-references, equations, etc.
 * **Execute content and cache the results**. Intelligent caching means
-  that only modified code cells are re-run. 
+  that only modified code cells are re-run.
 * **Combine cached outputs with content files with a document model**. Using
   the excellent [Sphinx](https://www.sphinx-doc.org/en/master/) documentation
   stack, documents can include many features for publishing, such as
@@ -68,6 +68,7 @@ on and our plans for what's coming next.
 ```{toctree}
 about.md
 tools.md
+contributing.md
 team.md
 updates/index.md
 feature-vote.md
