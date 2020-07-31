@@ -4,8 +4,8 @@ on:
   push:
     branches: [master]
   schedule:
-    # every 45 minutes
-    - cron: '*/45 * * * *'
+    # every x minutes
+    - cron: '*/30 * * * *'
 
 jobs:
   graphql:

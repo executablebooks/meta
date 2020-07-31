@@ -35,6 +35,7 @@ query {{
 
 
 def run_query(query: str, token: str = None):
+    """See https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql"""
     headers = {
         "Authorization": f"Bearer {token or os.environ['GITHUB_AUTH_TOKEN']}",
         "Content-Type": "application/json",
@@ -54,6 +55,7 @@ def run_query(query: str, token: str = None):
 
 
 def fetch_issue_chunk(cursor, repo_name, org_name, label, token=None):
+    """Get chunk of up to 100 issues (max for each request)."""
     query = QUERY_TEMPLATE.format(
         org_name=org_name,
         repo_name=repo_name,
@@ -110,7 +112,7 @@ def create_issues_json(path):
     issues = sorted(issues, key=lambda i: i["votes"], reverse=True)
 
     with open(path, "w") as handle:
-        json.dump(issues, handle, indent=2)
+        json.dump(issues, handle)
 
 
 if __name__ == "__main__":

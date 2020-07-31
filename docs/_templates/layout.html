@@ -13,105 +13,11 @@
 
 {% if "feature-vote" in sourcename %}
 <script>
-    /* 
-    Get chunk of up to 100 issues (max for each request)
-    
-    authToken See https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql 
-    cursor Where to start fetching issues from
-    */
-    async function fetchIssueChunk(authToken, cursor, repoName, orgName = "executablebooks", label = "enhancement", url = "https://api.github.com/graphql") {
-        after = (cursor !== null) ? `, after: "${cursor}"` : ""
-        query = `query {
-  repository(owner: "${orgName}", name: "${repoName}") {
-    name
-    issues(first: 100 ${after}, states:OPEN, labels:["${label}"], orderBy: {field: CREATED_AT, direction: ASC}) {
-      edges {
-        node {
-          number
-          url
-          title
-          author{login, url}
-          reactions(content: THUMBS_UP) {
-            totalCount
-          }
-          bodyHTML
-        }
-      }
-      pageInfo {
-        endCursor
-        hasNextPage
-      }
-    }
-  }
-}
-`;
-        const opts = {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json',
-                'Authorization': `Bearer ${authToken}`
-            },
-            body: JSON.stringify({
-                query
-            })
-        };
-        let response = await fetch(url, opts)
-        let data = await response.json()
-        /* format issue data */
-        const issues = data.data.repository.issues.edges.map(i => {
-            return {
-                "repo": repoName,
-                "title": i.node.title,
-                "number": i.node.number,
-                "url": i.node.url,
-                "author": `<a href="${i.node.author.url}">${i.node.author.login}</a>`,
-                "body": i.node.bodyHTML,
-                "votes": i.node.reactions.totalCount
-            }
-        })
-        return {
-            issues,
-            "hasNextPage": data.data.repository.issues.pageInfo.hasNextPage,
-            "endCursor": data.data.repository.issues.pageInfo.hasNextPage
-        }
-    }
-
-    async function fetchIssues(authToken, repoName, orgName = "executablebooks", label = "enhancement", url = "https://api.github.com/graphql", cache = true) {
-
-        if (cache && sessionStorage.getItem(`issues-${orgName}-${repoName}-${label}`)) {
-            return JSON.parse(sessionStorage.getItem(`issues-${orgName}-${repoName}-${label}`))
-        }
-
-        const issues = []
-        var morePages = true
-        var requests = 0 /* avoid infinite loops */
-        var cursor = null
-        var data
-
-        while (morePages && requests < 99) {
-
-            data = await fetchIssueChunk(authToken, cursor, repoName, orgName, label, url);
-            issues.push(...data.issues)
-            cursor = data.endCursor
-            morePages = data.hasNextPage
-            requests += 1
-        }
-
-        if (cache) {
-            sessionStorage.setItem(`issues-${orgName}-${repoName}-${label}`, JSON.stringify(issues))
-        }
-
-        /* sort descending votes */
-        return issues.sort(function (a, b) {
-            return b.votes - a.votes
-        });
-    }
-
     /* See http://tabulator.info/docs/4.7/quickstart */
     var table = new Tabulator("#feature-table", {
         height: 1000, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
-        data: [], //assign data to table
+        // placeholder: "Loading Data...",
+        ajaxURL: "https://cors-anywhere.herokuapp.com/https://github.com/executablebooks/meta/releases/download/issues/issues.json",
         layout: "fitDataFill",
         responsiveLayout: "collapse", // collapse columns that no longer fit on the table into a list under the ro
         responsiveLayoutCollapseStartOpen: false,
@@ -173,18 +79,8 @@
             },
         ],
     });
+    table.setSort("votes", "desc");
 
-    const token = "{{ github_auth_token }}"
-
-    for (repo of ["jupyter-book", "MyST-Parser", "MyST-NB", "markdown-it-py"]) {
-        fetchIssues(token, repo)
-            .then(
-                issues => {
-                    table.addData(issues);
-                    table.setSort("votes", "desc");
-                })
-            .catch(console.error);
-    }
 </script>
 {% endif %}
 
