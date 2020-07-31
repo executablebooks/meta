@@ -22,7 +22,7 @@ jobs:
     - name: query github
       run: .github/workflows/retrieve-issues.py issues.json
       env:
-        GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_AUTH_TOKEN }}
+        GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # - Upload artifact to pre-release tag
     - uses: eine/tip@master
