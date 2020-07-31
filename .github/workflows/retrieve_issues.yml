@@ -3,7 +3,7 @@ name: 'retrieve-issues'
 on:
   schedule:
     # every 15 minutes
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   graphql:
@@ -17,6 +17,9 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.8'
+
+    - name: install requests
+      run: pip install requests
 
     # query graphql
     - name: query github
