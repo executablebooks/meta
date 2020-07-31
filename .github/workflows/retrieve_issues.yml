@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   schedule:
-    # every 15 minutes
+    # every 30 minutes
     - cron: '*/30 * * * *'
 
 jobs:
@@ -35,3 +35,5 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         files: |
           issues.json
+        rm: true
+        tag: issues
