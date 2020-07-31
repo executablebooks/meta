@@ -67,8 +67,13 @@
             },
             {
                 title: "Author",
-                field: "author",
-                formatter: "html",
+                formatter: "link",
+                field: "author_name",
+                formatterParams: {
+                    labelField: "author_name",
+                    urlField: "author_url",
+                    target: "_blank"
+                },
                 minWidth: 30
             },
             {
