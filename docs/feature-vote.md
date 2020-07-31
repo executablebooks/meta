@@ -9,4 +9,4 @@ Click the `+` to see more details.
 
 [^a]: The data in this table is updated every hour.
 
-<div id='feature-table' class="full-width"></div>
+<div id='feature-table' class='full-width'></div>
