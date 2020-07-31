@@ -2,8 +2,8 @@ name: 'retrieve-issues'
 
 on:
   schedule:
-    # every hour (at minute zero)
-    - cron: '0 * * * *'
+    # every hour (at minute 22)
+    - cron: '22 * * * *'
 
 jobs:
   graphql:
