@@ -71,5 +71,6 @@ tools.md
 contributing.md
 team.md
 updates/index.md
+feature-vote.md
 examples.md
 ```

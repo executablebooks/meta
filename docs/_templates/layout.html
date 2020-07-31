@@ -1,0 +1,92 @@
+{% extends "!layout.html" %}
+
+{%- block extrahead %}
+
+{% if "feature-vote" in sourcename %}
+<link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.7.2/dist/js/tabulator.min.js"></script>
+{% endif %}
+
+{% endblock %}
+
+{%- block footer %}
+
+{% if "feature-vote" in sourcename %}
+<script>
+    /* See http://tabulator.info/docs/4.7/quickstart */
+    var table = new Tabulator("#feature-table", {
+        height: 1000, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+        // placeholder: "Loading Data...",
+        ajaxURL: "https://cors-anywhere.herokuapp.com/https://github.com/executablebooks/meta/releases/download/issues/issues.json",
+        layout: "fitDataFill",
+        responsiveLayout: "collapse", // collapse columns that no longer fit on the table into a list under the ro
+        responsiveLayoutCollapseStartOpen: false,
+        resizableRows: true,
+        columns: [ //Define Table Columns
+            {
+                formatter: "responsiveCollapse",
+                width: 30,
+                minWidth: 30,
+                hozAlign: "center",
+                resizable: false,
+                headerSort: false,
+                responsive: 0 // never collapse
+            },
+            {
+                title: "ID",
+                formatter: "link",
+                field: "number",
+                formatterParams: {
+                    labelField: "number",
+                    urlField: "url",
+                    target: "_blank"
+                },
+                // width: 50,
+                minWidth: 20,
+                responsive: 0 // never collapse
+            },
+            {
+                title: "👍",
+                field: "votes",
+                // width: 50,
+                minWidth: 20,
+                responsive: 0 // never collapse
+            },
+            {
+                title: "Title",
+                field: "title",
+                headerFilter: "input",
+                minWidth: 50,
+                responsive: 0 // never collapse
+            },
+            {
+                title: "Repository",
+                field: "repo",
+                headerFilter: "input",
+                minWidth: 30
+            },
+            {
+                title: "Author",
+                formatter: "link",
+                field: "author_name",
+                formatterParams: {
+                    labelField: "author_name",
+                    urlField: "author_url",
+                    target: "_blank"
+                },
+                minWidth: 30
+            },
+            {
+                title: "Description",
+                field: "body",
+                formatter: "html",
+                minWidth: 9999, // always collapse
+            },
+        ],
+    });
+    table.setSort("votes", "desc");
+
+</script>
+{% endif %}
+
+{% endblock %}
