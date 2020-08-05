@@ -12,7 +12,7 @@ This project is funded by a grant from the [Alfred P. Sloan Foundation](https://
 
 ## Code of Conduct
 
-The Executable Book Project follows the Project Jupter
-[Code of Conduct](https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md).
+The Executable Book Project follows a community
+[Code of Conduct](https://github.com/executablebooks/.github/blob/master/CODE_OF_CONDUCT.md).
 Please use that document as the source of truth for interacting with the EBP
 community.
