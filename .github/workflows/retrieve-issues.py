@@ -105,7 +105,7 @@ def fetch_issues(
 def create_issues_json(path):
 
     issues = []
-    for repo_name in ["jupyter-book", "MyST-Parser", "MyST-NB", "markdown-it-py"]:
+    for repo_name in ["jupyter-book", "MyST-Parser", "MyST-NB", "markdown-it-py", "sphinx-book-theme"]:
         print("fetching:", repo_name)
         issues.extend(fetch_issues(repo_name))
 
