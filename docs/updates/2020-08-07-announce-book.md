@@ -85,7 +85,8 @@ You can also run Jupyter Book on **[individual pages](https://jupyterbook.org/st
 
 The biggest change under-the-hood is that Jupyter Book now uses [the Sphinx documentation engine](https://www.sphinx-doc.org/en/master/) instead of Jekyll for building books. By leveraging the Sphinx ecosystem, Jupyter Book can more effectively build on top of community tools, and can contribute components back to the broader community.
 
-Instead of being a single repository, the  old Jupyter Book repository has now been separated into several modular tools. **Each of these tools can be used on their own in your Sphinx documentation**, and they can be coordinated together via Jupyter Book:
+Instead of being a single repository, the old Jupyter Book repository has now been separated into several modular tools.
+**Each of these tools can be used on their own in your Sphinx documentation**, and they can be coordinated together *via* Jupyter Book:
 
 * **[The MyST markdown parser for Sphinx](https://myst-parser.readthedocs.io/en/latest/)** allows you to write fully-featured Sphinx documentation in Markdown.
 * **[MyST-NB](https://myst-nb.readthedocs.io/en/latest/)** is an `.ipynb` parser for Sphinx that allows you to use MyST Markdown in your notebooks. It also provides tools for execution, cacheing, and variable insertion of Jupyter Notebooks in Sphinx.
