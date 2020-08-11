@@ -13,7 +13,9 @@ This post is a short overview of the new features in Jupyter Book, and gives som
 
 You can also browse the [new Jupyter Book documentation](https://jupyterbook.org), or [check out the Jupyter Book GitHub repository](https://github.com/executablebooks/jupyter-book).
 
-**Note**: Jupyter Book is still in beta, so things are always changing. We'd love your feedback, ideas, and PRs for how to make the project better!
+```{note}
+Jupyter Book is still in beta, so things are always changing. We'd love your feedback, ideas, and PRs for how to make the project better!
+```
 
 ## What does the new Jupyter Book do?
 
@@ -105,4 +107,3 @@ If there are particular features you'd like to see, open an issue or give a 👍
 If you'd like to contribute to any of the projects listed in this post, you are highly encouraged to do so! The Executable Book Project (and thus Jupyter Book) is run as an open project that [welcomes contributions from others](https://executablebooks.org/en/latest/contributing.html).
 
 We are excited about all the new features and improvements in the new Jupyter Book, and look forward to seeing the new books that the community creates with this stack!
-
