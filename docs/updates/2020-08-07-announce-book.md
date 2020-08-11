@@ -75,7 +75,9 @@ An example build process. Here the `jupyter-book` command-line interface is used
 
 ### More book output types
 
-By leveraging Sphinx, Jupyter Book will be able to support more complex outputs than *just* an HTML website. For example, we are currently prototyping **[PDF Outputs](https://jupyterbook.org/advanced/pdf.html)**, both via HTML as well as via Latex. This gives Jupyter Book more flexibility to generate the right book for your usecase.
+By leveraging Sphinx, Jupyter Book will be able to support more complex outputs than *just* an HTML website.
+For example, we are currently prototyping **[PDF Outputs](https://jupyterbook.org/advanced/pdf.html)**, both via HTML as well as via LaTeX.
+This gives Jupyter Book more flexibility to generate the right book for your use case.
 
 You can also run Jupyter Book on **[individual pages](https://jupyterbook.org/start/build.html#build-a-standalone-page)**. This means that you can write single-page content (like a scientific article) entirely in Markdown.
 
