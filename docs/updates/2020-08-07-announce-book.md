@@ -2,7 +2,7 @@
 
 *Note: this announcement is cross-posted between the [Jupyter Blog](https://blog.jupyter.org) and the [Executable Book Project updates blog](https://executablebooks.org/en/latest/updates/index.html)*
 
-Jupyter Book is an open source project for building beautiful, publication-quality books and documents from computational material. With this post, we're happy to announce that Jupyter Book has been re-written from the ground up, making it easier to install, faster to use, and able to create more complex publishing content in your books. It is now supported by [the Executable Book Project](https://executablebooks.org/en/latest/), an open community that builds open source tools interactive and executable documents in the Jupyter ecosystem and beyond.
+Jupyter Book is an open source project for building beautiful, publication-quality books, websites, and documents from source material that contains computational content. With this post, we're happy to announce that Jupyter Book has been re-written from the ground up, making it easier to install, faster to use, and able to create more complex publishing content in your books. It is now supported by [the Executable Book Project](https://executablebooks.org/en/latest/), an open community that builds open source tools for interactive and executable documents in the Jupyter ecosystem and beyond.
 
 ```{figure} images/jb-ui.png
 
@@ -23,13 +23,29 @@ The new version of Jupyter Book will feel very similar. However, it has a lot of
 
 The new Jupyter Book has the following main features (with links to the relevant documentation for each):
 
-* **[Write publication-quality content in markdown](https://jupyterbook.org/content-types/markdown)**. You can write in either Jupyter markdown, or in [MyST Markdown, an extended flavor of markdown for scientific publishing](https://jupyterbook.org/content/myst).  This includes support for rich syntax such as [citations and cross-references](https://jupyterbook.org/content/citations), [math and equations](https://jupyterbook.org/content/math), and [figures](https://jupyterbook.org/content/figures).
-* **[Write content in Jupyter Notebooks](https://jupyterbook.org/content-types/notebooks)**, allowing you to include your code and outputs in your book. You can also write [notebooks entirely in markdown](https://jupyterbook.org/content-types/myst-notebooks) to execute when you build your book.
-* **[Execute and cache your book's content](https://jupyterbook.org/content/execute)**. For `.ipynb` and markdown notebooks, execute code and insert the latest outputs into your book. In addition, [cache and re-use](https://jupyterbook.org/content/execute.html#cacheing-the-notebook-execution) outputs to be used later.
-* **[Insert notebook outputs into your content](https://jupyterbook.org/content/glue)**. Generate outputs as you build your documentation, and insert them in-line with your content across pages.
-* **[Add interactivity to your book](https://jupyterbook.org/interactive/launchbuttons)**. You can [toggle visibility of cells](https://jupyterbook.org/interactive/hiding), [connect with an online service like Binder](https://jupyterbook.org/interactive/launchbuttons), and include [interactive outputs from Jupyter](https://jupyterbook.org/interactive/interactive).
-* **[Generate a variety of outputs](https://jupyterbook.org/start/build)**, including single- and multi-page websites, as well [as PDF outputs](https://jupyterbook.org/advanced/pdf).
-* **[Build your book with a simple CLI](https://jupyterbook.org/reference/cli)** to quickly generate your books with one command, like so: `jupyter-book build mybook/`
+{fa}`check,text-success mr-1` **[Write publication-quality content in markdown](https://jupyterbook.org/content-types/markdown)**<br />
+You can write in either Jupyter markdown, or an extended flavor of markdown with [publishing features](https://jupyterbook.org/content/myst).
+This includes support for rich syntax such as [citations and cross-references](https://jupyterbook.org/content/citations), [math and equations](https://jupyterbook.org/content/math), and [figures](https://jupyterbook.org/content/figures).
+
+{fa}`check,text-success mr-1` **[Write content in Jupyter Notebooks](https://jupyterbook.org/content-types/notebooks)**<br />
+This allows you to include your code and outputs in your book.
+You can also write notebooks [entirely in markdown](https://jupyterbook.org/content-types/myst-notebooks) to execute when you build your book.
+
+{fa}`check,text-success mr-1` **[Execute and cache your book's content](https://jupyterbook.org/content/execute)**<br />
+For `.ipynb` and markdown notebooks, execute code and insert the latest outputs into your book.
+In addition, [cache and re-use](https://jupyterbook.org/content/execute.html#cacheing-the-notebook-execution) outputs to be used later.
+
+{fa}`check,text-success mr-1` **[Insert notebook outputs into your content](https://jupyterbook.org/content/glue)**<br />
+Generate outputs as you build your documentation, and insert them in-line with your content across pages.
+
+{fa}`check,text-success mr-1` **[Add interactivity to your book](https://jupyterbook.org/interactive/launchbuttons)**<br />
+You can [toggle cell visibility](https://jupyterbook.org/interactive/hiding), include [interactive outputs](https://jupyterbook.org/interactive/interactive) from Jupyter, and [connect with online services](https://jupyterbook.org/interactive/launchbuttons) like Binder.
+
+{fa}`check,text-success mr-1` **[Generate a variety of outputs](https://jupyterbook.org/start/build)**<br />
+This includes single- and multi-page websites, as well as [PDF outputs](https://jupyterbook.org/advanced/pdf).
+
+{fa}`check,text-success mr-1` **[Build books with a simple command-line interface](https://jupyterbook.org/reference/cli)**<br />
+You can quickly generate your books with one command, like so: `jupyter-book build mybook/`
 
 These are just a few of the major changes that we've made. For a more complete idea of what you can do, [check out the Jupyter Book documentation](https://jupyterbook.org)
 
@@ -39,7 +55,7 @@ In the next few sections we'll talk about some major changes that you may notice
 
 ### An enhanced flavor of markdown
 
-The biggest enhancement to Jupyter Book is support for the [MyST Markdown language](https://myst-parser.readthedocs.io/en/latest/). MyST is a flavor of markdown that implements all of the features of Sphinx, allowing you to write scientific publications in markdown. It draws inspiration from RMarkdown and the reStructuredText ecosystem of tools. Anything you can do in Sphinx, you can do with MyST as well.
+The biggest enhancement to Jupyter Book is support for the [MyST Markdown language](https://myst-parser.readthedocs.io/en/latest/). MyST stands for "Markedly Structured Text", and is a flavor of markdown that implements all of the features of the [Sphinx documentation engine](http://www.sphinx-doc.org/), allowing you to write scientific publications in markdown. It draws inspiration from RMarkdown and the reStructuredText ecosystem of tools. Anything you can do in Sphinx, you can do with MyST as well.
 
 MyST Markdown is a *superset* of Jupyter Markdown (AKA, CommonMark), meaning that *any default markdown in a Jupyter Notebook is valid in Jupyter Book*. If you'd like extra features in markdown such as citations, figures, references, etc, then you may include extra MyST Markdown syntax in your content.
 
