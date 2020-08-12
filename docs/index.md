@@ -66,6 +66,8 @@ Browse the rest of this site for more information about what we're working
 on and our plans for what's coming next.
 
 ```{toctree}
+:maxdepth: 2
+
 about.md
 tools.md
 contributing.md
