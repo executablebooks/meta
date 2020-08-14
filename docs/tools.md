@@ -40,7 +40,7 @@ together with Jupyter Book.
 
 ## MyST - Markedly Structured Text
 
-([link to documentation](https://myst-parser.readthedocs.io/en/latest/))
+([link to documentation](https://myst-parser.readthedocs.io))
 
 MyST allows you to write Sphinx documentation entirely in markdown.
 It is an attempt to have the best of both worlds: the flexibility
@@ -83,7 +83,7 @@ notebooks are used in your documentation.
 
 ## Sphinx Book Theme
 
-([link to repository](https://sphinx-book-theme.readthedocs.io/en/latest/))
+([link to documentation](https://sphinx-book-theme.readthedocs.io))
 
 This is a lightweight Sphinx theme designed to mimic the look-and-feel of an
 interactive book. It has the following primary features:
@@ -100,7 +100,7 @@ interactive book. It has the following primary features:
 
 ## Jupyter Cache
 
-([link to documentation](https://jupyter-cache.readthedocs.io/en/latest/))
+([link to documentation](https://jupyter-cache.readthedocs.io))
 
 This packages provides a clear
 [API](https://jupyter-cache.readthedocs.io/en/latest/using/api.html#use-api) and
@@ -115,17 +115,20 @@ outputs.
 
 ## Markdown-it-py
 
+([link to documentation](https://markdown-it-py.readthedocs.io))
+
 > Markdown parser done right. Fast and easy to extend.
 
 `markdown-it-py` is a Python port of the very popular [markdown-it](https://github.com/markdown-it/markdown-it)
 package. Its goal is to remain as close as possible to the `markdown-it` API and plugin spec.
 Here are its main features:
 
-- Follows the __[CommonMark spec]__ + adds syntax extensions & sugar (URL autolinking, typographer).
-- Configurable syntax! You can add new rules and even replace existing ones.
-- High speed.
-- [Safe](https://github.com/ExecutableBookProject/markdown-it-py/tree/master/docs/security.md) by default.
-- Pluginable
+- Follows the __[CommonMark spec](http://spec.commonmark.org/)__ for baseline parsing
+- Configurable syntax: You can add new rules and even replace existing ones
+- Pluggable: Adds syntax extensions to extend the parser (see the [plugin list](https://markdown-it-py.readthedocs.io/en/latest/plugins.html#md-plugins))
+- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/security.html#md-performance))
+- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/security.html#md-security)
+
 
 
 ## A collection of Sphinx extensions
