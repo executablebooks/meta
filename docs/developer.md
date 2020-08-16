@@ -3,7 +3,7 @@
 This section provides some useful tips and tricks for development of projects
 within the Executable Book Project ecosystem.
 
-## Sphinx Tips and Tricks
+## Working with Sphinx
 
 The [sphinx development guide](https://www.sphinx-doc.org/en/master/develop.html) is also a useful
 resource for understanding how `Sphinx` works.
