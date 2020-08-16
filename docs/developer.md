@@ -4,8 +4,7 @@ This section provides some useful tips and tricks for development of projects wi
 
 ## Working with Sphinx
 
-The [sphinx development guide](https://www.sphinx-doc.org/en/master/develop.html) is also a useful
-resource for understanding how `Sphinx` works.
+The [sphinx development guide](https://www.sphinx-doc.org/en/master/develop.html) is also a useful resource for understanding how `Sphinx` works.
 
 ### Getting Access to the Sphinx Abstract Syntax Tree (AST)
 
