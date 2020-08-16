@@ -11,8 +11,7 @@ The [sphinx development guide](https://www.sphinx-doc.org/en/master/develop.html
 Getting access to the `xml` representation of the abstract syntax tree (AST) is a very
 important step in understanding how Sphinx has organised the document.
 
-One way to get this information is from the `.doctree` directory
-contained in a project `_build` directory.
+One way to get this information is from the `.doctree` directory contained in a project `_build` directory.
 
 One you have built a sample project you can get access to the AST by loading the pickled
 doctree in `python`:
