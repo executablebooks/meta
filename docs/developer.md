@@ -13,7 +13,7 @@ important step in understanding how Sphinx has organised the document.
 
 One way to get this information is from the `.doctree` directory contained in a project `_build` directory.
 
-One you have built a sample project you can get access to the AST by loading the pickled
+Once you have built a sample project you can get access to the AST by loading the pickled
 doctree in `python`:
 
 ```python
