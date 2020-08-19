@@ -71,6 +71,7 @@ on and our plans for what's coming next.
 about.md
 tools.md
 contributing.md
+developer.md
 team.md
 updates/index.md
 feature-vote.md
