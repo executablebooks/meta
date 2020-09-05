@@ -24,10 +24,19 @@ master_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_parser", "sphinx_panels"]
+extensions = ["myst_parser", "sphinx_panels", "ablog"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
+
+# ablog configuration
+import ablog
+templates_path.append(ablog.get_html_templates_path())
+fontawesome_included = True
+blog_path = "updates"
+blog_title = "EBP Updates"
+blog_baseurl = "https://predictablynoisy.com"
+blog_feed_archives = True
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -47,7 +56,6 @@ html_logo = "_static/logo.png"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-templates_path = ["_templates"]
 
 
 # -- Custom scripts ----------------------------------------------------------
@@ -62,3 +70,7 @@ run(f"python {Path(__file__).parent.joinpath('update_team.py')}".split())
 url_contributing = "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
 resp = requests.get(url_contributing, allow_redirects=True)
 Path('contributing.md').write_bytes(resp.content)
+
+
+def setup(app):
+    app.add_css_file("custom.css")

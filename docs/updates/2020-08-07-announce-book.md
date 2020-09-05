@@ -1,4 +1,10 @@
-# 2020-08-07 - Announcing the new Jupyter Book
+# Announcing the new Jupyter Book
+
+```{post} 2020-08-07
+:author: EBP
+:image: 1
+:excerpt: 2
+```
 
 *Note: this announcement is cross-posted between the [Jupyter Blog](https://blog.jupyter.org) and the [Executable Book Project updates blog](https://executablebooks.org/en/latest/updates/index.html)*
 
