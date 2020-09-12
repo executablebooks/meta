@@ -75,7 +75,7 @@ tools.md
 contributing.md
 developer.md
 team.md
-Updates <https://executablebooks.org/updates.html>
+updates.md
 feature-vote.md
 examples.md
 ```

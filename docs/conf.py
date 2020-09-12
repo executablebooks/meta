@@ -24,19 +24,21 @@ master_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_parser", "sphinx_panels", "ablog"]
+extensions = ["myst_nb", "sphinx_panels", "ablog"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
 # ablog configuration
 import ablog
-templates_path.append(ablog.get_html_templates_path())
 fontawesome_included = True
 blog_path = "updates"
 blog_title = "EBP Updates"
 blog_baseurl = "https://predictablynoisy.com"
 blog_feed_archives = True
+
+# Jupyter Notebooks configuration
+jupyter_execute_notebooks = "force"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
