@@ -5,6 +5,8 @@ This is the public-facing site for
 collaboration to build open source tools that facilitate publishing
 computational narratives using the Jupyter ecosystem.
 
+For our latest updates, see {ref}`our latest updates <blog-posts>`.
+
 ## The EBP's technical goals
 
 The goal of the EBP is to build tools that facilitate creating
@@ -73,7 +75,7 @@ tools.md
 contributing.md
 developer.md
 team.md
-updates/index.md
+updates.md
 feature-vote.md
 examples.md
 ```

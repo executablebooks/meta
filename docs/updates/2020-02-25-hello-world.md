@@ -1,4 +1,8 @@
-# 2020-02-25 - Hello world
+# Hello world
+
+```{post} 2020-02-25
+:author: EBP
+```
 
 Over the last several years, Jupyter Notebooks have become a staple in the
 data scientist's toolkit. As both an interface for interactive computation
