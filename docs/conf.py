@@ -31,6 +31,7 @@ templates_path = ["_templates"]
 
 # ablog configuration
 import ablog
+
 fontawesome_included = True
 blog_path = "updates"
 blog_title = "EBP Updates"
@@ -65,13 +66,56 @@ html_static_path = ["_static"]
 from subprocess import run
 from pathlib import Path
 import requests
+import yaml
+from textwrap import dedent
 
 # Update the team page from github membership
 run(f"python {Path(__file__).parent.joinpath('update_team.py')}".split())
 # Grab the latest contributing docs
-url_contributing = "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
+url_contributing = (
+    "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
+)
 resp = requests.get(url_contributing, allow_redirects=True)
-Path('contributing.md').write_bytes(resp.content)
+Path("contributing.md").write_bytes(resp.content)
+
+# Build the gallery file
+panels_body = []
+for item in yaml.safe_load(Path("gallery.yml").read_text()):
+    if not item.get("image"):
+        item["image"] = "https://jupyterbook.org/_static/logo.png"
+    
+    if item["repository"]:
+        repo_text = f'{{link-badge}}`{item["repository"]},"repository",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"]}`'
+    else:
+        repo_text = ''
+
+    panels_body.append(
+        f"""\
+    ---
+    :img-top: {item["image"]}
+
+    +++
+    **{item["name"]}**
+
+    {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"]}`
+    {repo_text}
+    """
+    )
+panels_body = "\n".join(panels_body)
+
+panels = f"""
+````{{panels}}
+:container: full-width
+:column: text-center col-6 col-lg-4
+:card: +my-2
+:img-top-cls: w-75 m-auto p-2
+:body: d-none
+
+{dedent(panels_body)}
+````
+"""
+
+Path("gallery.txt").write_text(panels)
 
 
 def setup(app):

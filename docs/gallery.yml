@@ -29,3 +29,7 @@
 - name: Continuous Time Markov Chains
   website: https://jstac.github.io/continuous_time_mcs/intro.html
   repository: http://github.com/jstac/continuous_time_mcs
+- name: Statistics and Data Science
+  website: https://cranmer.github.io/stats-ds-book/intro.html
+  repository: https://github.com/cranmer/stats-ds-book
+  image: 
