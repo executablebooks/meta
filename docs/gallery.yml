@@ -1,0 +1,35 @@
+- name: Algorithms for Automated Driving
+  image: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/_static/car_sketch_wide.png
+  website: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/Introduction/intro.html
+  repository: https://github.com/thomasfermi/Algorithms-for-Automated-Driving
+- name: Solving Partial Differential Equations
+  image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
+  website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
+  repository: https://github.com/aquaULB/solving_pde_mooc
+- name: Quantitative Economics with Python
+  website: https://executablebooks.github.io/quantecon-example/docs/index.html
+  repository: https://github.com/executablebooks/quantecon-example
+  image: https://executablebooks.github.io/quantecon-example/_static/qe-logo-large.png
+- name: Intro to Cultural Analytics
+  website: https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
+  repository: https://github.com/melaniewalsh/Intro-Cultural-Analytics
+  image: https://melaniewalsh.github.io/Intro-Cultural-Analytics/_static/favicon.ico
+- name: Computational and Inferential Thinking
+  website: https://www.inferentialthinking.com
+  repository: https://github.com/data-8/textbook
+  image: https://www.inferentialthinking.com/favicon.png
+- name: Python Packages
+  website: https://py-pkgs.org/
+  repository: https://github.com/UBC-MDS/py-pkgs
+  image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
+- name: Geographic Data Science with Python
+  website: https://geographicdata.science/book/intro
+  repository:
+  image: https://geographicdata.science/book/_static/logo.png
+- name: Continuous Time Markov Chains
+  website: https://jstac.github.io/continuous_time_mcs/intro.html
+  repository: http://github.com/jstac/continuous_time_mcs
+- name: Statistics and Data Science
+  website: https://cranmer.github.io/stats-ds-book/intro.html
+  repository: https://github.com/cranmer/stats-ds-book
+  image: 

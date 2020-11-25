@@ -77,5 +77,5 @@ developer.md
 team.md
 updates.md
 feature-vote.md
-examples.md
+gallery.md
 ```
