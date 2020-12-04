@@ -45,3 +45,7 @@
   website: http://naturalistic-data.org/
   repository: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis
   image: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis/blob/master/content/images/logo/Naturalistic_Data_Logo_v6.png
+- name: Neural Process Family
+  website: https://yanndubs.github.io/Neural-Process-Family
+  repository: https://github.com/YannDubs/Neural-Process-Family
+  image: https://yanndubs.github.io/Neural-Process-Family/_static/logo.gif
