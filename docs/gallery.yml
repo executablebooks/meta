@@ -37,3 +37,7 @@
   website: http://earth-env-data-science.github.io/
   repository: https://github.com/earth-env-data-science/earth-env-data-science-book
   image: https://github.com/earth-env-data-science/earth-env-data-science-book/raw/master/content/images/logo/enso_sst.png
+- name: Neural Process Family
+  website: https://yanndubs.github.io/Neural-Process-Family
+  repository: https://github.com/YannDubs/Neural-Process-Family
+  image: https://yanndubs.github.io/Neural-Process-Family/_static/logo.gif
