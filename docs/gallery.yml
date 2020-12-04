@@ -37,3 +37,11 @@
   website: http://earth-env-data-science.github.io/
   repository: https://github.com/earth-env-data-science/earth-env-data-science-book
   image: https://github.com/earth-env-data-science/earth-env-data-science-book/raw/master/content/images/logo/enso_sst.png
+- name: DartBrains
+  website: https://dartbrains.org/
+  repository: https://github.com/ljchang/dartbrains
+  image: https://github.com/ljchang/dartbrains/blob/master/images/logo/dartbrains_logo_square_transparent.png
+- name: Neuroimaging Analysis Methods for Naturalistic Data
+  website: http://naturalistic-data.org/
+  repository: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis
+  image: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis/blob/master/content/images/logo/Naturalistic_Data_Logo_v6.png
