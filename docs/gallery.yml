@@ -33,3 +33,7 @@
   website: https://cranmer.github.io/stats-ds-book/intro.html
   repository: https://github.com/cranmer/stats-ds-book
   image: 
+- name: Earth and Environmental Data Science
+  website: http://earth-env-data-science.github.io/
+  repository: https://github.com/earth-env-data-science/earth-env-data-science-book
+  image: https://github.com/earth-env-data-science/earth-env-data-science-book/raw/master/content/images/logo/enso_sst.png
