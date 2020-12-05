@@ -36,7 +36,7 @@
 - name: Machine Learning, Statistics, and Data Mining for Heliophysics
   website: https://helioml.org
   repository: https://github.com/HelioML/HelioML/
-  image: https://github.com/HelioML/HelioML/blob/master/images/logo.png
+  image: https://github.com/HelioML/HelioML/blob/master/book/logo.png
 - name: Earth and Environmental Data Science
   website: http://earth-env-data-science.github.io/
   repository: https://github.com/earth-env-data-science/earth-env-data-science-book
