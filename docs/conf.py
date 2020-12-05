@@ -83,9 +83,9 @@ panels_body = []
 for item in yaml.safe_load(Path("gallery.yml").read_text()):
     if not item.get("image"):
         item["image"] = "https://jupyterbook.org/_static/logo.png"
-    
+
     if item["repository"]:
-        repo_text = f'{{link-badge}}`{item["repository"]},"repository",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"]}`'
+        repo_text = f'{{link-badge}}`{item["repository"]},"repository",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`'
     else:
         repo_text = ''
 
@@ -97,7 +97,7 @@ for item in yaml.safe_load(Path("gallery.yml").read_text()):
     +++
     **{item["name"]}**
 
-    {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"]}`
+    {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`
     {repo_text}
     """
     )
