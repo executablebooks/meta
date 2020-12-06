@@ -56,4 +56,4 @@
 - name: "The Turing Way: A guide to reproducible, ethical, inclusive and collaborative data science"
   website: https://the-turing-way.netlify.app
   repository: https://github.com/alan-turing-institute/the-turing-way
-  image: https://github.com/alan-turing-institute/the-turing-way/blob/master/book/website/figures/logo/logo.png
+  image: https://github.com/alan-turing-institute/the-turing-way/raw/master/book/website/figures/logo/logo.png
