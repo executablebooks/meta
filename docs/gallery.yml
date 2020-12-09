@@ -61,3 +61,7 @@
   website: https://whitead.github.io/dmol-book/
   repository: https://github.com/whitead/dmol-book
   image: https://raw.githubusercontent.com/whitead/dmol-book/master/logo.png
+- name: genome-sampler Software Documentation
+  website: https://caporasolab.us/genome-sampler/
+  repository: https://github.com/caporaso-lab/genome-sampler
+  image:
