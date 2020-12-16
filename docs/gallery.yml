@@ -65,3 +65,7 @@
   website: https://caporasolab.us/genome-sampler/
   repository: https://github.com/caporaso-lab/genome-sampler
   image:
+- name: Fundamental Tools for Image Processing
+  website: https://vincmazet.github.io/ftip/
+  repository: https://github.com/vincmazet/ftip
+  image:
