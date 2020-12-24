@@ -62,6 +62,7 @@ html_static_path = ["_static"]
 
 import os
 from pathlib import Path
+import random
 import requests
 from subprocess import run
 from textwrap import dedent
@@ -125,7 +126,9 @@ def build_gallery(app: Sphinx):
     # Build the gallery file
     LOGGER.info("building gallery...")
     panels_body = []
-    for item in yaml.safe_load((Path(app.srcdir) / "gallery.yml").read_text()):
+    projects = yaml.safe_load((Path(app.srcdir) / "gallery.yml").read_text())
+    random.shuffle(projects)
+    for item in projects:
         if not item.get("image"):
             item["image"] = "https://jupyterbook.org/_static/logo.png"
 
