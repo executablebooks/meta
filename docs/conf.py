@@ -98,14 +98,14 @@ def update_team(app: Sphinx):
 
     # Use the panels directive to build our team and write to txt
     md = f"""
-    ````{{panels}}
-    ---
-    column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
-    card: text-center
-    ---
+````{{panels}}
+---
+column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
+card: text-center
+---
 
-    {people_md}
-    ````
+{people_md}
+````
     """
     (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
 
