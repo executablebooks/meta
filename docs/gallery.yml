@@ -1,4 +1,4 @@
-- name: The Arts Engagement Project¶
+- name: The Arts Engagement Project
   image: https://artsengagementproject.site/_static/logo.png
   website: https://artsengagementproject.site/intro.html
   repository: https://github.com/ArtsEngine/ArtsEngagementJupyterBook-Build

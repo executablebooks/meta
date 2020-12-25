@@ -29,9 +29,6 @@ extensions = ["myst_nb", "sphinx_panels", "ablog"]
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
-# ablog configuration
-import ablog
-
 fontawesome_included = True
 blog_path = "updates"
 blog_title = "EBP Updates"
@@ -63,47 +60,108 @@ html_static_path = ["_static"]
 
 # -- Custom scripts ----------------------------------------------------------
 
-from subprocess import run
+import os
 from pathlib import Path
+import random
 import requests
-import yaml
+from subprocess import run
 from textwrap import dedent
+from urllib.parse import urlparse
 
-# Update the team page from github membership
-run(f"python {Path(__file__).parent.joinpath('update_team.py')}".split())
-# Grab the latest contributing docs
-url_contributing = (
-    "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
-)
-resp = requests.get(url_contributing, allow_redirects=True)
-Path("contributing.md").write_bytes(resp.content)
+import yaml
 
-# Build the gallery file
-panels_body = []
-for item in yaml.safe_load(Path("gallery.yml").read_text()):
-    if not item.get("image"):
-        item["image"] = "https://jupyterbook.org/_static/logo.png"
+from sphinx.application import Sphinx
+from sphinx.util import logging
 
-    if item["repository"]:
-        repo_text = f'{{link-badge}}`{item["repository"]},"repository",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`'
-    else:
-        repo_text = ''
+LOGGER = logging.getLogger("conf")
 
-    panels_body.append(
-        f"""\
-    ---
-    :img-top: {item["image"]}
 
-    +++
-    **{item["name"]}**
+def update_team(app: Sphinx):
+    """Update the directive we use to build the team page with latest results."""
+    if os.environ.get("SKIP_TEAM", "").lower() == "true":
+        LOGGER.info("Skipping team page...")
+        return
+    # Pull latest team from github
+    LOGGER.info("Updating team page...")
+    team_url = "https://api.github.com/orgs/executablebooks/members"
+    team = requests.get(team_url).json()
 
-    {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`
-    {repo_text}
+    # Generate the markdown for each member
+    people = []
+    for person in team:
+        this_person = f"""
+        ![avatar]({person['avatar_url']})
+        ++++++++++++++
+        [@{person['login']}]({person['html_url']})
+        """
+        people.append(this_person)
+    people_md = dedent("---\n".join(people))
+
+    # Use the panels directive to build our team and write to txt
+    md = f"""
+````{{panels}}
+---
+column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
+card: text-center
+---
+
+{people_md}
+````
     """
-    )
-panels_body = "\n".join(panels_body)
+    (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
 
-panels = f"""
+
+def update_contributing(app: Sphinx):
+    if os.environ.get("SKIP_CONTRIBUTE", "").lower() == "true":
+        LOGGER.info("Skipping contributing page...")
+        return
+    LOGGER.info("Updating contributing page...")
+    # Grab the latest contributing docs
+    url_contributing = "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
+    resp = requests.get(url_contributing, allow_redirects=True)
+    (Path(app.srcdir) / "contributing.md").write_bytes(resp.content)
+
+
+def build_gallery(app: Sphinx):
+    # Build the gallery file
+    LOGGER.info("building gallery...")
+    panels_body = []
+    projects = yaml.safe_load((Path(app.srcdir) / "gallery.yml").read_text())
+    random.shuffle(projects)
+    for item in projects:
+        if not item.get("image"):
+            item["image"] = "https://jupyterbook.org/_static/logo.png"
+
+        repo_text = ""
+        star_text = ""
+
+        if item["repository"]:
+            repo_text = f'{{link-badge}}`{item["repository"]},"repo",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`'
+
+            try:
+                url = urlparse(item["repository"])
+                if url.netloc == "github.com":
+                    _, org, repo = url.path.rstrip("/").split("/")
+                    star_text = f"[![GitHub Repo stars](https://img.shields.io/github/stars/{org}/{repo}?style=social)]({item['repository']})"
+            except Exception as error:
+                pass
+
+        panels_body.append(
+            f"""\
+        ---
+        :img-top: {item["image"]}
+
+        +++
+        **{item["name"]}**
+
+        {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`
+        {repo_text}
+        {star_text}
+        """
+        )
+    panels_body = "\n".join(panels_body)
+
+    panels = f"""
 ````{{panels}}
 :container: full-width
 :column: text-center col-6 col-lg-4
@@ -113,10 +171,12 @@ panels = f"""
 
 {dedent(panels_body)}
 ````
-"""
+    """
+    (Path(app.srcdir) / "gallery.txt").write_text(panels)
 
-Path("gallery.txt").write_text(panels)
 
-
-def setup(app):
+def setup(app: Sphinx):
     app.add_css_file("custom.css")
+    app.connect("builder-inited", update_team)
+    app.connect("builder-inited", update_contributing)
+    app.connect("builder-inited", build_gallery)
