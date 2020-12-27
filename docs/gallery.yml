@@ -81,3 +81,7 @@
   website: https://pseudo-lab.github.io/Tutorial-Book/
   repository: https://github.com/Pseudo-Lab/Tutorial-Book/
   image: https://pseudo-lab.github.io/Tutorial-Book/_static/PseudoLab_logo.png
+- name: Exploratory Data Visualization with Altair
+  website: https://altair-viz.github.io/altair-tutorial/README.html
+  repository: https://github.com/altair-viz/altair-tutorial
+  image: https://altair-viz.github.io/altair-tutorial/_static/altair-logo.png
