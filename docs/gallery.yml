@@ -77,3 +77,7 @@
   website: https://vincmazet.github.io/ftip/
   repository: https://github.com/vincmazet/ftip
   image:
+- name: PyTorch를 활용한 딥러닝 튜토리얼 (Deep Learning Tutorials with PyTorch)
+  website: https://pseudo-lab.github.io/Tutorial-Book/
+  repository: https://github.com/Pseudo-Lab/Tutorial-Book/
+  image: https://pseudo-lab.github.io/Tutorial-Book/_static/PseudoLab_logo.png
