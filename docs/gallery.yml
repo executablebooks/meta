@@ -85,3 +85,7 @@
   website: https://altair-viz.github.io/altair-tutorial/README.html
   repository: https://github.com/altair-viz/altair-tutorial
   image: https://altair-viz.github.io/altair-tutorial/_static/altair-logo.png
+- name: introPy: an introduction to Python and PsychoPy
+  website: https://lukas-snoek.com/introPy/
+  repository: https://github.com/lukassnoek/introPy
+  image: https://github.com/lukassnoek/introPy/blob/master/intropy/img/logo.png
