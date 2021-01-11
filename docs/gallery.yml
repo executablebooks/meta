@@ -89,3 +89,7 @@
   repository: https://github.com/lukassnoek/introPy
   image: https://raw.githubusercontent.com/lukassnoek/introPy/master/intropy/img/logo.png
   website: https://lukas-snoek.com/introPy/
+- name: "Computational Thermodynamics"
+  repository: https://github.com/kyleniemeyer/computational-thermo
+  image: https://kyleniemeyer.github.io/computational-thermo/_static/logo.png
+  website: https://kyleniemeyer.github.io/computational-thermo
