@@ -93,3 +93,7 @@
   repository: https://github.com/kyleniemeyer/computational-thermo
   image: https://kyleniemeyer.github.io/computational-thermo/_static/logo.png
   website: https://kyleniemeyer.github.io/computational-thermo
+- name: "Make Use of Data: Data Science Notes"
+  repository: https://github.com/wyattowalsh/data-science-notes
+  image: https://github.com/wyattowalsh/data-science-notes/raw/master/data-science-notes/favicon_io/apple-touch-icon.png
+  website: https://makeuseofdata.com
