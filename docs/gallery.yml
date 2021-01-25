@@ -98,6 +98,6 @@
   image: https://github.com/wyattowalsh/data-science-notes/raw/master/data-science-notes/favicon_io/apple-touch-icon.png
   website: https://makeuseofdata.com
 - name: "Guide de bonnes pratiques sur les données de la recherche"
-  repository: https://github.com/guide-donnees/guide-donnees.github.io
-  image: https://github.com/guide-donnees/guide-donnees.github.io/blob/master/images/logo.png
+  repository: https://plmlab.math.cnrs.fr/navaro/guide-de-bonnes-pratiques.git
+  image: https://mi-gt-donnees.pages.math.unistra.fr/guide/_static/logo.png
   website: https://mi-gt-donnees.pages.math.unistra.fr/guide
