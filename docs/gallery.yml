@@ -1,3 +1,7 @@
+- name: Learn Python Programming
+  website: https://durgeshsamariya.github.io/learn-python/README.html
+  repository: https://github.com/durgeshsamariya/learn-python
+  image:
 - name: The Arts Engagement Project
   image: https://artsengagementproject.site/_static/logo.png
   website: https://artsengagementproject.site/intro.html
