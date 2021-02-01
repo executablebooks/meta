@@ -1,3 +1,7 @@
+- name: Learn Python Programming
+  website: https://durgeshsamariya.github.io/learn-python/README.html
+  repository: https://github.com/durgeshsamariya/learn-python
+  image: https://raw.githubusercontent.com/durgeshsamariya/learn-python/main/resources/logo.png
 - name: The Arts Engagement Project
   image: https://artsengagementproject.site/_static/logo.png
   website: https://artsengagementproject.site/intro.html
@@ -18,6 +22,10 @@
   website: https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
   repository: https://github.com/melaniewalsh/Intro-Cultural-Analytics
   image: https://melaniewalsh.github.io/Intro-Cultural-Analytics/_static/favicon.ico
+- name: The Data-Sitters Club
+  website: https://datasittersclub.github.io/site/
+  repository: https://github.com/datasittersclub/site
+  image: https://datasittersclub.github.io/site/_images/DSCLogo.png
 - name: Computational and Inferential Thinking
   website: https://www.inferentialthinking.com
   repository: https://github.com/data-8/textbook
@@ -101,3 +109,11 @@
   repository: https://plmlab.math.cnrs.fr/navaro/guide-de-bonnes-pratiques.git
   image: https://mi-gt-donnees.pages.math.unistra.fr/guide/_static/logo.png
   website: https://mi-gt-donnees.pages.math.unistra.fr/guide
+- name: "Callysto Curriculum Notebooks"
+  repository: https://github.com/callysto/curriculum-jbook/tree/gh-pages
+  image: https://www.callysto.ca/wp-content/uploads/2020/10/Callysto-Logo_Vert_Colour.png
+  website: https://callysto.github.io/curriculum-jbook/intro.html
+- name: "Introducción a la ciencia de datos"
+  repository: https://github.com/rafneta/CienciaDatosPythonCIDE
+  image: https://raw.githubusercontent.com/rafneta/CienciaDatosPythonCIDE/master/docs/logo.jpg
+  website: https://rafneta.github.io/CienciaDatosPythonCIDE/intro.html
