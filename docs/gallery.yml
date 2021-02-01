@@ -106,7 +106,7 @@
   image: https://github.com/wyattowalsh/data-science-notes/raw/master/data-science-notes/favicon_io/apple-touch-icon.png
   website: https://makeuseofdata.com
 - name: "Guide de bonnes pratiques sur les données de la recherche"
-  repository: https://plmlab.math.cnrs.fr/navaro/guide-de-bonnes-pratiques.git
+  repository: https://github.com/miti-gt-donnees/guide.git
   image: https://mi-gt-donnees.pages.math.unistra.fr/guide/_static/logo.png
   website: https://mi-gt-donnees.pages.math.unistra.fr/guide
 - name: "Callysto Curriculum Notebooks"
