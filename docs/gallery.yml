@@ -1,3 +1,7 @@
+- name: TensorDiffEq Documentation
+  website: http://docs.tensordiffeq.io
+  repository: https://github.com/tensordiffeq/TensorDiffEq
+  image: https://docs.tensordiffeq.io/_static/logo.png
 - name: Learn Python Programming
   website: https://durgeshsamariya.github.io/learn-python/README.html
   repository: https://github.com/durgeshsamariya/learn-python
