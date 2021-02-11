@@ -125,3 +125,7 @@
   repository: 
   image: https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png
   website: https://docs.datapartnership.org
+- name: "The ISA Cookbook"
+  image: https://isa-tools.org/isa-api/_static/isa_footer_logo.svg
+  website: https://isa-tools.org/isa-api/content/index.html
+  repository: https://github.com/isa-tools/isa-api
