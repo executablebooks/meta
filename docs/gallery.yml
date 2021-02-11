@@ -128,4 +128,4 @@
 - name: "The ISA Cookbook"
   image: https://isa-tools.org/isa-api/_static/isa_footer_logo.svg
   website: https://isa-tools.org/isa-api/content/index.html
-  repository:
+  repository: https://github.com/isa-tools/isa-api
