@@ -129,3 +129,7 @@
   image: https://isa-tools.org/isa-api/_static/isa_footer_logo.svg
   website: https://isa-tools.org/isa-api/content/index.html
   repository: https://github.com/isa-tools/isa-api
+- name: "OpenPifPaf Guide"
+  image: https://vita-epfl.github.io/openpifpaf/_static/logo.png
+  website: https://vita-epfl.github.io/openpifpaf/
+  repository: https://github.com/vita-epfl/openpifpaf
