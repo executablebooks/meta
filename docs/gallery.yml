@@ -133,3 +133,7 @@
   image: https://vita-epfl.github.io/openpifpaf/_static/logo.png
   website: https://vita-epfl.github.io/openpifpaf/
   repository: https://github.com/vita-epfl/openpifpaf
+- name: "UW Data Visualization Curriculum"
+  repository: https://github.com/uwdata/visualization-curriculum
+  image: https://raw.githubusercontent.com/uwdata/visualization-curriculum/master/altair-hist.png
+  website: https://uwdata.github.io/visualization-curriculum/intro.html
