@@ -133,6 +133,10 @@
   image: https://vita-epfl.github.io/openpifpaf/_static/logo.png
   website: https://vita-epfl.github.io/openpifpaf/
   repository: https://github.com/vita-epfl/openpifpaf
+- name: "The FAIR Cookbook"
+  repository: https://github.com/FAIRplus/the-fair-cookbook
+  image: https://raw.githubusercontent.com/FAIRplus/the-fair-cookbook/7b0eba0d01d129ee826e941fd082bad42e6f3151/_static/images/logo/cookbook-logo-small.png
+  website: https://fairplus.github.io/the-fair-cookbook/content/home.html
 - name: "UW Data Visualization Curriculum"
   repository: https://github.com/uwdata/visualization-curriculum
   image: https://raw.githubusercontent.com/uwdata/visualization-curriculum/master/altair-hist.png
