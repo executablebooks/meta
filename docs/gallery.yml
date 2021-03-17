@@ -141,3 +141,7 @@
   repository: https://github.com/uwdata/visualization-curriculum
   image: https://raw.githubusercontent.com/uwdata/visualization-curriculum/master/altair-hist.png
   website: https://uwdata.github.io/visualization-curriculum/intro.html
+- name: "MalariaGEN Vector Data User Guide"
+  repository: https://github.com/malariagen/vector-data/
+  image: https://malariagen.github.io/vector-data/_static/logo.png
+  website: https://malariagen.github.io/vector-data/landing-page.html
