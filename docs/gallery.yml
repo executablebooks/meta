@@ -145,3 +145,7 @@
   repository: https://github.com/malariagen/vector-data/
   image: https://malariagen.github.io/vector-data/_static/logo.png
   website: https://malariagen.github.io/vector-data/landing-page.html
+- name: Geospatial Data Science with Jupyter and Google Earth Engine
+  repository: https://github.com/giswqs/geebook
+  image: https://github.com/giswqs/geebook/raw/master/geebook/logo.png
+  website: https://book.geemap.org
