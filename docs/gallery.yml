@@ -145,3 +145,7 @@
   repository: https://github.com/malariagen/vector-data/
   image: https://malariagen.github.io/vector-data/_static/logo.png
   website: https://malariagen.github.io/vector-data/landing-page.html
+- name: "Scikit-learn course"
+  repository: https://github.com/INRIA/scikit-learn-mooc
+  image: https://inria.github.io/scikit-learn-mooc/_static/scikit-learn-logo.png
+  website: https://inria.github.io/scikit-learn-mooc/
