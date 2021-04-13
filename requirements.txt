@@ -3,3 +3,5 @@ myst-nb
 sphinx-book-theme
 sphinx-panels
 ablog
+ghapi
+pandas

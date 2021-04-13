@@ -67,6 +67,8 @@ import requests
 from subprocess import run
 from textwrap import dedent
 from urllib.parse import urlparse
+from ghapi.all import GhApi
+import pandas as pd
 
 import yaml
 
@@ -175,8 +177,43 @@ def build_gallery(app: Sphinx):
     (Path(app.srcdir) / "gallery.txt").write_text(panels)
 
 
+def update_feature_votes(app: Sphinx):
+    # Only create a new file if none exists (so this will only run if you delete the output file)
+    path_output = Path(__file__).parent.joinpath("issue-votes.txt")
+    if path_output.exists():
+        LOGGER.info(f"Found existing feature votes markdown, to re-download, delete {path_output} first.\n")
+        return
+
+    # Pull latest issues data
+    # If `None`, ghapi will default to GITHUB_TOKEN
+    api = GhApi(token=None)
+    repos = api.repos.list_for_org("executablebooks")
+    issues = []
+    LOGGER.info("Retrieving feature voting issue data...")
+    for repo in repos:
+        for kind in ["enhancement", "type/enhancement", "type/documentation"]:
+            issues += api.issues.list_for_repo("executablebooks", repo['name'], labels=kind, per_page=100, state="open")
+
+    # Extract the metadata that we want
+    df = pd.DataFrame(issues)
+    df['👍'] = df['reactions'].map(lambda a: a['+1'])
+    df['Repository'] = df['html_url'].map(lambda a: f"[{a.rsplit('/')[4]}]({a.rsplit('/', 2)[0]})")
+    df['Author'] = df['user'].map(lambda a: f"[@{a['login']}](https://github.com/{a['login']})")
+    df['Issue'] = df['html_url'].map(lambda a: f"[#{a.rsplit('/')[-1]}]({a})")
+    df = df.rename(columns={"title": "Title"})
+
+    # Sort and remove issues with a very small # of votes
+    df = df.sort_values("👍", ascending=False)
+    df = df[df['👍'] > 1]
+
+    # Write to markdown
+    LOGGER.info("Writing feature voting issues to markdown...")
+    df[['👍', 'Repository', "Issue", 'Title', 'Author']].to_markdown(path_output, index=False)
+
+
 def setup(app: Sphinx):
     app.add_css_file("custom.css")
     app.connect("builder-inited", update_team)
     app.connect("builder-inited", update_contributing)
     app.connect("builder-inited", build_gallery)
+    app.connect("builder-inited", update_feature_votes)

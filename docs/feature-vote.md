@@ -9,4 +9,22 @@ Click the `+` to see more details.
 
 [^a]: The data in this table is updated every hour.
 
-<div id='feature-table' class='full-width'></div>
+<div class="full-width">
+
+```{include} .issue-votes.txt
+```
+
+</div>
+
+<!-- DataTables to make the table above look nice -->
+<link rel="stylesheet"
+    href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready( function () {
+    $('table').DataTable( {
+        "order": [[ 0, "desc" ]]
+    });
+} );
+</script>
