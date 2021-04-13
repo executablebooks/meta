@@ -3,5 +3,8 @@ myst-nb
 sphinx-book-theme
 sphinx-panels
 ablog
+
+# For the feature voting code
 ghapi
 pandas
+tabulate
