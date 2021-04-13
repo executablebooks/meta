@@ -11,7 +11,7 @@ Click the `+` to see more details.
 
 <div class="full-width">
 
-```{include} .issue-votes.txt
+```{include} issue-votes.txt
 ```
 
 </div>

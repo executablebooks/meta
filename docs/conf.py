@@ -179,7 +179,7 @@ def build_gallery(app: Sphinx):
 
 def update_feature_votes(app: Sphinx):
     # Only create a new file if none exists (so this will only run if you delete the output file)
-    path_output = Path(__file__).parent.joinpath("issue-votes.txt")
+    path_output = Path(app.srcdir).joinpath("issue-votes.txt")
     if path_output.exists():
         LOGGER.info(f"Found existing feature votes markdown, to re-download, delete {path_output} first.\n")
         return
