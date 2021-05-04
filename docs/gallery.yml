@@ -149,3 +149,7 @@
   repository: https://github.com/INRIA/scikit-learn-mooc
   image: https://inria.github.io/scikit-learn-mooc/_static/scikit-learn-logo.png
   website: https://inria.github.io/scikit-learn-mooc/
+- name: "Machine Learning for Credit Card Fraud Detection"
+  repository: https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook
+  image: https://raw.githubusercontent.com/Fraud-Detection-Handbook/fraud-detection-handbook/main/images/icon_gallery.png
+  website: https://fraud-detection-handbook.github.io/fraud-detection-handbook
