@@ -153,3 +153,7 @@
   repository: https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook
   image: https://raw.githubusercontent.com/Fraud-Detection-Handbook/fraud-detection-handbook/main/images/icon_gallery.png
   website: https://fraud-detection-handbook.github.io/fraud-detection-handbook
+- name: "단국대 2020 캐글 뽀개기 (DKU Kaggle Class)"
+  repository: https://github.com/kaggler-tv/dku-kaggle-class/
+  image: https://kaggler-tv.github.io/dku-kaggle-class/_static/logo.png
+  website: https://kaggler-tv.github.io/dku-kaggle-class/main.html
