@@ -3,4 +3,5 @@ docs/_build
 docs/contributing.md
 .vscode/
 docs/gallery.txt
+docs/issue-votes.txt
 .tox/

@@ -1,0 +1,21 @@
+# Action to automatically trigger ReadTheDocs each day, to ensure information is up-to-date.
+# This uses the following action: https://github.com/dfm/rtds-action
+name: Docs
+on:
+  schedule:
+    # every day at 1:00
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    
+
+jobs:
+  docs:
+    name: "Trigger a ReadTheDocs build"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger RTDs build
+        uses: dfm/rtds-action@v1
+        with:
+          webhook_url: ${{ secrets.RTD_WEBHOOK_URL }}
+          webhook_token: ${{ secrets.RTD_WEBHOOK_TOKEN }}
+          commit_ref: ${{ github.ref }}
