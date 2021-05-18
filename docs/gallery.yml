@@ -157,3 +157,7 @@
   repository: https://github.com/kaggler-tv/dku-kaggle-class/
   image: https://kaggler-tv.github.io/dku-kaggle-class/_static/logo.png
   website: https://kaggler-tv.github.io/dku-kaggle-class/main.html
+- name: "Jupyter Guide to Linear Algebra"
+  repository: https://github.com/bvanderlei/jupyter-guide-to-linear-algebra
+  image: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/_static/reflection_logo.png
+  website: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/
