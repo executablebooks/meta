@@ -161,3 +161,7 @@
   repository: https://github.com/bvanderlei/jupyter-guide-to-linear-algebra
   image: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/_static/reflection_logo.png
   website: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/
+- name: "Argo Online School"
+  repository: https://github.com/euroargodev/argoonlineschool
+  image: https://euroargodev.github.io/argoonlineschool/_static/logoAoS.png
+  website: https://euroargodev.github.io/argoonlineschool
