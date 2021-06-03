@@ -165,6 +165,10 @@
   repository: https://github.com/bvanderlei/jupyter-guide-to-linear-algebra
   image: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/_static/reflection_logo.png
   website: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/
+- name: "Programming Differential Privacy"
+  repository: https://github.com/uvm-plaid/programming-dp
+  image: https://uvm-plaid.github.io/programming-dp/_static/logo.png
+  website: https://uvm-plaid.github.io/programming-dp/
 - name: "Argo Online School"
   repository: https://github.com/euroargodev/argoonlineschool
   image: https://euroargodev.github.io/argoonlineschool/_static/logoAoS.png
