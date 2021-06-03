@@ -68,7 +68,7 @@
 - name: Neuroimaging Analysis Methods for Naturalistic Data
   website: http://naturalistic-data.org/
   repository: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis
-  image: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis/raw/master/content/images/logo/Naturalistic_Data_Logo_v6.png
+  image: https://naturalistic-data.org/_static/Naturalistic_Data_Logo_v7.png
 - name: Neural Process Family
   website: https://yanndubs.github.io/Neural-Process-Family
   repository: https://github.com/YannDubs/Neural-Process-Family
@@ -157,3 +157,11 @@
   repository: https://github.com/simoninireland/introduction-to-epidemics
   image: https://raw.githubusercontent.com/simoninireland/introduction-to-epidemics/master/src/print-cover-small.png
   website: https://simondobson.org/introduction-to-epidemics/
+- name: "단국대 2020 캐글 뽀개기 (DKU Kaggle Class)"
+  repository: https://github.com/kaggler-tv/dku-kaggle-class/
+  image: https://kaggler-tv.github.io/dku-kaggle-class/_static/logo.png
+  website: https://kaggler-tv.github.io/dku-kaggle-class/main.html
+- name: "Jupyter Guide to Linear Algebra"
+  repository: https://github.com/bvanderlei/jupyter-guide-to-linear-algebra
+  image: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/_static/reflection_logo.png
+  website: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/
