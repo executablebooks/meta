@@ -69,13 +69,18 @@ on and our plans for what's coming next.
 
 ```{toctree}
 :maxdepth: 2
-
-about.md
-tools.md
+:caption: Community information
 contributing.md
 developer.md
 team.md
-updates.md
 feature-vote.md
 gallery.md
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: About the project
+about.md
+tools.md
+updates.md
 ```

@@ -31,7 +31,7 @@ templates_path = ["_templates"]
 
 fontawesome_included = True
 blog_path = "updates"
-blog_title = "EBP Updates"
+blog_title = "Executable Books Updates"
 blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
@@ -52,7 +52,9 @@ myst_enable_extensions = ["colon_fence"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo.png"
+html_logo = "_static/logo-wide.png"
+html_favicon = "_static/logo-square.png"
+html_title = "The Executable Book Project"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
