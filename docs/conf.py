@@ -32,7 +32,7 @@ templates_path = ["_templates"]
 fontawesome_included = True
 blog_path = "updates"
 blog_title = "EBP Updates"
-blog_baseurl = "https://predictablynoisy.com"
+blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
 # Jupyter Notebooks configuration
@@ -43,6 +43,8 @@ jupyter_execute_notebooks = "force"
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+# MyST Configuration
+myst_enable_extensions = ["colon_fence"]
 
 # -- Options for HTML output -------------------------------------------------
 
