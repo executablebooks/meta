@@ -44,7 +44,7 @@ jupyter_execute_notebooks = "force"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # MyST Configuration
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = ["colon_fence", "linkify"]
 
 # -- Options for HTML output -------------------------------------------------
 
