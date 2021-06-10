@@ -136,7 +136,7 @@ def build_gallery(app: Sphinx):
     random.shuffle(projects)
     for item in projects:
         if not item.get("image"):
-            item["image"] = "https://jupyterbook.org/_static/logo.png"
+            item["image"] = "https://jupyterbook.org/_images/logo-square.svg"
 
         repo_text = ""
         star_text = ""
