@@ -1,4 +1,4 @@
-myst-parser
+myst-parser[linkify]
 myst-nb
 sphinx-book-theme
 sphinx-panels

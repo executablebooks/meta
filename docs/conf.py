@@ -31,8 +31,8 @@ templates_path = ["_templates"]
 
 fontawesome_included = True
 blog_path = "updates"
-blog_title = "EBP Updates"
-blog_baseurl = "https://predictablynoisy.com"
+blog_title = "Executable Books Updates"
+blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
 # Jupyter Notebooks configuration
@@ -43,6 +43,8 @@ jupyter_execute_notebooks = "force"
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+# MyST Configuration
+myst_enable_extensions = ["colon_fence", "linkify"]
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -50,7 +52,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo.png"
+html_logo = "_static/logo-wide.png"
+html_favicon = "_static/logo-square.png"
+html_title = "The Executable Book Project"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -132,7 +136,7 @@ def build_gallery(app: Sphinx):
     random.shuffle(projects)
     for item in projects:
         if not item.get("image"):
-            item["image"] = "https://jupyterbook.org/_static/logo.png"
+            item["image"] = "https://jupyterbook.org/_images/logo-square.svg"
 
         repo_text = ""
         star_text = ""
