@@ -25,11 +25,12 @@ As a result, we are also now using an external dependency to handle our Table of
 Finally, we've also got a nifty new logo refresh, as well as a square logo!
 Check them out below:
 
-```{figure} https://github.com/executablebooks/jupyter-book/blob/master/docs/images/logo.png?raw=true
+```{figure} https://github.com/executablebooks/jupyter-book/blob/master/docs/images/logo-wide.svg?raw=true
 ooooh
 ```
 
-```{figure} https://github.com/executablebooks/jupyter-book/blob/master/docs/images/logo-square.png?raw=true
+```{figure} https://github.com/executablebooks/jupyter-book/blob/master/docs/images/logo-square.svg?raw=true
+:width: 100
 aaah
 ```
 
