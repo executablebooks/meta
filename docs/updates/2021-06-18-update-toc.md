@@ -155,4 +155,4 @@ parts:
 ## Step 5: We're done!
 
 This TOC structure is now compatible with the new Jupyter Book TOC style.
-We have taken a minimal set of steps here to convert over the old TOC structure, but if you'd like to learn more about the Table of Contents, check out {ref}`jb:toc/configuration-structure`.
+We have taken a minimal set of steps here to convert over the old TOC structure, but if you'd like to learn more about the Table of Contents, check out {ref}`jb:toc/structure`.
