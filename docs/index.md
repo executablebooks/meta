@@ -73,7 +73,7 @@ on and our plans for what's coming next.
 contributing.md
 developer.md
 team.md
-meetings.md
+meetings/index.md
 feature-vote.md
 gallery.md
 ```
