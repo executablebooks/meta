@@ -9,6 +9,8 @@ If you'd like to discuss something at a meeting, add an entry in the HackMD befo
 Below are notes from the Executable Books team meetings.
 
 ```{toctree}
+2021.md
+```
 
 ## Team Calendar
 
