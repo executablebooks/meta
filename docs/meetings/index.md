@@ -1,8 +1,16 @@
-# Team Meetings
+# Team meetings
 
 The Executable Books team has meetings on the **first Thursday of each month** for one hour.
 We use [this HackMD for an agenda](https://hackmd.io/THymMOAmSICp8rJdB6_Z1w?edit) and relevant meeting information.
 If you'd like to discuss something at a meeting, add an entry in the HackMD before the meeting.
+
+## Meeting notes
+
+Below are notes from the Executable Books team meetings.
+
+```{toctree}
+2021.md
+```
 
 ## Team Calendar
 
