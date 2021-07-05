@@ -192,8 +192,7 @@ def update_feature_votes(app: Sphinx):
         return
 
     # Pull latest issues data
-    # If `None`, ghapi will default to GITHUB_TOKEN
-    api = GhApi(token=None)
+    api = GhApi(token=os.environ.get("GITHUB_TOKEN"))
     repos = api.repos.list_for_org("executablebooks")
     issues = []
     LOGGER.info("Retrieving feature voting issue data...")
