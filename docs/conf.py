@@ -201,8 +201,9 @@ def update_feature_votes(app: Sphinx):
     # Pull latest issues data
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
-        LOGGER.warn(
-            "No access token found, GitHub issue information will not be used. "
+        LOGGER.info(
+            f"No token found at {os.environ.get('GITHUB_TOKEN')}, GitHub "
+            "issue information will not be used. "
             "Create a GitHub Personal Access Token and assign it to GITHUB_TOKEN"
         )
         return
