@@ -63,7 +63,7 @@ panels_add_bootstrap_css = False
 html_static_path = ["_static"]
 
 # Intersphinx
-intersphinx_mapping = {'jb': ('https://jupyterbook.org/', None)}
+intersphinx_mapping = {"jb": ("https://jupyterbook.org/", None)}
 
 # -- Custom scripts ----------------------------------------------------------
 
@@ -185,36 +185,58 @@ def build_gallery(app: Sphinx):
 
 
 def update_feature_votes(app: Sphinx):
+    """Update the +1 votes for features.
+
+    This will only run if `issue-votes.txt` does not exist and if a GITHUB_TOKEN
+    environment variable is present.
+    """
     # Only create a new file if none exists (so this will only run if you delete the output file)
     path_output = Path(app.srcdir).joinpath("issue-votes.txt")
     if path_output.exists():
-        LOGGER.info(f"Found existing feature votes markdown, to re-download, delete {path_output} first.\n")
+        LOGGER.info(
+            f"Found existing feature votes markdown, to re-download, delete {path_output} first.\n"
+        )
         return
 
     # Pull latest issues data
-    api = GhApi(token=os.environ.get("GITHUB_TOKEN"))
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        LOGGER.warn(
+            "No access token found, GitHub issue information will not be used. "
+            "Create a GitHub Personal Access Token and assign it to GITHUB_TOKEN"
+        )
+        return
+    api = GhApi(token=token)
     repos = api.repos.list_for_org("executablebooks")
     issues = []
     LOGGER.info("Retrieving feature voting issue data...")
     for repo in repos:
         for kind in ["enhancement", "type/enhancement", "type/documentation"]:
-            issues += api.issues.list_for_repo("executablebooks", repo['name'], labels=kind, per_page=100, state="open")
+            issues += api.issues.list_for_repo(
+                "executablebooks", repo["name"], labels=kind, per_page=100, state="open"
+            )
 
     # Extract the metadata that we want
     df = pd.DataFrame(issues)
-    df['👍'] = df['reactions'].map(lambda a: a['+1'])
-    df['Repository'] = df['html_url'].map(lambda a: f"[{a.rsplit('/')[4]}]({a.rsplit('/', 2)[0]})")
-    df['Author'] = df['user'].map(lambda a: f"[@{a['login']}](https://github.com/{a['login']})")
-    df['Issue'] = df['html_url'].map(lambda a: f"[#{a.rsplit('/')[-1]}]({a})")
+    df["👍"] = df["reactions"].map(lambda a: a["+1"])
+    df["Repository"] = df["html_url"].map(
+        lambda a: f"[{a.rsplit('/')[4]}]({a.rsplit('/', 2)[0]})"
+    )
+    df["Author"] = df["user"].map(
+        lambda a: f"[@{a['login']}](https://github.com/{a['login']})"
+    )
+    df["Issue"] = df["html_url"].map(lambda a: f"[#{a.rsplit('/')[-1]}]({a})")
     df = df.rename(columns={"title": "Title"})
 
     # Sort and remove issues with a very small # of votes
     df = df.sort_values("👍", ascending=False)
-    df = df[df['👍'] > 1]
+    df = df[df["👍"] > 1]
 
     # Write to markdown
     LOGGER.info("Writing feature voting issues to markdown...")
-    df[['👍', 'Repository', "Issue", 'Title', 'Author']].to_markdown(path_output, index=False)
+    df[["👍", "Repository", "Issue", "Title", "Author"]].to_markdown(
+        path_output, index=False
+    )
 
 
 def setup(app: Sphinx):
