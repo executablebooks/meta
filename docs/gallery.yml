@@ -1,3 +1,7 @@
+- name: Explaining neural networks in raw Python
+  website: https://bronwojtek.github.io/neuralnets-in-raw-python/docs/index.html
+  repository: https://github.com/bronwojtek/neuralnets-in-raw-python
+  image: https://github.com/bronwojtek/neuralnets-in-raw-python/blob/master/nn_book/_build/html/_static/koh.png
 - name: TensorDiffEq Documentation
   website: http://docs.tensordiffeq.io
   repository: https://github.com/tensordiffeq/TensorDiffEq
