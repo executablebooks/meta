@@ -48,7 +48,7 @@
   image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
 - name: Geographic Data Science with Python
   website: https://geographicdata.science/book/intro
-  repository:
+  repository: https://github.com/gdsbook/book
   image: https://geographicdata.science/book/_static/logo.png
 - name: Continuous Time Markov Chains
   website: https://jstac.github.io/continuous_time_mcs/intro.html
