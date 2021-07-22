@@ -38,10 +38,6 @@
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
   repository: https://github.com/aquaULB/solving_pde_mooc
-- name: Quantitative Economics with Python
-  website: https://executablebooks.github.io/quantecon-example/docs/index.html
-  repository: https://github.com/executablebooks/quantecon-example
-  image: https://executablebooks.github.io/quantecon-example/_static/qe-logo-large.png
 - name: Intro to Cultural Analytics
   website: https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
   repository: https://github.com/melaniewalsh/Intro-Cultural-Analytics
