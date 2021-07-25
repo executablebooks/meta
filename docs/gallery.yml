@@ -185,3 +185,7 @@
   website: http://readIAB.org
   repository: https://github.com/applied-bioinformatics/iab2
   image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
+- name: Primer on Statistics
+  website: https://r05323028.github.io/primer-on-statistics
+  repository: https://github.com/r05323028/primer-on-statistics
+  image: https://raw.githubusercontent.com/r05323028/primer-on-statistics/main/logo.png
