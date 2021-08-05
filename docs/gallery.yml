@@ -198,3 +198,6 @@
   website: http://readIAB.org
   repository: https://github.com/applied-bioinformatics/iab2
   image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
+- name: Computational Mechanics
+  website: https://cooperrc.github.io/computational-mechanics
+  image: https://raw.githubusercontent.com/cooperrc/computational-mechanics/b6a88f2d32f9d90418a9b575aec4bec0d6757b2a/comp-mech-logo.svg
