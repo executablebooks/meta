@@ -1,3 +1,19 @@
+- name: Python Programming for Economics and Finance
+  website: https://python-programming.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python-programming.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Quantitative Economics with Python
+  website: https://python.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Advanced Quantitative Economics with Python
+  website: https://python-advanced.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python-advanced.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Introduction to Economic Modeling and Data Science
+  website: https://datascience.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-datascience.myst
+  image: https://datascience.quantecon.org/_static/datascience-logo.png
 - name: Explaining neural networks in raw Python
   website: https://bronwojtek.github.io/neuralnets-in-raw-python/docs/index.html
   repository: https://github.com/bronwojtek/neuralnets-in-raw-python
@@ -22,10 +38,6 @@
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
   repository: https://github.com/aquaULB/solving_pde_mooc
-- name: Quantitative Economics with Python
-  website: https://executablebooks.github.io/quantecon-example/docs/index.html
-  repository: https://github.com/executablebooks/quantecon-example
-  image: https://executablebooks.github.io/quantecon-example/_static/qe-logo-large.png
 - name: Intro to Cultural Analytics
   website: https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
   repository: https://github.com/melaniewalsh/Intro-Cultural-Analytics
@@ -53,6 +65,7 @@
 - name: Continuous Time Markov Chains
   website: https://jstac.github.io/continuous_time_mcs/intro.html
   repository: http://github.com/jstac/continuous_time_mcs
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
 - name: Statistics and Data Science
   website: https://cranmer.github.io/stats-ds-book/intro.html
   repository: https://github.com/cranmer/stats-ds-book
@@ -189,3 +202,7 @@
   website: https://r05323028.github.io/primer-on-statistics
   repository: https://github.com/r05323028/primer-on-statistics
   image: https://raw.githubusercontent.com/r05323028/primer-on-statistics/main/logo.png
+- name: Computational Mechanics
+  website: https://cooperrc.github.io/computational-mechanics
+  repository: https://github.com/cooperrc/computational-mechanics
+  image: https://raw.githubusercontent.com/cooperrc/computational-mechanics/b6a88f2d32f9d90418a9b575aec4bec0d6757b2a/comp-mech-logo.svg
