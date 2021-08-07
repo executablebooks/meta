@@ -1,3 +1,23 @@
+- name: Python Programming for Economics and Finance
+  website: https://python-programming.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python-programming.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Quantitative Economics with Python
+  website: https://python.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Advanced Quantitative Economics with Python
+  website: https://python-advanced.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python-advanced.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Introduction to Economic Modeling and Data Science
+  website: https://datascience.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-datascience.myst
+  image: https://datascience.quantecon.org/_static/datascience-logo.png
+- name: Explaining neural networks in raw Python
+  website: https://bronwojtek.github.io/neuralnets-in-raw-python/docs/index.html
+  repository: https://github.com/bronwojtek/neuralnets-in-raw-python
+  image: https://bronwojtek.github.io/neuralnets-in-raw-python/_static/koh.png
 - name: TensorDiffEq Documentation
   website: http://docs.tensordiffeq.io
   repository: https://github.com/tensordiffeq/TensorDiffEq
@@ -18,10 +38,6 @@
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
   repository: https://github.com/aquaULB/solving_pde_mooc
-- name: Quantitative Economics with Python
-  website: https://executablebooks.github.io/quantecon-example/docs/index.html
-  repository: https://github.com/executablebooks/quantecon-example
-  image: https://executablebooks.github.io/quantecon-example/_static/qe-logo-large.png
 - name: Intro to Cultural Analytics
   website: https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
   repository: https://github.com/melaniewalsh/Intro-Cultural-Analytics
@@ -44,11 +60,12 @@
   image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
 - name: Geographic Data Science with Python
   website: https://geographicdata.science/book/intro
-  repository:
+  repository: https://github.com/gdsbook/book
   image: https://geographicdata.science/book/_static/logo.png
 - name: Continuous Time Markov Chains
   website: https://jstac.github.io/continuous_time_mcs/intro.html
   repository: http://github.com/jstac/continuous_time_mcs
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
 - name: Statistics and Data Science
   website: https://cranmer.github.io/stats-ds-book/intro.html
   repository: https://github.com/cranmer/stats-ds-book
@@ -177,3 +194,19 @@
   repository: https://github.com/xinetzone/ai-world
   image: https://xinetzone.github.io/ai-world/_static/logo.jpg
   website: https://xinetzone.github.io/ai-world
+- name: "PVSC pvlib python Tutorial"
+  repository: https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial
+  image: https://raw.githubusercontent.com/pvlib/pvlib-python/master/docs/sphinx/source/_images/pvlib_logo_vert.png
+  website: https://pvsc-python-tutorials.github.io/PVSC48-Python-Tutorial/index.html
+- name: An Introduction to Applied Bioinformatics
+  website: http://readIAB.org
+  repository: https://github.com/applied-bioinformatics/iab2
+  image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
+- name: Primer on Statistics
+  website: https://r05323028.github.io/primer-on-statistics
+  repository: https://github.com/r05323028/primer-on-statistics
+  image: https://raw.githubusercontent.com/r05323028/primer-on-statistics/main/logo.png
+- name: Computational Mechanics
+  website: https://cooperrc.github.io/computational-mechanics
+  repository: https://github.com/cooperrc/computational-mechanics
+  image: https://raw.githubusercontent.com/cooperrc/computational-mechanics/b6a88f2d32f9d90418a9b575aec4bec0d6757b2a/comp-mech-logo.svg
