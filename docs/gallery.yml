@@ -206,3 +206,7 @@
   website: https://cooperrc.github.io/computational-mechanics
   repository: https://github.com/cooperrc/computational-mechanics
   image: https://raw.githubusercontent.com/cooperrc/computational-mechanics/b6a88f2d32f9d90418a9b575aec4bec0d6757b2a/comp-mech-logo.svg
+- name: "Topology in condensed matter: tying quantum knots"
+  website: https://topocondmat.org
+  repository: https://github.com/topocm/topocm_content
+  image: https://raw.githubusercontent.com/topocm/topocm_content/master/logo_small.jpg
