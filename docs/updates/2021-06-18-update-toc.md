@@ -1,10 +1,10 @@
 # Migrate your old Table of Contents to the new TOC structure
 
-:::{post} 2021-06-17
+```{post} 2021-06-17
 :author: EBP
 :image: 1
 :excerpt: 2
-:::
+```
 
 In Jupyter Book v0.11, we [introduced a new Table of Contents](https://jupyterbook.org/reference/_changelog.html#v0-11-0) structure.
 The new structure is a bit more rigid and explicit, which should allow for a cleaner mapping of TOC structures onto book structures.
