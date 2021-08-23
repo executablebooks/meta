@@ -210,3 +210,8 @@
   website: https://topocondmat.org
   repository: https://github.com/topocm/topocm_content
   image: https://raw.githubusercontent.com/topocm/topocm_content/master/logo_small.jpg
+ - name: "VisDepot: An Introductory Resource for Data Visualization"
+  website: https://necote.github.io/VisDepot/
+  repository: https://github.com/necote/VisDepot
+  image: https://raw.githubusercontent.com/necote/VisDepot/main/visdepot_logo_4.png
+ 
