@@ -210,3 +210,7 @@
   website: https://topocondmat.org
   repository: https://github.com/topocm/topocm_content
   image: https://raw.githubusercontent.com/topocm/topocm_content/master/logo_small.jpg
+- name: Introduction to Materials Informatics
+  website: https://enze-chen.github.io/mi-book
+  repository: https://github.com/enze-chen/mi-book
+  image: https://raw.githubusercontent.com/enze-chen/mi-book/master/mi_logo.png
