@@ -24,7 +24,7 @@ master_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_nb", "sphinx_panels", "ablog", "sphinx.ext.intersphinx"]
+extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -97,25 +97,27 @@ def update_team(app: Sphinx):
 
     # Generate the markdown for each member
     people = []
-    for person in team:
+    for person in sorted(team, key=lambda p: p.get("login", "").replace("A", "x")):
         this_person = f"""
-        ![avatar]({person['avatar_url']})
-        ++++++++++++++
-        [@{person['login']}]({person['html_url']})
+        ````{{grid-item}}
+        ```{{image}} {person['avatar_url']}
+        :height: 150px
+        :alt: avatar
+        :target: {person['html_url']}
+        :class: sd-rounded-circle
+        ```
+        ````
         """
         people.append(this_person)
-    people_md = dedent("---\n".join(people))
+    people_md = dedent("\n".join(people))
 
-    # Use the panels directive to build our team and write to txt
+    # Use the grid directive to build our team and write to txt
     md = f"""
-````{{panels}}
----
-column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
-card: text-center
----
+`````{{grid}} 2 2 4 4
+:gutter: 1 2 2 3
 
 {people_md}
-````
+`````
     """
     (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
 
@@ -134,7 +136,7 @@ def update_contributing(app: Sphinx):
 def build_gallery(app: Sphinx):
     # Build the gallery file
     LOGGER.info("building gallery...")
-    panels_body = []
+    grid_items = []
     projects = yaml.safe_load((Path(app.srcdir) / "gallery.yml").read_text())
     random.shuffle(projects)
     for item in projects:
@@ -145,7 +147,7 @@ def build_gallery(app: Sphinx):
         star_text = ""
 
         if item["repository"]:
-            repo_text = f'{{link-badge}}`{item["repository"]},"repo",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`'
+            repo_text = f'{{bdg-link-secondary}}`repo <{item["repository"]}>`'
 
             try:
                 url = urlparse(item["repository"])
@@ -155,31 +157,51 @@ def build_gallery(app: Sphinx):
             except Exception as error:
                 pass
 
-        panels_body.append(
+        grid_items.append(
             f"""\
-        ---
-        :img-top: {item["image"]}
+        `````{{grid-item-card}} {" ".join(item["name"].split())}
+        :text-align: center
+
+        <img src="{item["image"]}" alt="logo" loading="lazy" style="max-width: 100%; max-height: 200px; margin-top: 1rem;" />
 
         +++
-        **{item["name"]}**
+        ````{{grid}} 2 2 2 2
+        :margin: 0 0 0 0
+        :padding: 0 0 0 0
+        :gutter: 1
 
-        {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`
+        ```{{grid-item}}
+        :child-direction: row
+        :child-align: start
+        :class: sd-fs-5
+
+        {{bdg-link-secondary}}`website <{item["website"]}>`
         {repo_text}
+        ```
+        ```{{grid-item}}
+        :child-direction: row
+        :child-align: end
+
         {star_text}
+        ```
+        ````
+        `````
         """
         )
-    panels_body = "\n".join(panels_body)
+    grid_items = "\n".join(grid_items)
+
+# :column: text-center col-6 col-lg-4
+# :card: +my-2
+# :img-top-cls: w-75 m-auto p-2
+# :body: d-none
 
     panels = f"""
-````{{panels}}
-:container: full-width
-:column: text-center col-6 col-lg-4
-:card: +my-2
-:img-top-cls: w-75 m-auto p-2
-:body: d-none
+``````{{grid}} 1 2 3 3
+:gutter: 1 1 2 2
+:class-container: full-width
 
-{dedent(panels_body)}
-````
+{dedent(grid_items)}
+``````
     """
     (Path(app.srcdir) / "gallery.txt").write_text(panels)
 

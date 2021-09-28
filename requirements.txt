@@ -3,6 +3,7 @@ myst-parser[linkify]
 myst-nb
 sphinx-book-theme
 sphinx-panels
+sphinx-design~=0.0.11
 ablog
 
 # For the feature voting code
