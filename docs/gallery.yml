@@ -210,8 +210,11 @@
   website: https://topocondmat.org
   repository: https://github.com/topocm/topocm_content
   image: https://raw.githubusercontent.com/topocm/topocm_content/master/logo_small.jpg
- - name: "VisDepot: An Introductory Resource for Data Visualization"
+- name: "VisDepot: An Introductory Resource for Data Visualization"
   website: https://necote.github.io/VisDepot/
   repository: https://github.com/necote/VisDepot
   image: https://raw.githubusercontent.com/necote/VisDepot/main/visdepot_logo_4.png
- 
+- name: Introduction to Materials Informatics
+  website: https://enze-chen.github.io/mi-book
+  repository: https://github.com/enze-chen/mi-book
+  image: https://raw.githubusercontent.com/enze-chen/mi-book/master/mi_logo.png
