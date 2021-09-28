@@ -218,6 +218,10 @@
   website: https://enze-chen.github.io/mi-book
   repository: https://github.com/enze-chen/mi-book
   image: https://raw.githubusercontent.com/enze-chen/mi-book/master/mi_logo.png
+- name: "ML-AI Guide"
+  website: https://csinva.io/blog/compiled_notes/_build/html//intro.html
+  repository: https://github.com/csinva/csinva.github.io
+  image: https://csinva.io/blog/compiled_notes/_build/html//_static/logo.png
 - name: Computational Models of Human Social Behavior & Neuroscience
   website: https://shawnrhoads.github.io/gu-psyc-347
   repository: https://github.com/shawnrhoads/gu-psyc-347
