@@ -210,6 +210,10 @@
   website: https://topocondmat.org
   repository: https://github.com/topocm/topocm_content
   image: https://raw.githubusercontent.com/topocm/topocm_content/master/logo_small.jpg
+- name: "VisDepot: An Introductory Resource for Data Visualization"
+  website: https://necote.github.io/VisDepot/
+  repository: https://github.com/necote/VisDepot
+  image: https://raw.githubusercontent.com/necote/VisDepot/main/visdepot_logo_4.png
 - name: Introduction to Materials Informatics
   website: https://enze-chen.github.io/mi-book
   repository: https://github.com/enze-chen/mi-book
@@ -218,3 +222,7 @@
   website: https://csinva.io/blog/compiled_notes/_build/html//intro.html
   repository: https://github.com/csinva/csinva.github.io
   image: https://csinva.io/blog/compiled_notes/_build/html//_static/logo.png
+- name: Computational Models of Human Social Behavior & Neuroscience
+  website: https://shawnrhoads.github.io/gu-psyc-347
+  repository: https://github.com/shawnrhoads/gu-psyc-347
+  image: https://github.com/shawnrhoads/gu-psyc-347/raw/master/docs/static/images/logo-background.jpg
