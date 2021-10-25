@@ -230,3 +230,7 @@
   website: https://syahrulhamdani.github.io/data-science-crisp-dm
   repository: https://github.com/syahrulhamdani/data-science-crisp-dm
   image: https://syahrulhamdani.github.io/data-science-crisp-dm/_static/bitlabs.png
+- name: "Chainladder - Actuarial Reserving in Python"
+  website: https://chainladder-python.readthedocs.io
+  repository: https://github.com/casact/chainladder-python
+  image: https://chainladder-python.readthedocs.io/en/stable/_static/logo.png
