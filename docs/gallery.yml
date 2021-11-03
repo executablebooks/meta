@@ -106,10 +106,6 @@
   website: https://caporasolab.us/genome-sampler/
   repository: https://github.com/caporaso-lab/genome-sampler
   image:
-- name: Fundamental Tools for Image Processing
-  website: https://vincmazet.github.io/ftip/
-  repository: https://github.com/vincmazet/ftip
-  image:
 - name: PyTorch를 활용한 딥러닝 튜토리얼 (Deep Learning Tutorials with PyTorch)
   website: https://pseudo-lab.github.io/Tutorial-Book/
   repository: https://github.com/Pseudo-Lab/Tutorial-Book/
@@ -238,3 +234,7 @@
   website: https://chainladder-python.readthedocs.io
   repository: https://github.com/casact/chainladder-python
   image: https://chainladder-python.readthedocs.io/en/stable/_static/logo.png
+- name: Basics of Image Processing
+  website: https://vincmazet.github.io/bip/
+  repository: https://github.com/vincmazet/bip
+  image:
