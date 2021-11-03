@@ -1,3 +1,7 @@
+- name: The Data Science Interview Book
+  website: https://dipranjan.github.io/dsinterviewqns/intro.html
+  repository: https://github.com/dipranjan/dsinterviewqns
+  image: https://github.com/dipranjan/dsinterviewqns/raw/master/logo.gif
 - name: Python Programming for Economics and Finance
   website: https://python-programming.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python-programming.myst
