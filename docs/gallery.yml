@@ -238,3 +238,7 @@
   website: https://vincmazet.github.io/bip/
   repository: https://github.com/vincmazet/bip
   image:
+- name: "NI-edu: fMRI analysis in Python"
+  website: https://lukas-snoek.com/NI-edu
+  repository: https://github.com/lukassnoek/NI-edu
+  image: https://raw.githubusercontent.com/lukassnoek/NI-edu/master/NI-edu/img/fmri_lowres.gif
