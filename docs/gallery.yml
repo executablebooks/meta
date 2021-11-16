@@ -242,3 +242,7 @@
   website: https://lukas-snoek.com/NI-edu
   repository: https://github.com/lukassnoek/NI-edu
   image: https://raw.githubusercontent.com/lukassnoek/NI-edu/master/NI-edu/img/fmri_lowres.gif
+- name: "Music Classification: Beyond Supervised Learning, Towards Real-world Applications"
+  website: https://music-classification.github.io/tutorial/
+  repository: https://github.com/music-classification/tutorial
+  image: https://github.com/music-classification/tutorial/raw/main/book/images/favicon_io/android-chrome-512x512.png
