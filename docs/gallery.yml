@@ -226,7 +226,7 @@
   website: https://shawnrhoads.github.io/gu-psyc-347
   repository: https://github.com/shawnrhoads/gu-psyc-347
   image: https://github.com/shawnrhoads/gu-psyc-347/raw/master/docs/static/images/logo-background.jpg
-- name: Introduction to Data Science for Engineers
-  website: https://jmshea.github.io/intro-data-science-for-engineers
-  repository: https://github.com/jmshea/intro-data-science-for-engineers
-  image: https://jmshea.github.io/intro-data-science-for-engineers/_images/tools.png
+- name: Foundations of Data Science with Python
+  website: https://jmshea.github.io/Foundations-of-Data-Science-with-Python
+  repository: https://github.com/jmshea/Foundations-of-Data-Science-with-Python
+  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/tools.png
