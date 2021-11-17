@@ -1,3 +1,7 @@
+- name: The Data Science Interview Book
+  website: https://dipranjan.github.io/dsinterviewqns/intro.html
+  repository: https://github.com/dipranjan/dsinterviewqns
+  image: https://github.com/dipranjan/dsinterviewqns/raw/master/logo.gif
 - name: Python Programming for Economics and Finance
   website: https://python-programming.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python-programming.myst
@@ -101,10 +105,6 @@
 - name: genome-sampler Software Documentation
   website: https://caporasolab.us/genome-sampler/
   repository: https://github.com/caporaso-lab/genome-sampler
-  image:
-- name: Fundamental Tools for Image Processing
-  website: https://vincmazet.github.io/ftip/
-  repository: https://github.com/vincmazet/ftip
   image:
 - name: PyTorch를 활용한 딥러닝 튜토리얼 (Deep Learning Tutorials with PyTorch)
   website: https://pseudo-lab.github.io/Tutorial-Book/
@@ -230,3 +230,23 @@
   website: https://jmshea.github.io/Foundations-of-Data-Science-with-Python
   repository: https://github.com/jmshea/Foundations-of-Data-Science-with-Python
   image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/tools.png
+- name: "Data Science Process using CRISP-DM"
+  website: https://syahrulhamdani.github.io/data-science-crisp-dm
+  repository: https://github.com/syahrulhamdani/data-science-crisp-dm
+  image: https://syahrulhamdani.github.io/data-science-crisp-dm/_static/bitlabs.png
+- name: "Chainladder - Actuarial Reserving in Python"
+  website: https://chainladder-python.readthedocs.io
+  repository: https://github.com/casact/chainladder-python
+  image: https://chainladder-python.readthedocs.io/en/stable/_static/logo.png
+- name: Basics of Image Processing
+  website: https://vincmazet.github.io/bip/
+  repository: https://github.com/vincmazet/bip
+  image:
+- name: "NI-edu: fMRI analysis in Python"
+  website: https://lukas-snoek.com/NI-edu
+  repository: https://github.com/lukassnoek/NI-edu
+  image: https://raw.githubusercontent.com/lukassnoek/NI-edu/master/NI-edu/img/fmri_lowres.gif
+- name: "Music Classification: Beyond Supervised Learning, Towards Real-world Applications"
+  website: https://music-classification.github.io/tutorial/
+  repository: https://github.com/music-classification/tutorial
+  image: https://github.com/music-classification/tutorial/raw/main/book/images/favicon_io/android-chrome-512x512.png
