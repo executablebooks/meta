@@ -1,7 +1,7 @@
 ---
 name: Team Meeting 📅
 about: A team meeting
-title: 'Team Meeting - {{ YYYY-MM-DD }}'
+title: 'Team Meeting - {{ mmm YYYY }}'
 labels: meeting
 assignees: ''
 ---
