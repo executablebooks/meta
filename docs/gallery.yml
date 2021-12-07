@@ -250,7 +250,7 @@
   website: https://music-classification.github.io/tutorial/
   repository: https://github.com/music-classification/tutorial
   image: https://github.com/music-classification/tutorial/raw/main/book/images/favicon_io/android-chrome-512x512.png
-- name: "PyMedPhys: Supporting Medical Physicsits in making radiotherapy cancer treatment safer"
+- name: "PyMedPhys: Supporting Medical Physicists in making radiotherapy cancer treatment safer"
   website: https://docs.pymedphys.com/
   repository: https://github.com/pymedphys/pymedphys/tree/main/lib/pymedphys/docs
   image: https://raw.githubusercontent.com/pymedphys/pymedphys/67819b7b49337fb2213ec1bcb7ee64c1ae914eee/logos/pymedphys_square.svg
