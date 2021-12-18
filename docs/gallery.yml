@@ -254,3 +254,8 @@
   website: https://docs.pymedphys.com/
   repository: https://github.com/pymedphys/pymedphys/tree/main/lib/pymedphys/docs
   image: https://raw.githubusercontent.com/pymedphys/pymedphys/67819b7b49337fb2213ec1bcb7ee64c1ae914eee/logos/pymedphys_square.svg
+- name: "The Good Research Code handbook"
+  website: https://goodresearch.dev
+  repository: https://github.com/patrickmineault/codebook
+  image: https://goodresearch.dev/_images/unicorn.png
+
