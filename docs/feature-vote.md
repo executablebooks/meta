@@ -1,6 +1,5 @@
 (feature-note)=
-
-# Voting for new features
+# Feature voting board
 
 You can help us to prioritise development of new features by leaving a [👍 reaction](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) on the first comment of any `enhancement` issue.
 

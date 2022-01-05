@@ -1,3 +1,3 @@
-# Updates from the team
+# Blog posts
 
 % This page will be replaced by ablog
