@@ -258,4 +258,8 @@
   website: https://goodresearch.dev
   repository: https://github.com/patrickmineault/codebook
   image: https://goodresearch.dev/_images/unicorn.png
+- name: "Prodigious Python - Quest for the fun filled adventure of Python"
+  website: https://prodigiouspython.github.io/ProdigiousPython
+  repository: https://github.com/ProdigiousPython/ProdigiousPython
+  image: https://raw.githubusercontent.com/ProdigiousPython/AssetStore/main/Prodigious%20Python%20Cover.png
 
