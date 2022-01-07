@@ -1,4 +1,4 @@
-# Team members
+# List of team members
 
 The Executable Books team is a collection of scientists, scholars, and technologists
 around the world. We welcome participation and contribution from the community.

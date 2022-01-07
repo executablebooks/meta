@@ -52,10 +52,9 @@ myst_enable_extensions = ["colon_fence", "linkify"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo-wide.png"
+html_logo = "_static/logo.svg"
 html_favicon = "_static/logo-square.png"
-html_title = "The Executable Book Project"
-panels_add_bootstrap_css = False
+html_title = "Team Documentation"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
