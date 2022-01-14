@@ -2,6 +2,14 @@
 
 This section provides some useful tips and tricks for development of projects within the Executable Book Project ecosystem.
 
+## Documentation resources
+
+### Minifying images
+
+We recommend minifying images whenever adding them to documentation.
+This helps keep our repository size down, as well as the page load times of our documentation.
+There are many minifying services out there, but [the `squoosh.app` service](https://squoosh.app/) is a lightweight and easy-to-use option.
+
 ## Working with Sphinx
 
 The [sphinx development guide](https://www.sphinx-doc.org/en/master/develop.html) is also a useful resource for understanding how `Sphinx` works.
