@@ -1,18 +1,21 @@
-name: Check links
+name: Build documentation
 
 on:
-  push:
   pull_request:
 
 jobs:
-  linkChecker:
+  check-links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pip'
 
       - name: Build the documentation
         run: |
-          pip install requirements.txt
+          pip install -r requirements.txt
           sphinx-build . _build/html
 
       - name: Link Checker
