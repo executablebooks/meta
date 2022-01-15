@@ -90,7 +90,7 @@ interactive book. It has the following primary features:
 
 * **[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)**
   for visual elements and functionality.
-* **[Flexible content layout](https://sphinx-book-theme.readthedocs.io/en/latest/layout.html)** that is inspired by beautiful online books,
+* **[Flexible content layout](https://sphinx-book-theme.readthedocs.io/en/latest/content-blocks.html)** that is inspired by beautiful online books,
   such as [the Edward Tufte CSS guide](https://edwardtufte.github.io/tufte-css/)
 * **[Visual classes designed for Jupyter Notebooks](https://sphinx-book-theme.readthedocs.io/en/latest/notebooks.html)**. Cell inputs, outputs,
   and interactive functionality are all supported.
@@ -126,8 +126,8 @@ Here are its main features:
 - Follows the __[CommonMark spec](http://spec.commonmark.org/)__ for baseline parsing
 - Configurable syntax: You can add new rules and even replace existing ones
 - Pluggable: Adds syntax extensions to extend the parser (see the [plugin list](https://markdown-it-py.readthedocs.io/en/latest/plugins.html#md-plugins))
-- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/security.html#md-performance))
-- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/security.html#md-security)
+- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/other.html#performance))
+- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/other.html#security)
 
 
 
