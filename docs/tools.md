@@ -22,7 +22,7 @@ Jupyter Book has the following main features:
 * **[Execute and cache your book's content](https://jupyterbook.org/content/execute.html)**. For `.ipynb` and
   markdown notebooks, execute code and insert the latest outputs into your book.
   In addition, cache and re-use outputs to be used later.
-* **[Insert notebook outputs into your content](https://jupyterbook.org/content/glue.html)**. Generate outputs
+* **[Insert notebook outputs into your content](https://jupyterbook.org/content/executable/output-insert.html)**. Generate outputs
   as you build your documentation, and insert them in-line with your content across pages.
 * **[Add interactivity to your book](https://jupyterbook.org/interactive/launchbuttons.html)**. You can
   toggle visibility of cells, connect with an online service like Binder,

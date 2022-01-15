@@ -23,4 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: docs/_build/**/*.html
+          fail: true
+          args: |
+            docs/_build/**/*.html \
+            --exclude-link-local \
+            --exclude mailto \
+            --exclude discuss.executablebooks.org
