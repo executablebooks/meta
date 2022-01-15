@@ -270,4 +270,7 @@
   website: https://prodigiouspython.github.io/ProdigiousPython
   repository: https://github.com/ProdigiousPython/ProdigiousPython
   image: https://raw.githubusercontent.com/ProdigiousPython/AssetStore/main/Prodigious%20Python%20Main%20logo.png
-
+- name: "ALLCools - single-cell DNA Methylome Analysis Package"
+  website: https://lhqing.github.io/ALLCools/intro.html
+  repository: https://github.com/lhqing/ALLCools
+  image: https://raw.githubusercontent.com/lhqing/ALLCools/master/docs/allcools/img/allcools_logo_large.png
