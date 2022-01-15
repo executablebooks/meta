@@ -1,0 +1,27 @@
+name: Build documentation
+
+on:
+  pull_request:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+
+      - name: Build the documentation
+        run: |
+          pip install -r requirements.txt
+          sphinx-build docs docs/_build/html
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.2.0
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        with:
+          fail: true
+          args: docs/_build/**/*.html --exclude-link-local --exclude mailto --exclude discuss.executablebooks.org

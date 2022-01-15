@@ -6,7 +6,7 @@
 :excerpt: 2
 ```
 
-*Note: this announcement is cross-posted between the [Jupyter Blog](https://blog.jupyter.org) and the [Executable Book Project updates blog](https://executablebooks.org/en/latest/updates/index.html)*
+*Note: this announcement is cross-posted between the [Jupyter Blog](https://blog.jupyter.org) and the [Executable Book Project updates blog](https://executablebooks.org/en/latest/updates.html)*
 
 Jupyter Book is an open source project for building beautiful, publication-quality books, websites, and documents from source material that contains computational content. With this post, we're happy to announce that Jupyter Book has been re-written from the ground up, making it easier to install, faster to use, and able to create more complex publishing content in your books. It is now supported by [the Executable Book Project](https://executablebooks.org/en/latest/), an open community that builds open source tools for interactive and executable documents in the Jupyter ecosystem and beyond.
 
