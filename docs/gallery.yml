@@ -274,3 +274,7 @@
   website: https://lhqing.github.io/ALLCools/intro.html
   repository: https://github.com/lhqing/ALLCools
   image: https://raw.githubusercontent.com/lhqing/ALLCools/master/docs/allcools/img/allcools_logo_large.png
+- name: "Network Data Science"
+  website: https://bdpedigo.github.io/networks-course
+  repository: https://github.com/bdpedigo/networks-course
+  image: https://raw.githubusercontent.com/bdpedigo/networks-course/main/docs/images/logo.png
