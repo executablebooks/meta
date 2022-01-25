@@ -278,3 +278,7 @@
   website: https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html
   repository: https://github.com/best-practice-and-impact/qa-of-code-guidance
   image: https://github.com/best-practice-and-impact/qa-of-code-guidance/blob/master/book/_static/duck_book_logo.svg
+- name: "Network Data Science"
+  website: https://bdpedigo.github.io/networks-course
+  repository: https://github.com/bdpedigo/networks-course
+  image: https://raw.githubusercontent.com/bdpedigo/networks-course/main/docs/images/logo.png
