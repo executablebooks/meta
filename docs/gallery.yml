@@ -282,3 +282,7 @@
   website: https://bdpedigo.github.io/networks-course
   repository: https://github.com/bdpedigo/networks-course
   image: https://raw.githubusercontent.com/bdpedigo/networks-course/main/docs/images/logo.png
+- name: "Mathematik für Physikstudierende C"
+  website: https://fau-ammn.github.io/MathPhysicsC/intro.html
+  repository: https://github.com/FAU-AMMN/MathPhysicsC
+  image: https://raw.githubusercontent.com/FAU-AMMN/MathPhysicsC/main/img/FAU_Nat_logo.svg
