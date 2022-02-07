@@ -285,4 +285,4 @@
 - name: "Mathematik für Physikstudierende C"
   website: https://fau-ammn.github.io/MathPhysicsC/intro.html
   repository: https://github.com/FAU-AMMN/MathPhysicsC
-  image: https://github.com/FAU-AMMN/MathPhysicsC/blob/main/img/FAU_Nat_logo.svg
+  image: https://raw.githubusercontent.com/FAU-AMMN/MathPhysicsC/main/img/FAU_Nat_logo.svg
