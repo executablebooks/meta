@@ -286,7 +286,7 @@
   website: https://fau-ammn.github.io/MathPhysicsC/intro.html
   repository: https://github.com/FAU-AMMN/MathPhysicsC
   image: https://raw.githubusercontent.com/FAU-AMMN/MathPhysicsC/main/img/FAU_Nat_logo.svg
-- name: "Pythia Foundations"
+- name: "Pythia Foundations -- A community learning resource for Python-based computing in the geosciences"
   website: https://foundations.projectpythia.org
   repository: https://github.com/ProjectPythia/pythia-foundations
   image: https://avatars.githubusercontent.com/projectpythia
