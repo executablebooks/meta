@@ -223,7 +223,7 @@
   repository: https://github.com/necote/VisDepot
   image: https://raw.githubusercontent.com/necote/VisDepot/main/visdepot_logo_4.png
 - name: Introduction to Materials Informatics
-  website: https://enze-chen.github.io/mi-book
+  website: https://enze-chen.github.io/mi-book-2021/
   repository: https://github.com/enze-chen/mi-book
   image: https://raw.githubusercontent.com/enze-chen/mi-book/master/mi_logo.png
 - name: "ML-AI Guide"
