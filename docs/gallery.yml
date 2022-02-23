@@ -290,3 +290,7 @@
   website: https://foundations.projectpythia.org
   repository: https://github.com/ProjectPythia/pythia-foundations
   image: https://avatars.githubusercontent.com/projectpythia
+- name: "10 Lectures on Inverse Problems and Imaging"
+  website: https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html
+  repository: https://github.com/TristanvanLeeuwen/IP_and_Im_Lectures
+  image: https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/_static/logo.png
