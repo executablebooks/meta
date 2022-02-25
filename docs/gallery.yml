@@ -294,3 +294,7 @@
   website: https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html
   repository: https://github.com/TristanvanLeeuwen/IP_and_Im_Lectures
   image: https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/_static/logo.png
+- name: "Computational Discovery on Jupyter"
+  website: https://computational-discovery-on-jupyter.github.io/Computational-Discovery-on-Jupyter/
+  repository: https://github.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter
+  image: https://raw.githubusercontent.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter/master/book/logo.jpg
