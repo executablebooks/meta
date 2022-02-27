@@ -298,3 +298,7 @@
   website: https://computational-discovery-on-jupyter.github.io/Computational-Discovery-on-Jupyter/
   repository: https://github.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter
   image: https://raw.githubusercontent.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter/master/book/logo.jpg
+- name: "Scientific Computing for Chemists"
+  website: https://weisscharlesj.github.io/SciCompChem_JupyterBook/
+  repository: https://github.com/weisscharlesj/SciCompChem_JupyterBook
+  image: https://weisscharlesj.github.io/SciCompChem_JupyterBook/index.html
