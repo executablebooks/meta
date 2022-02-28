@@ -301,4 +301,4 @@
 - name: "Scientific Computing for Chemists"
   website: https://weisscharlesj.github.io/SciCompChem_JupyterBook/
   repository: https://github.com/weisscharlesj/SciCompChem_JupyterBook
-  image: https://weisscharlesj.github.io/SciCompChem_JupyterBook/index.html
+  image: https://weisscharlesj.github.io/SciCompChem_JupyterBook/_static/logo.svg
