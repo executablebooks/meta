@@ -1,23 +1,23 @@
 ---
 name: Team Meeting 📅
 about: A team meeting
-title: 'EBP Team Meeting - {{ mmm YYYY }}'
+title: 'EBP Team Meeting - {{ MONTH }}'
 labels: meeting
 assignees: ''
 ---
 
 Hello @executablebooks/ebpteam! This is an issue to track the next Executable Books team meeting! Here's some relevant information:
 
-- **Date**: {{ YYYY-MM-DD }} at 7AM Sydney Time (or [your timezone](https://arewemeetingyet.com/Sydney/{{ YYYY-MM-DD }}/07:00/EBP-Team-Meeting)).
-- [**Agenda+Video links**](https://hackmd.io/THymMOAmSICp8rJdB6_Z1w?edit)
-- [**Google Calendar link**]({{ PUBLISH CALENDAR EVENT AND PASTE LINK HERE }} )
+- **Date**: {{ YYYY-MM-DD }}
+- **Time**: 7AM Sydney Time (**Wed** or **Thu** depending on your timezone).
+- [**Google Calendar Link**](https://calendar.google.com/calendar/embed?src=2nbh00hh9020u622nt0p5qhbek%40group.calendar.google.com&ctz=America%2FLos_Angeles).
+- [**Agenda+Video Links**](https://hackmd.io/THymMOAmSICp8rJdB6_Z1w?edit)
 
 If you'd like to discuss something at the meeting, please add an item to the agenda!
 
 ### Before the meeting
 
 - [ ] Update dates and make sure HackMD information is correct.
-- [ ] Create an event link from Google Calendar and paste above.
 - [ ] Team members add agenda items.
   
 ### After the meeting
