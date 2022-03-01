@@ -12,6 +12,7 @@ Below are notes from the Executable Books team meetings.
 
 ```{toctree}
 :maxdepth: 2
+2022.md
 2021.md
 ```
 
