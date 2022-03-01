@@ -8,8 +8,7 @@ assignees: ''
 
 Hello @executablebooks/ebpteam! This is an issue to track the next Executable Books team meeting! Here's some relevant information:
 
-- **Date**: {{ YYYY-MM-DD }}
-- **Time**: 7AM Sydney Time (**Wed** or **Thu** depending on your timezone).
+- **Date**: Sydney time at **7:00AM on {{ MMMM DD }}** (or the day before depending on your timezone).
 - [**Google Calendar Link**](https://calendar.google.com/calendar/embed?src=2nbh00hh9020u622nt0p5qhbek%40group.calendar.google.com&ctz=America%2FLos_Angeles).
 - [**Agenda+Video Links**](https://hackmd.io/THymMOAmSICp8rJdB6_Z1w?edit)
 
