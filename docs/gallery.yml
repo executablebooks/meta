@@ -298,3 +298,7 @@
   website: https://weisscharlesj.github.io/SciCompChem_JupyterBook/
   repository: https://github.com/weisscharlesj/SciCompChem_JupyterBook
   image: https://weisscharlesj.github.io/SciCompChem_JupyterBook/_static/logo.svg
+- name: "Practical Guide to Climate Econometrics"
+  website: https://climateestimate.net
+  repository: https://github.com/atrisovic/weather-panel.github.io/
+  image: https://climateestimate.net/_static/climate_estimate_logo.png
