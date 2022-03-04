@@ -1,9 +1,11 @@
 # 🚀 RELEASE: Jupyter Book v0.11.1
 
 ```{post} 2021-06-05
-:author: EBP
-:image: 1
-:excerpt: 2
+---
+author: EBP
+image: 1
+excerpt: 2
+---
 ```
 
 ```{note}
@@ -30,7 +32,9 @@ ooooh
 ```
 
 ```{figure} https://github.com/executablebooks/jupyter-book/blob/master/docs/images/logo-square.svg?raw=true
-:width: 100
+---
+width: 100
+---
 aaah
 ```
 

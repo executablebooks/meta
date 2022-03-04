@@ -26,6 +26,7 @@ doctree in `python`:
 
 ```python
 import pickle
+
 doc = pickle.load(open("_build/.doctrees/<file>", "rb"))
 ```
 

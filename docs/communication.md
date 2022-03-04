@@ -12,6 +12,7 @@ This is open to anybody, and is a space where people can ask questions and help 
 Please feel free to provide support, advice, etc to anybody on this forum.
 
 (comms:issues)=
+
 ## GitHub Issues
 
 For conversations around specific actions, tasks, features, etc, we use GitHub issues in each repository.
@@ -25,6 +26,7 @@ If you'd like access, please reach out to a core team member to discuss!
 ## Email
 
 % ref: https://github.com/executablebooks/meta/discussions/412 to share password/access
+
 We have an e-mail address at `executablebooks@gmail.com`.
 All core team members should have access to this email, though it is not currently actively monitored by the team.
 
