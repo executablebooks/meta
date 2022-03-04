@@ -39,6 +39,7 @@ Learn more about [our project's goals and strategy](about.md), see [a list of co
 :::
 ::::
 
+
 ## Acknowledgements
 
 :::{image} https://pbs.twimg.com/profile_images/1226944724365447169/MzFpwY5P_400x400.png
@@ -48,6 +49,7 @@ Learn more about [our project's goals and strategy](about.md), see [a list of co
 
 The Executable Books Project is supported by several institutions and members of open source projects.
 In particular, many thanks to the [Sloan Foundation](https://sloan.org) which [provides support for the Executable Books Project](https://sloan.org/grant-detail/9231).
+
 
 ```{toctree}
 :maxdepth: 2

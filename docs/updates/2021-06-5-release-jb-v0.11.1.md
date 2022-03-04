@@ -13,10 +13,10 @@ We'd also like to blog about releases more often so it's easier to track major u
 This post is an attempt at crafting a blog post entirely made out of tweets!
 ```
 
-We're pleased to announce a new version of Jupyter Book has just been released! You can check out the CHANGELOG here: https://jupyterbook.org/reference/\_changelog.html#v0-11-0
+We're pleased to announce a new version of Jupyter Book has just been released! You can check out the CHANGELOG here: https://jupyterbook.org/reference/_changelog.html#v0-11-0
 
 ⚠BREAKING CHANGE⚠.
-The Table of Contents structure is now slightly different. It now follows a "schema" that makes the TOC easier to parse and understand. See the changelog for details: https://jupyterbook.org/reference/\_changelog.html#breaking
+The Table of Contents structure is now slightly different. It now follows a "schema" that makes the TOC easier to parse and understand. See the changelog for details: https://jupyterbook.org/reference/_changelog.html#breaking
 
 In addition, there are a few nice command line options for *migrating* an old TOC to a new one, as well as creating TOCs from book structures, and vice versa. For example: https://jupyterbook.org/structure/toc-generate.html
 

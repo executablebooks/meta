@@ -147,7 +147,7 @@
   image: https://raw.githubusercontent.com/rafneta/CienciaDatosPythonCIDE/master/docs/logo.jpg
   website: https://rafneta.github.io/CienciaDatosPythonCIDE/intro.html
 - name: "Development Data Partnership"
-  repository:
+  repository: 
   image: https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png
   website: https://docs.datapartnership.org
 - name: "OpenPifPaf Guide"
