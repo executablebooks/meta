@@ -127,6 +127,7 @@ chapters:
     - file: publish/gh-pages
     - file: publish/netlify
 ```
+
 :::
 
 ## Step 4: Move the configuration
@@ -134,7 +135,6 @@ chapters:
 The new TOC structure has a more explicit configuration structure, and has different locations for global configuration and section configurations.
 
 Because we wish for **all** sections to be numbered, we will keep `numbered: true`, but must move it to a `defaults` key, which makes it a default for all pages in the TOC.
-
 
 ```yaml
 root: intro

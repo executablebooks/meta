@@ -48,28 +48,28 @@ In running this project, we aim to adhere to several principles that we believe
 will result in higher-quality technology that aligns with the core principles
 of the open source community. Here are a few key components:
 
-* **Support casual users equally to power users**. Complicating the feature
+- **Support casual users equally to power users**. Complicating the feature
   space to support a "power user feature" should be done with great care.
-* **Build modular components that are useful elsewhere**. Rather than building
+- **Build modular components that are useful elsewhere**. Rather than building
   a single vertical stack, find parts of the workflow that naturally separate.
   Create modular tools for these parts so that they may benefit the community
   outside of the context of building interactive books.
-* **Use pre-existing technology where possible**. Rather than re-inventing
+- **Use pre-existing technology where possible**. Rather than re-inventing
   the wheel, make every effort to utilize pre-existing open source tech.
-* **Use pre-existing standards where possible**. In the event that we must
+- **Use pre-existing standards where possible**. In the event that we must
   create new patterns of content creation or tooling, utilize prior art in
   the open source community as much as possible, especially when it comes to
   markup languages.
-* **Contribute improvements upstream**. Where we utilize pre-existing tools,
+- **Contribute improvements upstream**. Where we utilize pre-existing tools,
   contribute improvements to them as we build off of them for this project.
-* **Design for the future**. While we have a bit of funding now, it won't last
+- **Design for the future**. While we have a bit of funding now, it won't last
   forever. This means the technology should be easy for potential developers
   to read, understand, and modify/improve.
-* **Users should not need to know anything about the build system**. If they
+- **Users should not need to know anything about the build system**. If they
   want to dig into the guts of our infrastructure, they can, but knowledge
   of Sphinx, Latex, etc should not be a requirement. They should only need to
   use a simple tool to control the process.
-* **Don't try to do everything**. Focus our tools on publishing
+- **Don't try to do everything**. Focus our tools on publishing
   computational documents with reasonable choices made for the user.
 
 ## What does it mean to publish executable documents?

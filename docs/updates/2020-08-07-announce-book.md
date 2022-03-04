@@ -110,12 +110,12 @@ The biggest change under-the-hood is that Jupyter Book now uses [the Sphinx docu
 Instead of being a single repository, the old Jupyter Book repository has now been separated into several modular tools.
 **Each of these tools can be used on their own in your Sphinx documentation**, and they can be coordinated together *via* Jupyter Book:
 
-* **[The MyST markdown parser for Sphinx](https://myst-parser.readthedocs.io/en/latest/)** allows you to write fully-featured Sphinx documentation in Markdown.
-* **[MyST-NB](https://myst-nb.readthedocs.io/en/latest/)** is an `.ipynb` parser for Sphinx that allows you to use MyST Markdown in your notebooks. It also provides tools for execution, cacheing, and variable insertion of Jupyter Notebooks in Sphinx.
-* **[The Sphinx Book Theme](https://myst-nb.readthedocs.io/en/latest/)** is a beautiful book-like theme for Sphinx, build on top of the [PyData Sphinx Theme](https://pydata-sphinx-theme.readthedocs.io/en/latest/).
-* **[Jupyter Cache](https://jupyter-cache.readthedocs.io/en/latest/)** allows you to execute a collection of notebooks and store their outputs in a hashed database. This lets you cache your notebook's output without including it in the `.ipynb` file itself.
-* **[Sphinx-Thebe](https://sphinx-thebe.readthedocs.io/en/latest/)** converts your "static" HTML page into an interactive page with code cells that are run remotely by a Binder kernel.
-* Finally, Jupyter Book also supports a growing collection of Sphinx extensions, such as [sphinx-copybutton](https://sphinx-copybutton.readthedocs.io/en/latest/), [sphinx-togglebutton](https://sphinx-togglebutton.readthedocs.io/), and [sphinx-panels](https://sphinx-panels.readthedocs.io/en/latest/?badge=latest).
+- **[The MyST markdown parser for Sphinx](https://myst-parser.readthedocs.io/en/latest/)** allows you to write fully-featured Sphinx documentation in Markdown.
+- **[MyST-NB](https://myst-nb.readthedocs.io/en/latest/)** is an `.ipynb` parser for Sphinx that allows you to use MyST Markdown in your notebooks. It also provides tools for execution, cacheing, and variable insertion of Jupyter Notebooks in Sphinx.
+- **[The Sphinx Book Theme](https://myst-nb.readthedocs.io/en/latest/)** is a beautiful book-like theme for Sphinx, build on top of the [PyData Sphinx Theme](https://pydata-sphinx-theme.readthedocs.io/en/latest/).
+- **[Jupyter Cache](https://jupyter-cache.readthedocs.io/en/latest/)** allows you to execute a collection of notebooks and store their outputs in a hashed database. This lets you cache your notebook's output without including it in the `.ipynb` file itself.
+- **[Sphinx-Thebe](https://sphinx-thebe.readthedocs.io/en/latest/)** converts your "static" HTML page into an interactive page with code cells that are run remotely by a Binder kernel.
+- Finally, Jupyter Book also supports a growing collection of Sphinx extensions, such as [sphinx-copybutton](https://sphinx-copybutton.readthedocs.io/en/latest/), [sphinx-togglebutton](https://sphinx-togglebutton.readthedocs.io/), and [sphinx-panels](https://sphinx-panels.readthedocs.io/en/latest/?badge=latest).
 
 We'll write a more developer-focused post in the future to describe each of these components in more detail.
 

@@ -12,6 +12,7 @@ This is open to anybody, and is a space where people can ask questions and help 
 Please feel free to provide support, advice, etc to anybody on this forum.
 
 (comms:issues)=
+
 ## GitHub Issues
 
 For conversations around specific actions, tasks, features, etc, we use GitHub issues in each repository.

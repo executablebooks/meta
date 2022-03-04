@@ -6,7 +6,7 @@ on:
     # every day at 1:00
     - cron: '0 1 * * *'
   workflow_dispatch:
-    
+
 
 jobs:
   docs:
