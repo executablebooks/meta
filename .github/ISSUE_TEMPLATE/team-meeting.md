@@ -1,6 +1,10 @@
-______________________________________________________________________
-
-## name: Team Meeting 📅 about: A team meeting title: 'EBP Team Meeting - {{ MONTH }}' labels: meeting assignees: ''
+---
+name: Team Meeting 📅
+about: A team meeting
+title: 'EBP Team Meeting - {{ MONTH }}'
+labels: meeting
+assignees: ''
+---
 
 Hello @executablebooks/ebpteam! This is an issue to track the next Executable Books team meeting! Here's some relevant information:
 
@@ -12,11 +16,11 @@ If you'd like to discuss something at the meeting, please add an item to the age
 
 ### Before the meeting
 
-- \[ \] Update dates and make sure HackMD information is correct.
-- \[ \] Team members add agenda items.
+- [ ] Update dates and make sure HackMD information is correct.
+- [ ] Team members add agenda items.
 
 ### After the meeting
 
-- \[ \] Turn any follow-ups into issues/comments/etc.
-- \[ \] Copy the meeting notes to the docs.
-- \[ \] Remove notes and clean up HackMD.
+- [ ] Turn any follow-ups into issues/comments/etc.
+- [ ] Copy the meeting notes to the docs.
+- [ ] Remove notes and clean up HackMD.
