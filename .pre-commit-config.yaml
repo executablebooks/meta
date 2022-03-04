@@ -25,7 +25,8 @@ repos:
     rev: 0.7.13
     hooks:
       - id: mdformat
-    additional_dependencies:
-    - mdformat-gfm
-    - mdformat-myst
-    - mdformat-black
+        files: docs/*
+        additional_dependencies:
+        - mdformat-gfm
+        - mdformat-myst
+        - mdformat-black
