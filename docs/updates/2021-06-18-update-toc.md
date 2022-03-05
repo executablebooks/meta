@@ -1,11 +1,9 @@
 # Migrate your old Table of Contents to the new TOC structure
 
 ```{post} 2021-06-17
----
-author: EBP
-image: 1
-excerpt: 2
----
+:author: EBP
+:image: 1
+:excerpt: 2
 ```
 
 In Jupyter Book v0.11, we [introduced a new Table of Contents](https://jupyterbook.org/reference/_changelog.html#v0-11-0) structure.
@@ -14,7 +12,7 @@ It also introduces the concept of TOC **formats**, which allows you to specify d
 
 This is a short guide to explain the differences between the old and new Table of Contents structures, to help you update them.
 
-:::\{seealso}
+:::{seealso}
 If you'd like to automatically convert your Table of Contents, you may also try running the following command:
 
 ```bash
@@ -114,7 +112,7 @@ parts:
       - file: publish/netlify
 ```
 
-:::\{admonition} An alternative structure for single-part books
+:::{admonition} An alternative structure for single-part books
 If your book only consists of a single part, you could directly add the `chapters` key to the root of your TOC, like so:
 
 ```yaml
@@ -129,7 +127,6 @@ chapters:
     - file: publish/gh-pages
     - file: publish/netlify
 ```
-
 :::
 
 ## Step 4: Move the configuration
@@ -137,6 +134,7 @@ chapters:
 The new TOC structure has a more explicit configuration structure, and has different locations for global configuration and section configurations.
 
 Because we wish for **all** sections to be numbered, we will keep `numbered: true`, but must move it to a `defaults` key, which makes it a default for all pages in the TOC.
+
 
 ```yaml
 root: intro

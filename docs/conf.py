@@ -189,10 +189,10 @@ def build_gallery(app: Sphinx):
         )
     grid_items = "\n".join(grid_items)
 
-    # :column: text-center col-6 col-lg-4
-    # :card: +my-2
-    # :img-top-cls: w-75 m-auto p-2
-    # :body: d-none
+# :column: text-center col-6 col-lg-4
+# :card: +my-2
+# :img-top-cls: w-75 m-auto p-2
+# :body: d-none
 
     panels = f"""
 ``````{{grid}} 1 2 3 3

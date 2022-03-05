@@ -11,9 +11,7 @@ If you'd like to discuss something at a meeting, add an entry in the HackMD befo
 Below are notes from the Executable Books team meetings.
 
 ```{toctree}
----
-maxdepth: 2
----
+:maxdepth: 2
 2022.md
 2021.md
 ```
