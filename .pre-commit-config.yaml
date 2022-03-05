@@ -21,12 +21,16 @@ repos:
     hooks:
     - id: black
 
-  - repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.13
-    hooks:
-      - id: mdformat
-        files: docs/*
-        additional_dependencies:
-        - mdformat-gfm
-        - mdformat-myst
-        - mdformat-black
+  # Disabling mdformat because it doesn't currently work with MyST extensions
+  # We should uncomment when this is supported.
+  # ref: https://github.com/executablebooks/mdformat-myst/pull/9
+  #
+  # - repo: https://github.com/executablebooks/mdformat
+  #   rev: 0.7.13
+  #   hooks:
+  #     - id: mdformat
+  #       files: docs/*
+  #       additional_dependencies:
+  #       - mdformat-gfm
+  #       - mdformat-myst
+  #       - mdformat-black
