@@ -64,6 +64,7 @@ html_static_path = ["_static"]
 html_theme_options = {
     "repository_url": "https://github.com/executablebooks/meta",
     "use_repository_button": True,
+    "use_issues_button": True,
     "use_edit_page_button": True,
     "path_to_docs": "docs",
 }
