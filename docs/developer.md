@@ -1,4 +1,4 @@
-# Developement Tips and Tricks
+# Development Tips and Tricks
 
 This section provides some useful tips and tricks for development of projects within the Executable Book Project ecosystem.
 
