@@ -1,3 +1,7 @@
+- name: Python 101
+  website: https://python101.ml/
+  repository: https://github.com/hksahil/Python-101
+  image: https://github.com/hksahil/Python-101/blob/master/logo1.gif
 - name: Graph Pandas
   website: https://pandas.liuzaoqi.com/
   repository: https://github.com/liuhuanshuo/zaoqi-book
