@@ -5,7 +5,7 @@ Here are some of the major pieces:
 
 ## Discussion Forum
 
-We have [a GitHub Discussions Forum](https://discuss.executablebooks.org/) for all of our GitHub repositories (rather than using one forum per repository).
+We have [a GitHub Discussions Forum](https://github.com/orgs/executablebooks/discussions) for all of our GitHub repositories (rather than using one forum per repository).
 Our forum has general conversation about how to use our tools, free-form questions, ideas, discussions, etc.
 Generally it is *not* a place for "project planning" and coordination (those are in [GitHub Issues](comms:issues))
 This is open to anybody, and is a space where people can ask questions and help one another.
