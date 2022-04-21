@@ -24,4 +24,4 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           fail: true
-          args: docs/_build/**/*.html --exclude-link-local --exclude mailto --exclude discuss.executablebooks.org
+          args: docs/_build/**/*.html --exclude-link-local --exclude mailto --exclude discuss.executablebooks.org --exclude docs.github.com
