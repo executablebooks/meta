@@ -306,3 +306,7 @@
   website: https://climateestimate.net
   repository: https://github.com/atrisovic/weather-panel.github.io/
   image: https://climateestimate.net/_static/climate_estimate_logo.png
+- name: "Classifying 19th Century British Library books using Crowdsourcing and Machine Learning"
+  website: https://living-with-machines.github.io/genre-classification/
+  repository: https://github.com/Living-with-machines/genre-classification
+  image: https://github.com/Living-with-machines/genre-classification/blob/main/genre_classification_of_bl_books/logo.jpg?raw=true
