@@ -306,3 +306,7 @@
   website: https://climateestimate.net
   repository: https://github.com/atrisovic/weather-panel.github.io/
   image: https://climateestimate.net/_static/climate_estimate_logo.png
+- name: "pyhf User Guide and Tutorial"
+  website: https://pyhf.github.io/pyhf-tutorial/
+  repository: https://github.com/pyhf/pyhf-tutorial
+  image: https://github.com/scikit-hep/pyhf/raw/master/docs/_static/img/pyhf-logo.png
