@@ -303,9 +303,9 @@
   repository: https://github.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter
   image: https://raw.githubusercontent.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter/master/book/logo.jpg
 - name: "Scientific Computing for Chemists"
-  website: https://weisscharlesj.github.io/SciCompChem_JupyterBook/
-  repository: https://github.com/weisscharlesj/SciCompChem_JupyterBook
-  image: https://weisscharlesj.github.io/SciCompChem_JupyterBook/_static/logo.svg
+  website: https://weisscharlesj.github.io/SciCompforChemists
+  repository: https://github.com/weisscharlesj/SciCompforChemists
+  image: https://weisscharlesj.github.io/SciCompforChemists/_static/logo.svg
 - name: "Practical Guide to Climate Econometrics"
   website: https://climateestimate.net
   repository: https://github.com/atrisovic/weather-panel.github.io/
