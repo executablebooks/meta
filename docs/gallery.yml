@@ -1,4 +1,4 @@
-- name: eChem: Computational Chemistry from Laptop to HPC
+- name: eChem - Computational Chemistry from Laptop to HPC
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
   image: https://github.com/kthpanor/echem/raw/master/logo.png
