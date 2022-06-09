@@ -322,3 +322,7 @@
   website: https://pyhf.github.io/pyhf-tutorial/
   repository: https://github.com/pyhf/pyhf-tutorial
   image: https://github.com/scikit-hep/pyhf/raw/master/docs/_static/img/pyhf-logo.png
+- name: "Deep Learning for Particle Physicists"
+  website: https://lewtun.github.io/dl4phys/
+  repository: https://github.com/lewtun/dl4phys
+  image: https://github.com/lewtun/dl4phys/blob/main/logo.jpg
