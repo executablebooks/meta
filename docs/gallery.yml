@@ -322,3 +322,7 @@
   website: https://pyhf.github.io/pyhf-tutorial/
   repository: https://github.com/pyhf/pyhf-tutorial
   image: https://github.com/scikit-hep/pyhf/raw/master/docs/_static/img/pyhf-logo.png
+- name: "Simply Logical – Intelligent Reasoning by Example"
+  website: https://book.simply-logical.space/
+  repository: https://github.com/simply-logical/simply-logical
+  image: https://raw.githubusercontent.com/simply-logical/simply-logical/master/src/img/SL.svg
