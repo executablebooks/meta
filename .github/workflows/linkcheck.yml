@@ -19,9 +19,10 @@ jobs:
           sphinx-build docs docs/_build/html
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.2.0
+        uses: lycheeverse/lychee-action@v1.5.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           fail: true
           args: docs/_build/**/*.html --exclude-link-local --exclude mailto --exclude discuss.executablebooks.org --exclude docs.github.com
+          jobSummary: true
