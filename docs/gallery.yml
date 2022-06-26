@@ -322,3 +322,8 @@
   website: https://pyhf.github.io/pyhf-tutorial/
   repository: https://github.com/pyhf/pyhf-tutorial
   image: https://raw.githubusercontent.com/scikit-hep/pyhf/master/docs/_static/img/pyhf-logo.png
+- name: "MAT244E Statistics"
+  website: https://gulinan.github.io/mat244e/
+  repository: https://github.com/gulinan/mat244e
+  image: https://github.com/gulinan/mat244e/blob/main/course_class_files/images/logo.png  
+  
