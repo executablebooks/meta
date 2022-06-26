@@ -18,6 +18,8 @@ jobs:
           pip install -r requirements.txt
           sphinx-build docs docs/_build/html
 
+      # ref: https://github.com/lycheeverse/lychee-action
+      # ref: https://github.com/lycheeverse/lychee#commandline-parameters
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.5.0
         env:
@@ -29,7 +31,7 @@ jobs:
             docs/_build/**/*.html
             --insecure
             --max-retries 10
-            --exclude-mail
             --exclude-link-local
+            --exclude mailto
             --exclude https://github.com/executablebooks/meta/edit/master/docs/contributing.md
           jobSummary: true
