@@ -36,7 +36,7 @@ blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
 # Jupyter Notebooks configuration
-jupyter_execute_notebooks = "force"
+nb_execution_mode = "force"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
