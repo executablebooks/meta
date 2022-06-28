@@ -325,4 +325,4 @@
 - name: "Deep Learning for Particle Physicists"
   website: https://lewtun.github.io/dl4phys/
   repository: https://github.com/lewtun/dl4phys
-  image: https://github.com/lewtun/dl4phys/blob/main/logo.jpg
+  image: https://raw.githubusercontent.com/lewtun/dl4phys/main/logo.jpg
