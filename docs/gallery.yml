@@ -322,6 +322,10 @@
   website: https://pyhf.github.io/pyhf-tutorial/
   repository: https://github.com/pyhf/pyhf-tutorial
   image: https://raw.githubusercontent.com/scikit-hep/pyhf/master/docs/_static/img/pyhf-logo.png
+- name: "Deep Learning for Particle Physicists"
+  website: https://lewtun.github.io/dl4phys/
+  repository: https://github.com/lewtun/dl4phys
+  image: https://raw.githubusercontent.com/lewtun/dl4phys/main/logo.jpg
 - name: "Inefficient Networks: Notebooks on MLOps and ML Engineering"
   website: https://particle1331.github.io/inefficient-networks/
   repository: https://github.com/particle1331/inefficient-networks
