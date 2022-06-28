@@ -322,3 +322,7 @@
   website: https://pyhf.github.io/pyhf-tutorial/
   repository: https://github.com/pyhf/pyhf-tutorial
   image: https://raw.githubusercontent.com/scikit-hep/pyhf/master/docs/_static/img/pyhf-logo.png
+- name: "Inefficient Networks: Notebooks on MLOps and ML Engineering"
+  website: https://particle1331.github.io/inefficient-networks/
+  repository: https://github.com/particle1331/inefficient-networks
+  image: https://particle1331.github.io/inefficient-networks/_static/pone.0237978.g001.png
