@@ -46,10 +46,6 @@
   website: https://durgeshsamariya.github.io/learn-python/README.html
   repository: https://github.com/durgeshsamariya/learn-python
   image: https://raw.githubusercontent.com/durgeshsamariya/learn-python/main/resources/logo.png
-- name: The Arts Engagement Project
-  image: https://artsengagementproject.site/_static/logo.png
-  website: https://artsengagementproject.site/intro.html
-  repository: https://github.com/ArtsEngine/ArtsEngagementJupyterBook-Build
 - name: Algorithms for Automated Driving
   image: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/_static/car_sketch_wide.png
   website: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/Introduction/intro.html
@@ -97,7 +93,7 @@
 - name: Earth and Environmental Data Science
   website: http://earth-env-data-science.github.io/
   repository: https://github.com/earth-env-data-science/earth-env-data-science-book
-  image: https://raw.githubusercontent.com/earth-env-data-science/earth-env-data-science-book/master/content/images/logo/enso_sst.png
+  image: https://earth-env-data-science.github.io/_static/eeds-logo.png
 - name: DartBrains
   website: https://dartbrains.org/
   repository: https://github.com/ljchang/dartbrains
@@ -117,7 +113,7 @@
 - name: Deep Learning for Molecules and Materials
   website: https://whitead.github.io/dmol-book/
   repository: https://github.com/whitead/dmol-book
-  image: https://raw.githubusercontent.com/whitead/dmol-book/master/logo.png
+  image: https://dmol.pub/_static/robot-chem.png
 - name: genome-sampler Software Documentation
   website: https://caporasolab.us/genome-sampler/
   repository: https://github.com/caporaso-lab/genome-sampler
