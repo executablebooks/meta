@@ -14,10 +14,10 @@
 # -- Project information -----------------------------------------------------
 
 project = "Executable Book Project"
-copyright = "2020, Executable Book Project"
+copyright = "2022, Executable Book Project"
 author = "Executable Book Project"
 
-master_doc = "index"
+main_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 
@@ -55,7 +55,7 @@ myst_heading_anchors = 3
 html_theme = "sphinx_book_theme"
 html_logo = "_static/logo.svg"
 html_favicon = "_static/logo-square.png"
-html_title = "Team Documentation"
+html_title = "Community Guide"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

@@ -39,6 +39,49 @@ Learn more about [our project's goals and strategy](about.md), see [a list of co
 :::
 ::::
 
+## Navigating this site
+
+Below are short descriptions of the major sections of this site.
+
+### Code of Conduct
+
+Find our Code of Conduct at the link below:
+
+```{toctree}
+code-of-conduct.md
+```
+
+Information to help team members and newcomers contribute to our projects.
+
+```{toctree}
+:maxdepth: 1
+:caption: Get Involved
+contributing.md
+developer.md
+resources.md
+communication.md
+meetings/index.md
+```
+
+Information about the tools we work on.
+
+```{toctree}
+:caption: Our Projects and Tools
+:maxdepth: 1
+feature-vote.md
+gallery.md
+tools.md
+```
+
+Information about the project and its team.
+
+```{toctree}
+:maxdepth: 1
+:caption: About the Project
+about.md
+team.md
+updates.md
+```
 
 ## Acknowledgements
 
@@ -49,32 +92,3 @@ Learn more about [our project's goals and strategy](about.md), see [a list of co
 
 The Executable Books Project is supported by several institutions and members of open source projects.
 In particular, many thanks to the [Sloan Foundation](https://sloan.org) which [provides support for the Executable Books Project](https://sloan.org/grant-detail/9231).
-
-
-```{toctree}
-:maxdepth: 2
-:caption: Get Involved
-:hidden:
-contributing.md
-developer.md
-resources.md
-communication.md
-meetings/index.md
-```
-
-```{toctree}
-:hidden:
-:caption: Our Projects and Tools
-feature-vote.md
-gallery.md
-tools.md
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: About the Project
-:hidden:
-about.md
-team.md
-updates.md
-```

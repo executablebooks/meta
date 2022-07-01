@@ -10,13 +10,6 @@ represent many open source projects in the scientific community, specifically
 
 This project is funded by a grant from the [Alfred P. Sloan Foundation](https://sloan.org/).
 
-## Code of Conduct
-
-The Executable Book Project follows a community
-[Code of Conduct](https://github.com/executablebooks/.github/blob/master/CODE_OF_CONDUCT.md).
-Please use that document as the source of truth for interacting with the EBP
-community.
-
 ## Our technical goals
 
 The goal of the EBP is to build tools that facilitate creating
