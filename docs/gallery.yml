@@ -334,3 +334,11 @@
   website: https://applying-maths-book.com/
   repository: https://github.com/subblue/applying-maths-book
   image: https://applying-maths-book.com/_static/book-cover.jpg
+- name: NiMARE: Neuroimaging Meta-Analysis Research Environment
+  website: https://neurolibre.org/papers/10.55458/neurolibre.00007
+  repository: https://github.com/NBCLab/nimare-paper
+  image: https://github.com/NBCLab/nimare-paper/blob/master/featured.png?raw=true
+- name: An interactive meta-analysis of MRI biomarkers of myelin
+  website: https://neurolibre.org/papers/10.55458/neurolibre.00004
+  repository: https://github.com/Notebook-Factory/myelin-meta-analysis
+  image: https://github.com/Notebook-Factory/myelin-meta-analysis/blob/main/featured.png?raw=true
