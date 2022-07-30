@@ -342,3 +342,7 @@
   website: https://neurolibre.org/papers/10.55458/neurolibre.00004
   repository: https://github.com/Notebook-Factory/myelin-meta-analysis
   image: https://github.com/Notebook-Factory/myelin-meta-analysis/blob/main/featured.png?raw=true
+- name: "CCD Data Reduction Guide"
+  website: http://www.astropy.org/ccd-reduction-and-photometry-guide
+  repository: https://github.com/astropy/ccd-reduction-and-photometry-guide
+  image: https://raw.githubusercontent.com/astropy/ccd-reduction-and-photometry-guide/main/book_media/images/logo/logo.png
