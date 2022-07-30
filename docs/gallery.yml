@@ -113,7 +113,7 @@
 - name: Deep Learning for Molecules and Materials
   website: https://whitead.github.io/dmol-book/
   repository: https://github.com/whitead/dmol-book
-  image: https://dmol.pub/_static/robot-chem.png
+  image: https://raw.githubusercontent.com/whitead/dmol-book/master/_static/images/logo.png
 - name: genome-sampler Software Documentation
   website: https://caporasolab.us/genome-sampler/
   repository: https://github.com/caporaso-lab/genome-sampler
