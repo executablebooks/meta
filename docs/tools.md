@@ -68,14 +68,14 @@ Sphinx ecosystem. It provides the following primary features:
 
 * **[Parse ipynb files in Sphinx](https://myst-nb.readthedocs.io/en/latest/#installation)**. Directly convert Jupyter
   Notebooks into Sphinx documents.
-* **[Execute and Cache your notebook content](https://myst-nb.readthedocs.io/en/latest/use/execute.html)**.
+* **[Execute and Cache your notebook content](https://myst-nb.readthedocs.io/en/latest/computation/execute.html)**.
   Save time building your documentation without needing to commit your notebook outputs
   directly into `git`.
-* **[Write MyST Markdown](https://myst-nb.readthedocs.io/en/latest/use/myst.html)**. MyST Markdown
+* **[Write MyST Markdown](https://myst-nb.readthedocs.io/en/latest/authoring/basics.html#myst-markdown)**. MyST Markdown
   allows you to write Sphinx roles and directives in markdown.
-* **[Insert notebook outputs into your content](https://myst-nb.readthedocs.io/en/latest/use/glue.html)**. Generate outputs
+* **[Insert notebook outputs into your content](https://myst-nb.readthedocs.io/en/latest/render/glue.html)**. Generate outputs
   as you build your documentation, and insert them across pages.
-* **[Write Jupyter Notebooks entirely with Markdown](https://myst-nb.readthedocs.io/en/latest/use/markdown.html)**. You can
+* **[Write Jupyter Notebooks entirely with Markdown](https://myst-nb.readthedocs.io/en/latest/authoring/text-notebooks.html)**. You can
   define the structure of a notebook *in pure-text* making it more diff-able.
 
 In addition, there are several options for controlling the look and feel of how your
