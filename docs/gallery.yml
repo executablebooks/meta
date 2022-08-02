@@ -346,3 +346,7 @@
   website: http://www.astropy.org/ccd-reduction-and-photometry-guide
   repository: https://github.com/astropy/ccd-reduction-and-photometry-guide
   image: https://raw.githubusercontent.com/astropy/ccd-reduction-and-photometry-guide/main/book_media/images/logo/logo.png
+- name: "Simply Logical – Intelligent Reasoning by Example"
+  website: https://book.simply-logical.space/
+  repository: https://github.com/simply-logical/simply-logical
+  image: https://raw.githubusercontent.com/simply-logical/simply-logical/master/src/img/SL.svg
