@@ -1,81 +1,80 @@
-# The Executable Book Project
+# The Executable Books Project
 
-This is the public-facing site for
-[ExecutableBookProject](https://github.com/executablebooks), an international
+This is the team documentation for the
+[ExecutableBooksProject](https://github.com/executablebooks), an international
 collaboration to build open source tools that facilitate publishing
 computational narratives using the Jupyter ecosystem.
 
-For our latest updates, see [our latest updates blog](updates.md).
+We are the community behind [Jupyter Book](https://jupyterbook.org)--an open source project for building beautiful, publication-quality books and documents from computational material--as well as [MyST Markdown](https://myst-parser.readthedocs.io/en/latest/)--a rich and extensible flavor of Markdown meant for technical documentation and publishing.
 
-## The EBP's technical goals
+::::{grid} 1 2 2 2
+:class-container: landing-grid
 
-The goal of the EBP is to build tools that facilitate creating
-professional computational narratives (books, lecture series, articles, etc.)
-using open source tools. We want users in the scientific, academic,
-and data science communities to be able to do the following:
+:::{grid-item-card}
+:padding: 2
+For contributors 👩‍💻
+^^^
+Read our [Contributing Guide](contributing.md) to learn about the conventions we follow, and see [our community forum](https://github.com/executablebooks/meta/discussions) to ask questions and help others.
+:::
 
-* **Write their content in either markdown text files, or Jupyter Notebooks**.
-  These files include rich content - outputs from running code, references
-  and cross-references, equations, etc.
-* **Execute content and cache the results**. Intelligent caching means
-  that only modified code cells are re-run.
-* **Combine cached outputs with content files with a document model**. Using
-  the excellent [Sphinx](https://www.sphinx-doc.org/en/master/) documentation
-  stack, documents can include many features for publishing, such as
-  equations, cross-references, and citations.
-* **Build interactive HTML or publication-quality PDF outputs**. Sometimes
-  users wish to create rich and interactive websites, other times they want to
-  send a high-quality PDF to a publisher. This system will treat both as
-  equal citizens.
-* **Control everything above with a simple command-line interface**. Most
-  users should not have to know anything about Sphinx, caching, etc. A simple
-  user interface will hide most of the complexity of this process.
+:::{grid-item-card}
+:padding: 2
+Be inspired ✨
+^^^
+Our [Gallery of Jupyter Books](gallery.md) has contributions from across the community, and [our blog](updates.md) has updates from the community.
+:::
 
-See the [tools section](tools) for a few examples of the tools we've created
-as a part of this project.
+:::{grid-item-card}
+:padding: 2
+Tools we build 👍
+^^^
+Our [Feature Voting board](feature-vote.md) is an easy way for community members to voice support for features and enhancements. Our [Tools Page](tools.md) also lists many of the tools we build to learn more.
+:::
 
-## Our principles and constraints
+:::{grid-item-card}
+:padding: 2
+About the project ℹ️
+^^^
+Learn more about [our project's goals and strategy](about.md), see [a list of core team members](team.md), and see [our team meeting notes and calendar](meetings/index.md).
+:::
+::::
 
-In running this project, we aim to adhere to several principles that we believe
-will result in higher-quality technology that aligns with the core principles
-of the open source community. Here are a few key components:
 
-* **Give equal support to casual users and power users**. Complicating the feature
-  space to support a "power user feature" should be done with great care.
-* **Build modular components that are useful elsewhere**. Rather than building
-  a single vertical stack, find parts of the workflow that naturally separate.
-  Create modular tools for these parts so that they may benefit the community
-  outside of the context of building interactive books.
-* **Use pre-existing technology where possible**. Rather than re-inventing
-  the wheel, make every effort to utilize pre-existing open source tech.
-* **Use pre-existing standards where possible**. In the event that we must
-  create new patterns of content creation or tooling, utilize prior art in
-  the open source community as much as possible, especially when it comes to
-  markup languages.
-* **Contribute improvements upstream**. Where we utilize pre-existing tools,
-  contribute improvements to them as we build off of them for this project.
-* **Design for the future**. While we have a bit of funding now, it won't last
-  forever. This means the technology should be easy for potential developers
-  to read, understand, and modify/improve.
-* **Users should not need to know anything about the build system**. If they
-  want to dig into the guts of our infrastructure, they can, but knowledge
-  of Sphinx, Latex, and so on should not be a requirement. They should only need to
-  use a simple tool to control the process.
-* **Don't try to do everything**. Focus our tools on publishing
-  computational documents with reasonable choices made for the user.
+## Acknowledgements
 
-Browse the rest of this site for more information about what we're working
-on and our plans for what's coming next.
+:::{image} https://pbs.twimg.com/profile_images/1226944724365447169/MzFpwY5P_400x400.png
+:class: float-left mr-2 rounded
+:width: 100px
+:::
+
+The Executable Books Project is supported by several institutions and members of open source projects.
+In particular, many thanks to the [Sloan Foundation](https://sloan.org) which [provides support for the Executable Books Project](https://sloan.org/grant-detail/9231).
+
 
 ```{toctree}
 :maxdepth: 2
-
-about.md
-tools.md
+:caption: Get Involved
+:hidden:
 contributing.md
 developer.md
-team.md
-updates.md
+resources.md
+communication.md
+meetings/index.md
+```
+
+```{toctree}
+:hidden:
+:caption: Our Projects and Tools
 feature-vote.md
 gallery.md
+tools.md
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: About the Project
+:hidden:
+about.md
+team.md
+updates.md
 ```

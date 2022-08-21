@@ -1,3 +1,51 @@
+- name: Python 101
+  website: https://python101.ml/
+  repository: https://github.com/hksahil/Python-101
+  image: https://github.com/hksahil/Python-101/raw/master/logo1.gif
+- name: "Enhancing Science Courses by Integrating Python (ESCIP)"
+  website: https://escip.github.io/
+  repository: https://github.com/ESCIP/escip.github.io/tree/jbook
+  image: https://github.com/ESCIP/escip.github.io/blob/jbook/logo.png
+- name: "eChem: Computational Chemistry from Laptop to HPC"
+  website: https://kthpanor.github.io/echem/
+  repository: https://github.com/kthpanor/echem
+  image: https://raw.githubusercontent.com/kthpanor/echem/master/logo.png
+- name: Data Science for Finance
+  website: https://ledatascifi.github.io
+  repository: https://github.com/LeDataSciFi/ledatascifi-2022
+  image: https://raw.githubusercontent.com/LeDataSciFi/ledatascifi-2022/main/content/logo.png
+- name: Graph Pandas
+  website: https://pandas.liuzaoqi.com/
+  repository: https://github.com/liuhuanshuo/zaoqi-book
+  image: https://pandas.liuzaoqi.com/_static/mylogo.png
+- name: The Data Science Interview Book
+  website: https://dipranjan.github.io/dsinterviewqns/intro.html
+  repository: https://github.com/dipranjan/dsinterviewqns
+  image: https://raw.githubusercontent.com/dipranjan/dsinterviewqns/master/logo.gif
+- name: Coding for Economists
+  website: https://aeturrell.github.io/coding-for-economists
+  repository: https://github.com/aeturrell/coding-for-economists
+  image: https://aeturrell.github.io/coding-for-economists/_static/smith_lovelace.png
+- name: Python Programming for Economics and Finance
+  website: https://python-programming.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python-programming.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Quantitative Economics with Python
+  website: https://python.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Advanced Quantitative Economics with Python
+  website: https://python-advanced.quantecon.org/intro.html
+  repository: https://github.com/QuantEcon/lecture-python-advanced.myst
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: Introduction to Economic Modeling and Data Science
+  website: https://datascience.quantecon.org/
+  repository: https://github.com/QuantEcon/lecture-datascience.myst
+  image: https://datascience.quantecon.org/_static/datascience-logo.png
+- name: Explaining neural networks in raw Python
+  website: https://bronwojtek.github.io/neuralnets-in-raw-python/docs/index.html
+  repository: https://github.com/bronwojtek/neuralnets-in-raw-python
+  image: https://bronwojtek.github.io/neuralnets-in-raw-python/_static/koh.png
 - name: TensorDiffEq Documentation
   website: http://docs.tensordiffeq.io
   repository: https://github.com/tensordiffeq/TensorDiffEq
@@ -6,10 +54,6 @@
   website: https://durgeshsamariya.github.io/learn-python/README.html
   repository: https://github.com/durgeshsamariya/learn-python
   image: https://raw.githubusercontent.com/durgeshsamariya/learn-python/main/resources/logo.png
-- name: The Arts Engagement Project
-  image: https://artsengagementproject.site/_static/logo.png
-  website: https://artsengagementproject.site/intro.html
-  repository: https://github.com/ArtsEngine/ArtsEngagementJupyterBook-Build
 - name: Algorithms for Automated Driving
   image: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/_static/car_sketch_wide.png
   website: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/Introduction/intro.html
@@ -18,10 +62,6 @@
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
   repository: https://github.com/aquaULB/solving_pde_mooc
-- name: Quantitative Economics with Python
-  website: https://executablebooks.github.io/quantecon-example/docs/index.html
-  repository: https://github.com/executablebooks/quantecon-example
-  image: https://executablebooks.github.io/quantecon-example/_static/qe-logo-large.png
 - name: Intro to Cultural Analytics
   website: https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
   repository: https://github.com/melaniewalsh/Intro-Cultural-Analytics
@@ -44,11 +84,12 @@
   image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
 - name: Geographic Data Science with Python
   website: https://geographicdata.science/book/intro
-  repository:
+  repository: https://github.com/gdsbook/book
   image: https://geographicdata.science/book/_static/logo.png
 - name: Continuous Time Markov Chains
-  website: https://jstac.github.io/continuous_time_mcs/intro.html
+  website: https://continuous-time-mcs.quantecon.org/intro.html
   repository: http://github.com/jstac/continuous_time_mcs
+  image: https://python-programming.quantecon.org/_static/qe-logo.png
 - name: Statistics and Data Science
   website: https://cranmer.github.io/stats-ds-book/intro.html
   repository: https://github.com/cranmer/stats-ds-book
@@ -56,19 +97,19 @@
 - name: Machine Learning, Statistics, and Data Mining for Heliophysics
   website: https://helioml.org
   repository: https://github.com/HelioML/HelioML/
-  image: https://github.com/HelioML/HelioML/raw/master/book/logo.png
+  image: https://raw.githubusercontent.com/HelioML/HelioML/master/book/logo.png
 - name: Earth and Environmental Data Science
   website: http://earth-env-data-science.github.io/
   repository: https://github.com/earth-env-data-science/earth-env-data-science-book
-  image: https://github.com/earth-env-data-science/earth-env-data-science-book/raw/master/content/images/logo/enso_sst.png
+  image: https://earth-env-data-science.github.io/_static/eeds-logo.png
 - name: DartBrains
   website: https://dartbrains.org/
   repository: https://github.com/ljchang/dartbrains
-  image: https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png
+  image: https://raw.githubusercontent.com/ljchang/dartbrains/master/images/logo/dartbrains_logo_square_transparent.png
 - name: Neuroimaging Analysis Methods for Naturalistic Data
   website: http://naturalistic-data.org/
   repository: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis
-  image: https://github.com/naturalistic-data-analysis/naturalistic_data_analysis/raw/master/content/images/logo/Naturalistic_Data_Logo_v6.png
+  image: https://naturalistic-data.org/_static/Naturalistic_Data_Logo_v7.png
 - name: Neural Process Family
   website: https://yanndubs.github.io/Neural-Process-Family
   repository: https://github.com/YannDubs/Neural-Process-Family
@@ -76,18 +117,14 @@
 - name: "The Turing Way: A guide to reproducible, ethical, inclusive and collaborative data science"
   website: https://the-turing-way.netlify.app
   repository: https://github.com/alan-turing-institute/the-turing-way
-  image: https://github.com/alan-turing-institute/the-turing-way/raw/master/book/website/figures/logo/logo.png
+  image: https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/master/book/website/figures/logo/logo.png
 - name: Deep Learning for Molecules and Materials
   website: https://whitead.github.io/dmol-book/
   repository: https://github.com/whitead/dmol-book
-  image: https://raw.githubusercontent.com/whitead/dmol-book/master/logo.png
+  image: https://raw.githubusercontent.com/whitead/dmol-book/master/_static/images/logo.png
 - name: genome-sampler Software Documentation
   website: https://caporasolab.us/genome-sampler/
   repository: https://github.com/caporaso-lab/genome-sampler
-  image:
-- name: Fundamental Tools for Image Processing
-  website: https://vincmazet.github.io/ftip/
-  repository: https://github.com/vincmazet/ftip
   image:
 - name: PyTorch를 활용한 딥러닝 튜토리얼 (Deep Learning Tutorials with PyTorch)
   website: https://pseudo-lab.github.io/Tutorial-Book/
@@ -107,7 +144,7 @@
   website: https://kyleniemeyer.github.io/computational-thermo
 - name: "Make Use of Data: Data Science Notes"
   repository: https://github.com/wyattowalsh/data-science-notes
-  image: https://github.com/wyattowalsh/data-science-notes/raw/master/data-science-notes/favicon_io/apple-touch-icon.png
+  image: https://raw.githubusercontent.com/wyattowalsh/data-science-notes/master/data-science-notes/favicon_io/apple-touch-icon.png
   website: https://makeuseofdata.com
 - name: "Guide de bonnes pratiques sur les données de la recherche"
   repository: https://github.com/miti-gt-donnees/guide.git
@@ -125,10 +162,6 @@
   repository: 
   image: https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png
   website: https://docs.datapartnership.org
-- name: "The ISA Cookbook"
-  image: https://isa-tools.org/isa-api/_static/isa_footer_logo.svg
-  website: https://isa-tools.org/isa-api/content/index.html
-  repository: https://github.com/isa-tools/isa-api
 - name: "OpenPifPaf Guide"
   image: https://openpifpaf.github.io/_static/logo.png
   website: https://openpifpaf.github.io
@@ -153,6 +186,10 @@
   repository: https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook
   image: https://raw.githubusercontent.com/Fraud-Detection-Handbook/fraud-detection-handbook/main/images/icon_gallery.png
   website: https://fraud-detection-handbook.github.io/fraud-detection-handbook
+- name: "Epidemic modelling: Some notes, maths, and code"
+  repository: https://github.com/simoninireland/introduction-to-epidemics
+  image: https://raw.githubusercontent.com/simoninireland/introduction-to-epidemics/master/src/print-cover-small.png
+  website: https://simondobson.org/introduction-to-epidemics/
 - name: "단국대 2020 캐글 뽀개기 (DKU Kaggle Class)"
   repository: https://github.com/kaggler-tv/dku-kaggle-class/
   image: https://kaggler-tv.github.io/dku-kaggle-class/_static/logo.png
@@ -161,7 +198,175 @@
   repository: https://github.com/bvanderlei/jupyter-guide-to-linear-algebra
   image: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/_static/reflection_logo.png
   website: https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/
+# Note: this one has no public repository
 - name: "Python Programming And Numerical Methods: A Guide For Engineers And Scientists"
   image: https://pythonnumericalmethods.berkeley.edu/_static/book_cover.jpg
   website: https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html
-
+- name: "Programming Differential Privacy"
+  repository: https://github.com/uvm-plaid/programming-dp
+  image: https://uvm-plaid.github.io/programming-dp/_static/logo.png
+  website: https://uvm-plaid.github.io/programming-dp/
+- name: "Argo Online School"
+  repository: https://github.com/euroargodev/argoonlineschool
+  image: https://euroargodev.github.io/argoonlineschool/_static/logoAoS.png
+  website: https://euroargodev.github.io/argoonlineschool
+- name: "PVSC pvlib python Tutorial"
+  repository: https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial
+  image: https://raw.githubusercontent.com/pvlib/pvlib-python/master/docs/sphinx/source/_images/pvlib_logo_vert.png
+  website: https://pvsc-python-tutorials.github.io/PVSC48-Python-Tutorial/index.html
+- name: An Introduction to Applied Bioinformatics
+  website: http://readIAB.org
+  repository: https://github.com/applied-bioinformatics/iab2
+  image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
+- name: Primer on Statistics
+  website: https://r05323028.github.io/primer-on-statistics
+  repository: https://github.com/r05323028/primer-on-statistics
+  image: https://raw.githubusercontent.com/r05323028/primer-on-statistics/main/logo.png
+- name: Computational Mechanics
+  website: https://cooperrc.github.io/computational-mechanics
+  repository: https://github.com/cooperrc/computational-mechanics
+  image: https://raw.githubusercontent.com/cooperrc/computational-mechanics/b6a88f2d32f9d90418a9b575aec4bec0d6757b2a/comp-mech-logo.svg
+- name: "Topology in condensed matter: tying quantum knots"
+  website: https://topocondmat.org
+  repository: https://github.com/topocm/topocm_content
+  image: https://raw.githubusercontent.com/topocm/topocm_content/master/logo_small.jpg
+- name: "VisDepot: An Introductory Resource for Data Visualization"
+  website: https://necote.github.io/VisDepot/
+  repository: https://github.com/necote/VisDepot
+  image: https://raw.githubusercontent.com/necote/VisDepot/main/visdepot_logo_4.png
+- name: Introduction to Materials Informatics
+  website: https://enze-chen.github.io/mi-book-2021/
+  repository: https://github.com/enze-chen/mi-book
+  image: https://raw.githubusercontent.com/enze-chen/mi-book/master/mi_logo.png
+- name: "ML-AI Guide"
+  website: https://csinva.io/blog/compiled_notes/_build/html//intro.html
+  repository: https://github.com/csinva/csinva.github.io
+  image: https://csinva.io/blog/compiled_notes/_build/html//_static/logo.png
+- name: Computational Models of Human Social Behavior & Neuroscience
+  website: https://shawnrhoads.github.io/gu-psyc-347
+  repository: https://github.com/shawnrhoads/gu-psyc-347
+  image: https://raw.githubusercontent.com/shawnrhoads/gu-psyc-347/master/docs/static/images/logo-background.jpg
+- name: Foundations of Data Science with Python
+  website: https://jmshea.github.io/Foundations-of-Data-Science-with-Python
+  repository: https://github.com/jmshea/Foundations-of-Data-Science-with-Python
+  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/tools.png
+- name: "Data Science Process using CRISP-DM"
+  website: https://syahrulhamdani.github.io/data-science-crisp-dm
+  repository: https://github.com/syahrulhamdani/data-science-crisp-dm
+  image: https://syahrulhamdani.github.io/data-science-crisp-dm/_static/bitlabs.png
+- name: "Chainladder - Actuarial Reserving in Python"
+  website: https://chainladder-python.readthedocs.io
+  repository: https://github.com/casact/chainladder-python
+  image: https://chainladder-python.readthedocs.io/en/stable/_static/logo.png
+- name: Basics of Image Processing
+  website: https://vincmazet.github.io/bip/
+  repository: https://github.com/vincmazet/bip
+  image:
+- name: "NI-edu: fMRI analysis in Python"
+  website: https://lukas-snoek.com/NI-edu
+  repository: https://github.com/lukassnoek/NI-edu
+  image: https://raw.githubusercontent.com/lukassnoek/NI-edu/master/NI-edu/img/fmri_lowres.gif
+- name: "Music Classification: Beyond Supervised Learning, Towards Real-world Applications"
+  website: https://music-classification.github.io/tutorial/
+  repository: https://github.com/music-classification/tutorial
+  image: https://raw.githubusercontent.com/music-classification/tutorial/main/book/images/favicon_io/android-chrome-512x512.png
+- name: "PyMedPhys: Supporting Medical Physicists in making radiotherapy cancer treatment safer"
+  website: https://docs.pymedphys.com/
+  repository: https://github.com/pymedphys/pymedphys/tree/main/lib/pymedphys/docs
+  image: https://raw.githubusercontent.com/pymedphys/pymedphys/67819b7b49337fb2213ec1bcb7ee64c1ae914eee/logos/pymedphys_square.svg
+- name: "The Good Research Code handbook"
+  website: https://goodresearch.dev
+  repository: https://github.com/patrickmineault/codebook
+  image: https://goodresearch.dev/_images/unicorn.png
+- name: "Prodigious Python - Quest for the fun filled adventure of Python"
+  website: https://prodigiouspython.github.io/ProdigiousPython
+  repository: https://github.com/ProdigiousPython/ProdigiousPython
+  image: https://raw.githubusercontent.com/ProdigiousPython/AssetStore/main/Prodigious%20Python%20Main%20logo.png
+- name: "ALLCools - single-cell DNA Methylome Analysis Package"
+  website: https://lhqing.github.io/ALLCools/intro.html
+  repository: https://github.com/lhqing/ALLCools
+  image: https://raw.githubusercontent.com/lhqing/ALLCools/master/docs/allcools/img/allcools_logo_large.png
+- name: "Quality Assurance of Code for Analysis and Research"
+  website: https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html
+  repository: https://github.com/best-practice-and-impact/qa-of-code-guidance
+  image: https://raw.githubusercontent.com/best-practice-and-impact/qa-of-code-guidance/master/book/_static/duck_book_logo.svg
+- name: "Network Data Science"
+  website: https://bdpedigo.github.io/networks-course
+  repository: https://github.com/bdpedigo/networks-course
+  image: https://raw.githubusercontent.com/bdpedigo/networks-course/main/docs/images/logo.png
+- name: "Mathematik für Physikstudierende C"
+  website: https://fau-ammn.github.io/MathPhysicsC/intro.html
+  repository: https://github.com/FAU-AMMN/MathPhysicsC
+  image: https://raw.githubusercontent.com/FAU-AMMN/MathPhysicsC/main/img/FAU_Nat_logo.svg
+- name: "Pythia Foundations -- A community learning resource for Python-based computing in the geosciences"
+  website: https://foundations.projectpythia.org
+  repository: https://github.com/ProjectPythia/pythia-foundations
+  image: https://avatars.githubusercontent.com/projectpythia
+- name: "10 Lectures on Inverse Problems and Imaging"
+  website: https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html
+  repository: https://github.com/TristanvanLeeuwen/IP_and_Im_Lectures
+  image: https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/_static/logo.png
+- name: "Computational Discovery on Jupyter"
+  website: https://computational-discovery-on-jupyter.github.io/Computational-Discovery-on-Jupyter/
+  repository: https://github.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter
+  image: https://raw.githubusercontent.com/Computational-Discovery-on-Jupyter/Computational-Discovery-on-Jupyter/master/book/logo.jpg
+- name: "Scientific Computing for Chemists"
+  website: https://weisscharlesj.github.io/SciCompforChemists
+  repository: https://github.com/weisscharlesj/SciCompforChemists
+  image: https://weisscharlesj.github.io/SciCompforChemists/_static/logo.svg
+- name: "Practical Guide to Climate Econometrics"
+  website: https://climateestimate.net
+  repository: https://github.com/atrisovic/weather-panel.github.io/
+  image: https://climateestimate.net/_static/climate_estimate_logo.png
+- name: "Apuntes del Curso Introducción a Big Data"
+  website: https://fortinux.github.io/bigdata-book/intro.html
+  repository: https://github.com/fortinux/bigdata-book/
+  image: https://fortinux.com/wp-content/uploads/2022/04/Big-data-stack.png
+- name: "Introduction to Bioimage Analysis"
+  website: https://bioimagebook.github.io
+  repository: https://github.com/bioimagebook/bioimagebook.github.io
+  image: https://bioimagebook.github.io/_static/book-logo-smaller.png
+- name: "Introduction à la PROgrammation Scientifique"
+  website: https://mbuffat.github.io/INPROS/
+  repository: https://github.com/mbuffat/INPROS
+  image: https://mbuffat.github.io/INPROS/_static/logo.png
+- name: "Classifying 19th Century British Library books using Crowdsourcing and Machine Learning"
+  website: https://living-with-machines.github.io/genre-classification/
+  repository: https://github.com/Living-with-machines/genre-classification
+  image: https://raw.githubusercontent.com/Living-with-machines/genre-classification/main/genre_classification_of_bl_books/logo.jpg?raw=true
+- name: "pyhf User Guide and Tutorial"
+  website: https://pyhf.github.io/pyhf-tutorial/
+  repository: https://github.com/pyhf/pyhf-tutorial
+  image: https://raw.githubusercontent.com/scikit-hep/pyhf/master/docs/_static/img/pyhf-logo.png
+- name: "MAT244E Statistics"
+  website: https://gulinan.github.io/mat244e/
+  repository: https://github.com/gulinan/mat244e
+  image: https://github.com/gulinan/mat244e/raw/main/course_class_files/images/logo.png  
+- name: "Deep Learning for Particle Physicists"
+  website: https://lewtun.github.io/dl4phys/
+  repository: https://github.com/lewtun/dl4phys
+  image: https://raw.githubusercontent.com/lewtun/dl4phys/main/logo.jpg
+- name: "Inefficient Networks: Notebooks on MLOps and ML Engineering"
+  website: https://particle1331.github.io/inefficient-networks/
+  repository: https://github.com/particle1331/inefficient-networks
+  image: https://particle1331.github.io/inefficient-networks/_static/pone.0237978.g001.png
+- name: "Applying Maths in the Chemical and Biomolecular Sciences"
+  website: https://applying-maths-book.com/
+  repository: https://github.com/subblue/applying-maths-book
+  image: https://applying-maths-book.com/_static/book-cover.jpg
+- name: "NiMARE: Neuroimaging Meta-Analysis Research Environment"
+  website: https://neurolibre.org/papers/10.55458/neurolibre.00007
+  repository: https://github.com/NBCLab/nimare-paper
+  image: https://github.com/NBCLab/nimare-paper/blob/master/featured.png?raw=true
+- name: "An interactive meta-analysis of MRI biomarkers of myelin"
+  website: https://neurolibre.org/papers/10.55458/neurolibre.00004
+  repository: https://github.com/Notebook-Factory/myelin-meta-analysis
+  image: https://github.com/Notebook-Factory/myelin-meta-analysis/blob/main/featured.png?raw=true
+- name: "CCD Data Reduction Guide"
+  website: http://www.astropy.org/ccd-reduction-and-photometry-guide
+  repository: https://github.com/astropy/ccd-reduction-and-photometry-guide
+  image: https://raw.githubusercontent.com/astropy/ccd-reduction-and-photometry-guide/main/book_media/images/logo/logo.png
+- name: "Simply Logical – Intelligent Reasoning by Example"
+  website: https://book.simply-logical.space/
+  repository: https://github.com/simply-logical/simply-logical
+  image: https://raw.githubusercontent.com/simply-logical/simply-logical/master/src/img/SL.svg

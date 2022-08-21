@@ -1,4 +1,4 @@
-# Tools
+# Tools we build
 
 There are several major tools that we have developed, or are contributing to,
 as a part of this project. This page describes a few major components.
@@ -22,7 +22,7 @@ Jupyter Book has the following main features:
 * **[Execute and cache your book's content](https://jupyterbook.org/content/execute.html)**. For `.ipynb` and
   markdown notebooks, execute code and insert the latest outputs into your book.
   In addition, cache and re-use outputs to be used later.
-* **[Insert notebook outputs into your content](https://jupyterbook.org/content/glue.html)**. Generate outputs
+* **[Insert notebook outputs into your content](https://jupyterbook.org/content/executable/output-insert.html)**. Generate outputs
   as you build your documentation, and insert them in-line with your content across pages.
 * **[Add interactivity to your book](https://jupyterbook.org/interactive/launchbuttons.html)**. You can
   toggle visibility of cells, connect with an online service like Binder,
@@ -68,14 +68,14 @@ Sphinx ecosystem. It provides the following primary features:
 
 * **[Parse ipynb files in Sphinx](https://myst-nb.readthedocs.io/en/latest/#installation)**. Directly convert Jupyter
   Notebooks into Sphinx documents.
-* **[Execute and Cache your notebook content](https://myst-nb.readthedocs.io/en/latest/use/execute.html)**.
+* **[Execute and Cache your notebook content](https://myst-nb.readthedocs.io/en/latest/computation/execute.html)**.
   Save time building your documentation without needing to commit your notebook outputs
   directly into `git`.
-* **[Write MyST Markdown](https://myst-nb.readthedocs.io/en/latest/use/myst.html)**. MyST Markdown
+* **[Write MyST Markdown](https://myst-nb.readthedocs.io/en/latest/authoring/basics.html#myst-markdown)**. MyST Markdown
   allows you to write Sphinx roles and directives in markdown.
-* **[Insert notebook outputs into your content](https://myst-nb.readthedocs.io/en/latest/use/glue.html)**. Generate outputs
+* **[Insert notebook outputs into your content](https://myst-nb.readthedocs.io/en/latest/render/glue.html)**. Generate outputs
   as you build your documentation, and insert them across pages.
-* **[Write Jupyter Notebooks entirely with Markdown](https://myst-nb.readthedocs.io/en/latest/use/markdown.html)**. You can
+* **[Write Jupyter Notebooks entirely with Markdown](https://myst-nb.readthedocs.io/en/latest/authoring/text-notebooks.html)**. You can
   define the structure of a notebook *in pure-text* making it more diff-able.
 
 In addition, there are several options for controlling the look and feel of how your
@@ -90,7 +90,7 @@ interactive book. It has the following primary features:
 
 * **[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)**
   for visual elements and functionality.
-* **[Flexible content layout](https://sphinx-book-theme.readthedocs.io/en/latest/layout.html)** that is inspired by beautiful online books,
+* **[Flexible content layout](https://sphinx-book-theme.readthedocs.io/en/latest/content-blocks.html)** that is inspired by beautiful online books,
   such as [the Edward Tufte CSS guide](https://edwardtufte.github.io/tufte-css/)
 * **[Visual classes designed for Jupyter Notebooks](https://sphinx-book-theme.readthedocs.io/en/latest/notebooks.html)**. Cell inputs, outputs,
   and interactive functionality are all supported.
@@ -126,8 +126,8 @@ Here are its main features:
 - Follows the __[CommonMark spec](http://spec.commonmark.org/)__ for baseline parsing
 - Configurable syntax: You can add new rules and even replace existing ones
 - Pluggable: Adds syntax extensions to extend the parser (see the [plugin list](https://markdown-it-py.readthedocs.io/en/latest/plugins.html#md-plugins))
-- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/security.html#md-performance))
-- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/security.html#md-security)
+- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/other.html#performance))
+- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/other.html#security)
 
 
 

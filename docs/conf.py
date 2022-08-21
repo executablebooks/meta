@@ -24,25 +24,28 @@ master_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_nb", "sphinx_panels", "ablog"]
+extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
 fontawesome_included = True
 blog_path = "updates"
-blog_title = "EBP Updates"
-blog_baseurl = "https://predictablynoisy.com"
+blog_title = "Executable Books Updates"
+blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
 # Jupyter Notebooks configuration
-jupyter_execute_notebooks = "force"
+nb_execution_mode = "force"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+# MyST Configuration
+myst_enable_extensions = ["colon_fence", "linkify"]
+myst_heading_anchors = 3
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -50,13 +53,25 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo.png"
+html_logo = "_static/logo.svg"
+html_favicon = "_static/logo-square.png"
+html_title = "Team Documentation"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+html_theme_options = {
+    "repository_url": "https://github.com/executablebooks/meta",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
+    "path_to_docs": "docs",
+}
+
+# Intersphinx
+intersphinx_mapping = {"jb": ("https://jupyterbook.org/", None)}
 
 # -- Custom scripts ----------------------------------------------------------
 
@@ -90,25 +105,27 @@ def update_team(app: Sphinx):
 
     # Generate the markdown for each member
     people = []
-    for person in team:
+    for person in sorted(team, key=lambda p: p.get("login", "").replace("A", "x")):
         this_person = f"""
-        ![avatar]({person['avatar_url']})
-        ++++++++++++++
-        [@{person['login']}]({person['html_url']})
+        ````{{grid-item}}
+        ```{{image}} {person['avatar_url']}
+        :height: 150px
+        :alt: avatar
+        :target: {person['html_url']}
+        :class: sd-rounded-circle
+        ```
+        ````
         """
         people.append(this_person)
-    people_md = dedent("---\n".join(people))
+    people_md = dedent("\n".join(people))
 
-    # Use the panels directive to build our team and write to txt
+    # Use the grid directive to build our team and write to txt
     md = f"""
-````{{panels}}
----
-column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
-card: text-center
----
+`````{{grid}} 2 2 4 4
+:gutter: 1 2 2 3
 
 {people_md}
-````
+`````
     """
     (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
 
@@ -127,18 +144,18 @@ def update_contributing(app: Sphinx):
 def build_gallery(app: Sphinx):
     # Build the gallery file
     LOGGER.info("building gallery...")
-    panels_body = []
+    grid_items = []
     projects = yaml.safe_load((Path(app.srcdir) / "gallery.yml").read_text())
     random.shuffle(projects)
     for item in projects:
         if not item.get("image"):
-            item["image"] = "https://jupyterbook.org/_static/logo.png"
+            item["image"] = "https://jupyterbook.org/_images/logo-square.svg"
 
         repo_text = ""
         star_text = ""
 
         if item["repository"]:
-            repo_text = f'{{link-badge}}`{item["repository"]},"repo",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`'
+            repo_text = f'{{bdg-link-secondary}}`repo <{item["repository"]}>`'
 
             try:
                 url = urlparse(item["repository"])
@@ -148,67 +165,109 @@ def build_gallery(app: Sphinx):
             except Exception as error:
                 pass
 
-        panels_body.append(
+        grid_items.append(
             f"""\
-        ---
-        :img-top: {item["image"]}
+        `````{{grid-item-card}} {" ".join(item["name"].split())}
+        :text-align: center
+
+        <img src="{item["image"]}" alt="logo" loading="lazy" style="max-width: 100%; max-height: 200px; margin-top: 1rem;" />
 
         +++
-        **{item["name"]}**
+        ````{{grid}} 2 2 2 2
+        :margin: 0 0 0 0
+        :padding: 0 0 0 0
+        :gutter: 1
 
-        {{link-badge}}`{item["website"]},"website",cls=badge-secondary text-white float-left p-2 mr-1,tooltip={item["name"].replace(",", "")}`
+        ```{{grid-item}}
+        :child-direction: row
+        :child-align: start
+        :class: sd-fs-5
+
+        {{bdg-link-secondary}}`website <{item["website"]}>`
         {repo_text}
+        ```
+        ```{{grid-item}}
+        :child-direction: row
+        :child-align: end
+
         {star_text}
+        ```
+        ````
+        `````
         """
         )
-    panels_body = "\n".join(panels_body)
+    grid_items = "\n".join(grid_items)
+
+# :column: text-center col-6 col-lg-4
+# :card: +my-2
+# :img-top-cls: w-75 m-auto p-2
+# :body: d-none
 
     panels = f"""
-````{{panels}}
-:container: full-width
-:column: text-center col-6 col-lg-4
-:card: +my-2
-:img-top-cls: w-75 m-auto p-2
-:body: d-none
+``````{{grid}} 1 2 3 3
+:gutter: 1 1 2 2
+:class-container: full-width
 
-{dedent(panels_body)}
-````
+{dedent(grid_items)}
+``````
     """
     (Path(app.srcdir) / "gallery.txt").write_text(panels)
 
 
 def update_feature_votes(app: Sphinx):
+    """Update the +1 votes for features.
+
+    This will only run if `issue-votes.txt` does not exist and if a GITHUB_TOKEN
+    environment variable is present.
+    """
     # Only create a new file if none exists (so this will only run if you delete the output file)
     path_output = Path(app.srcdir).joinpath("issue-votes.txt")
     if path_output.exists():
-        LOGGER.info(f"Found existing feature votes markdown, to re-download, delete {path_output} first.\n")
+        LOGGER.info(
+            f"Found existing feature votes markdown, to re-download, delete {path_output} first.\n"
+        )
         return
 
     # Pull latest issues data
-    # If `None`, ghapi will default to GITHUB_TOKEN
-    api = GhApi(token=None)
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        LOGGER.info(
+            f"No token found at {os.environ.get('GITHUB_TOKEN')}, GitHub "
+            "issue information will not be used. "
+            "Create a GitHub Personal Access Token and assign it to GITHUB_TOKEN"
+        )
+        return
+    api = GhApi(token=token)
     repos = api.repos.list_for_org("executablebooks")
     issues = []
     LOGGER.info("Retrieving feature voting issue data...")
     for repo in repos:
         for kind in ["enhancement", "type/enhancement", "type/documentation"]:
-            issues += api.issues.list_for_repo("executablebooks", repo['name'], labels=kind, per_page=100, state="open")
+            issues += api.issues.list_for_repo(
+                "executablebooks", repo["name"], labels=kind, per_page=100, state="open"
+            )
 
     # Extract the metadata that we want
     df = pd.DataFrame(issues)
-    df['👍'] = df['reactions'].map(lambda a: a['+1'])
-    df['Repository'] = df['html_url'].map(lambda a: f"[{a.rsplit('/')[4]}]({a.rsplit('/', 2)[0]})")
-    df['Author'] = df['user'].map(lambda a: f"[@{a['login']}](https://github.com/{a['login']})")
-    df['Issue'] = df['html_url'].map(lambda a: f"[#{a.rsplit('/')[-1]}]({a})")
+    df["👍"] = df["reactions"].map(lambda a: a["+1"])
+    df["Repository"] = df["html_url"].map(
+        lambda a: f"[{a.rsplit('/')[4]}]({a.rsplit('/', 2)[0]})"
+    )
+    df["Author"] = df["user"].map(
+        lambda a: f"[@{a['login']}](https://github.com/{a['login']})"
+    )
+    df["Issue"] = df["html_url"].map(lambda a: f"[#{a.rsplit('/')[-1]}]({a})")
     df = df.rename(columns={"title": "Title"})
 
     # Sort and remove issues with a very small # of votes
     df = df.sort_values("👍", ascending=False)
-    df = df[df['👍'] > 1]
+    df = df[df["👍"] > 1]
 
     # Write to markdown
     LOGGER.info("Writing feature voting issues to markdown...")
-    df[['👍', 'Repository', "Issue", 'Title', 'Author']].to_markdown(path_output, index=False)
+    df[["👍", "Repository", "Issue", "Title", "Author"]].to_markdown(
+        path_output, index=False
+    )
 
 
 def setup(app: Sphinx):
