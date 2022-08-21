@@ -314,6 +314,10 @@
   website: https://climateestimate.net
   repository: https://github.com/atrisovic/weather-panel.github.io/
   image: https://climateestimate.net/_static/climate_estimate_logo.png
+- name: "Apuntes del Curso Introducción a Big Data"
+  website: https://fortinux.github.io/bigdata-book/intro.html
+  repository: https://github.com/fortinux/bigdata-book/
+  image: https://fortinux.com/wp-content/uploads/2022/04/Big-data-stack.png
 - name: "Introduction to Bioimage Analysis"
   website: https://bioimagebook.github.io
   repository: https://github.com/bioimagebook/bioimagebook.github.io
