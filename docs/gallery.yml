@@ -1,7 +1,7 @@
 - name: Python 101
   website: https://python101.ml/
   repository: https://github.com/hksahil/Python-101
-  image: https://github.com/hksahil/Python-101/blob/master/logo1.gif
+  image: https://github.com/hksahil/Python-101/raw/master/logo1.gif
 - name: "Enhancing Science Courses by Integrating Python (ESCIP)"
   website: https://escip.github.io/
   repository: https://github.com/ESCIP/escip.github.io/tree/jbook
