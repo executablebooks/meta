@@ -1,4 +1,4 @@
-sphinx~=3.5
+sphinx>=4.0.0
 myst-parser[linkify]
 myst-nb
 sphinx-book-theme
