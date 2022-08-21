@@ -36,7 +36,7 @@ blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
 # Jupyter Notebooks configuration
-jupyter_execute_notebooks = "force"
+nb_execution_mode = "force"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -45,6 +45,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # MyST Configuration
 myst_enable_extensions = ["colon_fence", "linkify"]
+myst_heading_anchors = 3
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -60,6 +61,14 @@ html_title = "Team Documentation"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+html_theme_options = {
+    "repository_url": "https://github.com/executablebooks/meta",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
+    "path_to_docs": "docs",
+}
 
 # Intersphinx
 intersphinx_mapping = {"jb": ("https://jupyterbook.org/", None)}
