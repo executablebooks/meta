@@ -74,6 +74,26 @@
 
 
 ````{grid-item}
+```{image} https://avatars.githubusercontent.com/u/913249?v=4
+:height: 150px
+:alt: avatar
+:target: https://github.com/rowanc1
+:class: sd-rounded-circle
+```
+````
+
+
+````{grid-item}
+```{image} https://avatars.githubusercontent.com/u/1473646?v=4
+:height: 150px
+:alt: avatar
+:target: https://github.com/stevejpurves
+:class: sd-rounded-circle
+```
+````
+
+
+````{grid-item}
 ```{image} https://avatars.githubusercontent.com/u/6542997?v=4
 :height: 150px
 :alt: avatar
