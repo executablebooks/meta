@@ -310,6 +310,10 @@
   website: https://climateestimate.net
   repository: https://github.com/atrisovic/weather-panel.github.io/
   image: https://climateestimate.net/_static/climate_estimate_logo.png
+- name: "Introduction to Bioimage Analysis"
+  website: https://bioimagebook.github.io
+  repository: https://github.com/bioimagebook/bioimagebook.github.io
+  image: https://bioimagebook.github.io/_static/book-logo-smaller.png
 - name: "Introduction à la PROgrammation Scientifique"
   website: https://mbuffat.github.io/INPROS/
   repository: https://github.com/mbuffat/INPROS
