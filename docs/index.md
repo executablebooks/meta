@@ -8,7 +8,7 @@ computational narratives using the Jupyter ecosystem.
 We are the community behind [Jupyter Book](https://jupyterbook.org)--an open source project for building beautiful, publication-quality books and documents from computational material--as well as [MyST Markdown](https://myst-parser.readthedocs.io/en/latest/)--a rich and extensible flavor of Markdown meant for technical documentation and publishing.
 
 ```{toctree}
-governance-strategy.md
+bootstrap-governance/index.md
 ```
 
 ::::{grid} 1 2 2 2
