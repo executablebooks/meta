@@ -69,7 +69,7 @@ This process is encoded in `executablebooks/myst-enhancement-proposals` and desc
    - If the MEP is accepted:
      - Update its status metadata to `Accepted` and merge the PR.
      - Once a PR is merged, it closes the issue and a decision has been made.
-     - The changes in the MEP then become "part of the myst spec" via a Pull Request to `myst-specification` that anyone is welcome to implement.
+     - The changes in the MEP then become "part of the myst spec" via a Pull Request to `executablebooks/myst-spec` that anyone is welcome to implement.
    - If there are unresolved objections (via `Request Changes` to the PR)
      - The MEP author may restart the voting process after incorporating feedback to resolve the objection, **or** ask the Steering Council to follow the same [decision-making process used for team policy](governance:policy-decision).
 

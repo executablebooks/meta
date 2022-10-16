@@ -1,7 +1,7 @@
 # Governance of Executable Books
 
 ```{note}
-_All contributors_ to the Executable Books Project (including but not limited to individuals contributing code, providing technical support, teaching workshops, and engaging in discussions about changes to EBP policy or the MyST Specification) adhere to the [Code of Conduct](policy:coc).
+_All contributors_ to the Executable Books Project (including but not limited to individuals contributing code, providing technical support, teaching workshops, and engaging in discussions about changes to EBP policy or the MyST Specification) are expected to adhere to the [Code of Conduct](policy:coc).
 ```
 
 This page describes the groups of people with decision-making authority in the project, as well as the Sources of Truth for organizational policy and the process around changing it.
@@ -84,7 +84,7 @@ Team Policy is defined at the [`executablebooks/team-compass`](https://github.co
 
 Our Team Compass is the Source of Truth (SoT) for all organizational policy[^1]. The Team Compass should make it clear what is _policy_ and what is _guidance_. It should define clear sections that are community "musts" and others that are "guidelines and recommendations".
 
-It can also delegate SoT status to other places in the organization. It delegates the SoT for the MyST specification to `myst-specification/`.
+It can also delegate SoT status to other places in the organization. It delegates the SoT for the MyST specification to `myst-spec/`.
 
 [^1]: A Team Compass is common in the Jupyter ecoystem (e.g., [here is JupyterHub's Team Compass](https://jupyterhub-team-compass.readthedocs.io/en/latest/index-team_guides.html). In fact, Jupyter's governance model will soon [require that sub-projects have their own Team Compass](https://jupyter.org/governance/software_subprojects.html?responsibilities-of-jupyter-subprojects)
 
@@ -122,9 +122,9 @@ Take the following steps for changing any policy, strategy, or governance aspect
 
 ### The MyST Specification
 
-The MyST Specification is defined at [`executablebooks/myst-specification`](https://github.com/executablebooks/myst-specification). The process for changing it is defined at [`executablebooks/myst-enhancement-proposals`](https://github.com/executablebooks/myst-enhancement-proposals).
+The MyST Specification is defined at [`executablebooks/myst-spec`](https://github.com/executablebooks/myst-spec). The process for changing it is defined at [`executablebooks/myst-enhancement-proposals`](https://github.com/executablebooks/myst-enhancement-proposals).
 
-`executablebooks/myst-specification` is the Source of Truth for the MyST Specification. It uses a combination of documentation, examples, schemas, tests, etc to define MyST markdown in a form that others could use to implement parsers and renderers. It is versioned and includes "releases" in order to make it easy for downstream implementors to track the changes they need to make.
+`executablebooks/myst-spec` is the Source of Truth for the MyST Specification. It uses a combination of documentation, examples, schemas, tests, etc to define MyST markdown in a form that others could use to implement parsers and renderers. It is versioned and includes "releases" in order to make it easy for downstream implementors to track the changes they need to make.
 
 ```{admonition} Implementation detail
 This repository will need to be modified as-needed to be the source of truth for the MyST Specification, and to have enough information to teach newcomers about its structure and function. One example for inspiration: [the Zarr specifications page](https://zarr.readthedocs.io/en/stable/spec.html). [Here's a comment with some suggestions for what is missing](https://github.com/executablebooks/meta/pull/843#issuecomment-1275474229).

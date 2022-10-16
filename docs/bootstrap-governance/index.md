@@ -1,6 +1,5 @@
 # A bootstrap decision-making process and source of truth for Executable Books
 
-
 :::{note}
 
 This is a proposal for bootstrapping a formal decision-making and team policy process.
