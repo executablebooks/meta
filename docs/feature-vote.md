@@ -23,7 +23,8 @@ Click the `+` to see more details.
 <script>
 $(document).ready( function () {
     $('table').DataTable( {
-        "order": [[ 0, "desc" ]]
+        "order": [[ 0, "desc" ]],
+        "pageLength": 50,
     });
 } );
 </script>

@@ -17,7 +17,7 @@ project = "Executable Book Project"
 copyright = "2020, Executable Book Project"
 author = "Executable Book Project"
 
-master_doc = "index"
+root_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 
@@ -53,9 +53,9 @@ myst_heading_anchors = 3
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo.svg"
+html_logo = "_static/logo-wide.svg"
 html_favicon = "_static/logo-square.png"
-html_title = "Team Documentation"
+html_title = ""
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -71,7 +71,7 @@ html_theme_options = {
 }
 
 # Intersphinx
-intersphinx_mapping = {"jb": ("https://jupyterbook.org/", None)}
+intersphinx_mapping = {"jb": ("https://jupyterbook.org/en/latest", None), "tc": ("https://compass.executablebooks.org/en/latest/", None)}
 
 # -- Custom scripts ----------------------------------------------------------
 
@@ -128,17 +128,6 @@ def update_team(app: Sphinx):
 `````
     """
     (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
-
-
-def update_contributing(app: Sphinx):
-    if os.environ.get("SKIP_CONTRIBUTE", "").lower() == "true":
-        LOGGER.info("Skipping contributing page...")
-        return
-    LOGGER.info("Updating contributing page...")
-    # Grab the latest contributing docs
-    url_contributing = "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
-    resp = requests.get(url_contributing, allow_redirects=True)
-    (Path(app.srcdir) / "contributing.md").write_bytes(resp.content)
 
 
 def build_gallery(app: Sphinx):
@@ -273,6 +262,5 @@ def update_feature_votes(app: Sphinx):
 def setup(app: Sphinx):
     app.add_css_file("custom.css")
     app.connect("builder-inited", update_team)
-    app.connect("builder-inited", update_contributing)
     app.connect("builder-inited", build_gallery)
     app.connect("builder-inited", update_feature_votes)
