@@ -5,7 +5,7 @@
 - name: Security Reference Architecture
   website: https://nocomplexity.com/documents/securityarchitecture/introduction.html
   repository: https://github.com/nocomplexity/SecurityArchitecture
-  image: https://github.com/nocomplexity/SecurityArchitecture/blob/master/images/nocxbanner.png
+  image: https://github.com/nocomplexity/SecurityArchitecture/raw/master/images/nocxbanner.png
 - name: "Enhancing Science Courses by Integrating Python (ESCIP)"
   website: https://escip.github.io/
   repository: https://github.com/ESCIP/escip.github.io/tree/jbook
