@@ -370,3 +370,7 @@
   website: https://the-environmental-ds-book.netlify.app/
   repository: https://github.com/alan-turing-institute/environmental-ds-book
   image: https://raw.githubusercontent.com/alan-turing-institute/environmental-ds-book/master/book/figures/logo/logo.png
+- name: Python Coding for Public Policy
+  website: https://python-public-policy.afeld.me/
+  repository: https://github.com/afeld/python-public-policy
+  image: https://user-images.githubusercontent.com/86842/197553222-3bb7f8e7-a136-4bae-b8c0-896837bcc199.png
