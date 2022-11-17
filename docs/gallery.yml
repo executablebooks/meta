@@ -1,3 +1,7 @@
+- name: Hands-on Network Machine Learning with Scikit-Learn and Graspologic
+  website: http://docs.neurodata.io/graph-stats-book/coverpage.html
+  repository: https://github.com/neurodata/graph-stats-book
+  image: https://raw.githubusercontent.com/neurodata/graph-stats-book/master/network_machine_learning_in_python/Images/umap_pedigo_small.jpg
 - name: Python 101
   website: https://python101.ml/
   repository: https://github.com/hksahil/Python-101
