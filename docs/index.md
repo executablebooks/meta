@@ -33,7 +33,7 @@ A place for free-form discussion, brainstorming, and asking questions about how 
 :link: feature-vote
 :link-type: doc
 
-Feature voting board 👍
+Feature voting 👍
 ^^^
 
 A voting board to aggregate ideas across our repositories and sort them by thumbs-up responses.
@@ -53,13 +53,12 @@ An overview of the tools and standards that this community stewards for communic
 :::
 
 :::{grid-item-card}
-:link: about
-:link-type: doc
+:link: https://compass.executablebooks.org
 
-About the project ℹ️
+Our team compass 🧭
 ^^^
 
-An overview of how our project is structured and organized, as well as our goals and major strategy.
+Our team policies, structure, practices, and contributing guides.
 :::
 
 :::{grid-item-card}
@@ -87,8 +86,7 @@ gallery.md
 :caption: About our team
 :hidden:
 contribute.md
-team.md
-Team compass <https://compass.executablebooks.org>
+Team compass 🧭 <https://compass.executablebooks.org>
 updates.md
 ```
 

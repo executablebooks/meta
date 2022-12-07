@@ -14,7 +14,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Executable Book Project"
-copyright = "2020, Executable Book Project"
+copyright = "202, Executable Book Project"
 author = "Executable Book Project"
 
 root_doc = "index"
@@ -91,44 +91,6 @@ from sphinx.application import Sphinx
 from sphinx.util import logging
 
 LOGGER = logging.getLogger("conf")
-
-
-def update_team(app: Sphinx):
-    """Update the directive we use to build the team page with latest results."""
-    if os.environ.get("SKIP_TEAM", "").lower() == "true":
-        LOGGER.info("Skipping team page...")
-        return
-    # Pull latest team from github
-    LOGGER.info("Updating team page...")
-    team_url = "https://api.github.com/orgs/executablebooks/members"
-    team = requests.get(team_url).json()
-
-    # Generate the markdown for each member
-    people = []
-    for person in sorted(team, key=lambda p: p.get("login", "").replace("A", "x")):
-        this_person = f"""
-        ````{{grid-item}}
-        ```{{image}} {person['avatar_url']}
-        :height: 150px
-        :alt: avatar
-        :target: {person['html_url']}
-        :class: sd-rounded-circle
-        ```
-        ````
-        """
-        people.append(this_person)
-    people_md = dedent("\n".join(people))
-
-    # Use the grid directive to build our team and write to txt
-    md = f"""
-`````{{grid}} 2 2 4 4
-:gutter: 1 2 2 3
-
-{people_md}
-`````
-    """
-    (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
-
 
 def build_gallery(app: Sphinx):
     # Build the gallery file
@@ -261,6 +223,5 @@ def update_feature_votes(app: Sphinx):
 
 def setup(app: Sphinx):
     app.add_css_file("custom.css")
-    app.connect("builder-inited", update_team)
     app.connect("builder-inited", build_gallery)
     app.connect("builder-inited", update_feature_votes)

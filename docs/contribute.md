@@ -9,7 +9,7 @@ It also has a lot of information about how to contribute.
 
 ## Code of conduct
 
-We ask any contributor to this project to [follow our Code of Conduct](tc:code-of-conduct).
+We expect all contributors to this project to [follow our Code of Conduct](tc:code-of-conduct).
 
 ## Where we work
 
