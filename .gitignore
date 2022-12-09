@@ -1,6 +1,5 @@
 docs/_build
 *.ipynb_checkpoints
-docs/contributing.md
 .vscode/
 docs/gallery.txt
 docs/issue-votes.txt
