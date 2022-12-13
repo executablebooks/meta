@@ -17,7 +17,7 @@
 - name: "eChem: Computational Chemistry from Laptop to HPC"
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
-  image: https://raw.githubusercontent.com/kthpanor/echem/master/logo.png
+  image: https://raw.githubusercontent.com/kthpanor/echem/master/img/logo.png
 - name: Data Science for Finance
   website: https://ledatascifi.github.io
   repository: https://github.com/LeDataSciFi/ledatascifi-2022
