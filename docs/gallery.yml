@@ -381,4 +381,4 @@
 - name: "PmagPy: An open source package for paleomagnetic data analysis"
   website: https://pmagpy.github.io/PmagPy-docs/
   repository: https://github.com/pmagpy/pmagpy-docs
-  image: https://github.com/PmagPy/PmagPy-docs/blob/main/images/logos/pmagpy_logo2.png
+  image: https://github.com/PmagPy/PmagPy-docs/raw/main/images/logos/pmagpy_logo2.png
