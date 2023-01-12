@@ -1,3 +1,7 @@
+- name: HPX - The C++ Standard Library for Concurrency and Parallelism
+  website: https://hpx-docs.stellar-group.org/latest/html/index.html
+  repository: https://github.com/STEllAR-GROUP/hpx
+  image: https://github.com/STEllAR-GROUP/hpx/raw/master/docs/sphinx/_static/images/HPX_STELLAR_blue.png
 - name: Hands-on Network Machine Learning with Scikit-Learn and Graspologic
   website: http://docs.neurodata.io/graph-stats-book/coverpage.html
   repository: https://github.com/neurodata/graph-stats-book
