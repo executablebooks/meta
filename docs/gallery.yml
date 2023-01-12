@@ -2,6 +2,10 @@
   website: https://report.opensustain.tech/
   repository: https://github.com/protontypes/open-source-in-environmental-sustainability
   image: https://raw.githubusercontent.com/protontypes/open-source-in-environmental-sustainability/main/open-source-in-environmental-sustainability/images/mycelium_sustainability.png
+- name: HPX - The C++ Standard Library for Concurrency and Parallelism
+  website: https://hpx-docs.stellar-group.org/latest/html/index.html
+  repository: https://github.com/STEllAR-GROUP/hpx
+  image: https://github.com/STEllAR-GROUP/hpx/raw/master/docs/sphinx/_static/images/HPX_STELLAR_blue.png
 - name: Hands-on Network Machine Learning with Scikit-Learn and Graspologic
   website: http://docs.neurodata.io/graph-stats-book/coverpage.html
   repository: https://github.com/neurodata/graph-stats-book
@@ -21,7 +25,7 @@
 - name: "eChem: Computational Chemistry from Laptop to HPC"
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
-  image: https://raw.githubusercontent.com/kthpanor/echem/master/logo.png
+  image: https://raw.githubusercontent.com/kthpanor/echem/master/img/logo.png
 - name: Data Science for Finance
   website: https://ledatascifi.github.io
   repository: https://github.com/LeDataSciFi/ledatascifi-2022
@@ -386,3 +390,7 @@
   website: https://python-public-policy.afeld.me/
   repository: https://github.com/afeld/python-public-policy
   image: https://user-images.githubusercontent.com/86842/197553222-3bb7f8e7-a136-4bae-b8c0-896837bcc199.png
+- name: "PmagPy: An open source package for paleomagnetic data analysis"
+  website: https://pmagpy.github.io/PmagPy-docs/
+  repository: https://github.com/pmagpy/pmagpy-docs
+  image: https://github.com/PmagPy/PmagPy-docs/raw/main/images/logos/pmagpy_logo2.png
