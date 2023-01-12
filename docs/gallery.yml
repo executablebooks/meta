@@ -1,3 +1,7 @@
+- name: Open Source in Environmental Sustainability
+  website: https://report.opensustain.tech/
+  repository: https://github.com/protontypes/open-source-in-environmental-sustainability
+  image: https://raw.githubusercontent.com/protontypes/open-source-in-environmental-sustainability/main/open-source-in-environmental-sustainability/images/mycelium_sustainability.png
 - name: HPX - The C++ Standard Library for Concurrency and Parallelism
   website: https://hpx-docs.stellar-group.org/latest/html/index.html
   repository: https://github.com/STEllAR-GROUP/hpx
