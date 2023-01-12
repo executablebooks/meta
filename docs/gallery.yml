@@ -1,3 +1,7 @@
+- name: CVE.icu
+  website: https://cve.icu
+  repository: https://github.com/jgamblin/cve.icu
+  image: https://raw.githubusercontent.com/jgamblin/cve.icu/main/ambulance.png
 - name: Open Source in Environmental Sustainability
   website: https://report.opensustain.tech/
   repository: https://github.com/protontypes/open-source-in-environmental-sustainability
