@@ -1,7 +1,7 @@
 # Call for MyST Templates for Open Science
 
 ```{post} 2023-01-31
-:author: Steve Purves
+:author: Rowan Cockett, Steve Purves
 :image: 1
 :excerpt: 2
 ```
