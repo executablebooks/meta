@@ -24,14 +24,11 @@ root_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx"]
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx", "sphinxext.opengraph"]
 
 fontawesome_included = True
-blog_path = "updates"
-blog_title = "Executable Books Updates"
+blog_path = "blog"
+blog_title = "Executable Books Blog"
 blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
@@ -44,7 +41,7 @@ nb_execution_mode = "force"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # MyST Configuration
-myst_enable_extensions = ["colon_fence", "linkify"]
+myst_enable_extensions = ["colon_fence", "linkify", "substitution"]
 myst_heading_anchors = 3
 
 # -- Options for HTML output -------------------------------------------------
@@ -73,8 +70,12 @@ html_theme_options = {
 # Intersphinx
 intersphinx_mapping = {"jb": ("https://jupyterbook.org/en/latest", None), "tc": ("https://compass.executablebooks.org/en/latest/", None)}
 
-# -- Custom scripts ----------------------------------------------------------
+# Opengraph social cards
+ogp_social_cards = {
+    "image": "_static/logo-square.png",
+}
 
+# -- Custom scripts ----------------------------------------------------------
 import os
 from pathlib import Path
 import random

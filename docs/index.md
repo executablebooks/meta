@@ -85,9 +85,16 @@ gallery.md
 ```{toctree}
 :caption: About our team
 :hidden:
-contribute.md
+contribute
 Team compass 🧭 <https://compass.executablebooks.org>
-updates.md
+blog
+```
+
+## Blog posts
+
+_Below is a list of recent blog posts from [our blog](blog.md)_
+
+```{postlist}
 ```
 
 ## Acknowledgements
