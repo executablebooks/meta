@@ -21,7 +21,7 @@ We recommend downloading it and zooming in :-)
 MyST Markdown is a language- and implementation-agnostic flavor of markdown with support from several tools (some of which are stewarded by us and listed below).
 
 - [`myst-tools.org`](https://myst-tools.org) is a landing page about the project.
-- [`spec.myst.tools.org`](https://spec.myst-tools.org) describes the MyST specification.
+- [`spec.myst-tools.org`](https://spec.myst-tools.org) describes the MyST specification.
 - [MyST Enhancement Proposals](https://github.com/executablebooks/myst-enhancement-proposals) a process for proposing and deciding on modifications to the MyST specification.
 
 See below for examples of implementations and tools that use MyST Markdown.

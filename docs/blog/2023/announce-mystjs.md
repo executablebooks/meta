@@ -76,21 +76,18 @@ We have set up a dedicated site to describe the MyST project at [myst-tools.org]
 
 ### MyST will have first-class support in JavaScript
 
-The [MyST-JS project](https://github.com/executablebooks/mystjs) is written entirelly in TypeScript, with the goal of being re-usable across more applications and interfaces.
+The [MyST-JS project](https://github.com/executablebooks/mystjs) is written entirely in TypeScript, with the goal of being re-usable across more applications and interfaces.
 It also allows us to leverage the vast ecosystem of JavaScript libraries and frameworks for communication.
-For example, we can use [templating frameworks to export MyST documents to a variety of LaTeX publication formats](https://github.com/myst-templates).
-In the future, we hope to leverage the [unifiedjs project](https://unifiedjs.com/) to make MyST documents even more structured and consumable as data.
+For example, we can use [templating frameworks to export MyST documents to a variety of LaTeX publication formats](https://github.com/myst-templates), and leverage the [unifiedjs project](https://unifiedjs.com/) to make MyST documents even more structured and consumable as data.
 
 :::{admonition} Learn more
 You can find the documentation for MyST JS at [js.myst-tools.org](https://myst-tools.org/docs/mystjs). You can also find an [issue from Rowan discussing major new planned functionality here](https://github.com/executablebooks/meta/issues/838).
 :::
 
-### MyST will have a Jupyter Lab extension
+### MyST will have a JupyterLab extension
 
 By bringing MyST into JavaScript, we can integrate it directly with JupyterLab and other web-based Jupyter interfaces.
-We have already explored a few ways of doing this via JupyterLab extensions.
-The [`jupyterlab-myst` repository](https://github.com/executablebooks/jupyterlab-myst) brings basic functionality of MyST in JupyterLab via `markdown-it` plugins, and the [`jupyterlab-mystjs`](https://github.com/executablebooks/jupyterlab-mystjs) repository is a more fully-functional document engine with MyST in JupyterLab.
-We hope to merge the second repository into the first in the future, so follow [`jupyterlab-myst`](https://github.com/executablebooks/jupyterlab-myst) moving forward.
+For example, the [`jupyterlab-myst`](https://github.com/executablebooks/jupyterlab-myst) extension brings native MyST rendering into JupyterLab including admonitions, cross-references, and figure numbering using `mystjs` as the document engine.
 
 By using a single core engine in JavaScript, we can ensure that the live interactive experience in web clients (such as JupyterLab) is identical to the HTML generated for static viewing.
 This goal would be very difficult to reach with a combination of Sphinx and JavaScript separately rendering static and live content.
@@ -118,7 +115,7 @@ It will continue to lean heavily into the use-cases that [Sphinx](https://sphinx
 It also has major functionality that is missing in MyST-JS (for example, full internationalization support and extensions).
 We will continue to improve and maintain this stack (both as individual projects in the Sphinx ecosystem and as the Jupyter Book distribution).
 
-The MyST-JS project will initially focus its efforts on a slightly different use-case: **scientific publishing usecases**, such as reproducible analyses meant for publication, and integration with publisher workflows like [JATS](https://en.wikipedia.org/wiki/Journal_Article_Tag_Suite) and [Latex](https://www.latex-project.org/).
+The MyST-JS project will initially focus its efforts on a slightly different use-case: **scientific publishing usecases**, such as reproducible analyses meant for publication, and integration with publisher workflows like [JATS](https://en.wikipedia.org/wiki/Journal_Article_Tag_Suite) and [LaTeX](https://www.latex-project.org/).
 It will likely grow into new kinds of published content as well, and we will see how far the "MyST in JavaScript" experience can get.
 We also hope to see more third-party interfaces and services take advantage of MyST-JS for their own use-cases.
 
