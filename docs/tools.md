@@ -3,17 +3,7 @@
 There are several major tools that we have developed, or are contributing to,
 as a part of this project. This page describes a few major components.
 
-:::{dropdown} A high level overview
-:color: primary
-
-Below is a diagram providing a high-level view of some major projects in this ecosystem.
-It is very large!
-We recommend downloading it and zooming in :-)
-
-```{image} _static/python-stack.excalidraw.svg
-```
-:::
-
+(tools:myst)=
 ## MyST Markdown
 
 > An extensible, semantic, and community-driven flavor of markdown designed for scientific and computational narratives.
@@ -26,43 +16,25 @@ MyST Markdown is a language- and implementation-agnostic flavor of markdown with
 
 See below for examples of implementations and tools that use MyST Markdown.
 
+(tools:jupyter-book)=
+## Jupyter Book
+
+> A command-line interface for building beautiful, publication-quality books and documents from computational content.
+
+Jupyter Book is a distribution of [Sphinx](https://sphinx-doc.org) that allows you to write content in markdown and Jupyter Notebooks, execute content and insert it into your book, and build a variety of outputs for interactivity and document publishing.
+
+- [`jupyterbook.org`](https://jupyterbook.org) is the landing page about the project.
+- [`gallery.jupyterbook.org`](https://executablebooks.org/en/latest/gallery.html) is a gallery of Jupyter Books that community members have submitted.
+- [`executablebooks/jupyterbook`](https://github.com/executablebooks/jupyter-book) is our repository where you can contribute and open issues.
+
+Jupyter Book gets most of its functionality from the collection of open source tools in [Python](tools:python) and [Sphinx](tools:sphinx) that are listed below.
+You can use each tool on its own for your own purposes, or bring them together with Jupyter Book.
+
+(tools:sphinx)=
 ## Sphinx stack
 
 The core of this project's initial efforts.
 These are a collection of tools that rely on [Sphinx's documentation engine](https://sphinx-doc.org) for creating computational narratives.
-
-### Jupyter Book
-
-> A command-line interface for building beautiful, publication-quality books and documents from computational material.
-
-Jupyter Book has the following main features:
-
-* **[Write publication-quality content in markdown](https://jupyterbook.org/content-types/markdown.html)**. You can
-  write in either Jupyter markdown, or an extended flavor of markdown with publishing features.
-  This includes support for rich syntax such as citations and cross-references,
-  math and equations, and figures.
-* **[Write content in Jupyter Notebooks](https://jupyterbook.org/content-types/notebooks.html)**, allowing
-  you to include your code and outputs in your book. You can also write
-  notebooks entirely in markdown to execute when you
-  build your book.
-* **[Execute and cache your book's content](https://jupyterbook.org/content/execute.html)**. For `.ipynb` and
-  markdown notebooks, execute code and insert the latest outputs into your book.
-  In addition, cache and re-use outputs to be used later.
-* **[Insert notebook outputs into your content](https://jupyterbook.org/content/executable/output-insert.html)**. Generate outputs
-  as you build your documentation, and insert them in-line with your content across pages.
-* **[Add interactivity to your book](https://jupyterbook.org/interactive/launchbuttons.html)**. You can
-  toggle visibility of cells, connect with an online service like Binder,
-  and include interactive outputs from Jupyter.
-* **[Generate a variety of outputs](https://jupyterbook.org/start/build.html)**, including single- and multi-page websites,
-  as well as PDF outputs.
-* **[A command-line interface](https://jupyterbook.org/reference/cli.html)** to quickly generate your books with one
-  command, like so: `jupyter-book build mybook/`
-
-```{note}
-Jupyter Book gets most of its functionality from the collection of open source tools
-listed below. You can use each tool on its own for your own purposes, or bring them
-together with Jupyter Book.
-```
 
 ### MyST - Markedly Structured Text
 
@@ -134,6 +106,7 @@ For example:
 * [`sphinx-togglebutton`](https://sphinx-togglebutton.readthedocs.io/)
 * [`sphinx-autobuild`](https://github.com/executablebooks/sphinx-autobuild)
 
+(tools:python)=
 ## Python stack
 
 These are tools written in Python but meant to be re-used across many projects.
