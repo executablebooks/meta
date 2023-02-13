@@ -117,7 +117,7 @@ Our team policies, structure, practices, and contributing guides.
 :::
 
 :::{grid-item-card}
-:link: https://www.myst.tools/
+:link: https://myst-tools.org
 :class-header: myst-logo-sq
 
 MyST tools overview ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
