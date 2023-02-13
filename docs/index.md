@@ -4,8 +4,63 @@ This is the team documentation for the
 [ExecutableBooksProject](https://github.com/executablebooks), an international
 collaboration to build open source tools that facilitate publishing
 computational narratives using the Jupyter ecosystem.
+Below are two marquee projects that we steward.
 
-We are the community behind [**Jupyter Book**](https://jupyterbook.org)--an open source project for building beautiful, publication-quality books and documents from computational material--as well as [**MyST Markdown**](https://myst.tools)--a rich and extensible flavor of Markdown meant for technical documentation and publishing.
+<style>
+  .marquee-projects .sd-card-header img {
+      max-width: 1.5rem;
+  }
+
+  .marquee-projects .sd-card-body img {
+    margin: auto;
+  }
+
+  .marquee-projects .jb-logo img {
+      width: 100%;
+  }
+
+  .marquee-projects .myst-logo img {
+      width: 75%;
+  }
+
+  .myst-logo-sq img {
+    width: 1rem;
+  }
+</style>
+
+::::{grid} 1 2 2 2
+:gutter: 2
+:class-container: marquee-projects
+
+:::{grid-item-card}
+:link: tools:jupyter-book
+:link-type: ref
+:class-body: jb-logo sd-d-flex-row sd-align-minor-center sd-text-center sd-mx-auto
+
+Jupyter Book ![](https://jupyterbook.org/en/stable/_images/logo-square.svg)
+^^^
+![](https://jupyterbook.org/en/stable/_static/logo-wide.svg)
+
++++
+A command-line interface for building beautiful, publication-quality books and documents from computational content.
+:::
+
+:::{grid-item-card}
+:link: tools:myst
+:link-type: ref
+:class-body: myst-logo sd-d-flex-row sd-align-minor-center sd-text-center sd-mx-auto
+
+MyST Markdown ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
+^^^
+![](https://myst-parser.readthedocs.io/en/latest/_static/logo-wide.svg)
+
++++
+An extensible, semantic, and community-driven flavor of markdown designed for scientific and computational narratives.
+
+:::
+::::
+
+## Community links
 
 ::::{grid} 1 2 3 3
 :class-container: landing-grid
@@ -62,17 +117,16 @@ Our team policies, structure, practices, and contributing guides.
 :::
 
 :::{grid-item-card}
-:link: gallery
-:link-type: doc
+:link: https://www.myst.tools/
+:class-header: myst-logo-sq
 
-Gallery of books 🖼️
+MyST tools overview ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
 ^^^
-A community-maintained list of books that others have built with Jupyter Book.
+An overview of MyST Markdown and the MyST ecosystem of tools.
 
 :::
 
 ::::
-
 
 ```{toctree}
 :hidden:
@@ -85,9 +139,16 @@ gallery.md
 ```{toctree}
 :caption: About our team
 :hidden:
-contribute.md
+contribute
 Team compass 🧭 <https://compass.executablebooks.org>
-updates.md
+blog
+```
+
+## Blog posts
+
+_Below is a list of recent blog posts from [our blog](blog.md)_
+
+```{postlist}
 ```
 
 ## Acknowledgements
