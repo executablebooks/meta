@@ -1,50 +1,46 @@
-# Tools we build
+# Ecosystem of tools
 
 There are several major tools that we have developed, or are contributing to,
 as a part of this project. This page describes a few major components.
 
+(tools:myst)=
+## MyST Markdown
 
+> An extensible, semantic, and community-driven flavor of markdown designed for scientific and computational narratives.
+
+MyST Markdown is a language- and implementation-agnostic flavor of markdown with support from several tools (some of which are stewarded by us and listed below).
+
+- [`myst-tools.org`](https://myst-tools.org) is a landing page about the project.
+- [`spec.myst-tools.org`](https://spec.myst-tools.org) describes the MyST specification.
+- [MyST Enhancement Proposals](https://github.com/executablebooks/myst-enhancement-proposals) a process for proposing and deciding on modifications to the MyST specification.
+
+See below for examples of implementations and tools that use MyST Markdown.
+
+(tools:jupyter-book)=
 ## Jupyter Book
 
-Jupyter Book is an open source project for building beautiful,
-publication-quality books and documents from computational material.
+> A command-line interface for building beautiful, publication-quality books and documents from computational content.
 
-Jupyter Book has the following main features:
+Jupyter Book is a distribution of [Sphinx](https://sphinx-doc.org) that allows you to write content in markdown and Jupyter Notebooks, execute content and insert it into your book, and build a variety of outputs for interactivity and document publishing.
 
-* **[Write publication-quality content in markdown](https://jupyterbook.org/content-types/markdown.html)**. You can
-  write in either Jupyter markdown, or an extended flavor of markdown with publishing features.
-  This includes support for rich syntax such as citations and cross-references,
-  math and equations, and figures.
-* **[Write content in Jupyter Notebooks](https://jupyterbook.org/content-types/notebooks.html)**, allowing
-  you to include your code and outputs in your book. You can also write
-  notebooks entirely in markdown to execute when you
-  build your book.
-* **[Execute and cache your book's content](https://jupyterbook.org/content/execute.html)**. For `.ipynb` and
-  markdown notebooks, execute code and insert the latest outputs into your book.
-  In addition, cache and re-use outputs to be used later.
-* **[Insert notebook outputs into your content](https://jupyterbook.org/content/executable/output-insert.html)**. Generate outputs
-  as you build your documentation, and insert them in-line with your content across pages.
-* **[Add interactivity to your book](https://jupyterbook.org/interactive/launchbuttons.html)**. You can
-  toggle visibility of cells, connect with an online service like Binder,
-  and include interactive outputs from Jupyter.
-* **[Generate a variety of outputs](https://jupyterbook.org/start/build.html)**, including single- and multi-page websites,
-  as well as PDF outputs.
-* **[A command-line interface](https://jupyterbook.org/reference/cli.html)** to quickly generate your books with one
-  command, like so: `jupyter-book build mybook/`
+- [`jupyterbook.org`](https://jupyterbook.org) is the landing page about the project.
+- [`gallery.jupyterbook.org`](https://executablebooks.org/en/latest/gallery.html) is a gallery of Jupyter Books that community members have submitted.
+- [`executablebooks/jupyterbook`](https://github.com/executablebooks/jupyter-book) is our repository where you can contribute and open issues.
 
-```{note}
-Jupyter Book gets most of its functionality from the collection of open source tools
-listed below. You can use each tool on its own for your own purposes, or bring them
-together with Jupyter Book.
-```
+Jupyter Book gets most of its functionality from the collection of open source tools in [Python](tools:python) and [Sphinx](tools:sphinx) that are listed below.
+You can use each tool on its own for your own purposes, or bring them together with Jupyter Book.
 
-## MyST - Markedly Structured Text
+(tools:sphinx)=
+## Sphinx stack
+
+The core of this project's initial efforts.
+These are a collection of tools that rely on [Sphinx's documentation engine](https://sphinx-doc.org) for creating computational narratives.
+
+### MyST - Markedly Structured Text
 
 ([link to documentation](https://myst-parser.readthedocs.io))
 
-MyST allows you to write Sphinx documentation entirely in markdown.
-It is an attempt to have the best of both worlds: the flexibility
-and extensibility of Sphinx with the simplicity and readability of Markdown.
+> A Sphinx parser for MyST Markdown. MyST allows you to write Sphinx documentation entirely in markdown.
 
 MyST has the following main features:
 
@@ -59,12 +55,13 @@ MyST has the following main features:
 * **[A superset of CommonMark markdown](https://commonmark.org/)**. Any CommonMark markdown
   (such as Jupyter Notebook markdown) is natively supported by the MyST parser.
 
-## MyST-NB
+### MyST-NB
 
 ([link to documentation](https://myst-nb.readthedocs.io/))
 
-`MyST-NB` is an open source tool for working with Jupyter Notebooks in the
-Sphinx ecosystem. It provides the following primary features:
+> A Sphinx extension for executing and reading Jupyter Notebooks with MyST Markdown.
+ 
+It provides the following primary features:
 
 * **[Parse ipynb files in Sphinx](https://myst-nb.readthedocs.io/en/latest/#installation)**. Directly convert Jupyter
   Notebooks into Sphinx documents.
@@ -81,12 +78,13 @@ Sphinx ecosystem. It provides the following primary features:
 In addition, there are several options for controlling the look and feel of how your
 notebooks are used in your documentation.
 
-## Sphinx Book Theme
+### Sphinx Book Theme
 
 ([link to documentation](https://sphinx-book-theme.readthedocs.io))
 
-This is a lightweight Sphinx theme designed to mimic the look-and-feel of an
-interactive book. It has the following primary features:
+> A lightweight Sphinx theme designed to mimic the look-and-feel of an interactive book.
+
+It has the following primary features:
 
 * **[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)**
   for visual elements and functionality.
@@ -97,8 +95,25 @@ interactive book. It has the following primary features:
 * **[Launch buttons for online interactivity](https://sphinx-book-theme.readthedocs.io/en/latest/launch.html)**. For pages that are built with
   computational material, connect your site to an online BinderHub for interactive content.
 
+### A collection of Sphinx extensions
 
-## Jupyter Cache
+In addition to these major tools described above, the EBP also maintains a number
+of tools in the Sphinx ecosystem for writing beautiful online books and documents.
+For example:
+
+* [`sphinx-copybutton`](https://sphinx-copybutton.readthedocs.io/)
+* [`sphinx-design`](https://sphinx-design.readthedocs.io/en/latest/)
+* [`sphinx-togglebutton`](https://sphinx-togglebutton.readthedocs.io/)
+* [`sphinx-autobuild`](https://github.com/executablebooks/sphinx-autobuild)
+
+(tools:python)=
+## Python stack
+
+These are tools written in Python but meant to be re-used across many projects.
+
+### Jupyter Cache
+
+> Allows you to execute and cache notebook files so that you only re-run them when you need to.
 
 ([link to documentation](https://jupyter-cache.readthedocs.io))
 
@@ -112,12 +127,11 @@ text documents), during which it is desired that notebooks can be auto-executed
 only if the notebook had been modified in a way that may alter its code cell
 outputs.
 
-
-## Markdown-it-py
+### Markdown-it-py
 
 ([link to documentation](https://markdown-it-py.readthedocs.io))
 
-> Markdown parser done right. Fast and easy to extend.
+> A markdown parser done right. Fast and easy to extend.
 
 `markdown-it-py` is a Python port of the very popular [markdown-it](https://github.com/markdown-it/markdown-it)
 package. Its goal is to remain as close as possible to the `markdown-it` API and plugin spec.
@@ -130,13 +144,26 @@ Here are its main features:
 - [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/other.html#security)
 
 
+## JavaScript stack
 
-## A collection of Sphinx extensions
+### MyST-JS
 
-In addition to these major tools described above, the EBP also maintains a number
-of tools in the Sphinx ecosystem for writing beautiful online books and documents.
-For example:
+> A JavaScript implementation of MyST Markdown, and a command-line interface for building articles and technical documents for computational narratives.
 
-* [`sphinx-copybutton`](https://sphinx-copybutton.readthedocs.io/)
-* [`sphinx-togglebutton`](https://sphinx-togglebutton.readthedocs.io/)
-* [`sphinx-panels`](https://sphinx-panels.readthedocs.io/en/latest/)
+- [link to repository](https://github.com/executablebooks/mystjs)
+- [link to documentation](https://myst-tools.org/docs/mystjs)
+
+### Thebe
+
+> A JavaScript library that allows you to convert static code blocks into interactive and executable blocks.
+
+It leverages [mybinder.org](https://mybinder.org) or [jupyterlite](https://jupyterlite.readthedocs.io).
+
+- [link to repository](https://github.com/executablebooks/thebe).
+- [link to documentation](https://thebe.readthedocs.io).
+
+### jupyterlab-myst
+
+A JupyterLab extension that allows users to write MyST Markdown in Jupyter Notebooks via JupyterLab.
+
+- [link to repository](https://github.com/executablebooks/jupyterlab-myst).
