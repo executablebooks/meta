@@ -13,7 +13,7 @@ Interested in porting your first LaTeX template to a MyST template?
 
 Join the upcoming webinar (15th March 2022 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
 
-The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [myst.tools](https://myst-tools.org) cli.
+The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace covering how to markup an existing LaTeX template or document for use with the [myst.tools](https://myst-tools.org) cli.
 
 [Sign up for the webinar here](https://www.eventbrite.ca/e/how-to-create-a-custom-latex-template-that-works-with-jupyter-tickets-535622720977).
 
@@ -170,7 +170,7 @@ Interested in porting your first LaTeX template to a MyST template?
 
 Join the upcoming webinar (15th March 2022 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
 
-The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [myst.tools](https://myst-tools.org) cli.
+The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace covering of how to markup an existing LaTeX template or document for use with the [myst.tools](https://myst-tools.org) cli.
 
 [Sign up for the webinar here](https://www.eventbrite.ca/e/how-to-create-a-custom-latex-template-that-works-with-jupyter-tickets-535622720977).
 
