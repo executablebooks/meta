@@ -159,7 +159,6 @@ def build_gallery(app: Sphinx):
     panels = f"""
 ``````{{grid}} 1 2 3 3
 :gutter: 1 1 2 2
-:class-container: full-width
 
 {dedent(grid_items)}
 ``````

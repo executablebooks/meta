@@ -1,7 +1,7 @@
 sphinx>=4.0.0
 myst-parser[linkify]
 myst-nb
-sphinx-book-theme>=0.4.0a1  # So we can try out new changes in our docs
+sphinx-book-theme>=1.0.0rc1  # So we can try out new changes in our docs
 sphinx-design
 sphinxext-opengraph
 ablog

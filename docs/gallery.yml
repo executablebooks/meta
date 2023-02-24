@@ -25,7 +25,7 @@
 - name: "Enhancing Science Courses by Integrating Python (ESCIP)"
   website: https://escip.github.io/
   repository: https://github.com/ESCIP/escip.github.io/tree/jbook
-  image: https://github.com/ESCIP/escip.github.io/blob/jbook/logo.png
+  image: https://raw.githubusercontent.com/ESCIP/escip.github.io/jbook/logo.png
 - name: "eChem: Computational Chemistry from Laptop to HPC"
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
@@ -89,7 +89,7 @@
 - name: The Data-Sitters Club
   website: https://datasittersclub.github.io/site/
   repository: https://github.com/datasittersclub/site
-  image: https://datasittersclub.github.io/site/_images/DSCLogo.png
+  image: https://datasittersclub.github.io/site/_static/DSClogo.png
 - name: Computational and Inferential Thinking
   website: https://www.inferentialthinking.com
   repository: https://github.com/data-8/textbook
@@ -162,10 +162,11 @@
   repository: https://github.com/kyleniemeyer/computational-thermo
   image: https://kyleniemeyer.github.io/computational-thermo/_static/logo.png
   website: https://kyleniemeyer.github.io/computational-thermo
-- name: "Make Use of Data: Data Science Notes"
-  repository: https://github.com/wyattowalsh/data-science-notes
-  image: https://raw.githubusercontent.com/wyattowalsh/data-science-notes/master/data-science-notes/favicon_io/apple-touch-icon.png
-  website: https://makeuseofdata.com
+# Temporarily down
+# - name: "Make Use of Data: Data Science Notes"
+#   repository: https://github.com/wyattowalsh/data-science-notes
+#   image: https://raw.githubusercontent.com/wyattowalsh/data-science-notes/master/data-science-notes/favicon_io/apple-touch-icon.png
+#   website: https://makeuseofdata.com
 - name: "Guide de bonnes pratiques sur les données de la recherche"
   repository: https://github.com/miti-gt-donnees/guide.git
   image: https://mi-gt-donnees.pages.math.unistra.fr/guide/_static/logo.png
@@ -230,10 +231,11 @@
   repository: https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial
   image: https://raw.githubusercontent.com/pvlib/pvlib-python/master/docs/sphinx/source/_images/pvlib_logo_vert.png
   website: https://pvsc-python-tutorials.github.io/PVSC48-Python-Tutorial/index.html
-- name: An Introduction to Applied Bioinformatics
-  website: http://readIAB.org
-  repository: https://github.com/applied-bioinformatics/iab2
-  image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
+# Temporarily down
+# - name: An Introduction to Applied Bioinformatics
+#   website: http://readIAB.org
+#   repository: https://github.com/applied-bioinformatics/iab2
+#   image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
 - name: Primer on Statistics
   website: https://r05323028.github.io/primer-on-statistics
   repository: https://github.com/r05323028/primer-on-statistics
