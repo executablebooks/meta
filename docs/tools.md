@@ -21,10 +21,10 @@ See below for examples of implementations and tools that use MyST Markdown.
 
 > A command-line interface for building beautiful, publication-quality books and documents from computational content.
 
-Jupyter Book is a distribution of [Sphinx](https://sphinx-doc.org) that allows you to write content in markdown and Jupyter Notebooks, execute content and insert it into your book, and build a variety of outputs for interactivity and document publishing.
+Jupyter Book is a distribution of [Sphinx](https://www.sphinx-doc.org/en/master/) that allows you to write content in markdown and Jupyter Notebooks, execute content and insert it into your book, and build a variety of outputs for interactivity and document publishing.
 
 - [`jupyterbook.org`](https://jupyterbook.org) is the landing page about the project.
-- [`gallery.jupyterbook.org`](https://executablebooks.org/en/latest/gallery.html) is a gallery of Jupyter Books that community members have submitted.
+- [`gallery.jupyterbook.org`](https://executablebooks.org/en/latest/gallery) is a gallery of Jupyter Books that community members have submitted.
 - [`executablebooks/jupyterbook`](https://github.com/executablebooks/jupyter-book) is our repository where you can contribute and open issues.
 
 Jupyter Book gets most of its functionality from the collection of open source tools in [Python](tools:python) and [Sphinx](tools:sphinx) that are listed below.
@@ -34,7 +34,7 @@ You can use each tool on its own for your own purposes, or bring them together w
 ## Sphinx stack
 
 The core of this project's initial efforts.
-These are a collection of tools that rely on [Sphinx's documentation engine](https://sphinx-doc.org) for creating computational narratives.
+These are a collection of tools that rely on [Sphinx's documentation engine](https://www.sphinx-doc.org/en/master/) for creating computational narratives.
 
 ### MyST - Markedly Structured Text
 
@@ -88,11 +88,11 @@ It has the following primary features:
 
 * **[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)**
   for visual elements and functionality.
-* **[Flexible content layout](https://sphinx-book-theme.readthedocs.io/en/latest/content-blocks.html)** that is inspired by beautiful online books,
+* **[Flexible content layout](https://sphinx-book-theme.readthedocs.io/en/latest/content/content-blocks.html)** that is inspired by beautiful online books,
   such as [the Edward Tufte CSS guide](https://edwardtufte.github.io/tufte-css/)
-* **[Visual classes designed for Jupyter Notebooks](https://sphinx-book-theme.readthedocs.io/en/latest/notebooks.html)**. Cell inputs, outputs,
+* **[Visual classes designed for Jupyter Notebooks](https://sphinx-book-theme.readthedocs.io/en/latest/content/notebooks.html)**. Cell inputs, outputs,
   and interactive functionality are all supported.
-* **[Launch buttons for online interactivity](https://sphinx-book-theme.readthedocs.io/en/latest/launch.html)**. For pages that are built with
+* **[Launch buttons for online interactivity](https://sphinx-book-theme.readthedocs.io/en/latest/content/launch.html)**. For pages that are built with
   computational material, connect your site to an online BinderHub for interactive content.
 
 ### A collection of Sphinx extensions

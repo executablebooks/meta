@@ -33,7 +33,7 @@ We are still exploring what is possible, and would love feedback about what you'
 
 Two years ago, the Executable Books project was [awarded a grant from the Sloan Foundation](../2020-02-25-hello-world) to build open source tooling for authoring and reading computational narratives.
 We focused our efforts around [Jupyter Book](https://jupyterbook.org), a tool for writing and sharing computational narratives as websites and PDFs.
-This project was built on the [Sphinx ecosystem](https://sphinx-doc.org), an open source community that is at the foundation of documentation tools with Python.
+This project was built on the [Sphinx ecosystem](https://www.sphinx-doc.org/en/master/), an open source community that is at the foundation of documentation tools with Python.
 
 MyST, short for _Markedly Structured Text_, was designed to combine the fluid experience of writing [Markdown](https://commonmark.org/) with the programmable extensibility of [reStructuredText](https://docutils.sourceforge.io/rst.html).
 We needed these properties in order to meet the needs of Jupyter users in research and scholarly communication.
@@ -111,7 +111,7 @@ The [MyST Enhancement Proposals repository](https://github.com/executablebooks/m
 
 We think that MyST-JS and Jupyter Book will be able to complement one another in the use-cases they focus on.
 The Jupyter Book project (and its Sphinx stack) are focused on building multi-page books and project documentation.
-It will continue to lean heavily into the use-cases that [Sphinx](https://sphinx-doc.org) was designed for.
+It will continue to lean heavily into the use-cases that [Sphinx](https://www.sphinx-doc.org/en/master/) was designed for.
 It also has major functionality that is missing in MyST-JS (for example, full internationalization support and extensions).
 We will continue to improve and maintain this stack (both as individual projects in the Sphinx ecosystem and as the Jupyter Book distribution).
 
