@@ -1,6 +1,6 @@
 # Call for MyST Templates for Open Science
 
-```{post} 2023-02-28
+```{post} 2023-03-06
 :author: Rowan Cockett, Steve Purves
 :image: 1
 :excerpt: 2
@@ -40,9 +40,9 @@ Use MyST Markdown to export to any template *LaTeX* template. To change the temp
 
 ## MyST Markdown Template Repository
 
-We're excited to make a call for _LaTeX_ submissions to the new [MyST Template Repository](https://github.com/myst-templates). MyST templates allow any existing journal(Let’s not stop at journal papers — this equally applies to thesis and research report templates too!) _LaTeX_ template to be easily built directly from metadata and content in MyST Markdown documents.
+We're excited to make a call for _LaTeX_ submissions to the new [MyST Template Repository](https://github.com/myst-templates). MyST templates allow any existing journal's _LaTeX_ template to be easily built directly from metadata and content in MyST Markdown documents. Let’s not stop at journal papers — this equally applies to book, thesis, research report, and article templates too!
 
-Porting a journal template to MyST Template takes about an hour, depending on the number of options and other requirements a template has—but after that initial investment, anyone who uses it saves a huge amount of time in formatting their documents. Cutting out this continual rework can really make a difference at scale!
+Porting a journal template to MyST Template takes about an hour, depending on the number of options and other requirements a template has, but after that initial investment, anyone who uses it saves a huge amount of time in formatting their documents. Cutting out this continual rework can really make a difference at scale!
 
 Templates on the repository are completely open, part of the [Executable Books Project](https://executablebooks.org), and can be accessed, forked, remixed and contributed to [via GitHub](https://github.com/myst-templates).
 
