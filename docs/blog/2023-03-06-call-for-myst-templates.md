@@ -33,7 +33,7 @@ Imagine a future where preparing research papers for submission is _frictionless
 :align: center
 :width: 100%
 
-Use MyST Markdown to export to any template *LaTeX* template. To change the template you are using, just change the template option in frontmatter!
+Use MyST Markdown to export to any *LaTeX* template. To change the template you are using, just change the template option in frontmatter!
 ```
 
 +++ {"tags":[]}
@@ -63,15 +63,15 @@ The [MyST Templates Repository](https://github.com/myst-templates) is hosted as 
 ```{note}
 **Call for MyST Templates**
 
-With the [myst.tools](https://myst.tools) now launched (beta) 🚀 and publicly available, we are looking for *LaTeX* template submissions from the community.
+With the [myst.tools](https://myst-tools.org) now launched (beta) 🚀 and publicly available, we are looking for *LaTeX* template submissions from the community.
 
 Contributing a *LaTeX* template is simple:
 
 1. Find an up-to-date *LaTeX* template for the venue or an example manuscript
-2. Follow the guide for [Creating a Template on the myst.tools site](https://myst.tools/docs/jtex/create-a-latex-template)
-3. Publish your template to GitHub and [add it to the index listing on myst-templates/templates](https://myst.tools/docs/jtex/contribute-a-template#list-your-template)
+2. Follow the guide for [Creating a Template](https://myst-tools.org/docs/jtex/create-a-latex-template)
+3. Publish your template to GitHub and [add it to the index listing on myst-templates/templates](https://myst-tools.org/docs/jtex/contribute-a-template#list-your-template)
 
-The template can stay on your GitHub account, making it easy for you to maintain and update. If this is likely to be a widely used template you might want to “donate” your contribution as a community-curated template, and transfer it to the `myst-templates` org — [read more about doing that here](https://myst.tools/docs/jtex/contribute-a-template#donate-your-template).
+The template can stay on your GitHub account, making it easy for you to maintain and update. If this is likely to be a widely used template you might want to “donate” your contribution as a community-curated template, and transfer it to the `myst-templates` org — [read more about doing that here](https://myst-tools.org/docs/jtex/contribute-a-template#donate-your-template).
 
 ```
 
@@ -79,7 +79,7 @@ The template can stay on your GitHub account, making it easy for you to maintain
 
 ## How authors use MyST Templates
 
-Once a template is added to the repository it automatically becomes available to **the entire research community** via the open source [myst.tools](https://myst.tools) software ecosystem. Any MyST Markdown document of notebook can be exported to a template using the frontmatter ([learn more](https://myst.tools/docs/mystjs/creating-pdf-documents)).
+Once a template is added to the repository it automatically becomes available to **the entire research community** via the open source [myst-tools.org](https://myst-tools.org) software ecosystem. Any MyST Markdown document of notebook can be exported to a template using the frontmatter ([learn more](https://myst-tools.org/docs/mystjs/quickstart-myst-documents)).
 
 ```yaml
 ---
@@ -89,7 +89,7 @@ exports:
 ---
 ```
 
-To find the templates available, use the `myst` [command line interface](https://myst.tools/docs/mystjs/quickstart) to search through all known templates:
+To find the templates available, use the `myst` [command line interface](https://myst-tools.org/docs/mystjs/quickstart) to search through all known templates:
 
 ```shell
 myst templates list --tex
@@ -126,7 +126,7 @@ As you can see there is helpful and detailed information on the various parts an
 
 Looking to use the MyST Markdown tools for your writing?
 
-Get started easily by following the [quickstart tutorials](https://myst.tools/docs/mystjs/quickstart) or [watch our webinar](https://curvenote.com/blog/writing-a-scientific-paper-faster-myst-markdown).
+Get started easily by following the [quickstart tutorials](https://myst-tools.org/docs/mystjs/quickstart) or [watch our webinar in the tutorial](https://myst-tools.org/docs/mystjs/quickstart-myst-documents).
 
 ```
 
@@ -138,7 +138,7 @@ Ok, so having seen how rich the interaction with MyST Template is for authors, y
 
 There is a dedicated command line tool to help with the process — its called `jtex` — and it bends over backwards to help you create a MyST Template. Use it alongside the well-known `cookiecutter` tool to go from a clean slate to a local git repository that is ready to push.
 
-To get started for real, follow the [Create a Template](https://myst.tools/docs/jtex/create-a-latex-template) guide on [myst.tools](https://myst.tools), as it covers the whole process. To show you a little of what’s in store, the image below shows the output from `jtex check` part way through a template build.
+To get started for real, follow the [Create a Template](https://myst-tools.org/docs/jtex/create-a-latex-template) guide on [MyST Tools](https://myst-tools.org), as it covers the whole process. To show you a little of what’s in store, the image below shows the output from `jtex check` part way through a template build.
 
 ```{figure} images/jtex-build-templates-easily-cli.png
 :name: FCFEq6PLCj
@@ -159,7 +159,7 @@ We’re on a mission to build the largest repository of open journal templates i
 
 Together let’s take the chore and re-work out of preparing a paper submission and make it possible to easily switch papers to alternate journal formats without wasting researchers’ time.
 
-[Make a start on your first MyST Template](https://myst.tools/docs/jtex) and submit it to the listing, or make a start and reach out to the [MyST templates community](https://github.com/myst-templates) in an issue to get help in getting it over the line.
+[Make a start on your first MyST Template](https://myst-tools.org/docs/jtex) and submit it to the listing, or make a start and reach out to the [MyST templates community](https://github.com/myst-templates) in an issue to get help in getting it over the line.
 
 ```
 
@@ -170,7 +170,7 @@ Interested in porting your first LaTeX template to a MyST template?
 
 Join the upcoming webinar (15th March 2022 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
 
-The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [myst.tools](https://myst-tools.org) cli.
+The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [MyST Tools](https://myst-tools.org) cli.
 
 [Sign up for the webinar here](https://www.eventbrite.ca/e/how-to-create-a-custom-latex-template-that-works-with-jupyter-tickets-535622720977).
 
