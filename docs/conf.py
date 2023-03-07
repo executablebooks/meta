@@ -24,7 +24,7 @@ root_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx", "sphinxext.opengraph"]
+extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx", "sphinxext.opengraph", "sphinxext.rediraffe"]
 
 fontawesome_included = True
 blog_path = "blog"
@@ -74,6 +74,11 @@ intersphinx_mapping = {"jb": ("https://jupyterbook.org/en/latest", None), "tc": 
 # Opengraph social cards
 ogp_social_cards = {
     "image": "_static/logo-square.png",
+}
+
+# Redirections
+rediraffe_redirects = {
+    "blog/2023/announce-mystjs.md": "blog/2023-02-09-announce-mystjs.md",
 }
 
 # -- Custom scripts ----------------------------------------------------------

@@ -4,6 +4,7 @@ myst-nb
 sphinx-book-theme>=1.0.0rc1  # So we can try out new changes in our docs
 sphinx-design
 sphinxext-opengraph
+sphinxext-rediraffe
 ablog
 
 # For the feature voting code
