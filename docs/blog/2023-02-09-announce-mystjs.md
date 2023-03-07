@@ -31,7 +31,7 @@ We are still exploring what is possible, and would love feedback about what you'
 
 ## What is MyST Markdown?
 
-Two years ago, the Executable Books project was [awarded a grant from the Sloan Foundation](../2020-02-25-hello-world) to build open source tooling for authoring and reading computational narratives.
+Two years ago, the Executable Books project was awarded a {doc}`grant from the Sloan Foundation <2020-02-25-hello-world>` to build open source tooling for authoring and reading computational narratives.
 We focused our efforts around [Jupyter Book](https://jupyterbook.org), a tool for writing and sharing computational narratives as websites and PDFs.
 This project was built on the [Sphinx ecosystem](https://www.sphinx-doc.org/en/master/), an open source community that is at the foundation of documentation tools with Python.
 
