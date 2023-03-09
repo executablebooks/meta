@@ -180,7 +180,7 @@
   image: https://raw.githubusercontent.com/rafneta/CienciaDatosPythonCIDE/master/docs/logo.jpg
   website: https://rafneta.github.io/CienciaDatosPythonCIDE/intro.html
 - name: "Development Data Partnership"
-  repository: 
+  repository:
   image: https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png
   website: https://docs.datapartnership.org
 - name: "OpenPifPaf Guide"
@@ -359,7 +359,7 @@
 - name: "MAT244E Statistics"
   website: https://gulinan.github.io/mat244e/
   repository: https://github.com/gulinan/mat244e
-  image: https://github.com/gulinan/mat244e/raw/main/course_class_files/images/logo.png  
+  image: https://github.com/gulinan/mat244e/raw/main/course_class_files/images/logo.png
 - name: "Deep Learning for Particle Physicists"
   website: https://lewtun.github.io/dl4phys/
   repository: https://github.com/lewtun/dl4phys
@@ -400,3 +400,7 @@
   website: https://pmagpy.github.io/PmagPy-docs/
   repository: https://github.com/pmagpy/pmagpy-docs
   image: https://github.com/PmagPy/PmagPy-docs/raw/main/images/logos/pmagpy_logo2.png
+- name: "Geospatial Data Science with Earth Engine and Geemap"
+  website: https://book.geemap.org
+  repository: https://github.com/giswqs/geebook
+  image: https://raw.githubusercontent.com/giswqs/geemap/master/docs/assets/logo.png
