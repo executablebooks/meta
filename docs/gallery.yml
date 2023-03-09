@@ -404,3 +404,9 @@
   website: https://book.geemap.org
   repository: https://github.com/giswqs/geebook
   image: https://raw.githubusercontent.com/giswqs/geemap/master/docs/assets/logo.png
+- name: "Kinetics Toolkit"
+  website: https://kineticstoolkit.uqam.ca
+  repository: https://github.com/felixchenier/kineticstoolkit_doc
+  image: https://kineticstoolkit.uqam.ca/doc/_static/logo.png
+
+
