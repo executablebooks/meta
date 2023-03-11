@@ -11,7 +11,7 @@
 
 Interested in porting your first LaTeX template to a MyST template?
 
-Join the upcoming webinar (15th March 2022 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
+Join the upcoming webinar (15th March 2023 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
 
 The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [myst.tools](https://myst-tools.org) cli.
 
@@ -168,7 +168,7 @@ Together let’s take the chore and re-work out of preparing a paper submission 
 
 Interested in porting your first LaTeX template to a MyST template?
 
-Join the upcoming webinar (15th March 2022 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
+Join the upcoming webinar (15th March 2023 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
 
 The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [MyST Tools](https://myst-tools.org) cli.
 
