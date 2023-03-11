@@ -89,7 +89,7 @@ import requests
 from subprocess import run
 from textwrap import dedent
 from urllib.parse import urlparse
-from ghapi.all import GhApi
+from ghapi.all import GhApi, paged
 import pandas as pd
 
 import yaml
@@ -200,8 +200,10 @@ def update_feature_votes(app: Sphinx):
     LOGGER.info("Retrieving feature voting issue data...")
     for repo in repos:
         for kind in ["enhancement", "type/enhancement", "type/documentation"]:
-            issues += api.issues.list_for_repo(
-                "executablebooks", repo["name"], labels=kind, per_page=100, state="open"
+            issues.extend(
+                paged(api.issues.list_for_repo,
+                    owner="executablebooks", repo=repo["name"], labels=kind, state="open"
+                )
             )
 
     # Extract the metadata that we want
