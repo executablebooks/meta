@@ -82,6 +82,7 @@ rediraffe_redirects = {
 }
 
 # -- Custom scripts ----------------------------------------------------------
+import itertools
 import os
 from pathlib import Path
 import random
@@ -201,8 +202,10 @@ def update_feature_votes(app: Sphinx):
     for repo in repos:
         for kind in ["enhancement", "type/enhancement", "type/documentation"]:
             issues.extend(
-                paged(api.issues.list_for_repo,
-                    owner="executablebooks", repo=repo["name"], labels=kind, state="open"
+                itertools.chain.from_iterable(
+                    paged(api.issues.list_for_repo,
+                        owner="executablebooks", repo=repo["name"], labels=kind, state="open"
+                    )
                 )
             )
 
