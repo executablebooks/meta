@@ -1,3 +1,7 @@
+- name: InterpretML
+  website: https://interpret.ml/docs
+  repository: https://github.com/interpretml/interpret
+  image: http://interpret.ml/interpretml.png
 - name: CVE.icu
   website: https://cve.icu
   repository: https://github.com/jgamblin/cve.icu
