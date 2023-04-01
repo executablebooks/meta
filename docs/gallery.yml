@@ -78,6 +78,9 @@
   image: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/_static/car_sketch_wide.png
   website: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/Introduction/intro.html
   repository: https://github.com/thomasfermi/Algorithms-for-Automated-Driving
+- name: NASA VirtualObservatory Notebooks
+  website: https://nasa-navo.github.io/navo-workshop/
+  repository: https://github.com/NASA-NAVO/navo-workshop
 - name: Solving Partial Differential Equations
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
@@ -408,5 +411,3 @@
   website: https://kineticstoolkit.uqam.ca
   repository: https://github.com/felixchenier/kineticstoolkit_doc
   image: https://kineticstoolkit.uqam.ca/doc/_static/logo.png
-
-
