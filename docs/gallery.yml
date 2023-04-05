@@ -1,3 +1,7 @@
+- name: InterpretML
+  website: https://interpret.ml/docs
+  repository: https://github.com/interpretml/interpret
+  image: http://interpret.ml/interpretml.png
 - name: NumPy Tutorials
   website: https://numpy.org/numpy-tutorials/
   repository: https://github.com/numpy/numpy-tutorials
