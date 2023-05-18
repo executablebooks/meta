@@ -418,4 +418,4 @@
 - name: "Machine Learning Recipe Book"
   repository: https://github.com/bipinKrishnan/ml-recipe-book
   website: https://bipinkrishnan.github.io/ml-recipe-book
-  image: https://github.com/bipinKrishnan/ml-recipe-book/blob/main/logo.png
+  image: https://raw.githubusercontent.com/bipinKrishnan/ml-recipe-book/main/logo.png
