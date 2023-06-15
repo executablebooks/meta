@@ -274,7 +274,7 @@
 - name: Foundations of Data Science with Python
   website: https://jmshea.github.io/Foundations-of-Data-Science-with-Python
   repository: https://github.com/jmshea/Foundations-of-Data-Science-with-Python
-  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/tools.png
+  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_static/normal-people.png
 - name: "Data Science Process using CRISP-DM"
   website: https://syahrulhamdani.github.io/data-science-crisp-dm
   repository: https://github.com/syahrulhamdani/data-science-crisp-dm
