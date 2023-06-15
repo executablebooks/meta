@@ -117,10 +117,10 @@ Our team policies, structure, practices, and contributing guides.
 :::
 
 :::{grid-item-card}
-:link: https://myst-tools.org
+:link: https://mystmd.org
 :class-header: myst-logo-sq
 
-MyST tools overview ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
+MyST Markdown overview ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
 ^^^
 An overview of MyST Markdown and the MyST ecosystem of tools.
 

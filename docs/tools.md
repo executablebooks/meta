@@ -10,8 +10,8 @@ as a part of this project. This page describes a few major components.
 
 MyST Markdown is a language- and implementation-agnostic flavor of markdown with support from several tools (some of which are stewarded by us and listed below).
 
-- [`myst-tools.org`](https://myst-tools.org) is a landing page about the project.
-- [`spec.myst-tools.org`](https://spec.myst-tools.org) describes the MyST specification.
+- [`mystmd.org`](https://mystmd.org) is a landing page about the project.
+- [`spec.mystmd.org`](https://spec.mystmd.org) describes the MyST specification.
 - [MyST Enhancement Proposals](https://github.com/executablebooks/myst-enhancement-proposals) a process for proposing and deciding on modifications to the MyST specification.
 
 See below for examples of implementations and tools that use MyST Markdown.
@@ -60,7 +60,7 @@ MyST has the following main features:
 ([link to documentation](https://myst-nb.readthedocs.io/))
 
 > A Sphinx extension for executing and reading Jupyter Notebooks with MyST Markdown.
- 
+
 It provides the following primary features:
 
 * **[Parse ipynb files in Sphinx](https://myst-nb.readthedocs.io/en/latest/#installation)**. Directly convert Jupyter
@@ -151,7 +151,7 @@ Here are its main features:
 > A JavaScript implementation of MyST Markdown, and a command-line interface for building articles and technical documents for computational narratives.
 
 - [link to repository](https://github.com/executablebooks/mystjs)
-- [link to documentation](https://myst-tools.org/docs/mystjs)
+- [link to documentation](https://js.mystmd.org)
 
 ### Thebe
 
