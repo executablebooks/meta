@@ -5,9 +5,9 @@ myst:
       :::{admonition} Learn more and get involved with MyST
       :class: tip
 
-      - See our new website at [myst-tools.org](https://myst-tools.org).
-      - Try the [MyST quickstart tutorial](https://myst-tools.org/docs/mystjs/quickstart).
-      - Follow the Twitter handle [@myst_tools](https://twitter.com/myst_tools).
+      - See our new website at [mystmd.org](https://mystmd.org).
+      - Try the [MyST quickstart tutorial](https://mystmd.org/guide/quickstart).
+      - Follow the Twitter handle [@MystMarkdown](https://twitter.com/MystMarkdown).
       - [Get involved at our GitHub organization](https://github.com/executablebooks).
       - [See the Executable Books team compass](https://compass.executablebooks.org) for more about out organization.
       :::
@@ -55,12 +55,12 @@ Because the original parser for MyST is written entirely in Python (and strongly
 
 As a result, we've been exploring how to _extend MyST markdown into JavaScript_, with the goal of integrating with new technical ecosystems and communities.
 We believe this will grow the impact of MyST, and allow for new kinds of workflows around computational narratives.
-The project is called [MyST-JS](https://myst-tools.org/docs/mystjs).
+The project is called [MyST-JS](https://mystmd.org/docs/mystjs).
 
 To drive this effort forward, we have [partnered with Curvenote](https://curvenote.com) to upstream their open-source documentation engine into the Executable Books community.
 This effort is based [on their command line interface](https://curvenote.com/docs/cli), which was designed for building technical documentation and computational narratives with JavaScript.
 It will become the backbone of **MyST-JS**, and moving forward will be maintained by the Executable Books community.
-There is still much to do, but you can preview this work already at [js.myst-tools.org](https://myst-tools.org/docs/mystjs).
+There is still much to do, but you can preview this work already at [js.mystmd.org](https://mystmd.org/docs/mystjs).
 
 Here are a few major new steps summarizing this work over the coming months:
 
@@ -71,7 +71,7 @@ It will have its own strategy and goals.
 Jupyter Book will remain a consumer of MyST markdown, and it will remain one of many stakeholders in the MyST ecosystem.
 
 :::{admonition} A new website!
-We have set up a dedicated site to describe the MyST project at [myst-tools.org](https://myst-tools.org).
+We have set up a dedicated site to describe the MyST project at [mystmd.org](https://mystmd.org).
 :::
 
 ### MyST will have first-class support in JavaScript
@@ -81,7 +81,7 @@ It also allows us to leverage the vast ecosystem of JavaScript libraries and fra
 For example, we can use [templating frameworks to export MyST documents to a variety of LaTeX publication formats](https://github.com/myst-templates), and leverage the [unifiedjs project](https://unifiedjs.com/) to make MyST documents even more structured and consumable as data.
 
 :::{admonition} Learn more
-You can find the documentation for MyST JS at [js.myst-tools.org](https://myst-tools.org/docs/mystjs). You can also find an [issue from Rowan discussing major new planned functionality here](https://github.com/executablebooks/meta/issues/838).
+You can find the documentation for MyST JS at [js.mystmd.org](https://mystmd.org/docs/mystjs). You can also find an [issue from Rowan discussing major new planned functionality here](https://github.com/executablebooks/meta/issues/838).
 :::
 
 ### MyST will have a JupyterLab extension
@@ -98,7 +98,7 @@ Learn more about the `jupyterlab-myst` project at [`executablebooks/jupyterlab-m
 
 ### MyST will have an implementation-agnostic specification
 
-We are creating a formal definition for MyST at [spec.myst.tools](https://myst-tools.org/docs/spec).
+We are creating a formal definition for MyST at [spec.mystmd.org](https://mystmd.org/spec).
 This will allow us to extend MyST's syntax through a community-driven enhancement proposal process, and allow implementations of MyST to bring in new syntax as they wish.
 Modifications to this specification will follow a [MyST Enhancement Proposals process](https://github.com/executablebooks/myst-enhancement-proposals) (MEPs for short).
 We are still working out the details of how this spec will be structured, and what the process looks like, so please provide feedback if you have ideas for how to build a healthy and inclusive process around the MyST language.
