@@ -54,6 +54,10 @@
   website: https://python.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python.myst
   image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: AstroML Interactive Book -- Statistics, Data Mining, and Machine Learning in Astronomy
+  website: http://www.astroml.org/astroML-notebooks/
+  repository: https://github.com/astroML/astroML-notebooks/
+  image: https://raw.githubusercontent.com/astroML/astroML-notebooks/main/_static/astroml_logo.gif
 - name: Advanced Quantitative Economics with Python
   website: https://python-advanced.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python-advanced.myst
