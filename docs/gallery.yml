@@ -34,10 +34,6 @@
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
   image: https://raw.githubusercontent.com/kthpanor/echem/master/img/logo.png
-- name: Data Science for Finance
-  website: https://ledatascifi.github.io
-  repository: https://github.com/LeDataSciFi/ledatascifi-2022
-  image: https://raw.githubusercontent.com/LeDataSciFi/ledatascifi-2022/main/content/logo.png
 - name: Graph Pandas
   website: https://pandas.liuzaoqi.com/
   repository: https://github.com/liuhuanshuo/zaoqi-book
