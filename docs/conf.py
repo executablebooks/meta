@@ -14,7 +14,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Executable Book Project"
-copyright = "202, Executable Book Project"
+copyright = "2023, Executable Book Project"
 author = "Executable Book Project"
 
 root_doc = "index"
