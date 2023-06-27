@@ -435,3 +435,11 @@
   repository: https://github.com/bipinKrishnan/ml-recipe-book
   website: https://bipinkrishnan.github.io/ml-recipe-book
   image: https://raw.githubusercontent.com/bipinKrishnan/ml-recipe-book/main/logo.png
+- name: "Computer Science Lecture"
+  repository: https://github.com/FireDynamics/LectureComputerScience
+  website: https://firedynamics.github.io/LectureComputerScience
+  image: https://firedynamics.github.io/LectureComputerScience/_static/cce_logo.png
+- name: "Fire Simulation Lecture"
+  repository: https://github.com/FireDynamics/LectureFireSimulation
+  website: https://firedynamics.github.io/LectureFireSimulation
+  image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
