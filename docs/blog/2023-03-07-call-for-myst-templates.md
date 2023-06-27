@@ -6,19 +6,17 @@
 :excerpt: 2
 ```
 
-```{tip} Sign up for the Upcoming MyST Templates Tutorial Webinar
-:class: dropdown
+:::{admonition} Sign up for the Upcoming MyST Templates Tutorial Webinar
+:class: important
 
-Interested in porting your first LaTeX template to a MyST template?
-
-Join the upcoming webinar (15th March 2023 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
+Interested in porting your first LaTeX template to a MyST template? Join the upcoming webinar (15th March 2023 @ 4pm UTC) and get started (and maybe finished) building your template during the session.
 
 The webinar is hosted by Rowan & Steve from Curvenote, and will be a 2 hour walk-through at an easy pace of how to markup an existing LaTeX template or document for use with the [MyST Markdown](https://mystmd.org) CLI.
 
 [Sign up for the webinar here](https://www.eventbrite.ca/e/how-to-create-a-custom-latex-template-that-works-with-jupyter-tickets-535622720977).
 
 Reading this post **after** the event? Watch the [recording on youtube](https://youtube.com/live/Bdd-_5YZQ8c).
-```
+:::
 
 +++ {"tags":[],"part":"abstract"}
 
