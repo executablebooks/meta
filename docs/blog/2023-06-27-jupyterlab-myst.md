@@ -51,7 +51,6 @@ Some of the new additions that we added for v2 of the extension are:
 - GitHub link previews for issues, pull-requests and code ([demo](https://mystmd.org/guide/external-references#issues-and-pull-requests))
 - Wikipedia integrations to show hover-cards ([demo](https://mystmd.org/guide/external-references#wikipedia-links))
 - Task lists that edit your markdown cells ([demo](https://mystmd.org/guide/quickstart-jupyter-lab-myst#task-lists))
-- Rabbit-hole links for cross-referenced content ([demo](https://mystmd.org/guide/quickstart-myst-markdown#links-cross-references))
 - Glossaries and terms ([demo](https://mystmd.org/guide/glossaries-and-terms))
 - Support for proofs ([demo](https://mystmd.org/guide/proofs-and-theorems)) and exercises ([demo](https://mystmd.org/guide/exercises))
 - Copy buttons on your presentational code ([demo](https://mystmd.org/guide/code#code-blocks))
