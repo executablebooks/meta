@@ -77,7 +77,7 @@ JupyterLab MyST allows you to create and evaluate inline expressions using the `
 <figcaption>Inline execution in markdown cells using the <code>{eval}</code> role.</figcaption>
 </figure>
 
-Inline expressions open up a whole new world for communicating with interactive computation, and we are excited to explore this and other integrations with [thebe](https://github.com/executablebooks/thebe) and [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/) in the coming months.
+Inline expressions open up a whole new world for communicating with interactive computation directly in your markdown narrative, and we are excited to explore this and other integrations with [thebe](https://github.com/executablebooks/thebe) and [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/) in the coming months.
 
 ## Adding Rich Frontmatter
 
