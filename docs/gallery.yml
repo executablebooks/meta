@@ -22,6 +22,10 @@
   website: http://docs.neurodata.io/graph-stats-book/coverpage.html
   repository: https://github.com/neurodata/graph-stats-book
   image: https://raw.githubusercontent.com/neurodata/graph-stats-book/master/network_machine_learning_in_python/Images/umap_pedigo_small.jpg
+- name: NetworkX Guides
+  website: https://networkx.org/nx-guides/
+  repository: https://github.com/networkx/nx-guides
+  image: https://raw.githubusercontent.com/networkx/branding/main/logo/networkx_logo.svg
 - name: Security Reference Architecture
   website: https://nocomplexity.com/documents/securityarchitecture/introduction.html
   repository: https://github.com/nocomplexity/SecurityArchitecture
@@ -34,10 +38,6 @@
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
   image: https://raw.githubusercontent.com/kthpanor/echem/master/img/logo.png
-- name: Data Science for Finance
-  website: https://ledatascifi.github.io
-  repository: https://github.com/LeDataSciFi/ledatascifi-2022
-  image: https://raw.githubusercontent.com/LeDataSciFi/ledatascifi-2022/main/content/logo.png
 - name: Graph Pandas
   website: https://pandas.liuzaoqi.com/
   repository: https://github.com/liuhuanshuo/zaoqi-book
@@ -58,6 +58,10 @@
   website: https://python.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python.myst
   image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: AstroML Interactive Book -- Statistics, Data Mining, and Machine Learning in Astronomy
+  website: http://www.astroml.org/astroML-notebooks/
+  repository: https://github.com/astroML/astroML-notebooks/
+  image: https://raw.githubusercontent.com/astroML/astroML-notebooks/main/_static/astroml_logo.gif
 - name: Advanced Quantitative Economics with Python
   website: https://python-advanced.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python-advanced.myst
@@ -274,7 +278,7 @@
 - name: Foundations of Data Science with Python
   website: https://jmshea.github.io/Foundations-of-Data-Science-with-Python
   repository: https://github.com/jmshea/Foundations-of-Data-Science-with-Python
-  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/tools.png
+  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_static/normal-people.png
 - name: "Data Science Process using CRISP-DM"
   website: https://syahrulhamdani.github.io/data-science-crisp-dm
   repository: https://github.com/syahrulhamdani/data-science-crisp-dm
@@ -427,3 +431,7 @@
   repository: https://github.com/UNISvalbard/Geo-UAV
   image: https://unisvalbard.github.io/Geo-UAV/_static/geo_mod-01.png
   website: https://unisvalbard.github.io/Geo-UAV/landing-page.html
+- name: "Machine Learning Recipe Book"
+  repository: https://github.com/bipinKrishnan/ml-recipe-book
+  website: https://bipinkrishnan.github.io/ml-recipe-book
+  image: https://raw.githubusercontent.com/bipinKrishnan/ml-recipe-book/main/logo.png
