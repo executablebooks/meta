@@ -419,3 +419,7 @@
   website: https://kineticstoolkit.uqam.ca
   repository: https://github.com/felixchenier/kineticstoolkit_doc
   image: https://kineticstoolkit.uqam.ca/doc/_static/logo.png
+- name: "Machine Learning Recipe Book"
+  repository: https://github.com/bipinKrishnan/ml-recipe-book
+  website: https://bipinkrishnan.github.io/ml-recipe-book
+  image: https://raw.githubusercontent.com/bipinKrishnan/ml-recipe-book/main/logo.png
