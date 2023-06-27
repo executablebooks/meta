@@ -22,6 +22,10 @@
   website: http://docs.neurodata.io/graph-stats-book/coverpage.html
   repository: https://github.com/neurodata/graph-stats-book
   image: https://raw.githubusercontent.com/neurodata/graph-stats-book/master/network_machine_learning_in_python/Images/umap_pedigo_small.jpg
+- name: NetworkX Guides
+  website: https://networkx.org/nx-guides/
+  repository: https://github.com/networkx/nx-guides
+  image: https://raw.githubusercontent.com/networkx/branding/main/logo/networkx_logo.svg
 - name: Security Reference Architecture
   website: https://nocomplexity.com/documents/securityarchitecture/introduction.html
   repository: https://github.com/nocomplexity/SecurityArchitecture
