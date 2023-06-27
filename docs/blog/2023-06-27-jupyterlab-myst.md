@@ -27,7 +27,7 @@ If you are using JupyterBook or MyST Markdown, you can now see your content dire
 MyST extension in JupyterLab with a rich authoring experience, frontmatter and inline expressions.
 ```
 
-To follow along with the tutorial you can install the plugin using pip and see the full [getting started guide](https://mystmd.org/guide/quickstart-jupyter-lab-myst):
+To follow along with the tutorial, install the plugin using pip and see the full [getting started guide](https://mystmd.org/guide/quickstart-jupyter-lab-myst):
 
 ```shell
 pip install jupyterlab_myst
@@ -56,7 +56,7 @@ Some of the new additions that we added for v2 of the extension are:
 - Support for proofs ([demo](https://mystmd.org/guide/proofs-and-theorems)) and exercises ([demo](https://mystmd.org/guide/exercises))
 - Copy buttons on your presentational code ([demo](https://mystmd.org/guide/code#code-blocks))
 
-These all work in your notebook cells as well as now opening a markdown document in preview.
+These all work in your notebook cells as well as now **opening a markdown document in preview**.
 
 <figure>
 <video src="https://github.com/executablebooks/meta/raw/d30cae55226c762a956c5a33cf9fd6e93557f3f8/docs/_static/videos/jupyterlab-markdown-preview.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
