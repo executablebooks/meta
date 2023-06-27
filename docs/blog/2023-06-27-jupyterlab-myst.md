@@ -42,7 +42,7 @@ The MyST extension for Jupyter is responsible for rendering markdown in every ce
 When you have installed the extension open any notebook or markdown document, and the markdown will be rendered as MyST. For example, showing the rich frontmatter as well as an admonition in dark mode.
 
 <figure>
-<video src="/_static/videos/jupyterlab-markup-dark.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
+<video src="https://github.com/executablebooks/meta/raw/d30cae55226c762a956c5a33cf9fd6e93557f3f8/docs/_static/videos/jupyterlab-markup-dark.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
 <figcaption>Showing MyST Markdown rendering in dark mode!</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Some of the new additions that we added for v2 of the extension are:
 These all work in your notebook cells as well as now opening a markdown document in preview.
 
 <figure>
-<video src="/_static/videos/jupyterlab-markdown-preview.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
+<video src="https://github.com/executablebooks/meta/raw/d30cae55226c762a956c5a33cf9fd6e93557f3f8/docs/_static/videos/jupyterlab-markdown-preview.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
 <figcaption>Instant MyST Markdown preview for full markdown documents.</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ JupyterLab MyST allows you to create and evaluate inline expressions using the `
 - Add ipywidgets directly inline for sliders and other dropdowns
 
 <figure>
-<video src="/_static/videos/jupyterlab-myst-inline.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
+<video src="https://github.com/executablebooks/meta/raw/d30cae55226c762a956c5a33cf9fd6e93557f3f8/docs/_static/videos/jupyterlab-myst-inline.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
 <figcaption>Inline execution in markdown cells using the <code>{eval}</code> role.</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ You can also use your notebooks directly with Jupytext, by opening your markdown
 You can also use MyST in JupyterDesktop, just install the extension as is and it works out of the box, allowing you to double click on a Notebook and get up and running with MyST.
 
 <figure>
-<video src="/_static/videos/jupyterlab-desktop.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
+<video src="https://github.com/executablebooks/meta/raw/d30cae55226c762a956c5a33cf9fd6e93557f3f8/docs/_static/videos/jupyterlab-desktop.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
 <figcaption>The MyST plugin works in JupyterLab Desktop as well! Thanks <a href="https://github.com/roaldarbol" target="_blank">Mikkel Roald-Arbøl</a> for testing this out and letting us know!</figcaption>
 <figure>
 
