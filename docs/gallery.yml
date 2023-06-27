@@ -419,6 +419,18 @@
   website: https://kineticstoolkit.uqam.ca
   repository: https://github.com/felixchenier/kineticstoolkit_doc
   image: https://kineticstoolkit.uqam.ca/doc/_static/logo.png
+- name: "Geo-Structure-from-Motion (Geo-SfM) Course"
+  repository: https://github.com/UNISvalbard/Geo-SfM
+  image: https://unisvalbard.github.io/Geo-SfM/_static/logo.gif
+  website: https://unisvalbard.github.io/Geo-SfM/landing-page.html
+- name: "UNIS GNSS Compendium"
+  repository: https://github.com/UNISvalbard/gnss-compendium
+  image: https://unisvalbard.github.io/gnss-compendium/_static/logo.png
+  website: https://unisvalbard.github.io/gnss-compendium/readme.html
+- name: "Geo-Unmanned Aerial Vehicle (Geo-UAV) Course"
+  repository: https://github.com/UNISvalbard/Geo-UAV
+  image: https://unisvalbard.github.io/Geo-UAV/_static/geo_mod-01.png
+  website: https://unisvalbard.github.io/Geo-UAV/landing-page.html
 - name: "Machine Learning Recipe Book"
   repository: https://github.com/bipinKrishnan/ml-recipe-book
   website: https://bipinkrishnan.github.io/ml-recipe-book
