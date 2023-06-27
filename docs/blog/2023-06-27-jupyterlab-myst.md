@@ -16,9 +16,9 @@ Join the upcoming webinar (5th July 2023 @ 3pm UTC) and get started using MyST i
 
 If you are using JupyterBook or MyST Markdown, you can now see your content directly in JupyterLab with the our new extension [`jupyterlab-myst`](https://github.com/executablebooks/jupyterlab-myst). In this post we will showcase `jupyterlab-myst` to enable rich parsing and rendering of MyST natively in JupyterLab, including:
 
-1. rich authoring components like figures, hover cross-references, tabbed content, and admonitions;
-2. including variables, interactive widgets, and graphs directly inside of Markdown cells in the notebook; and
-3. capturing and displaying rich frontmatter.
+1. Rich authoring components like figures, hover cross-references, tabbed content, and admonitions;
+2. Including variables, interactive widgets, and graphs directly inside of Markdown cells in the notebook; and
+3. Capturing and displaying rich frontmatter.
 
 ```{figure} ./images/jupyterlab-myst.png
 :align: center
