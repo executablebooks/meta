@@ -11,7 +11,7 @@
 
 Join the upcoming webinar (5th July 2023 @ 3pm UTC) and get started using MyST in JupyterLab and how it connects to other scientific writing workflows. The webinar is hosted by Rowan & Steve from [Curvenote](https://curvenote.com), and will be an hour walk-through of using [MyST in JupyterLab](https://github.com/executablebooks/jupyterlab-myst).
 
-[Sign up for the webinar](https://www.eventbrite.ca/e/scientific-writing-in-jupyterlab-with-myst-markdown-tickets-666670598707) or [watch the recording on YouTube](https://youtube.com/live/12-Go9E2huQ) after.
+[Sign up for the webinar](https://www.eventbrite.ca/e/scientific-writing-in-jupyterlab-with-myst-markdown-tickets-666670598707) or [watch the recording on YouTube](https://www.youtube.com/watch?v=F3st8X0L1Ys) after.
 :::
 
 If you are using JupyterBook or MyST Markdown, you can now see your content directly in JupyterLab with the our new extension [`jupyterlab-myst`](https://github.com/executablebooks/jupyterlab-myst). In this post we will showcase `jupyterlab-myst` to enable rich parsing and rendering of MyST natively in JupyterLab, including:
