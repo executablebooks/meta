@@ -1,3 +1,7 @@
+- name: Python for Data Science
+  website: https://aeturrell.github.io/python4DS
+  repository: https://github.com/aeturrell/python4DS
+  image: https://raw.githubusercontent.com/aeturrell/python4DS/main/logo.png
 - name: InterpretML
   website: https://interpret.ml/docs
   repository: https://github.com/interpretml/interpret
