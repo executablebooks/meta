@@ -443,3 +443,7 @@
   repository: https://github.com/FireDynamics/LectureFireSimulation
   website: https://firedynamics.github.io/LectureFireSimulation
   image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
+- name: "Topics in Mathematical Biology"
+  repository: https://github.com/abestshef/mas377
+  website: https://abestshef.github.io/mas377
+  image: https://abestshef.github.io/mas377/_static/logo.png
