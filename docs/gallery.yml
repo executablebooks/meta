@@ -443,3 +443,19 @@
   repository: https://github.com/FireDynamics/LectureFireSimulation
   website: https://firedynamics.github.io/LectureFireSimulation
   image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
+- name: "TESS-Atlas"
+  repository: https://github.com/dfm/tess-atlas
+  website: http://catalog.tess-atlas.cloud.edu.au/
+  image: http://catalog.tess-atlas.cloud.edu.au/_static/atlas_logo.png
+- name: "NRSurCat-1"
+  repository: https://github.com/nrsur-catalog/NRSurCat-1/
+  website: https://nrsur-catalog.github.io/NRSurCat-1
+  image: https://raw.githubusercontent.com/nrsur-catalog/logo/main/nrsurcat_1_logo.png
+- name: "Parallel Techniques Tutorial"
+  repository: https://github.com/avivajpeyi/parallelization_techniques
+  website: https://avivajpeyi.github.io/parallelization_techniques/
+  image: https://avivajpeyi.github.io/parallelization_techniques/_images/orbit1.gif
+- name: "GW Parameter Estimation Tutorial"
+  repository: https://github.com/avivajpeyi/gw_pe_tutorial
+  website: https://avivajpeyi.github.io/gw_pe_tutorial/
+  image: https://avivajpeyi.github.io/gw_pe_tutorial/_images/workshop_notebook_69_1.png
