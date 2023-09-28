@@ -6,5 +6,5 @@ python:
     - requirements: requirements.txt
 
 sphinx:
-  builder: html
+  builder: dirhtml
   fail_on_warning: true

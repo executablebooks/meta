@@ -4,77 +4,153 @@ This is the team documentation for the
 [ExecutableBooksProject](https://github.com/executablebooks), an international
 collaboration to build open source tools that facilitate publishing
 computational narratives using the Jupyter ecosystem.
+Below are two marquee projects that we steward.
 
-We are the community behind [Jupyter Book](https://jupyterbook.org)--an open source project for building beautiful, publication-quality books and documents from computational material--as well as [MyST Markdown](https://myst-parser.readthedocs.io/en/latest/)--a rich and extensible flavor of Markdown meant for technical documentation and publishing.
+<style>
+  .marquee-projects .sd-card-header img {
+      max-width: 1.5rem;
+  }
+
+  .marquee-projects .sd-card-body img {
+    margin: auto;
+  }
+
+  .marquee-projects .jb-logo img {
+      width: 100%;
+  }
+
+  .marquee-projects .myst-logo img {
+      width: 75%;
+  }
+
+  .myst-logo-sq img {
+    width: 1rem;
+  }
+</style>
 
 ::::{grid} 1 2 2 2
-:class-container: landing-grid
+:gutter: 2
+:class-container: marquee-projects
 
 :::{grid-item-card}
-:padding: 2
-For contributors 👩‍💻
+:link: tools:jupyter-book
+:link-type: ref
+:class-body: jb-logo sd-d-flex-row sd-align-minor-center sd-text-center sd-mx-auto
+
+Jupyter Book ![](https://jupyterbook.org/en/stable/_images/logo-square.svg)
 ^^^
-Read our [Contributing Guide](contributing.md) to learn about the conventions we follow, and see [our community forum](https://github.com/executablebooks/meta/discussions) to ask questions and help others.
+![](https://jupyterbook.org/en/stable/_static/logo-wide.svg)
+
++++
+A command-line interface for building beautiful, publication-quality books and documents from computational content.
 :::
 
 :::{grid-item-card}
-:padding: 2
-Be inspired ✨
-^^^
-Our [Gallery of Jupyter Books](gallery.md) has contributions from across the community, and [our blog](updates.md) has updates from the community.
-:::
+:link: tools:myst
+:link-type: ref
+:class-body: myst-logo sd-d-flex-row sd-align-minor-center sd-text-center sd-mx-auto
 
-:::{grid-item-card}
-:padding: 2
-Tools we build 👍
+MyST Markdown ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
 ^^^
-Our [Feature Voting board](feature-vote.md) is an easy way for community members to voice support for features and enhancements. Our [Tools Page](tools.md) also lists many of the tools we build to learn more.
-:::
+![](https://myst-parser.readthedocs.io/en/latest/_static/logo-wide.svg)
 
-:::{grid-item-card}
-:padding: 2
-About the project ℹ️
-^^^
-Learn more about [our project's goals and strategy](about.md), see [a list of core team members](team.md), and see [our team meeting notes and calendar](meetings/index.md).
++++
+An extensible, semantic, and community-driven flavor of markdown designed for scientific and computational narratives.
+
 :::
 ::::
 
+## Community links
+
+::::{grid} 1 2 3 3
+:class-container: landing-grid
+:gutter: 2
+
+:::{grid-item-card}
+:link: contribute
+:link-type: doc
+
+Contributing Guide 🙌
+^^^
+Our contributing guide has some tips and pointers to help you learn where and how to contribute to the project.
+:::
+
+:::{grid-item-card}
+:link: https://github.com/executablebooks/meta/discussions
+
+Community forum 💬
+^^^
+A place for free-form discussion, brainstorming, and asking questions about how to use the tools in this ecosystem.
+
+:::
+
+:::{grid-item-card}
+:link: feature-vote
+:link-type: doc
+
+Feature voting 👍
+^^^
+
+A voting board to aggregate ideas across our repositories and sort them by thumbs-up responses.
+
+:::
+
+
+:::{grid-item-card}
+:link: tools
+:link-type: doc
+
+Tools we build 🔧
+^^^
+
+An overview of the tools and standards that this community stewards for communicating with computational narratives.
+
+:::
+
+:::{grid-item-card}
+:link: https://compass.executablebooks.org
+
+Our team compass 🧭
+^^^
+
+Our team policies, structure, practices, and contributing guides.
+:::
+
+:::{grid-item-card}
+:link: https://mystmd.org
+:class-header: myst-logo-sq
+
+MyST Markdown overview ![](https://myst-parser.readthedocs.io/en/latest/_images/logo-square.svg)
+^^^
+An overview of MyST Markdown and the MyST ecosystem of tools.
+
+:::
+
+::::
+
+```{toctree}
+:hidden:
+:caption: Our tools and standards
+tools.md
+feature-vote.md
+gallery.md
+```
+
+```{toctree}
+:caption: About our team
+:hidden:
+contribute
+Team compass 🧭 <https://compass.executablebooks.org>
+blog
+```
+
+## Blog posts
+
+_Below is a list of recent blog posts from [our blog](blog.md)_
+
+```{postlist}
+```
 
 ## Acknowledgements
 
-:::{image} https://pbs.twimg.com/profile_images/1226944724365447169/MzFpwY5P_400x400.png
-:class: float-left mr-2 rounded
-:width: 100px
-:::
-
-The Executable Books Project is supported by several institutions and members of open source projects.
-In particular, many thanks to the [Sloan Foundation](https://sloan.org) which [provides support for the Executable Books Project](https://sloan.org/grant-detail/9231).
-
-
-```{toctree}
-:maxdepth: 2
-:caption: Get Involved
-:hidden:
-contributing.md
-developer.md
-resources.md
-communication.md
-meetings/index.md
-```
-
-```{toctree}
-:hidden:
-:caption: Our Projects and Tools
-feature-vote.md
-gallery.md
-tools.md
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: About the Project
-:hidden:
-about.md
-team.md
-updates.md
-```
+See our [organizational contributions page](tc:contributions) as well as [our team members page](tc:team) for a list of individuals and organizations that have made formal contributions to this community.

@@ -14,24 +14,21 @@
 # -- Project information -----------------------------------------------------
 
 project = "Executable Book Project"
-copyright = "2020, Executable Book Project"
+copyright = "2023, Executable Book Project"
 author = "Executable Book Project"
 
-master_doc = "index"
+root_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx"]
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+extensions = ["myst_nb", "sphinx_design", "ablog", "sphinx.ext.intersphinx", "sphinxext.opengraph", "sphinxext.rediraffe"]
 
 fontawesome_included = True
-blog_path = "updates"
-blog_title = "Executable Books Updates"
+blog_path = "blog"
+blog_title = "Executable Books Blog"
 blog_baseurl = "https://executablebooks.org"
 blog_feed_archives = True
 
@@ -44,7 +41,7 @@ nb_execution_mode = "force"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # MyST Configuration
-myst_enable_extensions = ["colon_fence", "linkify"]
+myst_enable_extensions = ["colon_fence", "linkify", "substitution"]
 myst_heading_anchors = 3
 
 # -- Options for HTML output -------------------------------------------------
@@ -53,9 +50,9 @@ myst_heading_anchors = 3
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo.svg"
+html_logo = "_static/logo-wide.svg"
 html_favicon = "_static/logo-square.png"
-html_title = "Team Documentation"
+html_title = ""
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -64,6 +61,7 @@ html_static_path = ["_static"]
 
 html_theme_options = {
     "repository_url": "https://github.com/executablebooks/meta",
+    "repository_branch": "main",
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
@@ -71,10 +69,20 @@ html_theme_options = {
 }
 
 # Intersphinx
-intersphinx_mapping = {"jb": ("https://jupyterbook.org/", None)}
+intersphinx_mapping = {"jb": ("https://jupyterbook.org/en/latest", None), "tc": ("https://compass.executablebooks.org/en/latest/", None)}
+
+# Opengraph social cards
+ogp_social_cards = {
+    "image": "_static/logo-square.png",
+}
+
+# Redirections
+rediraffe_redirects = {
+    "blog/2023/announce-mystjs.md": "blog/2023-02-09-announce-mystjs.md",
+}
 
 # -- Custom scripts ----------------------------------------------------------
-
+import itertools
 import os
 from pathlib import Path
 import random
@@ -82,7 +90,7 @@ import requests
 from subprocess import run
 from textwrap import dedent
 from urllib.parse import urlparse
-from ghapi.all import GhApi
+from ghapi.all import GhApi, paged
 import pandas as pd
 
 import yaml
@@ -91,55 +99,6 @@ from sphinx.application import Sphinx
 from sphinx.util import logging
 
 LOGGER = logging.getLogger("conf")
-
-
-def update_team(app: Sphinx):
-    """Update the directive we use to build the team page with latest results."""
-    if os.environ.get("SKIP_TEAM", "").lower() == "true":
-        LOGGER.info("Skipping team page...")
-        return
-    # Pull latest team from github
-    LOGGER.info("Updating team page...")
-    team_url = "https://api.github.com/orgs/executablebooks/members"
-    team = requests.get(team_url).json()
-
-    # Generate the markdown for each member
-    people = []
-    for person in sorted(team, key=lambda p: p.get("login", "").replace("A", "x")):
-        this_person = f"""
-        ````{{grid-item}}
-        ```{{image}} {person['avatar_url']}
-        :height: 150px
-        :alt: avatar
-        :target: {person['html_url']}
-        :class: sd-rounded-circle
-        ```
-        ````
-        """
-        people.append(this_person)
-    people_md = dedent("\n".join(people))
-
-    # Use the grid directive to build our team and write to txt
-    md = f"""
-`````{{grid}} 2 2 4 4
-:gutter: 1 2 2 3
-
-{people_md}
-`````
-    """
-    (Path(app.srcdir) / "team_panels_code.txt").write_text(md)
-
-
-def update_contributing(app: Sphinx):
-    if os.environ.get("SKIP_CONTRIBUTE", "").lower() == "true":
-        LOGGER.info("Skipping contributing page...")
-        return
-    LOGGER.info("Updating contributing page...")
-    # Grab the latest contributing docs
-    url_contributing = "https://raw.githubusercontent.com/executablebooks/.github/master/CONTRIBUTING.md"
-    resp = requests.get(url_contributing, allow_redirects=True)
-    (Path(app.srcdir) / "contributing.md").write_bytes(resp.content)
-
 
 def build_gallery(app: Sphinx):
     # Build the gallery file
@@ -206,7 +165,6 @@ def build_gallery(app: Sphinx):
     panels = f"""
 ``````{{grid}} 1 2 3 3
 :gutter: 1 1 2 2
-:class-container: full-width
 
 {dedent(grid_items)}
 ``````
@@ -243,8 +201,12 @@ def update_feature_votes(app: Sphinx):
     LOGGER.info("Retrieving feature voting issue data...")
     for repo in repos:
         for kind in ["enhancement", "type/enhancement", "type/documentation"]:
-            issues += api.issues.list_for_repo(
-                "executablebooks", repo["name"], labels=kind, per_page=100, state="open"
+            issues.extend(
+                itertools.chain.from_iterable(
+                    paged(api.issues.list_for_repo,
+                        owner="executablebooks", repo=repo["name"], labels=kind, state="open"
+                    )
+                )
             )
 
     # Extract the metadata that we want
@@ -272,7 +234,5 @@ def update_feature_votes(app: Sphinx):
 
 def setup(app: Sphinx):
     app.add_css_file("custom.css")
-    app.connect("builder-inited", update_team)
-    app.connect("builder-inited", update_contributing)
     app.connect("builder-inited", build_gallery)
     app.connect("builder-inited", update_feature_votes)

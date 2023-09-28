@@ -7,8 +7,8 @@ jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           cache: 'pip'
@@ -21,7 +21,7 @@ jobs:
       # ref: https://github.com/lycheeverse/lychee-action
       # ref: https://github.com/lycheeverse/lychee#commandline-parameters
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.0
+        uses: lycheeverse/lychee-action@v1.5.4
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
@@ -33,5 +33,5 @@ jobs:
             --max-retries 10
             --exclude-link-local
             --exclude mailto
-            --exclude https://github.com/executablebooks/meta/edit/master/docs/contributing.md
+            --exclude https://github.com/executablebooks/meta/edit/main/docs/contributing.md
           jobSummary: true

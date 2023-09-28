@@ -1,19 +1,43 @@
-- name: Python 101
-  website: https://python101.ml/
-  repository: https://github.com/hksahil/Python-101
-  image: https://github.com/hksahil/Python-101/raw/master/logo1.gif
+- name: InterpretML
+  website: https://interpret.ml/docs
+  repository: https://github.com/interpretml/interpret
+  image: http://interpret.ml/interpretml.png
+- name: NumPy Tutorials
+  website: https://numpy.org/numpy-tutorials/
+  repository: https://github.com/numpy/numpy-tutorials
+  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/main/site/_static/numpylogo.svg
+- name: CVE.icu
+  website: https://cve.icu
+  repository: https://github.com/jgamblin/cve.icu
+  image: https://raw.githubusercontent.com/jgamblin/cve.icu/main/ambulance.png
+- name: Open Source in Environmental Sustainability
+  website: https://report.opensustain.tech/
+  repository: https://github.com/protontypes/open-source-in-environmental-sustainability
+  image: https://raw.githubusercontent.com/protontypes/open-source-in-environmental-sustainability/main/open-source-in-environmental-sustainability/images/mycelium_sustainability.png
+- name: HPX - The C++ Standard Library for Concurrency and Parallelism
+  website: https://hpx-docs.stellar-group.org/latest/html/index.html
+  repository: https://github.com/STEllAR-GROUP/hpx
+  image: https://github.com/STEllAR-GROUP/hpx/raw/master/docs/sphinx/_static/images/HPX_STELLAR_blue.png
+- name: Hands-on Network Machine Learning with Scikit-Learn and Graspologic
+  website: http://docs.neurodata.io/graph-stats-book/coverpage.html
+  repository: https://github.com/neurodata/graph-stats-book
+  image: https://raw.githubusercontent.com/neurodata/graph-stats-book/master/network_machine_learning_in_python/Images/umap_pedigo_small.jpg
+- name: NetworkX Guides
+  website: https://networkx.org/nx-guides/
+  repository: https://github.com/networkx/nx-guides
+  image: https://raw.githubusercontent.com/networkx/branding/main/logo/networkx_logo.svg
+- name: Security Reference Architecture
+  website: https://nocomplexity.com/documents/securityarchitecture/introduction.html
+  repository: https://github.com/nocomplexity/SecurityArchitecture
+  image: https://github.com/nocomplexity/SecurityArchitecture/raw/master/images/nocxbanner.png
 - name: "Enhancing Science Courses by Integrating Python (ESCIP)"
   website: https://escip.github.io/
   repository: https://github.com/ESCIP/escip.github.io/tree/jbook
-  image: https://github.com/ESCIP/escip.github.io/blob/jbook/logo.png
+  image: https://raw.githubusercontent.com/ESCIP/escip.github.io/jbook/logo.png
 - name: "eChem: Computational Chemistry from Laptop to HPC"
   website: https://kthpanor.github.io/echem/
   repository: https://github.com/kthpanor/echem
-  image: https://raw.githubusercontent.com/kthpanor/echem/master/logo.png
-- name: Data Science for Finance
-  website: https://ledatascifi.github.io
-  repository: https://github.com/LeDataSciFi/ledatascifi-2022
-  image: https://raw.githubusercontent.com/LeDataSciFi/ledatascifi-2022/main/content/logo.png
+  image: https://raw.githubusercontent.com/kthpanor/echem/master/img/logo.png
 - name: Graph Pandas
   website: https://pandas.liuzaoqi.com/
   repository: https://github.com/liuhuanshuo/zaoqi-book
@@ -34,6 +58,10 @@
   website: https://python.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python.myst
   image: https://python-programming.quantecon.org/_static/qe-logo.png
+- name: AstroML Interactive Book -- Statistics, Data Mining, and Machine Learning in Astronomy
+  website: http://www.astroml.org/astroML-notebooks/
+  repository: https://github.com/astroML/astroML-notebooks/
+  image: https://raw.githubusercontent.com/astroML/astroML-notebooks/main/_static/astroml_logo.gif
 - name: Advanced Quantitative Economics with Python
   website: https://python-advanced.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python-advanced.myst
@@ -58,6 +86,9 @@
   image: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/_static/car_sketch_wide.png
   website: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/Introduction/intro.html
   repository: https://github.com/thomasfermi/Algorithms-for-Automated-Driving
+- name: NASA VirtualObservatory Notebooks
+  website: https://nasa-navo.github.io/navo-workshop/
+  repository: https://github.com/NASA-NAVO/navo-workshop
 - name: Solving Partial Differential Equations
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
@@ -69,7 +100,7 @@
 - name: The Data-Sitters Club
   website: https://datasittersclub.github.io/site/
   repository: https://github.com/datasittersclub/site
-  image: https://datasittersclub.github.io/site/_images/DSCLogo.png
+  image: https://datasittersclub.github.io/site/_static/DSClogo.png
 - name: Computational and Inferential Thinking
   website: https://www.inferentialthinking.com
   repository: https://github.com/data-8/textbook
@@ -142,10 +173,11 @@
   repository: https://github.com/kyleniemeyer/computational-thermo
   image: https://kyleniemeyer.github.io/computational-thermo/_static/logo.png
   website: https://kyleniemeyer.github.io/computational-thermo
-- name: "Make Use of Data: Data Science Notes"
-  repository: https://github.com/wyattowalsh/data-science-notes
-  image: https://raw.githubusercontent.com/wyattowalsh/data-science-notes/master/data-science-notes/favicon_io/apple-touch-icon.png
-  website: https://makeuseofdata.com
+# Temporarily down
+# - name: "Make Use of Data: Data Science Notes"
+#   repository: https://github.com/wyattowalsh/data-science-notes
+#   image: https://raw.githubusercontent.com/wyattowalsh/data-science-notes/master/data-science-notes/favicon_io/apple-touch-icon.png
+#   website: https://makeuseofdata.com
 - name: "Guide de bonnes pratiques sur les données de la recherche"
   repository: https://github.com/miti-gt-donnees/guide.git
   image: https://mi-gt-donnees.pages.math.unistra.fr/guide/_static/logo.png
@@ -159,7 +191,7 @@
   image: https://raw.githubusercontent.com/rafneta/CienciaDatosPythonCIDE/master/docs/logo.jpg
   website: https://rafneta.github.io/CienciaDatosPythonCIDE/intro.html
 - name: "Development Data Partnership"
-  repository: 
+  repository:
   image: https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png
   website: https://docs.datapartnership.org
 - name: "OpenPifPaf Guide"
@@ -214,10 +246,11 @@
   repository: https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial
   image: https://raw.githubusercontent.com/pvlib/pvlib-python/master/docs/sphinx/source/_images/pvlib_logo_vert.png
   website: https://pvsc-python-tutorials.github.io/PVSC48-Python-Tutorial/index.html
-- name: An Introduction to Applied Bioinformatics
-  website: http://readIAB.org
-  repository: https://github.com/applied-bioinformatics/iab2
-  image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
+# Temporarily down
+# - name: An Introduction to Applied Bioinformatics
+#   website: http://readIAB.org
+#   repository: https://github.com/applied-bioinformatics/iab2
+#   image: https://github.com/applied-bioinformatics/iab2/raw/main/book/logo.png
 - name: Primer on Statistics
   website: https://r05323028.github.io/primer-on-statistics
   repository: https://github.com/r05323028/primer-on-statistics
@@ -249,7 +282,7 @@
 - name: Foundations of Data Science with Python
   website: https://jmshea.github.io/Foundations-of-Data-Science-with-Python
   repository: https://github.com/jmshea/Foundations-of-Data-Science-with-Python
-  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/tools.png
+  image: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_static/normal-people.png
 - name: "Data Science Process using CRISP-DM"
   website: https://syahrulhamdani.github.io/data-science-crisp-dm
   repository: https://github.com/syahrulhamdani/data-science-crisp-dm
@@ -341,15 +374,15 @@
 - name: "MAT244E Statistics"
   website: https://gulinan.github.io/mat244e/
   repository: https://github.com/gulinan/mat244e
-  image: https://github.com/gulinan/mat244e/raw/main/course_class_files/images/logo.png  
+  image: https://github.com/gulinan/mat244e/raw/main/course_class_files/images/logo.png
 - name: "Deep Learning for Particle Physicists"
   website: https://lewtun.github.io/dl4phys/
   repository: https://github.com/lewtun/dl4phys
   image: https://raw.githubusercontent.com/lewtun/dl4phys/main/logo.jpg
-- name: "Inefficient Networks: Notebooks on MLOps and ML Engineering"
-  website: https://particle1331.github.io/inefficient-networks/
-  repository: https://github.com/particle1331/inefficient-networks
-  image: https://particle1331.github.io/inefficient-networks/_static/pone.0237978.g001.png
+- name: "OK Transformer: Notebooks on ML Engineering and MLOps"
+  website: https://particle1331.github.io/ok-transformer/intro.html
+  repository: https://github.com/particle1331/ok-transformer
+  image: https://particle1331.github.io/ok-transformer/_static/logo.png
 - name: "Applying Maths in the Chemical and Biomolecular Sciences"
   website: https://applying-maths-book.com/
   repository: https://github.com/subblue/applying-maths-book
@@ -370,3 +403,47 @@
   website: https://book.simply-logical.space/
   repository: https://github.com/simply-logical/simply-logical
   image: https://raw.githubusercontent.com/simply-logical/simply-logical/master/src/img/SL.svg
+- name: "Environmental Data Science Book"
+  website: https://the-environmental-ds-book.netlify.app/
+  repository: https://github.com/alan-turing-institute/environmental-ds-book
+  image: https://raw.githubusercontent.com/alan-turing-institute/environmental-ds-book/master/book/figures/logo/logo.png
+- name: Python Coding for Public Policy
+  website: https://python-public-policy.afeld.me/
+  repository: https://github.com/afeld/python-public-policy
+  image: https://user-images.githubusercontent.com/86842/197553222-3bb7f8e7-a136-4bae-b8c0-896837bcc199.png
+- name: "PmagPy: An open source package for paleomagnetic data analysis"
+  website: https://pmagpy.github.io/PmagPy-docs/
+  repository: https://github.com/pmagpy/pmagpy-docs
+  image: https://github.com/PmagPy/PmagPy-docs/raw/main/images/logos/pmagpy_logo2.png
+- name: "Geospatial Data Science with Earth Engine and Geemap"
+  website: https://book.geemap.org
+  repository: https://github.com/giswqs/geebook
+  image: https://raw.githubusercontent.com/giswqs/geemap/master/docs/assets/logo.png
+- name: "Kinetics Toolkit"
+  website: https://kineticstoolkit.uqam.ca
+  repository: https://github.com/felixchenier/kineticstoolkit_doc
+  image: https://kineticstoolkit.uqam.ca/doc/_static/logo.png
+- name: "Geo-Structure-from-Motion (Geo-SfM) Course"
+  repository: https://github.com/UNISvalbard/Geo-SfM
+  image: https://unisvalbard.github.io/Geo-SfM/_static/logo.gif
+  website: https://unisvalbard.github.io/Geo-SfM/landing-page.html
+- name: "UNIS GNSS Compendium"
+  repository: https://github.com/UNISvalbard/gnss-compendium
+  image: https://unisvalbard.github.io/gnss-compendium/_static/logo.png
+  website: https://unisvalbard.github.io/gnss-compendium/readme.html
+- name: "Geo-Unmanned Aerial Vehicle (Geo-UAV) Course"
+  repository: https://github.com/UNISvalbard/Geo-UAV
+  image: https://unisvalbard.github.io/Geo-UAV/_static/geo_mod-01.png
+  website: https://unisvalbard.github.io/Geo-UAV/landing-page.html
+- name: "Machine Learning Recipe Book"
+  repository: https://github.com/bipinKrishnan/ml-recipe-book
+  website: https://bipinkrishnan.github.io/ml-recipe-book
+  image: https://raw.githubusercontent.com/bipinKrishnan/ml-recipe-book/main/logo.png
+- name: "Computer Science Lecture"
+  repository: https://github.com/FireDynamics/LectureComputerScience
+  website: https://firedynamics.github.io/LectureComputerScience
+  image: https://firedynamics.github.io/LectureComputerScience/_static/cce_logo.png
+- name: "Fire Simulation Lecture"
+  repository: https://github.com/FireDynamics/LectureFireSimulation
+  website: https://firedynamics.github.io/LectureFireSimulation
+  image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
