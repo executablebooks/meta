@@ -447,3 +447,7 @@
   repository: https://github.com/FireDynamics/LectureFireSimulation
   website: https://firedynamics.github.io/LectureFireSimulation
   image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
+- name: "NeuroML"
+  repository: https://github.com/NeuroML/Documentation/
+  website: https://docs.neuroml.org
+  image: https://docs.neuroml.org/_static/logo.png
