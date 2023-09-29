@@ -463,3 +463,7 @@
   repository: https://github.com/avivajpeyi/gw_pe_tutorial
   website: https://avivajpeyi.github.io/gw_pe_tutorial/
   image: https://avivajpeyi.github.io/gw_pe_tutorial/_images/workshop_notebook_69_1.png
+- name: "NeuroML"
+  repository: https://github.com/NeuroML/Documentation/
+  website: https://docs.neuroml.org
+  image: https://docs.neuroml.org/_static/logo.png
