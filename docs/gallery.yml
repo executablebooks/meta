@@ -451,3 +451,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "Daisy"
+  repository: https://github.com/huyuhuster/daisydoc
+  website: https://daisydoc.readthedocs.io/
+  image: https://daisydoc.readthedocs.io/en/latest/_static/logo-wide.png
