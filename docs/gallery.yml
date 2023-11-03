@@ -1,3 +1,7 @@
+- name: Python for Materials Engineers
+  website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
+  repository: https://github.com/sgcorcoran/Python-for-MSE
+  image: https://sgcorcoran.github.io/Python-for-MSE/_images/71f487b5c22dda4ec3f5d8a4897a858b20e7520b5d1b918d72c2ededbddebff9.png
 - name: InterpretML
   website: https://interpret.ml/docs
   repository: https://github.com/interpretml/interpret
@@ -439,3 +443,7 @@
   repository: https://github.com/FireDynamics/LectureFireSimulation
   website: https://firedynamics.github.io/LectureFireSimulation
   image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
+- name: "NeuroML"
+  repository: https://github.com/NeuroML/Documentation/
+  website: https://docs.neuroml.org
+  image: https://docs.neuroml.org/_static/logo.png
