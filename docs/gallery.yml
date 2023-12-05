@@ -1,3 +1,7 @@
+- name: Metrology Lecture Book
+  website: https://kisleif.github.io/mtbook/intro.html
+  repository: https://github.com/Kisleif/mtbook
+  image: https://kisleif.github.io/mtbook/_static/i_mt.png
 - name: Python for Materials Engineers
   website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
   repository: https://github.com/sgcorcoran/Python-for-MSE
