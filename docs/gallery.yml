@@ -47,7 +47,7 @@
   repository: https://github.com/liuhuanshuo/zaoqi-book
   image: https://pandas.liuzaoqi.com/_static/mylogo.png
 - name: The Data Science Interview Book
-  website: https://dipranjan.github.io/dsinterviewqns/intro.html
+  website: https://book.thedatascienceinterviewproject.com
   repository: https://github.com/dipranjan/dsinterviewqns
   image: https://raw.githubusercontent.com/dipranjan/dsinterviewqns/master/logo.gif
 - name: Coding for Economists
@@ -194,10 +194,6 @@
   repository: https://github.com/rafneta/CienciaDatosPythonCIDE
   image: https://raw.githubusercontent.com/rafneta/CienciaDatosPythonCIDE/master/docs/logo.jpg
   website: https://rafneta.github.io/CienciaDatosPythonCIDE/intro.html
-- name: "Development Data Partnership"
-  repository:
-  image: https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png
-  website: https://docs.datapartnership.org
 - name: "OpenPifPaf Guide"
   image: https://openpifpaf.github.io/_static/logo.png
   website: https://openpifpaf.github.io
