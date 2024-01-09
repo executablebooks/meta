@@ -447,3 +447,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "University of Alabama Libraries Scholarly API Cookbook"
+  repository: https://github.com/ualibweb/UALIB_ScholarlyAPI_Cookbook
+  website: https://ualibweb.github.io/UALIB_ScholarlyAPI_Cookbook
+  image: https://raw.githubusercontent.com/ualibweb/UALIB_ScholarlyAPI_Cookbook/main/images/UALIB_logo.png
