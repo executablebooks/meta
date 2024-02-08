@@ -1,3 +1,6 @@
+- name: "Discrete-Event Simulation in Python"
+  website: https://health-data-science-or.github.io/simpy-streamlit-tutorial
+  repository: https://github.com/health-data-science-OR/simpy-streamlit-tutorial
 - name: Python for Materials Engineers
   website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
   repository: https://github.com/sgcorcoran/Python-for-MSE
