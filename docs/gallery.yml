@@ -447,3 +447,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: Dynamic Models for Building Energy Management
+  website: https://cghiaus.github.io/dm4bem_book/intro.html
+  repository: https://github.com/cghiaus/dm4bem_book
+  image: https://cghiaus.github.io/dm4bem_book/_static/logo.svg
