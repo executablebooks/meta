@@ -447,3 +447,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "Computational Astrophysics"
+  repository: https://github.com/zingale/computational_astrophysics
+  website: https://zingale.github.io/computational_astrophysics/
+  image: https://github.com/zingale/computational_astrophysics/blob/a756151090ca1da94d0cd6a3e92a8a47cb940630/content/rt_small.png?raw=true
