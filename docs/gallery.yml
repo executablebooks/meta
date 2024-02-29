@@ -1,3 +1,7 @@
+- name: The image analysis field guide
+  website: https://imaging.epfl.ch/field-guide/
+  repository: https://github.com/EPFL-Center-for-Imaging/image-analysis-field-guide
+  image: https://imaging.epfl.ch/field-guide/_images/epfl.jpeg
 - name: Python for Materials Engineers
   website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
   repository: https://github.com/sgcorcoran/Python-for-MSE
