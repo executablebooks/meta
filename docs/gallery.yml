@@ -1,3 +1,7 @@
+- name: Pedro's Experiments
+  website: https://pedro-leitao.github.io/
+  repository: https://github.com/pedro-leitao/pedro-leitao.github.io
+  image: https://pedro-leitao.github.io/_static/logo-new.png
 - name: Python for Materials Engineers
   website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
   repository: https://github.com/sgcorcoran/Python-for-MSE
