@@ -61,7 +61,7 @@ Below are the major areas where we anticipate users needing to perform steps to 
 ## What this means for Sphinx extension users
 
 
-The [Executable Books](executablebooks.org) organization will remain the stewards of the Sphinx-based stack, and we anticipate continuing support and development of the Sphinx ecosystem of tools, likely with a focus on supporting the open source developer community rather than the broader “scientific communication” community. These projects are strongly supported by open-source contributors, and we hope that this continues alongside work from the Executable Books team. Some Executable Books tools will likely slow their development (e.g., [`MyST-NB`](myst-nb.readthedocs.io)), while more heavily-used tools will likely continue to evolve and improve (e.g., [`myst-parser`](myst-parser.readthedocs.io), which now powers a large part of the markdown experience in Sphinx).  We recognise that there is an on-going need for these tools, and will continue working to ensure their long-lived success for the developer community.
+The [Executable Books](https://executablebooks.org) organization will remain the stewards of the Sphinx-based stack, and we anticipate continuing support and development of the Sphinx ecosystem of tools, likely with a focus on supporting the open source developer community rather than the broader “scientific communication” community. These projects are strongly supported by open-source contributors, and we hope that this continues alongside work from the Executable Books team. Some Executable Books tools will likely slow their development (e.g., [`MyST-NB`](https://myst-nb.readthedocs.io)), while more heavily-used tools will likely continue to evolve and improve (e.g., [`myst-parser`](https://myst-parser.readthedocs.io), which now powers a large part of the markdown experience in Sphinx).  We recognise that there is an on-going need for these tools, and will continue working to ensure their long-lived success for the developer community.
 
 ## How can I follow along?
 
@@ -71,5 +71,5 @@ We’re excited about these new directions for the MyST project, and welcome oth
 
 **For asynchronous discussion about the MyST engine:** See the [Discussions forum in the mystmd repository](https://github.com/executablebooks/mystmd/discussions).
 
-**For high-level information about the MyST engine:** See [mystmd.org](mystmd.org).
+**For high-level information about the MyST engine:** See [mystmd.org](https://mystmd.org).
 

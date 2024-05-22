@@ -153,4 +153,4 @@ _Below is a list of recent blog posts from [our blog](blog.md)_
 
 ## Acknowledgements
 
-See our [organizational contributions page](tc:contributions) as well as [our team members page](tc:team) for a list of individuals and organizations that have made formal contributions to this community.
+See our [organizational contributions page](inv:tc#contributions) as well as [our team members page](inv:tc#team) for a list of individuals and organizations that have made formal contributions to this community.
