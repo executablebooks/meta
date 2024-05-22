@@ -75,6 +75,7 @@ intersphinx_mapping = {"jb": ("https://jupyterbook.org/en/latest", None), "tc": 
 ogp_social_cards = {
     "image": "_static/logo-square.png",
 }
+ogp_site_url = "https://executablebooks.org/en/latest"
 
 # Redirections
 rediraffe_redirects = {
