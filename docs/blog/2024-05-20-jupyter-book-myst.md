@@ -17,7 +17,7 @@ Within this collaboration, much of the development effort has been spent on buil
 
 [^popular]: See [https://hugovk.github.io/top-pypi-packages](https://hugovk.github.io/top-pypi-packages) for the list we used.
 
-During this time, it has become clear that the [MyST Markdown language](https://executablebooks.org/en/latest/blog/2020-08-07-announce-book/#an-enhanced-flavor-of-markdown) has been at the heart of the project’s growth. In 2023, [this was recognised by designating MyST a top-level project](https://executablebooks.org/en/latest/blog/2023-02-09-announce-mystjs/#myst-is-now-a-top-level-project-in-executable-books) in Executable Books and launching the [MyST-MD](https://mystmd.org) (previously MyST-JS) in collaboration with [Curvenote](https://curvenote.com/). The JavaScript tools for parsing and rendering MyST Markdown on the web are now used by [JupyterLab MyST](https://github.com/executablebooks/jupyterlab-myst) to bring MyST Markdown to JupyterLab, and even [power the proceedings rendering at SciPy 2024](https://curvenote.com/news/curvenote-sponsors-scipy-proceedings-2024).
+During this time, it has become clear that the [MyST Markdown language](https://executablebooks.org/en/latest/blog/2020-08-07-announce-book/#an-enhanced-flavor-of-markdown) has been at the heart of the project’s growth. In 2023, [this was recognized by designating MyST a top-level project](https://executablebooks.org/en/latest/blog/2023-02-09-announce-mystjs/#myst-is-now-a-top-level-project-in-executable-books) in Executable Books and launching the [MyST-MD](https://mystmd.org) (previously MyST-JS) in collaboration with [Curvenote](https://curvenote.com/). The JavaScript tools for parsing and rendering MyST Markdown on the web are now used by [JupyterLab MyST](https://github.com/executablebooks/jupyterlab-myst) to bring MyST Markdown to JupyterLab, and even [power the proceedings rendering at SciPy 2024](https://curvenote.com/news/curvenote-sponsors-scipy-proceedings-2024).
 
 :::{pull-quote}
 MyST-MD is able to _replace Sphinx [...].
@@ -47,7 +47,7 @@ By building on top of MyST-MD, we hope that:
 - Users will have a clear separation between the single source of truth for configuration ([https://mystmd.org](https://mystmd.org)), and the book-focused guide for the Jupyter Book distribution ([https://jupyterbook.org](https://jupyterbook.org)).
 - Developers will face a lower barrier to entry to contribute through the use of standards such as [unist](https://github.com/syntax-tree/unist) (see [this example of contributing a new feature](https://mystmd.org/guide/contribute-add-feature) to help you get started).
 - Developers will spend more time on enhancements and less time on maintenance, due to a more modern and streamlined infrastructure stack and lower technical debt.
-- Users and developers alike will have a tighter feedback loop through the centralised development of MyST and Jupyter Book.
+- Users and developers alike will have a tighter feedback loop through the centralized development of MyST and Jupyter Book.
 
 ### Incorporation under the Jupyter project
 
@@ -65,12 +65,12 @@ Below are the major areas where we anticipate users needing to perform steps to 
 
 **Functionality.** Broad functionality of Jupyter Book v2 should be nearly the same as v1, with additional capabilities as well. There may be some short-term regressions in functionality for less-used features, and we aim to grow these back over time as users request.
 
-To ease this process, the Executable Books team will author a migration guide and develop tooling to minimise the number of manual actions required to be taken by the user.
+To ease this process, the Executable Books team will author a migration guide and develop tooling to minimize the number of manual actions required to be taken by the user.
 
 ## What this means for Sphinx extension users
 
 
-The [Executable Books](https://executablebooks.org) organization will remain the stewards of the Sphinx-based stack, and we anticipate continuing support and development of the Sphinx ecosystem of tools, likely with a focus on supporting the open source developer community rather than the broader “scientific communication” community. These projects are strongly supported by open-source contributors, and we hope that this continues alongside work from the Executable Books team. Some Executable Books tools will likely slow their development (e.g., [`MyST-NB`](https://myst-nb.readthedocs.io)), while more heavily-used tools will likely continue to evolve and improve (e.g., [`myst-parser`](https://myst-parser.readthedocs.io), which now powers a large part of the markdown experience in Sphinx).  We recognise that there is an on-going need for these tools, and will continue working to ensure their long-lived success for the developer community.
+The [Executable Books](https://executablebooks.org) organization will remain the stewards of the Sphinx-based stack, and we anticipate continuing support and development of the Sphinx ecosystem of tools, likely with a focus on supporting the open source developer community rather than the broader “scientific communication” community. These projects are strongly supported by open-source contributors, and we hope that this continues alongside work from the Executable Books team. Some Executable Books tools will likely slow their development (e.g., [`MyST-NB`](https://myst-nb.readthedocs.io)), while more heavily-used tools will likely continue to evolve and improve (e.g., [`myst-parser`](https://myst-parser.readthedocs.io), which now powers a large part of the markdown experience in Sphinx). We recognize that there is an on-going need for these tools, and will continue working to ensure their long-lived success for the developer community.
 
 ## How can I follow along?
 
