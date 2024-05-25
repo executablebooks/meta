@@ -1,3 +1,7 @@
+- name: Understanding Quantitative Finance
+  website: https://quantgirluk.github.io/Understanding-Quantitative-Finance/intro.html
+  repository: https://github.com/quantgirluk/Understanding-Quantitative-Finance
+  image: https://quantgirluk.github.io/Understanding-Quantitative-Finance/_static/puzzle.jpeg
 - name: Python for Materials Engineers
   website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
   repository: https://github.com/sgcorcoran/Python-for-MSE
