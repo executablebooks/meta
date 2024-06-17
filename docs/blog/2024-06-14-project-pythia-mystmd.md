@@ -1,6 +1,6 @@
 # Project Pythia Hackathon: Transitioning from JupyterBook to MyST Markdown
 
-```{post} 2023-06-26
+```{post} 2024-06-14
 :author: Rowan Cockett (Steering Council, Executable Books; Curvenote), Angus Hollands (Core Team, Executable Books; 2i2c)
 :image: 1
 :excerpt: 2
