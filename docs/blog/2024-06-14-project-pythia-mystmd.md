@@ -100,8 +100,12 @@ We discussed improvements to make for surfacing errors and controlling configura
 
 Currently there is a huge amount of valuable content in the foundations cookbook including terms, workflows, cheat-sheets, and concepts that are immensely helpful resources for readers of every other cookbook in the ecosystem. The Pythia project already does a fantastic job of listing the prerequisites of a cookbook and refers back to concepts and tutorials in this resource. During the week we took this a step further by using the new `xref` feature in MyST which allows for rich hover previews from one resource to another. This allows the reader to, for example, hover over “conda” or any other term and see the information directly in context where they are reading, without losing their place or train of thought to understand a command, term or concept. The `xref` feature is only a few weeks old, see [enabling open science reuse](https://curvenote.com/blog/open-science-reuse) as an overview of the motivation and design; Project Pythia has been the first project to use this new feature and the community was excited about the possibilities.
 
-> The rich cross-referencing features in MyST are really compelling as a reader, but maybe even more importantly, they open up new ways of thinking about authoring and reusing modular content. One of the goals of the Pythia Cookbook initiative is to build up a high-quality network of mutually-reinforcing tutorials and example workflows reflecting best practices across a diverse geoscience community. Basic orientation on methods, datasets, and tools that are developed in one Cookbook can be easily incorporated into narratives in other Cookbooks focussing on completely different science applications. This is software empowering community knowledge-sharing!
-> -- Brian Rose
+:::{epigraph}
+
+The rich cross-referencing features in MyST are really compelling as a reader, but maybe even more importantly, they open up new ways of thinking about authoring and reusing modular content. One of the goals of the Pythia Cookbook initiative is to build up a high-quality network of mutually-reinforcing tutorials and example workflows reflecting best practices across a diverse geoscience community. Basic orientation on methods, datasets, and tools that are developed in one Cookbook can be easily incorporated into narratives in other Cookbooks focussing on completely different science applications. This is software empowering community knowledge-sharing!
+
+-- Brian Rose
+:::
 
 <figure>
 <video src="https://github.com/executablebooks/meta/raw/main/docs/_static/videos/pythia-xref.mp4" autoplay muted webkit-playsinline="true" playsinline loop style="max-width:100%"></video>
