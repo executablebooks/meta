@@ -55,10 +55,10 @@ Once a few of the cookbooks had been transferred over, we addressed some of the 
 ```yaml
 version: 1
 extends:
-pythia.yml
+  - pythia.yml
 ```
 
-The `extends` functionality (docs) allows for centralized management of brand identity, navigation links, license, copyright, as well as configuring computational resources.
+The `extends` functionality ([docs](https://mystmd.org/guide/frontmatter#composing-myst-yml)) allows for centralized management of brand identity, navigation links, license, copyright, as well as configuring computational resources.
 
 ## Gallery
 
