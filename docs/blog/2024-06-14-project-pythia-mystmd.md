@@ -119,3 +119,11 @@ An exciting outcome of this feature was that it sparked a conversation on how to
 Project Pythia is the first project that ExecutableBooks is officially helping adopt "Jupyter Book 2" using MyST MD. This adoption is a significant step forward for the ExecutableBooks team as we prototype and test JupyterBook-2, which is powered by mystmd. During the hackathon, we shipped multiple new versions of MyST MD, continuously improving the tools and features based on real-time feedback from the cross-disciplinary teams. It was an _incredibly_ exciting event and a major milestone for our team in releasing the next generation of JupyterBook. Over the coming months we will continue to help support Project Pythia continue their transition to MyST md and collaboratively work on many of the improvements and fixes that are necessary for a full transition.
 
 We hope that with the new features and streamlined architecture, Project Pythia is better positioned to continue providing high-quality educational resources for the geosciences community and generate best practices for reproducible science communication that can be widely adopted.
+
+## Acknowledgements
+
+Rowan (Curvenote) and Angus (2i2c) from the ExecutableBooks team attended the event for the entire week helping with MyST and ExecutableBooks ecosystem questions and providing development support. Curvenote contributed development cycles for `mystmd` and `thebe` throughout the event (Franklin and Steve, who are also on the ExecutableBooks team). Project Pythia is funded through the University at Albany (NSF award 2324302) and helped organize and facilitate the event; 2i2c provided tailored compute services and on-site support (NSF award 2324304); UCAR led the planning and logistics for the event (NSF award 2324303).
+
+:::{seealso}
+For more information about the full event, see the [2i2c blog post](https://2i2c.org/blog/2024/project-pythia-cookoff).
+:::
