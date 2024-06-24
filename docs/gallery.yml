@@ -1,3 +1,7 @@
+- name: Developing with QIIME 2
+  website: https://develop.qiime2.org
+  repository: https://github.com/caporaso-lab/developing-with-qiime2
+  image: https://develop.qiime2.org/en/latest/_static/dwq2-light.png
 - name: Python for Materials Engineers
   website: https://sgcorcoran.github.io/Python-for-MSE/intro.html
   repository: https://github.com/sgcorcoran/Python-for-MSE
