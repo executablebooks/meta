@@ -447,3 +447,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "Notas de Clases - 2024"
+  repository: https://github.com/ClaudioRojasMon/Apoyo
+  website: https://claudiorojasmon.github.io/Apoyo/intro.html
+  image: https://github.com/ClaudioRojasMon/Apoyo/blob/master/Original%20Logo.png
