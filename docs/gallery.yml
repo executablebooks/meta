@@ -451,3 +451,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "Orbital Mechanics & Astrodynamics"
+  repository: https://github.com/bryanwweber/orbital-mechanics-notes
+  website: https://orbital-mechanics.space
+  image: https://orbital-mechanics.space/_static/hohmann-light.svg
