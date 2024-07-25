@@ -192,7 +192,7 @@
   website: https://mi-gt-donnees.pages.math.unistra.fr/guide
 - name: "Callysto Curriculum Notebooks"
   repository: https://github.com/callysto/curriculum-jbook/tree/gh-pages
-  image: https://www.callysto.ca/wp-content/uploads/2020/10/Callysto-Logo_Vert_Colour.png
+  image: https://callysto.github.io/curriculum-jbook/_static/CallystoLogo.png
   website: https://callysto.github.io/curriculum-jbook/intro.html
 - name: "Introducción a la ciencia de datos"
   repository: https://github.com/rafneta/CienciaDatosPythonCIDE
