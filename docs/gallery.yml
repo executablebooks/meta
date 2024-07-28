@@ -40,7 +40,7 @@
   image: https://github.com/nocomplexity/SecurityArchitecture/raw/master/images/nocxbanner.png
 - name: "Enhancing Science Courses by Integrating Python (ESCIP)"
   website: https://escip.github.io/
-  repository: https://github.com/ESCIP/escip.github.io/tree/jbook
+  repository: https://github.com/ESCIP/escip.github.io
   image: https://raw.githubusercontent.com/ESCIP/escip.github.io/jbook/logo.png
 - name: "eChem: Computational Chemistry from Laptop to HPC"
   website: https://kthpanor.github.io/echem/
