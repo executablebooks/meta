@@ -1,3 +1,7 @@
+- name: Introduction to Python Programming
+  website: https://vdsukhov.github.io/python-intro-course/intro.html
+  repository: https://github.com/vdsukhov/python-intro-course
+  image: https://vdsukhov.github.io/python-intro-course/_static/python_course_logo.png
 - name: Developing with QIIME 2
   website: https://develop.qiime2.org
   repository: https://github.com/caporaso-lab/developing-with-qiime2
