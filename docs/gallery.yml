@@ -97,6 +97,10 @@
 - name: NASA VirtualObservatory Notebooks
   website: https://nasa-navo.github.io/navo-workshop/
   repository: https://github.com/NASA-NAVO/navo-workshop
+- name: NASA/IPAC Infrared Science Archive Python Notebook Tutorials
+  website: https://caltech-ipac.github.io/irsa-tutorials/
+  repository: https://github.com/Caltech-IPAC/irsa-tutorials
+  image: https://raw.githubusercontent.com/Caltech-IPAC/irsa-tutorials/main/_static/irsa_logo.png
 - name: Solving Partial Differential Equations
   image: https://aquaulb.github.io/book_solving_pde_mooc/_static/logo.png
   website: https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html
