@@ -94,6 +94,10 @@
   image: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/_static/car_sketch_wide.png
   website: https://thomasfermi.github.io/Algorithms-for-Automated-Driving/Introduction/intro.html
   repository: https://github.com/thomasfermi/Algorithms-for-Automated-Driving
+- name: NASA Fornax Astrophysics Science Platform Demo Notebooks
+  website: https://nasa-fornax.github.io/fornax-demo-notebooks
+  repository: https://github.com/nasa-fornax/fornax-demo-notebooks
+  image: https://raw.githubusercontent.com/nasa-fornax/fornax-demo-notebooks/main/_static/fornax_logo.png
 - name: NASA VirtualObservatory Notebooks
   website: https://nasa-navo.github.io/navo-workshop/
   repository: https://github.com/NASA-NAVO/navo-workshop
