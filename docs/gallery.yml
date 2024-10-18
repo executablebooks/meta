@@ -1,3 +1,7 @@
+- name: Show the Physics
+  website: https://interactivetextbooks.tudelft.nl/showthephysics
+  repository: https://teachbooks.github.io/Showing-Physics/
+  image: https://teachbooks.github.io/Showing-Physics/main/_images/coverbook.jpg
 - name: Developing with QIIME 2
   website: https://develop.qiime2.org
   repository: https://github.com/caporaso-lab/developing-with-qiime2
