@@ -21,7 +21,7 @@ jobs:
       # ref: https://github.com/lycheeverse/lychee-action
       # ref: https://github.com/lycheeverse/lychee#commandline-parameters
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.4
+        uses: lycheeverse/lychee-action@v2.1.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
