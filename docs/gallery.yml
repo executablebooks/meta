@@ -1,3 +1,7 @@
+- name: Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software
+  website: https://www.souzatharsis.com/tamingLLMs/
+  repository: https://github.com/souzatharsis/tamingLLMs
+  image: https://raw.githubusercontent.com/souzatharsis/tamingLLMs/master/tamingllms/_static/cover_curve.png
 - name: Developing with QIIME 2
   website: https://develop.qiime2.org
   repository: https://github.com/caporaso-lab/developing-with-qiime2
