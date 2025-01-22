@@ -451,3 +451,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "Python Data Science 数据科学"
+  repository: https://github.com/RobinChen121/book-Python-Data-Science
+  website: https://robinchen121.github.io/book-Python-Data-Science
+  image: https://github.com/RobinChen121/book-Python-Data-Science/blob/main/data-science/logo2.png
