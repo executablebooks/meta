@@ -466,6 +466,10 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "Molecular Simulations"
+  repository: https://github.com/BarakHirshberg/MolecularSimulations
+  website: https://barakhirshberg.github.io/MolecularSimulations
+  image: https://barakhirshberg.github.io/MolecularSimulations/_static/tau_logo.jpg
 - name: "Python Data Science 数据科学"
   repository: https://github.com/RobinChen121/book-Python-Data-Science
   website: https://robinchen121.github.io/book-Python-Data-Science
