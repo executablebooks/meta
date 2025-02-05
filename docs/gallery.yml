@@ -1,3 +1,7 @@
+- name: Real-Time Digital Signal Processing
+  website: https://realtimedsp.net/lab/
+  repository: https://github.com/Real-Time-DSP/lab
+  image: https://realtimedsp.net/lab/_static/logo.png
 - name: "Discrete-Event Simulation in Python"
   website: https://health-data-science-or.github.io/simpy-streamlit-tutorial
   repository: https://github.com/health-data-science-OR/simpy-streamlit-tutorial
