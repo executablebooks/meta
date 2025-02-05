@@ -466,6 +466,10 @@
   repository: https://github.com/FireDynamics/LectureFireSimulation
   website: https://firedynamics.github.io/LectureFireSimulation
   image: https://firedynamics.github.io/LectureFireSimulation/_static/cce_logo.png
+- name: "Topics in Mathematical Biology"
+  repository: https://github.com/abestshef/mas377
+  website: https://abestshef.github.io/mas377
+  image: https://abestshef.github.io/mas377/_static/logo.png
 - name: "Quantum Metrology with Photoelectrons Vol. 3: Analysis methodologies"
   repository: https://github.com/phockett/Quantum-Metrology-with-Photoelectrons-Vol3
   website: https://phockett.github.io/Quantum-Metrology-with-Photoelectrons-Vol3
