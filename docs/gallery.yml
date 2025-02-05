@@ -451,3 +451,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: Computational Problem Solving in the Chemical Sciences
+  repository: https://github.com/rwexler/comp-prob-solv
+  website: https://rwexler.github.io/comp-prob-solv
+  image: https://rwexler.github.io/comp-prob-solv/_static/logo.png
