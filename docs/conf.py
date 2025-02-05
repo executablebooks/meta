@@ -14,7 +14,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Executable Book Project"
-copyright = "2023, Executable Book Project"
+copyright = "2024, Executable Book Project"
 author = "Executable Book Project"
 
 root_doc = "index"
@@ -41,7 +41,7 @@ nb_execution_mode = "force"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # MyST Configuration
-myst_enable_extensions = ["colon_fence", "linkify", "substitution"]
+myst_enable_extensions = ["colon_fence", "linkify", "substitution", "deflist"]
 myst_heading_anchors = 3
 
 # -- Options for HTML output -------------------------------------------------
@@ -75,6 +75,7 @@ intersphinx_mapping = {"jb": ("https://jupyterbook.org/en/latest", None), "tc": 
 ogp_social_cards = {
     "image": "_static/logo-square.png",
 }
+ogp_site_url = "https://executablebooks.org/en/latest/"
 
 # Redirections
 rediraffe_redirects = {
