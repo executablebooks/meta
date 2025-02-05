@@ -1,3 +1,7 @@
+- name: Show the Physics
+  website: https://interactivetextbooks.tudelft.nl/showthephysics/
+  repository: https://github.com/TeachBooks/Showing-Physics
+  image: https://interactivetextbooks.tudelft.nl/showthephysics/_images/coverbook.jpg  
 - name: Developing with QIIME 2
   website: https://develop.qiime2.org
   repository: https://github.com/caporaso-lab/developing-with-qiime2
@@ -158,11 +162,11 @@
   repository: https://github.com/YannDubs/Neural-Process-Family
   image: https://yanndubs.github.io/Neural-Process-Family/_static/logo.gif
 - name: "The Turing Way: A guide to reproducible, ethical, inclusive and collaborative data science"
-  website: https://the-turing-way.netlify.app
-  repository: https://github.com/alan-turing-institute/the-turing-way
+  website: https://book.the-turing-way.org
+  repository: https://github.com/the-turing-way/the-turing-way
   image: https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/master/book/website/figures/logo/logo.png
 - name: Deep Learning for Molecules and Materials
-  website: https://whitead.github.io/dmol-book/
+  website: https://dmol.pub
   repository: https://github.com/whitead/dmol-book
   image: https://raw.githubusercontent.com/whitead/dmol-book/master/_static/images/logo.png
 - name: genome-sampler Software Documentation
@@ -246,10 +250,6 @@
   repository: https://github.com/euroargodev/argoonlineschool
   image: https://euroargodev.github.io/argoonlineschool/_static/logoAoS.png
   website: https://euroargodev.github.io/argoonlineschool
-- name: "PVSC pvlib python Tutorial"
-  repository: https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial
-  image: https://raw.githubusercontent.com/pvlib/pvlib-python/master/docs/sphinx/source/_images/pvlib_logo_vert.png
-  website: https://pvsc-python-tutorials.github.io/PVSC48-Python-Tutorial/index.html
 # Temporarily down
 # - name: An Introduction to Applied Bioinformatics
 #   website: http://readIAB.org
@@ -455,3 +455,7 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: Computational Problem Solving in the Chemical Sciences
+  repository: https://github.com/rwexler/comp-prob-solv
+  website: https://rwexler.github.io/comp-prob-solv
+  image: https://rwexler.github.io/comp-prob-solv/_static/logo.png
