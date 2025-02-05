@@ -140,8 +140,8 @@ Here are its main features:
 - Follows the __[CommonMark spec](http://spec.commonmark.org/)__ for baseline parsing
 - Configurable syntax: You can add new rules and even replace existing ones
 - Pluggable: Adds syntax extensions to extend the parser (see the [plugin list](https://markdown-it-py.readthedocs.io/en/latest/plugins.html#md-plugins))
-- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/other.html#performance))
-- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/other.html#security)
+- High speed (see our [benchmarking tests](https://markdown-it-py.readthedocs.io/en/latest/performance.html))
+- [Safe by default](https://markdown-it-py.readthedocs.io/en/latest/security.html)
 
 
 ## JavaScript stack
