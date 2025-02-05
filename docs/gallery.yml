@@ -162,7 +162,7 @@
   repository: https://github.com/the-turing-way/the-turing-way
   image: https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/master/book/website/figures/logo/logo.png
 - name: Deep Learning for Molecules and Materials
-  website: https://whitead.github.io/dmol-book/
+  website: https://dmol.pub
   repository: https://github.com/whitead/dmol-book
   image: https://raw.githubusercontent.com/whitead/dmol-book/master/_static/images/logo.png
 - name: genome-sampler Software Documentation
