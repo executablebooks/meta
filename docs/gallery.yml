@@ -1,3 +1,7 @@
+- name: Understanding Quantitative Finance
+  website: https://quantgirluk.github.io/Understanding-Quantitative-Finance/intro.html
+  repository: https://github.com/quantgirluk/Understanding-Quantitative-Finance
+  image: https://quantgirluk.github.io/Understanding-Quantitative-Finance/_static/puzzle.jpeg
 - name: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software"
   website: https://www.souzatharsis.com/tamingLLMs/
   repository: https://github.com/souzatharsis/tamingLLMs
