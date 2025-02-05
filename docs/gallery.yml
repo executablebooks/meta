@@ -1,3 +1,6 @@
+- name: "Discrete-Event Simulation in Python"
+  website: https://health-data-science-or.github.io/simpy-streamlit-tutorial
+  repository: https://github.com/health-data-science-OR/simpy-streamlit-tutorial
 - name: Show the Physics
   website: https://interactivetextbooks.tudelft.nl/showthephysics/
   repository: https://github.com/TeachBooks/Showing-Physics
