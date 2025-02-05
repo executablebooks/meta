@@ -1,4 +1,5 @@
 sphinx>=4.0.0
+matplotlib  # For social media cards
 myst-parser[linkify]
 myst-nb
 sphinx-book-theme>=1.0.0rc1  # So we can try out new changes in our docs
