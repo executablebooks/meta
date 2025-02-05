@@ -154,8 +154,8 @@
   repository: https://github.com/YannDubs/Neural-Process-Family
   image: https://yanndubs.github.io/Neural-Process-Family/_static/logo.gif
 - name: "The Turing Way: A guide to reproducible, ethical, inclusive and collaborative data science"
-  website: https://the-turing-way.netlify.app
-  repository: https://github.com/alan-turing-institute/the-turing-way
+  website: https://book.the-turing-way.org
+  repository: https://github.com/the-turing-way/the-turing-way
   image: https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/master/book/website/figures/logo/logo.png
 - name: Deep Learning for Molecules and Materials
   website: https://whitead.github.io/dmol-book/
@@ -242,10 +242,6 @@
   repository: https://github.com/euroargodev/argoonlineschool
   image: https://euroargodev.github.io/argoonlineschool/_static/logoAoS.png
   website: https://euroargodev.github.io/argoonlineschool
-- name: "PVSC pvlib python Tutorial"
-  repository: https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial
-  image: https://raw.githubusercontent.com/pvlib/pvlib-python/master/docs/sphinx/source/_images/pvlib_logo_vert.png
-  website: https://pvsc-python-tutorials.github.io/PVSC48-Python-Tutorial/index.html
 # Temporarily down
 # - name: An Introduction to Applied Bioinformatics
 #   website: http://readIAB.org
