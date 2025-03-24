@@ -494,3 +494,7 @@
   repository: https://github.com/rwexler/comp-prob-solv
   website: https://rwexler.github.io/comp-prob-solv
   image: https://rwexler.github.io/comp-prob-solv/_static/logo.png
+- name: Aprendendo Físico-Química com auxílio de Phython
+  repository: https://github.com/leobap01/ebook-fisico-quimica
+  website: https://leobap01.github.io/ebook-fisico-quimica/
+  image: https://github.com/leobap01/ebook-fisico-quimica/blob/main/html/_static/logo.png
