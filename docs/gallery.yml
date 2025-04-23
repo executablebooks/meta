@@ -1,3 +1,7 @@
+- name: The image analysis field guide
+  website: https://imaging.epfl.ch/field-guide/
+  repository: https://github.com/EPFL-Center-for-Imaging/image-analysis-field-guide
+  image: https://imaging.epfl.ch/field-guide/_images/epfl.jpeg
 - name: Understanding Quantitative Finance
   website: https://quantgirluk.github.io/Understanding-Quantitative-Finance/intro.html
   repository: https://github.com/quantgirluk/Understanding-Quantitative-Finance
