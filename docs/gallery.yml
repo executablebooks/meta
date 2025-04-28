@@ -502,3 +502,7 @@
   repository: https://github.com/leobap01/ebook-fisico-quimica
   website: https://leobap01.github.io/ebook-fisico-quimica/
   image: https://github.com/leobap01/ebook-fisico-quimica/blob/main/html/_static/logo.png
+- name: Learn Probability
+  repository: https://github.com/snowch/learn_probability
+  website: https://snowch.github.io/learn_probability
+  image: https://snowch.github.io/learn_probability/_static/logo.png
