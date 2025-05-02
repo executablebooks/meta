@@ -506,3 +506,7 @@
   repository: https://github.com/snowch/learn_probability
   website: https://snowch.github.io/learn_probability
   image: https://snowch.github.io/learn_probability/_static/logo.png
+- name: Fuzzing with Fandango
+  repository: https://github.com/fandango-fuzzer/fandango
+  website: https://fandango-fuzzer.github.io/
+  image: https://fandango-fuzzer.github.io/_static/fandango.png
