@@ -20,7 +20,7 @@
 - name: Show the Physics
   website: https://interactivetextbooks.tudelft.nl/showthephysics/
   repository: https://github.com/TeachBooks/Showing-Physics
-  image: https://interactivetextbooks.tudelft.nl/showthephysics/_images/coverbook.jpg  
+  image: https://interactivetextbooks.tudelft.nl/showthephysics/_images/coverbook.jpg
 - name: Developing with QIIME 2
   website: https://develop.qiime2.org
   repository: https://github.com/caporaso-lab/developing-with-qiime2
@@ -489,7 +489,7 @@
 - name: "Python Data Science 数据科学"
   repository: https://github.com/RobinChen121/book-Python-Data-Science
   website: https://robinchen121.github.io/book-Python-Data-Science
-  image: https://github.com/RobinChen121/book-Python-Data-Science/blob/main/data-science/logo2.png
+  image: https://github.com/RobinChen121/book-Python-Data-Science/blob/main/data-science-cn/logo2.png
 - name: "Computational Astrophysics"
   repository: https://github.com/zingale/computational_astrophysics
   website: https://zingale.github.io/computational_astrophysics/
