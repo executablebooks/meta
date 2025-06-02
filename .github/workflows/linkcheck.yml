@@ -1,6 +1,9 @@
 name: Build documentation
 
 on:
+  schedule:
+  # Once a month is enough
+    - cron: '0 1 15 * *'
   pull_request:
 
 jobs:
