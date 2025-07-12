@@ -183,7 +183,7 @@
 - name: "The Turing Way: A guide to reproducible, ethical, inclusive and collaborative data science"
   website: https://book.the-turing-way.org
   repository: https://github.com/the-turing-way/the-turing-way
-  image: https://raw.githubusercontent.com/alan-turing-institute/the-turing-way/master/book/website/figures/logo/logo.png
+  image: https://raw.githubusercontent.com/the-turing-way/the-turing-way/main/book/figures/logo/logo.png
 - name: Deep Learning for Molecules and Materials
   website: https://dmol.pub
   repository: https://github.com/whitead/dmol-book
