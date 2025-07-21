@@ -510,3 +510,7 @@
   repository: https://github.com/fandango-fuzzer/fandango
   website: https://fandango-fuzzer.github.io/
   image: https://fandango-fuzzer.github.io/_static/fandango.png
+- name: Modelling, Uncertainty and Data for Engineers
+  repository: https://github.com/TUDelft-MUDE/book
+  website: https://mude.citg.tudelft.nl/book/2024
+  image: https://files.mude.citg.tudelft.nl/MUDE_Logo-small.png
