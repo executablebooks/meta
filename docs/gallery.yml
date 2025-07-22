@@ -429,7 +429,7 @@
 - name: "Environmental Data Science Book"
   website: https://the-environmental-ds-book.netlify.app/
   repository: https://github.com/alan-turing-institute/environmental-ds-book
-  image: https://raw.githubusercontent.com/alan-turing-institute/environmental-ds-book/master/book/figures/logo/logo.png
+  image: https://raw.githubusercontent.com/eds-book/eds-book/main/book/_static/edsbook_logo-black.png
 - name: Python Coding for Public Policy
   website: https://python-public-policy.afeld.me/
   repository: https://github.com/afeld/python-public-policy
