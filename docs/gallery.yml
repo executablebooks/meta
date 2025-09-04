@@ -492,8 +492,8 @@
   image: https://github.com/zingale/computational_astrophysics/blob/a756151090ca1da94d0cd6a3e92a8a47cb940630/content/rt_small.png?raw=true
 - name: Computational Problem Solving in the Chemical Sciences
   repository: https://github.com/rwexler/comp-prob-solv
-  website: https://rwexler.github.io/comp-prob-solv
-  image: https://rwexler.github.io/comp-prob-solv/_static/logo.png
+  website: https://wexlergroup.github.io/comp-prob-solv/
+  image: https://github.com/wexlergroup/comp-prob-solv/blob/main/logo.png
 - name: Aprendendo Físico-Química com auxílio de Phython
   repository: https://github.com/leobap01/ebook-fisico-quimica
   website: https://leobap01.github.io/ebook-fisico-quimica/
