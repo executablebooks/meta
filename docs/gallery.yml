@@ -37,10 +37,6 @@
   website: https://numpy.org/numpy-tutorials/
   repository: https://github.com/numpy/numpy-tutorials
   image: https://raw.githubusercontent.com/numpy/numpy-tutorials/main/site/_static/numpylogo.svg
-- name: CVE.icu
-  website: https://cve.icu
-  repository: https://github.com/jgamblin/cve.icu
-  image: https://raw.githubusercontent.com/jgamblin/cve.icu/main/ambulance.png
 - name: Open Source in Environmental Sustainability
   website: https://report.opensustain.tech/
   repository: https://github.com/protontypes/open-source-in-environmental-sustainability
@@ -496,8 +492,8 @@
   image: https://github.com/zingale/computational_astrophysics/blob/a756151090ca1da94d0cd6a3e92a8a47cb940630/content/rt_small.png?raw=true
 - name: Computational Problem Solving in the Chemical Sciences
   repository: https://github.com/rwexler/comp-prob-solv
-  website: https://rwexler.github.io/comp-prob-solv
-  image: https://rwexler.github.io/comp-prob-solv/_static/logo.png
+  website: https://wexlergroup.github.io/comp-prob-solv/
+  image: https://github.com/wexlergroup/comp-prob-solv/blob/main/logo.png
 - name: Aprendendo Físico-Química com auxílio de Phython
   repository: https://github.com/leobap01/ebook-fisico-quimica
   website: https://leobap01.github.io/ebook-fisico-quimica/
