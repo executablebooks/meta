@@ -526,6 +526,10 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "OpenScope Databook"
+  repository: https://github.com/AllenInstitute/openscope_databook
+  website: https://alleninstitute.github.io/openscope_databook/intro.html
+  image: https://github.com/AllenInstitute/openscope_databook/blob/f2be9890b57eb04e65cf9d2ef088ca97afe5f28b/data/images/logo.png
 - name: Introduction to Data Science
   website: https://florian-huber.github.io/data_science_course/book/cover.html
   repository: https://github.com/florian-huber/data_science_course
