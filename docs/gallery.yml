@@ -498,6 +498,10 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: "University of Alabama Libraries Scholarly API Cookbook"
+  repository: https://github.com/UA-Libraries-Research-Data-Services/UALIB_ScholarlyAPI_Cookbook
+  website: https://ua-libraries-research-data-services.github.io/UALIB_ScholarlyAPI_Cookbook/
+  image: https://raw.githubusercontent.com/ua-libraries-research-data-services/UALIB_ScholarlyAPI_Cookbook/main/images/UALIB_logo.png
 - name: "Notas de Clases - 2024"
   repository: https://github.com/ClaudioRojasMon/Apoyo
   website: https://claudiorojasmon.github.io/Apoyo/intro.html
