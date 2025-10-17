@@ -1,7 +1,7 @@
 - name: Introduction to Python Programming
   website: https://vdsukhov.github.io/python-intro-course/intro.html
   repository: https://github.com/vdsukhov/python-intro-course
-  image: https://vdsukhov.github.io/python-intro-course/_static/python_course_logo.png
+  image: https://vdsukhov.github.io/python-intro-course/_static/logo.png
 - name: "Beyond the Basics: Mastering Advanced Python"
   website: https://happyravenlabs.github.io/python-beyond-basics/intro.html
   repository: https://github.com/HappyRavenLabs/python-beyond-basics
