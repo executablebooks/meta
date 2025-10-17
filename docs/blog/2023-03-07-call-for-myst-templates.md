@@ -161,8 +161,8 @@ Together let’s take the chore and re-work out of preparing a paper submission 
 
 ```
 
-```{tip} Sign up for the Upcoming MyST Templates Tutorial Webinar
-:class: dropdown
+```{admonition} Sign up for the Upcoming MyST Templates Tutorial Webinar
+:class: dropdown, tip
 
 Interested in porting your first LaTeX template to a MyST template?
 

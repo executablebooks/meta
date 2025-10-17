@@ -1,16 +1,20 @@
 name: Build documentation
 
 on:
+  schedule:
+  # Once a month is enough
+    - cron: '0 1 15 * *'
   pull_request:
+  workflow_dispatch:
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
+          python-version: '3.13'
           cache: 'pip'
 
       - name: Build the documentation
@@ -21,7 +25,7 @@ jobs:
       # ref: https://github.com/lycheeverse/lychee-action
       # ref: https://github.com/lycheeverse/lychee#commandline-parameters
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.4
+        uses: lycheeverse/lychee-action@v2.6.1
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
