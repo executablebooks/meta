@@ -125,10 +125,10 @@ Jupyter Book and its related projects will continue to be developed as a part of
 
 If you'd like to learn more about Jupyter Book or get started building your own books, then check out [the new Jupyter Book documentation](https://jupyterbook.org). Jupyter Book is still in beta and is constantly being improved, so your [feedback and contributions are always welcome](https://github.com/executablebooks/jupyter-book/issues/new/choose).
 
-If there are particular features you'd like to see, open an issue or give a 👍 to a pre-existing issue, and [it will be bumped up on the feature request leaderboard](https://executablebooks.org/en/latest/feature-vote.html).
+If there are particular features you'd like to see, open an issue or give a 👍 to a pre-existing issue, and [it will be bumped up on the feature request leaderboard](https://executablebooks.org/en/latest/feature-vote).
 
 ## Get involved
 
-If you'd like to contribute to any of the projects listed in this post, you are highly encouraged to do so! The Executable Book Project (and thus Jupyter Book) is run as an open project that [welcomes contributions from others](https://executablebooks.org/en/latest/contributing.html).
+If you'd like to contribute to any of the projects listed in this post, you are highly encouraged to do so! The Executable Book Project (and thus Jupyter Book) is run as an open project that [welcomes contributions from others](https://executablebooks.org/en/latest/contributing).
 
 We are excited about all the new features and improvements in the new Jupyter Book, and look forward to seeing the new books that the community creates with this stack!
