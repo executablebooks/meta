@@ -114,7 +114,7 @@ def build_gallery(app: Sphinx):
         repo_text = ""
         star_text = ""
 
-        if item["repository"]:
+        if "repository" in item:
             repo_text = f'{{bdg-link-secondary}}`repo <{item["repository"]}>`'
 
             try:
