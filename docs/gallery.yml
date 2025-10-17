@@ -318,6 +318,10 @@
   website: https://csinva.io/blog/compiled_notes/_build/html//intro.html
   repository: https://github.com/csinva/csinva.github.io
   image: https://csinva.io/blog/compiled_notes/_build/html//_static/logo.png
+- name: The State of Open Source AI
+  repository: https://github.com/premAI-io/state-of-open-source-ai
+  website: https://book.premai.io/state-of-open-source-ai
+  image: https://static.premai.io/logo.png
 - name: Computational Models of Human Social Behavior & Neuroscience
   website: https://shawnrhoads.github.io/gu-psyc-347
   repository: https://github.com/shawnrhoads/gu-psyc-347
