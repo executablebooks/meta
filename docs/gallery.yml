@@ -502,6 +502,10 @@
   repository: https://github.com/NeuroML/Documentation/
   website: https://docs.neuroml.org
   image: https://docs.neuroml.org/_static/logo.png
+- name: Introduction to Data Science
+  website: https://florian-huber.github.io/data_science_course/book/cover.html
+  repository: https://github.com/florian-huber/data_science_course
+  image: https://github.com/florian-huber/data_science_course/blob/main/images/data_science_cover_illustration_logo.png
 - name: "University of Alabama Libraries Scholarly API Cookbook"
   repository: https://github.com/UA-Libraries-Research-Data-Services/UALIB_ScholarlyAPI_Cookbook
   website: https://ua-libraries-research-data-services.github.io/UALIB_ScholarlyAPI_Cookbook/
