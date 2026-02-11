@@ -232,6 +232,10 @@
   repository: https://github.com/kyleniemeyer/computational-thermo
   image: https://kyleniemeyer.github.io/computational-thermo/_static/logo.png
   website: https://kyleniemeyer.github.io/computational-thermo
+- name: "Introduction to Computer Control System interactive exercise book"
+  repository: https://github.com/bonassifabio/1RT485
+  image: https://bonassifabio.github.io/1RT485/_static/logo.svg
+  website: https://bonassifabio.github.io/1RT485/intro.html
 # Temporarily down
 # - name: "Make Use of Data: Data Science Notes"
 #   repository: https://github.com/wyattowalsh/data-science-notes
