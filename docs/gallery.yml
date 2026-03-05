@@ -586,3 +586,7 @@
   repository: https://github.com/TUDelft-MUDE/book
   website: https://mude.citg.tudelft.nl/book/2024
   image: https://files.mude.citg.tudelft.nl/MUDE_Logo-small.png
+- name: Applied Linear Algebra
+  repository: https://github.com/jwjohnson314/linear-algebra-book
+  website: https://thelinearalgebrabook.com
+  image: https://raw.githubusercontent.com/jwjohnson314/linear-algebra-book/refs/heads/main/assets/logo.png
