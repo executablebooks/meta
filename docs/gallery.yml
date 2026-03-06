@@ -590,3 +590,7 @@
   repository: https://github.com/jwjohnson314/linear-algebra-book
   website: https://thelinearalgebrabook.com
   image: https://raw.githubusercontent.com/jwjohnson314/linear-algebra-book/refs/heads/main/assets/logo.png
+- name: "Programando la Historia"
+  repository: https://github.com/ClaudioRojasMon/apuntes_2025
+  website: https://claudiorojasmon.github.io/apuntes_2025/
+  image: https://github.com/ClaudioRojasMon/apuntes_2025/blob/main/Original.png?raw=true
