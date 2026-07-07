@@ -594,3 +594,7 @@
   repository: https://github.com/ClaudioRojasMon/apuntes_2025
   website: https://claudiorojasmon.github.io/apuntes_2025/
   image: https://github.com/ClaudioRojasMon/apuntes_2025/blob/main/Original.png?raw=true
+- name: "Analytical Groundwater Modeling: Theory and Applications Using Python"
+  repository: https://github.com/pythongroundwaterbook/analytic_gw_book
+  website: https://interactive-education.gw-project.org/analytical-groundwater-modeling
+  image: https://interactive-education.gw-project.org/analytical-groundwater-modeling/_static/logo.jpg
