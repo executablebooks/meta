@@ -60,7 +60,7 @@
 - name: NumPy Tutorials
   website: https://numpy.org/numpy-tutorials/
   repository: https://github.com/numpy/numpy-tutorials
-  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/main/site/_static/numpylogo.svg
+  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/refs/heads/main/_static/numpylogo.svg
 - name: Open Source in Environmental Sustainability
   website: https://report.opensustain.tech/
   repository: https://github.com/protontypes/open-source-in-environmental-sustainability
@@ -173,7 +173,7 @@
   repository: https://github.com/UBC-MDS/py-pkgs
   image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
 - name: Geographic Data Science with Python
-  website: https://geographicdata.science/book/intro
+  website: https://geographicdata.science/book/
   repository: https://github.com/gdsbook/book
   image: https://geographicdata.science/book/_static/logo.png
 - name: Continuous Time Markov Chains
@@ -543,7 +543,7 @@
   website: https://alleninstitute.github.io/openscope_databook/intro.html
   image: https://github.com/AllenInstitute/openscope_databook/blob/f2be9890b57eb04e65cf9d2ef088ca97afe5f28b/data/images/logo.png
 - name: Introduction to Data Science
-  website: https://florian-huber.github.io/data_science_course/book/cover.html
+  website: https://florian-huber.github.io/data_science_course/
   repository: https://github.com/florian-huber/data_science_course
   image: https://github.com/florian-huber/data_science_course/blob/main/images/data_science_cover_illustration_logo.png
 - name: "University of Alabama Libraries Scholarly API Cookbook"
@@ -594,3 +594,7 @@
   repository: https://github.com/ClaudioRojasMon/apuntes_2025
   website: https://claudiorojasmon.github.io/apuntes_2025/
   image: https://github.com/ClaudioRojasMon/apuntes_2025/blob/main/Original.png?raw=true
+- name: "Analytical Groundwater Modeling: Theory and Applications Using Python"
+  repository: https://github.com/pythongroundwaterbook/analytic_gw_book
+  website: https://interactive-education.gw-project.org/analytical-groundwater-modeling
+  image: https://interactive-education.gw-project.org/analytical-groundwater-modeling/_static/logo.jpg
