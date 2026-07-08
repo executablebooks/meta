@@ -60,7 +60,7 @@
 - name: NumPy Tutorials
   website: https://numpy.org/numpy-tutorials/
   repository: https://github.com/numpy/numpy-tutorials
-  image: https://numpy.org/numpy-tutorials/build/numpylogo-9bec70caa141d81618eacdcceac20c3e.svg
+  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/refs/heads/main/_static/numpylogo.svg
 - name: Open Source in Environmental Sustainability
   website: https://report.opensustain.tech/
   repository: https://github.com/protontypes/open-source-in-environmental-sustainability
@@ -173,7 +173,7 @@
   repository: https://github.com/UBC-MDS/py-pkgs
   image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
 - name: Geographic Data Science with Python
-  website: https://geographicdata.science
+  website: https://geographicdata.science/book/
   repository: https://github.com/gdsbook/book
   image: https://geographicdata.science/book/_static/logo.png
 - name: Continuous Time Markov Chains
@@ -545,7 +545,7 @@
 - name: Introduction to Data Science
   website: https://florian-huber.github.io/data_science_course/
   repository: https://github.com/florian-huber/data_science_course
-  image: https://florian-huber.github.io/data_science_course/_static/data_science_cover_illustration.png
+  image: https://github.com/florian-huber/data_science_course/blob/main/images/data_science_cover_illustration_logo.png
 - name: "University of Alabama Libraries Scholarly API Cookbook"
   repository: https://github.com/UA-Libraries-Research-Data-Services/UALIB_ScholarlyAPI_Cookbook
   website: https://ua-libraries-research-data-services.github.io/UALIB_ScholarlyAPI_Cookbook/
