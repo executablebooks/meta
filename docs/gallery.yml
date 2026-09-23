@@ -30,10 +30,6 @@
   website: https://quantgirluk.github.io/Understanding-Quantitative-Finance/intro.html
   repository: https://github.com/quantgirluk/Understanding-Quantitative-Finance
   image: https://quantgirluk.github.io/Understanding-Quantitative-Finance/_static/puzzle.jpeg
-- name: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software"
-  website: https://www.souzatharsis.com/tamingLLMs/
-  repository: https://github.com/souzatharsis/tamingLLMs
-  image: https://raw.githubusercontent.com/souzatharsis/tamingLLMs/master/tamingllms/_static/cover_curve.png
 - name: Real-Time Digital Signal Processing
   website: https://realtimedsp.net/lab/
   repository: https://github.com/Real-Time-DSP/lab
@@ -41,6 +37,7 @@
 - name: "Discrete-Event Simulation in Python"
   website: https://health-data-science-or.github.io/simpy-streamlit-tutorial
   repository: https://github.com/health-data-science-OR/simpy-streamlit-tutorial
+  image: https://health-data-science-or.github.io/simpy-streamlit-tutorial/_static/sim_book_logo.png
 - name: Show the Physics
   website: https://interactivetextbooks.tudelft.nl/showthephysics/
   repository: https://github.com/TeachBooks/Showing-Physics
@@ -100,7 +97,7 @@
 - name: Coding for Economists
   website: https://aeturrell.github.io/coding-for-economists
   repository: https://github.com/aeturrell/coding-for-economists
-  image: https://aeturrell.github.io/coding-for-economists/_static/smith_lovelace.png
+  image: https://aeturrell.github.io/coding-for-economists/smith_lovelace.png
 - name: Python Programming for Economics and Finance
   website: https://python-programming.quantecon.org/intro.html
   repository: https://github.com/QuantEcon/lecture-python-programming.myst
@@ -159,11 +156,11 @@
 - name: The Data-Sitters Club
   website: https://datasittersclub.github.io/site/
   repository: https://github.com/datasittersclub/site
-  image: https://datasittersclub.github.io/site/_static/DSClogo.png
+  image: https://github.com/datasittersclub/site/blob/main/DSClogo.png?raw=True
 - name: Computational and Inferential Thinking
   website: https://www.inferentialthinking.com
   repository: https://github.com/data-8/textbook
-  image: https://inferentialthinking.com/_static/favicon.png
+  image: https://github.com/data-8/textbook/blob/main/data8logo.png?raw=True
 - name: Python For Data Science
   website: https://www.tomasbeuzen.com/python-programming-for-data-science/README.html
   repository: https://github.com/TomasBeuzen/python-programming-for-data-science
@@ -171,11 +168,11 @@
 - name: Python Packages
   website: https://py-pkgs.org/
   repository: https://github.com/UBC-MDS/py-pkgs
-  image: https://d33wubrfki0l68.cloudfront.net/6b7f66b16d59652f8693c91e7a985e457d841a49/20ff1/_static/py-pkgs-hex.png
+  image: https://py-pkgs.org/_static/py-pkgs-hex.png
 - name: Geographic Data Science with Python
   website: https://geographicdata.science/book/
   repository: https://github.com/gdsbook/book
-  image: https://geographicdata.science/book/_static/logo.png
+  image: https://github.com/gdsbook/book/blob/main/logo.png?raw=True
 - name: Continuous Time Markov Chains
   website: https://continuous-time-mcs.quantecon.org/intro.html
   repository: http://github.com/jstac/continuous_time_mcs
@@ -213,9 +210,9 @@
   repository: https://github.com/whitead/dmol-book
   image: https://raw.githubusercontent.com/whitead/dmol-book/master/_static/images/logo.png
 - name: genome-sampler Software Documentation
-  website: https://caporasolab.us/genome-sampler/
+  website: https://genome-sampler.readthedocs.io/en/latest/
   repository: https://github.com/caporaso-lab/genome-sampler
-  image:
+  image: https://github.com/caporaso-lab/genome-sampler/blob/dev/docs/images/dwq2-light.png?raw=True
 - name: PyTorch를 활용한 딥러닝 튜토리얼 (Deep Learning Tutorials with PyTorch)
   website: https://pseudo-lab.github.io/Tutorial-Book/
   repository: https://github.com/Pseudo-Lab/Tutorial-Book/
@@ -230,7 +227,7 @@
   website: https://lukas-snoek.com/introPy/
 - name: "Computational Thermodynamics"
   repository: https://github.com/kyleniemeyer/computational-thermo
-  image: https://kyleniemeyer.github.io/computational-thermo/_static/logo.png
+  image: https://github.com/kyleniemeyer/computational-thermo/blob/main/images/logo/logo.png?raw=True
   website: https://kyleniemeyer.github.io/computational-thermo
 - name: "Introduction to Computer Control System interactive exercise book"
   repository: https://github.com/bonassifabio/1RT485
@@ -295,7 +292,7 @@
   website: https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html
 - name: "Programming Differential Privacy"
   repository: https://github.com/uvm-plaid/programming-dp
-  image: https://uvm-plaid.github.io/programming-dp/_static/logo.png
+  image: https://programming-dp.com/book-logo.png
   website: https://uvm-plaid.github.io/programming-dp/
 - name: "Argo Online School"
   repository: https://github.com/euroargodev/argoonlineschool
@@ -349,11 +346,11 @@
 - name: "Chainladder - Actuarial Reserving in Python"
   website: https://chainladder-python.readthedocs.io
   repository: https://github.com/casact/chainladder-python
-  image: https://chainladder-python.readthedocs.io/en/stable/_static/logo.png
+  image: https://chainladder-python.readthedocs.io/stable/_static/logo.png
 - name: Basics of Image Processing
   website: https://vincmazet.github.io/bip/
   repository: https://github.com/vincmazet/bip
-  image:
+  image: https://github.com/vincmazet/bip/blob/main/src/logo-bip-site.png?raw=True
 - name: "NI-edu: fMRI analysis in Python"
   website: https://lukas-snoek.com/NI-edu
   repository: https://github.com/lukassnoek/NI-edu
@@ -509,7 +506,7 @@
 - name: "TESS-Atlas"
   repository: https://github.com/dfm/tess-atlas
   website: http://catalog.tess-atlas.cloud.edu.au/
-  image: http://catalog.tess-atlas.cloud.edu.au/_static/atlas_logo.png
+  image: https://raw.githubusercontent.com/tess-atlas/tess_atlas_webbuilder/main/source/_static/atlas_logo.png
 - name: "NRSurCat-1"
   repository: https://github.com/nrsur-catalog/NRSurCat-1/
   website: https://nrsur-catalog.github.io/NRSurCat-1
@@ -540,20 +537,20 @@
   image: https://daisydoc.readthedocs.io/en/latest/_static/logo-wide.png
 - name: "OpenScope Databook"
   repository: https://github.com/AllenInstitute/openscope_databook
-  website: https://alleninstitute.github.io/openscope_databook/intro.html
-  image: https://github.com/AllenInstitute/openscope_databook/blob/f2be9890b57eb04e65cf9d2ef088ca97afe5f28b/data/images/logo.png
+  website: https://alleninstitute.github.io/openscope_databook/
+  image: https://github.com/AllenInstitute/openscope_databook/blob/main/data/images/logo.png?raw=True
 - name: Introduction to Data Science
   website: https://florian-huber.github.io/data_science_course/
   repository: https://github.com/florian-huber/data_science_course
-  image: https://github.com/florian-huber/data_science_course/blob/main/images/data_science_cover_illustration_logo.png
+  image: https://florian-huber.github.io/data_science_course/_static/data_science_cover_illustration.png
 - name: "University of Alabama Libraries Scholarly API Cookbook"
   repository: https://github.com/UA-Libraries-Research-Data-Services/UALIB_ScholarlyAPI_Cookbook
   website: https://ua-libraries-research-data-services.github.io/UALIB_ScholarlyAPI_Cookbook/
-  image: https://raw.githubusercontent.com/ua-libraries-research-data-services/UALIB_ScholarlyAPI_Cookbook/main/images/UALIB_logo.png
+  image: https://ua-libraries-research-data-services.github.io/UALIB_ScholarlyAPI_Cookbook/_static/UALIB_logo.png
 - name: "Notas de Clases - 2024"
   repository: https://github.com/ClaudioRojasMon/Apoyo
   website: https://claudiorojasmon.github.io/Apoyo/intro.html
-  image: https://github.com/ClaudioRojasMon/Apoyo/blob/master/Original%20Logo.png
+  image: https://github.com/ClaudioRojasMon/Apoyo/blob/master/Original%20Logo.png?raw=True
 - name: "Molecular Simulations"
   repository: https://github.com/BarakHirshberg/MolecularSimulations
   website: https://barakhirshberg.github.io/MolecularSimulations
@@ -561,7 +558,7 @@
 - name: "Python Data Science 数据科学"
   repository: https://github.com/RobinChen121/book-Python-Data-Science-cn
   website: https://robinchen121.github.io/book-Python-Data-Science-cn
-  image: https://github.com/RobinChen121/book-Python-Data-Science-cn/blob/main/data-science/logo2.png
+  image: https://github.com/RobinChen121/book-Python-Data-Science-cn/blob/main/data-science/logo2.png?raw=True
 - name: "Computational Astrophysics"
   repository: https://github.com/zingale/computational_astrophysics
   website: https://zingale.github.io/computational_astrophysics/
@@ -569,7 +566,7 @@
 - name: Computational Problem Solving in the Chemical Sciences
   repository: https://github.com/rwexler/comp-prob-solv
   website: https://wexlergroup.github.io/comp-prob-solv/
-  image: https://github.com/wexlergroup/comp-prob-solv/blob/main/logo.png
+  image: https://github.com/wexlergroup/comp-prob-solv/blob/main/logo.png?raw=True
 - name: Aprendendo Físico-Química com auxílio de Phython
   repository: https://github.com/leobap01/ebook-fisico-quimica
   website: https://leobap01.github.io/ebook-fisico-quimica/
@@ -577,7 +574,7 @@
 - name: Learn Probability
   repository: https://github.com/snowch/learn_probability
   website: https://snowch.github.io/learn_probability
-  image: https://snowch.github.io/learn_probability/_static/logo.png
+  image: https://github.com/snowch/learn_probability/blob/main/logo.png?raw=True
 - name: Fuzzing with Fandango
   repository: https://github.com/fandango-fuzzer/fandango
   website: https://fandango-fuzzer.github.io/
